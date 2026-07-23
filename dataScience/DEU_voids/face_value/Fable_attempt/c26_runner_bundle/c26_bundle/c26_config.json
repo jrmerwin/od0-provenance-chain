@@ -1,0 +1,30 @@
+{
+  "engine_dir": "C:/Users/merwijas/dataScience/DEU_voids/face_value/Fable_attempt/generative-ledger/engines",
+  "cache_dir": "C:/Users/merwijas/dataScience/DEU_voids/face_value/Fable_attempt/c26_runner_bundle/c26_bundle/cache_smoke",
+  "seeds_file": "c26_seeds.json",
+  "formation_label": "NATIVE_FALLBACK_A120_N30_SMOKE",
+  "reserve_size": 30,
+  "cohort_size": 10,
+  "defect_inject_epoch": 50,
+  "r_core": 0.06,
+  "snap_every": 10,
+  "pulse_size": 4,
+  "pulse_every": 1,
+  "pulse_start": 55,
+  "n_pulses": 30,
+  "formation_end": 85,
+  "clearance_hold": 20,
+  "clearance_scan_extra": 10,
+  "observation_epochs": 30,
+  "selection": {
+    "control_window": 240,
+    "support_radius_dlstar": 16,
+    "support_min_snaps": 3,
+    "depth_tolerance": 1,
+    "clean_window": 64
+  },
+  "gates": {
+    "g1_min": 1, "g2_min": 1, "g3_min": 1, "g4_min_defined": 1
+  },
+  "_note": "SMOKE configuration. Frozen values per prereg: clearance_hold=128, observation_epochs=240, n_pulses=240 with certified metric adapter, cohort gates g1..g4 at ratified 4/5 and 3/5 thresholds, support_min_snaps=9 (snapshot-lattice rendering of >=90 frustrated-face epochs at snap_every=10)."
+}
