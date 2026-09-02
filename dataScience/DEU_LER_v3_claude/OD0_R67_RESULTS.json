@@ -1,0 +1,69 @@
+{
+  "BRANCH_D": "CONDITIONAL_ARROW(S-e, m = 4)",
+  "M8_BELL": "PASS (A1/A2/A3 EXACT_AGREEMENT; A4 RESTRICTION as declared; A5 existence agreement; no CONTRADICTION)",
+  "ONE_THIRD": "alphabet-dark: SHARED_MECHANISM (p = 2 theorem); simplex: CONDITIONAL (4-sibling event; m = 2p unforced)",
+  "hostile_controls": [
+    {
+      "basis": "A1/A3 computed from the Born rule and enumerations in-round (exact algebra); A2 by an independent worker from the extracted readout definition; A4's external value named under the sealed authorization; five items only.",
+      "control": "Part A value copied; comparison outside the five items; dictionary beyond settings",
+      "id": "HC1",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "A5's native value left open (BELL3 recorded); only frozen verdicts cited.",
+      "control": "new Bell computation; BELL2 reopened",
+      "id": "HC2",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Inventory adjudicated verbatim; the family's values used as match targets only.",
+      "control": "structure added to 5.1; closure-amplitude derivation imported",
+      "id": "HC3",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "S-d and S-f adjudicated as non-canonical families/non-transitive; no selection made; m = 4 enters only as the capacity-gated condition.",
+      "control": "inner product chosen where a family exists; m chosen",
+      "id": "HC4",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Part B is pure representation theory of frozen structures.",
+      "control": "physical referent outside Part A",
+      "id": "HC5",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Sentinel parsed=false; the premise round is R68.",
+      "control": "H5 read; TR1' touched",
+      "id": "HC6",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Nothing modified.",
+      "control": "frozen tower modified",
+      "id": "HC7",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All hashes in-process.",
+      "control": "hand hash; placeholder",
+      "id": "HC8",
+      "status": "REJECTED"
+    }
+  ],
+  "input_lock_sha256": "3dcc8fe183de7b2c1fbcc2d87b162f1575a5b83cab2b1146b381ff205b2f0b20",
+  "prediction_vs_outcome": "Registered: A1-A3 EXACT_AGREEMENT with algebraic equality, A4 RESTRICTION, A5 existence, M8_BELL PASS - outcome exactly as registered, with two workman's notes: my in-round A1 assembly initially carried index errors that the exact machinery itself exposed (local bound 3 and a non-stationary value flagged the bug before any comparison was made; corrected and then independently confirmed under the textbook gauge), and the frozen A2 phrasing 'root of the quintic' is precisified (the quintic is the optimum's stationarity polynomial in c = cos(2 pi phi/3); S's own minimal polynomial is the 27^4 quartic). Registered Part B: CONDITIONAL_ARROW(S-e, m = 4), S-a rho = 1/2, S-d not forcing, S-f not transitive, no S-g - all exactly as registered; the three 1/3s adjudicated as registered (alphabet-dark SHARED_MECHANISM; simplex CONDITIONAL). The prediction constrained nothing.",
+  "r68_recommendation": "R68 is the TR1' premise round (per the R66 rule): preregister the total parameter-free token-region premise with its inert alternative, the regional throttled process, and the lapse and density fields (R66 R2-R3 as targets) by the TG1 template; the pairing no-go is unaffected. The amplitude-space geometry (the rank-3 Euclidean sector of the 4-sibling exchange) is recorded as a second, conditional geometry candidate alongside G1; its relation to the record-space 3-adic geometry is queued after R68. H5's derived side follows from the density field.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R67_RESULTS_V1",
+  "seals": {
+    "BELL2_scientific_content_reopened": false,
+    "H1_H4": "spent",
+    "H5": {
+      "parsed": false
+    }
+  },
+  "targets_frozen_at_commit_A": true,
+  "verdict": "OD0_R67_PASS_M8_COMPARISON_EXECUTED_AND_BRANCH_D_ADJUDICATED"
+}
