@@ -1,0 +1,25 @@
+{
+  "H3_COMPARISON": "PARTIAL",
+  "H4_COMPARISON": "PARTIAL",
+  "commit_A_prereg": "7cd9239537823fe0c692e7ca0907a80f8deff306",
+  "commit_B_outputs": "ec12e8f0159794252516cd92ec9d736e8bf7ba2e",
+  "deterministic_rerun": "byte-identical (part4 + builder double-run)",
+  "headline": {
+    "H3": "PARTIAL - fading-deficit pattern matches G5; critical load line matches G7 in existence/direction; mu(a) a calibrated projection; spatial claims inapplicable; no theorem contradicted",
+    "H4": "PARTIAL - clock functionals definitionally IDENTICAL to R56 O1/O2/O7 incl. lnln normalization; ln(4/3) offset STATE_CLASS_MISMATCH; definition-invariant ordering consistent; capacity-clock claims direction-consistent with C1/C2; no theorem contradicted",
+    "milestone": "All four spent holdouts (H1-H4) met without contradiction; geometry stage (roadmap 7) unblocked for R63"
+  },
+  "input_lock_sha256": "a331bcabceb337237b8b22df49cd663391ebaba7366d7a74acd3a349176e7874",
+  "output_manifest_sha256": "4a226d44f5552656842081e3d6ab96204b5ea62e58991f1ff808760b3967f524",
+  "round": "OD0-R62",
+  "schema": "R62_PROVENANCE_STAMP_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1": "spent",
+    "H2": "spent",
+    "H3": "OPENED AND SPENT (R62)",
+    "H4": "OPENED AND SPENT (R62)",
+    "H5_parsed": false
+  },
+  "verdict": "OD0_R62_PASS_H3_H4_OPENED_UNDER_SEALED_PROTOCOLS"
+}
