@@ -1,0 +1,71 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R56",
+  "commit_A_short": "6659b9f",
+  "commit_B": "CREATED_AFTER_SELF_EXCLUDED_MANIFEST_WRITE_SEE_STAMP",
+  "file_count": 11,
+  "files": [
+    {
+      "bytes": 2555,
+      "path": "OD0_R56_COUNTEREXAMPLES.md",
+      "sha256": "002761ee92013acafd54e5ab88cfb931edac713001443f99608f0bdf71ce3e46"
+    },
+    {
+      "bytes": 3159,
+      "path": "OD0_R56_REPORT.md",
+      "sha256": "84c50c60e1ba5a7839c91e0749fab96563a3f90d5abc04df0ad358dbdf9b3d95"
+    },
+    {
+      "bytes": 4166,
+      "path": "OD0_R56_RESULTS.json",
+      "sha256": "4e8808d90a20eb5cf19c07cf47768e9d7146a3ad017ef606be8b5be7ab8cde39"
+    },
+    {
+      "bytes": 5983,
+      "path": "R56_H2_PREREGISTRATION.json",
+      "sha256": "298d21da179d8e6a08c485a52e74b70999ab732f6da7ef16ae54fa5bebb366cc"
+    },
+    {
+      "bytes": 1863,
+      "path": "R56_INPUT_LOCK.json",
+      "sha256": "9ed431c82991d8217a538a5f5b4f105f054c3e9f20d881f9c6a3f488e638b889"
+    },
+    {
+      "bytes": 140935,
+      "path": "R56_M5_ENGINE_RAW.json",
+      "sha256": "a1663543a72975362bb3e546d8fff0f4c8057bc27dca22d7ee77c6858c5870ee"
+    },
+    {
+      "bytes": 7261,
+      "path": "R56_M5_LABEL_REACHABILITY.json",
+      "sha256": "ac7102311374f97de99c50706c1de7b4a41b12bf64c5c87b68dca1aac13a3fe1"
+    },
+    {
+      "bytes": 9913,
+      "path": "build_r56_input_lock.py",
+      "sha256": "678cceb18b568a7c8e8ba4ac3b8d68c2cc925ef8346136a00c879667e7f53259"
+    },
+    {
+      "bytes": 8410,
+      "path": "build_r56_outputs.py",
+      "sha256": "c41a919aaf955c1b3e33cc8b67ef2f10344bc759008e29900ae210e48156ea91"
+    },
+    {
+      "bytes": 11900,
+      "path": "r56_adjudication_data.py",
+      "sha256": "63112d3e8e3afc46924a884342599e7541abc3673e2ab4bf0692d1aa1daa5baa"
+    },
+    {
+      "bytes": 10717,
+      "path": "r56_m5.py",
+      "sha256": "0fa84bce1cb6db28f4cf30b6c2b19aa97427ea333f47d8b487672f916161d424"
+    }
+  ],
+  "h2_h5_sentinels_parsed": false,
+  "h2_opened": false,
+  "hand_produced_hashes": 0,
+  "new_premises": 0,
+  "package_version": "v0.1 (Claude Code executor)",
+  "schema": "OD0_R56_OUTPUT_MANIFEST_V1",
+  "self_excluded": true
+}

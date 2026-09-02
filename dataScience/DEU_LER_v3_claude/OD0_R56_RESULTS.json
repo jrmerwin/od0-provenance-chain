@@ -1,0 +1,85 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R56",
+  "counts": {
+    "exact_points": 144,
+    "hostile_controls_passed": 8,
+    "hostile_controls_tested": 8,
+    "new_premises": 0,
+    "observables_frozen": 9,
+    "predictions_frozen": 6,
+    "sampled_points": 144
+  },
+  "deterministic_rerun": "IDENTICAL_BYTE_FOR_BYTE",
+  "h2_h5_sentinels_parsed": false,
+  "h2_opened": false,
+  "hand_produced_hashes": 0,
+  "hostile_controls": [
+    [
+      "HC1",
+      "additions to Sections 4-6 after Commit A",
+      "REJECTED",
+      "R56_H2_PREREGISTRATION.json is byte-identical to its Commit-A seal; the adjudication references it read-only."
+    ],
+    [
+      "HC2",
+      "H2 content read; sentinels not false",
+      "REJECTED",
+      "The H2 PDF hash re-verified untouched at lock time; sentinels parsed=false at start and end."
+    ],
+    [
+      "HC3",
+      "rate or round-number statement in prereg/protocol",
+      "REJECTED",
+      "Excluded by construction; the protocol compares only reparametrization-invariant shapes."
+    ],
+    [
+      "HC4",
+      ">=3-sibling convention presented as frozen source",
+      "REJECTED",
+      "The 7.1 audit classifies it PAIRWISE_REDUCTION_CONVENTION with the exact engine behavior recorded; label-emission statements scoped to Gamma <= 3."
+    ],
+    [
+      "HC5",
+      "label promoted to particle/species/channel",
+      "REJECTED",
+      "CCE4 restated; no species language anywhere."
+    ],
+    [
+      "HC6",
+      "H1 used beyond disclosed provenance",
+      "REJECTED",
+      "Only definitional provenance disclosure; no H1 values used."
+    ],
+    [
+      "HC7",
+      "TG1/cost law/filtration/frozen roots modified; BELL2",
+      "REJECTED",
+      "Nothing modified; worktree clean; BELL2 unopened."
+    ],
+    [
+      "HC8",
+      "hand hash; placeholder",
+      "REJECTED",
+      "All hashes in-process; stamp commit closes the round."
+    ]
+  ],
+  "input_artifacts": {
+    "R56_H2_PREREGISTRATION.json": "298d21da179d8e6a08c485a52e74b70999ab732f6da7ef16ae54fa5bebb366cc",
+    "R56_INPUT_LOCK.json": "9ed431c82991d8217a538a5f5b4f105f054c3e9f20d881f9c6a3f488e638b889",
+    "R56_M5_ENGINE_RAW.json": "a1663543a72975362bb3e546d8fff0f4c8057bc27dca22d7ee77c6858c5870ee"
+  },
+  "package_version": "v0.1 (Claude Code executor)",
+  "prediction_vs_outcome": "Confirmed on every point: the audit found the >= 3-group costing to be a declared lower-bound convention (classified PAIRWISE_REDUCTION_CONVENTION, scoped Gamma <= 3), with R52-R55 theorems unaffected and readouts flagged; labels split single-use Gamma_min=2 / sibling-pair Gamma_min=3, repeat-use reachable at Gamma=2; P4 proven; recurrence proven in the predicted harmonic/logarithmic form. One sharpening: the engines' actual convention is uniform-Q1-minimum, coarser than pairwise reduction - recorded verbatim. The prediction constrained nothing.",
+  "r57_recommendation": "ALPHABET_SCOPE scoped cleanly and P4 PROVEN, so per the R57 rule: open H2 under the sealed protocol (R56_H2_PREREGISTRATION.json, hash-pinned) - one comparison, no repair, mirroring R54: verify the Run3_Dijet hash, extract definitions, map by definition, adjudicate PASS/PARTIAL/FAIL with the model-family caveat. Content at Gamma >= 4 label granularity is outside the sealed comparison (scoped); the random-DAG cost problem stays queued unless H2 makes it the immediate dependency.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R56_RESULTS_V1",
+  "verdicts": {
+    "ALPHABET_SCOPE": "PAIRWISE_CONVENTION(scoped Gamma <= 3); theorems unaffected (lower-bound costing); readouts flagged; m-sibling alphabet = recorded gap",
+    "H2_PREREG_HASH": "298d21da179d8e6a08c485a52e74b70999ab732f6da7ef16ae54fa5bebb366cc",
+    "P4_CONFIGURATION_ORDERING": "PROVEN (hard capacity bound n <= Gamma)",
+    "REACHABLE_LABELS_BY_GAMMA": "repeat-use and single-first-use classes at Gamma >= 2; sibling-pair class at Gamma >= 3; >= 3-groups only at Gamma >= 4 (scoped); engine counts in certificates",
+    "RECURRENCE": "PROVEN (harmonic reuse law; chains unbounded a.s.; Theta(log N) expected length; logarithmically sparse)",
+    "overall": "OD0_R56_PASS_H2_PREREGISTERED_AND_M5_OPENED"
+  }
+}
