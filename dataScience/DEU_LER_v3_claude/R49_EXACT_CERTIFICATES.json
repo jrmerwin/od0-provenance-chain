@@ -1,0 +1,239 @@
+{
+  "constructor_growth_verified": {
+    "1": 2,
+    "2": 0,
+    "3": 1,
+    "4": 2,
+    "5": 6,
+    "6": 25,
+    "7": 137
+  },
+  "part1": {
+    "batch_enabledness_persistence_failures": 0,
+    "covariance_failures": 0,
+    "enabled_empty_states_within_frozen_universe": [],
+    "exhaustive_ideal_domain": {
+      "max_dag": 5,
+      "states": 82
+    },
+    "frozen_growth_cumulative": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 5,
+      "5": 11,
+      "6": 36,
+      "7": 173
+    },
+    "genesis_trajectory_divergence_step": 3,
+    "mixed_grade_states_total": 80,
+    "smallest_distinguishing_states": [
+      {
+        "enabled_grades": [
+          4,
+          5
+        ],
+        "size": 4,
+        "state": [
+          "a",
+          "b",
+          "{a,b}",
+          "{a,{a,b}}"
+        ],
+        "t_dag_adds": 1,
+        "t_sat_adds": 4
+      },
+      {
+        "enabled_grades": [
+          4,
+          5
+        ],
+        "size": 4,
+        "state": [
+          "a",
+          "b",
+          "{a,b}",
+          "{b,{a,b}}"
+        ],
+        "t_dag_adds": 1,
+        "t_sat_adds": 4
+      }
+    ],
+    "t_dag_trajectory_is_level_completion": true,
+    "t_dag_trajectory_sizes_k0_6": [
+      2,
+      3,
+      5,
+      11,
+      36,
+      173,
+      173
+    ],
+    "t_sat_step3_minus_t_dag_step3": [
+      "{{a,{a,b}},{b,{a,b}}}"
+    ],
+    "t_sat_trajectory_sizes_k0_4": [
+      2,
+      3,
+      5,
+      12,
+      53
+    ]
+  },
+  "part2_rod": {
+    "assignment_rule": "ell(lambda,e) = max ancestry position of any lineage member inside closed_anc of a parent of e (maximal supported scope)",
+    "depth_bound": 3,
+    "exchange_covariance_failures": 0,
+    "multi_touch_uses_distinct_positions": 32,
+    "no_over_recording_failures": 0,
+    "scope_lemma_failures": 0,
+    "steps_enumerated": [
+      {
+        "batch": 1,
+        "k": 0,
+        "lineages": 0,
+        "record_uses": 0
+      },
+      {
+        "batch": 2,
+        "k": 1,
+        "lineages": 2,
+        "record_uses": 4
+      },
+      {
+        "batch": 7,
+        "k": 2,
+        "lineages": 10,
+        "record_uses": 70
+      }
+    ],
+    "total_record_uses": 74
+  },
+  "part3_service": {
+    "counterexample": {
+      "SV_int_first_split_P_Sf_eq_1": "1/2",
+      "SV_pool_P_Sf_eq_1": "2/3",
+      "conclusion": "the interleaved outcome depends on the split/order of kernel applications, which is not retained state (CD0 Thm 1); SV-int therefore requires a selection premise; SV-pool is the frozen UEQ0 form and is order-free given A12 additivity",
+      "distributions_differ": true,
+      "setting": "two record-induced forced requests in one global step, one vacuum token, one draw (m external = 0)"
+    },
+    "kernel": "P(S=s|F,D,n) = C(F,s)C(D,n-s)/C(F+D,n) (CD2 service groupoid, unique invariant uniform measure given the minimal service representation axiom)",
+    "normalization_grid_exact": true
+  },
+  "part4_family": {
+    "K_max": 3,
+    "K_max_reason": {
+      "frames_at_X3_sat": 20,
+      "frames_at_X4_sat": 102,
+      "statement": "the joint record-outcome branch space is bounded by 3^(frames touched); at k<=3 it is exactly enumerable; the step to k=4 under T_sat creates 82 new oriented frames and the branch space leaves exact-enumeration range"
+    },
+    "cluster_census_k_le_3": {
+      "T_dag": [
+        {
+          "component_sizes": [],
+          "components": 0,
+          "frames": 0,
+          "k": 0,
+          "objects": 2
+        },
+        {
+          "component_sizes": [
+            1
+          ],
+          "components": 1,
+          "frames": 2,
+          "k": 1,
+          "objects": 3
+        },
+        {
+          "component_sizes": [
+            3
+          ],
+          "components": 1,
+          "frames": 6,
+          "k": 2,
+          "objects": 5
+        },
+        {
+          "component_sizes": [
+            9
+          ],
+          "components": 1,
+          "frames": 18,
+          "k": 3,
+          "objects": 11
+        }
+      ],
+      "T_sat": [
+        {
+          "component_sizes": [],
+          "components": 0,
+          "frames": 0,
+          "k": 0,
+          "objects": 2
+        },
+        {
+          "component_sizes": [
+            1
+          ],
+          "components": 1,
+          "frames": 2,
+          "k": 1,
+          "objects": 3
+        },
+        {
+          "component_sizes": [
+            3
+          ],
+          "components": 1,
+          "frames": 6,
+          "k": 2,
+          "objects": 5
+        },
+        {
+          "component_sizes": [
+            10
+          ],
+          "components": 1,
+          "frames": 20,
+          "k": 3,
+          "objects": 12
+        }
+      ]
+    },
+    "divergence_witness": {
+      "X3_dag_objects": 11,
+      "X3_sat_objects": 12,
+      "difference": [
+        "{{a,{a,b}},{b,{a,b}}}"
+      ],
+      "first_divergence_step": 3
+    },
+    "lambda_0_status": "UNDECLARED_IN_SOURCE (no initial/empty ledger declaration found in CD2R/UEQ0/A13R sources); trajectory-level Lambda_k therefore not source-determined even given a unique law",
+    "m_external": "persistent load m remains an external input (UEQ0)",
+    "shared_trajectory_k_le_2": [
+      {
+        "branch_measure_normalization": "uniform 1/3 per recorded letter; sums to 1 exactly for any finite record set",
+        "enabled": 1,
+        "k": 0,
+        "objects": 2,
+        "oriented_frames": 0
+      },
+      {
+        "branch_measure_normalization": "uniform 1/3 per recorded letter; sums to 1 exactly for any finite record set",
+        "enabled": 2,
+        "k": 1,
+        "objects": 3,
+        "oriented_frames": 2
+      },
+      {
+        "branch_measure_normalization": "uniform 1/3 per recorded letter; sums to 1 exactly for any finite record set",
+        "enabled": 7,
+        "k": 2,
+        "objects": 5,
+        "oriented_frames": 6
+      }
+    ]
+  },
+  "schema": "R49_EXACT_CERTIFICATES_V1"
+}

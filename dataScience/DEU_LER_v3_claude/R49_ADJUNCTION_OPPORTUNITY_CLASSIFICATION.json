@@ -1,0 +1,169 @@
+{
+  "certificates_file_sha256": "1b65436dd6cd17a26539159fa46e5068f1d940600163c05534abfb0f567ccf51",
+  "classification": {
+    "CO1": {
+      "consequence": "excludes T_id only; does NOT select between T_sat and T_dag",
+      "statement": "at each global step, enabled adjunctions occur (rather than none)",
+      "type": "A13R0-pattern binary activity premise"
+    },
+    "asynchronous_laws": {
+      "classification": "PREMISE_REQUIRING_SELECTION",
+      "historical_rounds_note": "historical engine 'rounds' (rung/foam epochs) are asynchronous-policy indices, not saturation layers; no identification between round counts and layers is licensed (hostile controls 3/4)",
+      "selected": "NONE",
+      "selector_constraints_enumerated": [
+        "covariance under primitive exchange (else two selectors per orbit are distinguishable with no source distinction)",
+        "fairness/exhaustiveness (every enabled event eventually fires, else reachability of the trace category is violated)",
+        "no dependence on unretained order (CD0 Thm 1: construction order is not a record)"
+      ]
+    },
+    "candidates": {
+      "T_dag": {
+        "covariance": "PASS: dag_size is exchange-invariant (verified, 0 failures; also asserted native.py:209-211)",
+        "determinism": "PASS",
+        "genesis_compatibility": "PASS",
+        "law": "X -> X union {y in En(X) : dag_size(y) minimal}; the unique T_g instance (dag_size is the only source stratification grading)",
+        "order_freeness": "PASS: min-grade batch is cascade-free (an added object can only enable objects of strictly larger dag_size, since parents are proper ancestors); union order-free as above",
+        "trajectory_fact": "its genesis trajectory is exactly the level-completion sequence of the frozen universe (sizes 2,3,5,11,36,173) - i.e. the source enumeration loop realizes T_dag's orbit as a GRADING, not as a transition",
+        "unbounded_well_definedness": "PASS: min over a finite nonempty set",
+        "verdict": "CANONICAL"
+      },
+      "T_id": {
+        "law": "X -> X",
+        "verdict": "CANONICAL_BUT_INERT; no source-backed premise excludes it (CD0 disclaims scheduling; frozen R30 supplies no opportunity) -> CO1 stated"
+      },
+      "T_mult, T_povl (attribute-graded variants)": {
+        "verdict": "EXCLUDED_FROM_FROZEN_CLASS: multiplicity and parent_overlap are source attributes, not stratification gradings (never index a construction stage); the frozen class instantiates T_g only for source gradings in the stage sense. Recorded so the exclusion is explicit, not silent."
+      },
+      "T_sat": {
+        "covariance": "PASS: En(sigma X) = sigma En(X) for primitive exchange, verified on all 82 exhaustive states (0 failures); C2 is the full constructor-preserving automorphism group (CD0 Symmetry)",
+        "determinism": "PASS (set-valued function of X)",
+        "genesis_compatibility": "PASS: defined at {a,b}; En({a,b}) = {{a,b}} nonempty",
+        "law": "X -> X union En(X)",
+        "order_freeness": "PASS: any batch of enabled events is a union of monotone attachments; pairwise diamonds exact (CD0); enabledness persists inside the batch (certificate: 0 persistence failures over the 82-state exhaustive domain)",
+        "unbounded_well_definedness": "PASS: En(X) finite for finite X (bounded by C(|X|,2)); lemma: En(X) is nonempty for every finite construction state under the unbounded rule (a finite X cannot contain all its own pairs); within the frozen universe En(X) is empty only at the complete state",
+        "verdict": "CANONICAL"
+      }
+    },
+    "part1_verdict": "NONUNIQUE_CANONICAL_GIVEN_CO1: the choice-free class given CO1 contains exactly two inequivalent canonical laws {T_sat, T_dag}",
+    "t_sat_equals_t_g": {
+      "answer": "NO - proven with exhaustive smallest witnesses",
+      "genesis_divergence": "first divergence at step k=3: |X3_sat|=12 vs |X3_dag|=11; the deferred object is {{a,{a,b}},{b,{a,b}}} (dag_size 6)",
+      "smallest_states": "the two 4-object ancestry-closed states {a,b,{a,b},{a,{a,b}}} and {a,b,{a,b},{b,{a,b}}} (a primitive-exchange pair); mixed enabled grades {4,5}; T_sat adds 4 events, T_dag adds 1. 80 of the 82 exhaustive size<=5 ideals have mixed enabled grades; only {a,b} and {a,b,{a,b}} do not."
+    }
+  },
+  "exact_certificates": {
+    "batch_enabledness_persistence_failures": 0,
+    "covariance_failures": 0,
+    "enabled_empty_states_within_frozen_universe": [],
+    "exhaustive_ideal_domain": {
+      "max_dag": 5,
+      "states": 82
+    },
+    "frozen_growth_cumulative": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 5,
+      "5": 11,
+      "6": 36,
+      "7": 173
+    },
+    "genesis_trajectory_divergence_step": 3,
+    "mixed_grade_states_total": 80,
+    "smallest_distinguishing_states": [
+      {
+        "enabled_grades": [
+          4,
+          5
+        ],
+        "size": 4,
+        "state": [
+          "a",
+          "b",
+          "{a,b}",
+          "{a,{a,b}}"
+        ],
+        "t_dag_adds": 1,
+        "t_sat_adds": 4
+      },
+      {
+        "enabled_grades": [
+          4,
+          5
+        ],
+        "size": 4,
+        "state": [
+          "a",
+          "b",
+          "{a,b}",
+          "{b,{a,b}}"
+        ],
+        "t_dag_adds": 1,
+        "t_sat_adds": 4
+      }
+    ],
+    "t_dag_trajectory_is_level_completion": true,
+    "t_dag_trajectory_sizes_k0_6": [
+      2,
+      3,
+      5,
+      11,
+      36,
+      173,
+      173
+    ],
+    "t_sat_step3_minus_t_dag_step3": [
+      "{{a,{a,b}},{b,{a,b}}}"
+    ],
+    "t_sat_trajectory_sizes_k0_4": [
+      2,
+      3,
+      5,
+      12,
+      53
+    ]
+  },
+  "historical_numerics_parsed": false,
+  "run_date": "2026-09-01",
+  "schema": "R49_ADJUNCTION_OPPORTUNITY_CLASSIFICATION_V1",
+  "source_extraction": {
+    "gradings": [
+      {
+        "definition": "dag_size(x) = |closed_ancestors(x)| where closed_ancestors includes x itself (native.py:25-31); recorded per object (native.py:78, field dag_size); used to stratify the enumeration loop (native.py:112, for size in range(2, max_dag+1)).",
+        "is_stratification_grading": true,
+        "name": "dag_size (a.k.a. level)"
+      },
+      {
+        "definition": "shape-labelling count (native.py:53-63)",
+        "is_stratification_grading": false,
+        "name": "multiplicity",
+        "reason": "attribute only; never indexes a construction stage"
+      },
+      {
+        "definition": "|closed_anc(parent1) & closed_anc(parent2)| (native.py:130)",
+        "is_stratification_grading": false,
+        "name": "parent_overlap",
+        "reason": "attribute only; never indexes a construction stage"
+      },
+      {
+        "definition": "categorical or level-7-only attributes (native.py:34-38, 133-134, adjacency)",
+        "is_stratification_grading": false,
+        "name": "shape / sector / degree",
+        "reason": "non-numeric or scope-restricted; never a stage index"
+      }
+    ],
+    "level7_stop_reason": {
+      "cite": "native.py:109,112; CD0 SPEC Sec 1",
+      "classification": "CUTOFF_PARAMETER",
+      "statement": "build_universe(max_dag: int = 7) - an explicit default parameter (native.py:109); the loop stops at max_dag (native.py:112). The constructor rule itself is unbounded; 173 objects is the size of the frozen REGISTERED universe, not a rule restriction. CD0 spec Section 1 freezes O_<=7 as 'the exact source-generated recursive object universe through DAG level 7'."
+    },
+    "object_rule": {
+      "cite": "native.py:109-122 (build_universe); distinctness by iteration over current[i+1:] (line 115-116)",
+      "statement": "A nonprimitive object is frozenset({left, right}) of two DISTINCT previously constructible objects; a candidate is admitted at enumeration stage `size` exactly when len(closed_ancestors(candidate)) == size."
+    },
+    "transition_vs_grading": {
+      "cite": "native.py:112; category.py:34-50; CD0_REPORT (State and adjunction)",
+      "statement": "No step/round/layer is defined as a transition anywhere in the executed CD0 source. native.py's size loop is a stratified ENUMERATION of a static universe; category.py defines ConstructionState.add (single adjunction arrows of the derived category, category.py:34-37) with no step law, and enumerate_ideals is an audit enumeration (category.py:40-50). The CD0 report states the successor is independent of enumeration or allocation identity."
+    }
+  }
+}

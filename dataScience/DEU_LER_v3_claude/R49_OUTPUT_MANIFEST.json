@@ -1,0 +1,72 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R49",
+  "commit_A": "4946e4e (full hash resolvable in repo; no expansion written here - see R48 erratum discipline)",
+  "commit_B": "CREATED_AFTER_SELF_EXCLUDED_MANIFEST_WRITE",
+  "file_count": 11,
+  "files": [
+    {
+      "bytes": 4622,
+      "path": "OD0_R49_COUNTEREXAMPLES.md",
+      "sha256": "245c0d387b7d81b10ffe6235740e7dd0c622d2712b957678e19b0d2165381b29"
+    },
+    {
+      "bytes": 5970,
+      "path": "OD0_R49_REPORT.md",
+      "sha256": "c914cae365a841b12bcac95fc0b63617296fbc3d8993a1d3951eac66f52cab74"
+    },
+    {
+      "bytes": 6502,
+      "path": "OD0_R49_RESULTS.json",
+      "sha256": "44389a50ee923e364c61393c87d2c86d5cbfeefa93ec5567d51577f6cbfed021"
+    },
+    {
+      "bytes": 8400,
+      "path": "R49_ADJUNCTION_OPPORTUNITY_CLASSIFICATION.json",
+      "sha256": "df40bcc605709b813f20b26ffa2661a4664fe1558ebf9760416c68c4a7051dfd"
+    },
+    {
+      "bytes": 5898,
+      "path": "R49_EXACT_CERTIFICATES.json",
+      "sha256": "1b65436dd6cd17a26539159fa46e5068f1d940600163c05534abfb0f567ccf51"
+    },
+    {
+      "bytes": 5258,
+      "path": "R49_INPUT_LOCK.json",
+      "sha256": "e0659f45538833580cb3b95e6d1601281f974282aa3c5a5b4675b82450ded557"
+    },
+    {
+      "bytes": 7812,
+      "path": "R49_OPPORTUNITY_OBSTRUCTION.json",
+      "sha256": "1305766d1180730561baf58ad8e25d7da2808ff0818c1035cc9ec3fdb023c563"
+    },
+    {
+      "bytes": 5346,
+      "path": "R49_RECORD_OPPORTUNITY_CLASSIFICATION.json",
+      "sha256": "d353e9789586b8357c1e3d1794b5a0494294dcfc0a69b61f8b5a7643bcf2817a"
+    },
+    {
+      "bytes": 10924,
+      "path": "build_r49_outputs.py",
+      "sha256": "50fcaf99463f5492ca6d8dce74dbead80f5f54ba7483330bd7a0a867c74387eb"
+    },
+    {
+      "bytes": 30878,
+      "path": "r49_adjudication_data.py",
+      "sha256": "203352a8643479b2eeb18918b902bc90d9e336cfb6825f4d2fbfd9aea54d851d"
+    },
+    {
+      "bytes": 19288,
+      "path": "r49_exact.py",
+      "sha256": "4cea1f23e289ce12aa0700d245b351b922e94c17beba3a028c11894319d65d6d"
+    }
+  ],
+  "historical_numerical_content_parsed": false,
+  "package_version": "v0.1 (Claude Code executor)",
+  "premises_stated_not_selected": [
+    "CO1",
+    "RO1"
+  ],
+  "schema": "OD0_R49_OUTPUT_MANIFEST_V1",
+  "self_excluded": true
+}

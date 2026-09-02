@@ -1,0 +1,69 @@
+{
+  "certificates_file_sha256": "1b65436dd6cd17a26539159fa46e5068f1d940600163c05534abfb0f567ccf51",
+  "classification": {
+    "RO_0_and_RO1": {
+      "CO1_RO1_relation": "NOT one statement: CO1 excludes only T_id (adjunction activity); RO1 excludes only RO-0 (record activity of occurring adjunctions). Independent axes of the same A13R0 template type; a model can satisfy CO1 with RO-0 (active but coherent) or vacuously satisfy RO1 under T_id. Both are kept.",
+      "RO1": "a distinction event whose parent set includes a lineage object with an unresolved incidence frontier acts nontrivially (as an A10 prefix record) on that frontier",
+      "RO1_type": "A13R0-pattern binary activity premise",
+      "RO_0_excluded_by_source": "NO - no source statement forces records (CD1I derives record REPRESENTATIONS, not record occurrence; R30 frozen)"
+    },
+    "RO_A": {
+      "consistency_note": "RO-D does not contradict the append: the recording event acts on PREVIOUSLY appended letters of other lineages; its own new letter remains the J_D-invariant append.",
+      "verdict": "REFUTED",
+      "witness": "CD1I SPEC Sec 5 (lines 203-225): the unresolved append J_D is the UNIQUE local-C3-invariant isometry appending the uniform |u>, with 'no retained distinction among the new three incidence roles' as a frozen uniqueness condition. An A10 record is the write |w>|0> -> |w>|pi_l(w)> (Sec 9, lines 406-414), which retains distinction. An adjunction acting as a record on the lineage it extends would retain distinction among its own new roles, contradicting the frozen uniqueness of J_D. RO-A is closed."
+    },
+    "RO_D": {
+      "a10_compatibility": "the induced act is exactly the frozen A10 form |w>|0> -> |w>|pi_l(w)>; deeper stable records append rather than rewrite (CD1I Sec 9 functoriality conditions)",
+      "assignment": "ell(lambda, e) = the maximal ancestry position k such that lambda's member x_k lies in the closed ancestry of a parent of e (maximal supported scope). The recorded act is the A10 prefix write pi_ell on lambda's frontier word.",
+      "certificates_D_le_3": {
+        "exchange_covariance": "0 failures over all enumerated uses",
+        "multi_touch_resolution": "when both parents of e touch lambda at distinct positions, the maximal position is the unique assignment satisfying the scope lemma upper bound and completeness (any smaller ell under-records a structurally supported position); no free parameter remains",
+        "multi_touch_uses": 32,
+        "no_over_recording": "0 failures: the (ell+1) frame's NEW member is never inside the event's scope (by maximality), so recording deeper than ell is never licensed",
+        "record_uses_enumerated": 74,
+        "reflection_cyclic_gauge": "the assignment uses only unoriented ancestry positions and role-free scope containment; it is manifestly independent of cyclic origin labels and reflection (no gauge symbol appears in the rule)",
+        "scope_lemma": "0 failures: every frame at positions <= ell lies inside the closed ancestry of the touching parent (frame members are ancestors), so the prefix copy distinguishes nothing the event does not structurally contain"
+      },
+      "verdict": "UNIQUE_GIVEN_RO1 (with the setting residual classified)"
+    },
+    "RO_X_status": "remains the status quo fallback; not selected; it is the only candidate compatible with rejecting both CO1 and RO1, and keeps OD0 an externally controlled cocycle",
+    "hostile_compliance": "no ell tuning against N/S restriction; no A12 counts or service outcomes used to pick the record rule; no external query alphabet imported (the cylinder algebra is CD1I-native)",
+    "setting_component": {
+      "answer": "ONLY_THE_QUERY. The full control is gamma=(q_A,q_B,n,m) with settings in Z_9 (R28: 8x8x9x9=5184). The event determines the recorded prefix and hence the cylinder-algebra query component (at the registered depth-1 instance these are the eight source-declared local queries per factor); no structural datum of the event determines an odometer residue.",
+      "question": "does the downstream event determine the clock setting (odometer residue) of the full control, or only the query?",
+      "residual_classification": "FORCED_BY_STATE_GIVEN_A13R, not free: the lineage's inherited direct-limit clock residue (A13R; advanced per A13R0 by serviced vacuum events) is state data supplying the setting; the residual is a function of the global state, not a new premise and not an event datum"
+    }
+  },
+  "exact_certificates_D_le_3": {
+    "assignment_rule": "ell(lambda,e) = max ancestry position of any lineage member inside closed_anc of a parent of e (maximal supported scope)",
+    "depth_bound": 3,
+    "exchange_covariance_failures": 0,
+    "multi_touch_uses_distinct_positions": 32,
+    "no_over_recording_failures": 0,
+    "scope_lemma_failures": 0,
+    "steps_enumerated": [
+      {
+        "batch": 1,
+        "k": 0,
+        "lineages": 0,
+        "record_uses": 0
+      },
+      {
+        "batch": 2,
+        "k": 1,
+        "lineages": 2,
+        "record_uses": 4
+      },
+      {
+        "batch": 7,
+        "k": 2,
+        "lineages": 10,
+        "record_uses": 70
+      }
+    ],
+    "total_record_uses": 74
+  },
+  "historical_numerics_parsed": false,
+  "run_date": "2026-09-01",
+  "schema": "R49_RECORD_OPPORTUNITY_CLASSIFICATION_V1"
+}
