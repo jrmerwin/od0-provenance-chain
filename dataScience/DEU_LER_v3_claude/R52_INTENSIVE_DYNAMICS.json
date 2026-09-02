@@ -1,0 +1,32 @@
+{
+  "historical_numerics_parsed": false,
+  "long_run_exact": [
+    "P(S^V >= 2 | state) >= D(D-1)/((F+D)(F+D-1)) > 0 at every state (D = |X| >= 2 always): vacuum-pair service never vanishes; no absorbing stall exists at any finite state (growth is possible from every reachable state).",
+    "D = |X| is nondecreasing along every trajectory (objects are never destroyed).",
+    "Per-step conservation identities of the frozen kernel hold at every transition (backlog, population, service split).",
+    "The recorded-cone mask is monotone nondecreasing (records are never erased), so the shell is the exact unresolved sector at every step."
+  ],
+  "mean_field_conjecture": {
+    "caveat": "The Part 1 identities make c_eff STATE-DEPENDENT and unbounded: the record count of a use equals the number of ancestry-cone paths, which grows with DAG depth. A stationary (x*, u*, g*) with constant c_eff therefore presupposes bounded-depth growth; the sampled readout tests exactly this. The conjecture is recorded with this caveat rather than repaired.",
+    "fixed_point_conditions": [
+      "inflow = outflow: m + c_eff*g* = Gamma*(1-x*) + v*",
+      "g* = E[C(S^V,2) | x*]*(1 - (D-2)/C(D,2)) evaluated at the stationary x*"
+    ],
+    "label": "MEAN_FIELD_CONJECTURE - registered as a conjecture; nothing fitted; no convergence claim",
+    "one_step_map": [
+      "D' = D + g",
+      "F' = F + m + c_eff*g - Gamma*(1-x) - v   (c_eff = requests per new object = records-per-new-object x c_first/c_repeat mix; NOT a constant - it grows with ancestry-cone path counts, see caveat)",
+      "g' = E[C(S^V,2)]*(1-(D'-2)/C(D',2)) with S^V ~ Hypergeom(F',D',n')"
+    ],
+    "variables": "x = D/(F+D); u = |U|/|X|; g = E[new objects per step]"
+  },
+  "run_date": "2026-09-02",
+  "sampled_characterization": "Sampled characterization (never proof): under TG1 the process grows SLOWLY and PERSISTENTLY at every registered point - e.g. (Gamma=2,m=0,H=0): mean |X| 6.3 at k=50, 13.8 at k=500, still increasing with decelerating rate; x oscillates in a low band (~0.07-0.11 median) rather than settling or collapsing; backlog stays small (1-4 decimal digits - drains recur); shell grows slowly (~3.8 at k=500). Neither the synchronous explosion (kappa=2 saturation) nor a freeze: a persistent burst-drain developmental regime. OSCILLATE/SLOW-GROWTH, per Gamma details in the readout file.",
+  "sampled_readout_file": {
+    "label": "SAMPLED - seeded - never cited as proof",
+    "path": "R52_SAMPLED_READOUT.json",
+    "sha256": "2680667f77671a88d601662402a3f7f5a710646070a6d4fe4162063dcc085b9d"
+  },
+  "schema": "R52_INTENSIVE_DYNAMICS_V1",
+  "sensitivity_summary": "Both sensitivity variants (relief disabled; population factor 1) preserve the qualitative slow-growth/oscillation structure at both deterministic rule points - the frozen foam-family constitutive rules are NOT load-bearing for the qualitative maturation structure at registered points (SENSITIVITY_READOUT_NOT_A_MODEL)."
+}

@@ -1,0 +1,109 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R52",
+  "counts": {
+    "growth_identity_checks": 1830,
+    "growth_identity_failures": 0,
+    "hostile_controls_passed": 9,
+    "hostile_controls_tested": 9,
+    "ladder_fail_counts": {
+      "EXT": 0,
+      "L0": 144,
+      "L1": 144,
+      "L2": 144,
+      "L3": 144
+    },
+    "ladder_points": 144,
+    "ledger_identity_failures": 0,
+    "long_run_bound_violations": 0,
+    "new_premises": 0,
+    "sampled_points": 144,
+    "sensitivity_points": 4
+  },
+  "deterministic_rerun": "IDENTICAL_BYTE_FOR_BYTE",
+  "hand_produced_hashes": 0,
+  "historical_numerical_content_parsed": false,
+  "hostile_controls": [
+    [
+      "HC1",
+      "observable added/dropped after Commit A",
+      "REJECTED",
+      "The Section-5 inventory was frozen in R52_INPUT_LOCK.json at Commit A and is emitted unchanged; readouts removed nothing."
+    ],
+    [
+      "HC2",
+      "epoch label, threshold, or basin from readouts",
+      "REJECTED",
+      "No label, threshold, or basin appears anywhere; settle/drift language in the readout summary describes sampled curves only."
+    ],
+    [
+      "HC3",
+      "sampled results cited as theorems or used to choose a quotient level",
+      "REJECTED",
+      "The closure ladder was adjudicated purely on the exact transition systems; the sampled file carries a NEVER-PROOF label."
+    ],
+    [
+      "HC4",
+      "mean-field map presented as more than a conjecture",
+      "REJECTED",
+      "Labeled MEAN_FIELD_CONJECTURE with an explicit validity caveat; no convergence claim; nothing fitted."
+    ],
+    [
+      "HC5",
+      "Gamma extrapolated; regions refined without source",
+      "REJECTED",
+      "All dynamics at registered Gamma 2..5; regions declared FIXED per the frozen UEQ0 declaration."
+    ],
+    [
+      "HC6",
+      "external referent",
+      "REJECTED",
+      "None appears."
+    ],
+    [
+      "HC7",
+      "historical numeric; rounds=steps",
+      "REJECTED",
+      "All numerics generated in-round or frozen structural constants."
+    ],
+    [
+      "HC8",
+      "frozen-root modification; BELL2",
+      "REJECTED",
+      "Read-only; worktree clean at start and end; BELL2 unopened."
+    ],
+    [
+      "HC9",
+      "hand-produced hash",
+      "REJECTED",
+      "All hashes computed in-process."
+    ]
+  ],
+  "input_artifacts": {
+    "R52_EXACT_CERTIFICATES.json": "08564c3ef78e4c6f3b3a38e05197656676e8828b16da4a340ab821bd2c58a08e",
+    "R52_INPUT_LOCK.json": "ba595f06b972e767701aca9ce6b9483525344c9bff10f2123c79bdddadd212b8",
+    "R52_SAMPLED_READOUT.json": "2680667f77671a88d601662402a3f7f5a710646070a6d4fe4162063dcc085b9d"
+  },
+  "package_version": "v0.1 (Claude Code executor)",
+  "r53_recommendation": "An exactly closed quotient exists (the exchange-canonical full state) and a persistent developmental regime is visible in the sampled readout, so per the R53 rule: R53 (M3) defines the maturation filtration by exact state criteria on the closed quotient - regimes of x, u = |U|/|X|, and P(S^V >= 2 | state); recurrence structure of the burst-drain cycle - proves what is provable about the late regime, and writes the candidate mature-basin definition as fixed-point/invariance conditions, target-blind. R54 then opens H1 non-adaptively.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R52_RESULTS_V1",
+  "verdicts": {
+    "CLOSURE": "FULL_STATE_REQUIRED among the frozen ladder levels (every level L0-L3 fails; L4/L5 add only path-dependent N/S content that is not a function of the chain state and cannot repair the missing gate coordinate); minimal closing extension verified: the exchange-canonical full state (graph + used + served marking, B, P) is exactly lumpable",
+    "CLUSTER_THEOREM": "PASS (product form; max cluster 1 between steps, <= Gamma within a step)",
+    "IDENTITIES": "growth identity + ledger mean/Phi^2/P(S^V>=2)/relief certified (0 failures)",
+    "INTENSIVE_CLOSURE": "NOT_EXACT (witnesses via L0/L1)",
+    "LONG_RUN_EXACT": [
+      "P(S^V >= 2 | state) >= D(D-1)/((F+D)(F+D-1)) > 0 at every state (D = |X| >= 2 always): vacuum-pair service never vanishes; no absorbing stall exists at any finite state (growth is possible from every reachable state).",
+      "D = |X| is nondecreasing along every trajectory (objects are never destroyed).",
+      "Per-step conservation identities of the frozen kernel hold at every transition (backlog, population, service split).",
+      "The recorded-cone mask is monotone nondecreasing (records are never erased), so the shell is the exact unresolved sector at every step."
+    ],
+    "MEAN_FIELD_CONJECTURE": "recorded with state-dependent c_eff caveat",
+    "READOUT": "OSCILLATE/SLOW-GROWTH (persistent developmental regime; sampled, never proof)",
+    "RECORD_SCOPE": "THROUGH_OWN_LETTER (sibling correlation within-step only)",
+    "REGIONS": "FIXED (inherited immutable prefix map); CAPACITY_TOTAL constant",
+    "SENSITIVITY": "qualitative structure unchanged under both variants",
+    "overall": "OD0_R52_PASS_GLOBAL_OBSERVABLE_ALGEBRA_AUDITED"
+  }
+}

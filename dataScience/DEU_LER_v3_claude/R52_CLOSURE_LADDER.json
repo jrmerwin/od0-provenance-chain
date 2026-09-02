@@ -1,0 +1,88 @@
+{
+  "L4_L5_note": "N and S content are cumulative path functionals, not functions of the Markov chain state (X, served, B, P); on the chain they cannot repair the missing served-set coordinate, and every gate-witness against L0-L3 applies verbatim.",
+  "certificates_file_sha256": "08564c3ef78e4c6f3b3a38e05197656676e8828b16da4a340ab821bd2c58a08e",
+  "closure_verdict": "FULL_STATE_REQUIRED among the frozen ladder levels (every level L0-L3 fails; L4/L5 add only path-dependent N/S content that is not a function of the chain state and cannot repair the missing gate coordinate); minimal closing extension verified: the exchange-canonical full state (graph + used + served marking, B, P) is exactly lumpable",
+  "coarsest_lumpable_frozen_level": "NONE_OF_L0_L5",
+  "epoch_observable_domain": "Epoch observables can be defined on the exchange-canonical full state (exactly closed) or as readout functionals; NOT on any frozen coarse level.",
+  "intensive_closure": "NOT_EXACT: the intensive variables are functions of (B, D, F) alone; the L0/L1 witnesses (same counts, different graphs or different served sets, different transition vectors) are witnesses against intensive closure a fortiori.",
+  "ladder_frozen": [
+    "L0: ledger counts only (B, D, P, H, Gamma, clock residues)",
+    "L1: L0 + |X|, |U|",
+    "L2: L1 + composite-graph isomorphism class of X",
+    "L3: L2 + record-status map (word -> recorded prefix length) + cluster census",
+    "L4: L3 + N and S content",
+    "L5: full z = (X, N, S, Lambda, G+-)"
+  ],
+  "results_per_level": {
+    "EXT": {
+      "fails": 0,
+      "first_witness": null
+    },
+    "L0": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3)",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    },
+    "L1": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3, 1)",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    },
+    "L2": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3, 1, (((1, 2),), (), ((0, True, ()), (1, False, ()), (1, False, ()))))",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    },
+    "L3": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3, 1, (((1, 2),), ((0, 1, 1),), ((0, True, (0,)), (1, False, (1,)), (1, False, (1,)))))",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    }
+  },
+  "run_date": "2026-09-02",
+  "schema": "R52_CLOSURE_LADDER_V1"
+}

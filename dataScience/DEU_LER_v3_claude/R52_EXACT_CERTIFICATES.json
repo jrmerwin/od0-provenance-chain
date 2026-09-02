@@ -1,0 +1,118 @@
+{
+  "closure_ladder": {
+    "EXT": {
+      "fails": 0,
+      "first_witness": null
+    },
+    "L0": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3)",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    },
+    "L1": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3, 1)",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    },
+    "L2": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3, 1, (((1, 2),), (), ((0, True, ()), (1, False, ()), (1, False, ()))))",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    },
+    "L3": {
+      "fails": 144,
+      "first_witness": {
+        "block_key": "(0, 0, 3, 1, (((1, 2),), ((0, 1, 1),), ((0, True, (0,)), (1, False, (1,)), (1, False, (1,)))))",
+        "lumpable": false,
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "witness_pair": [
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"b\"]}",
+          "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+        ]
+      }
+    }
+  },
+  "cluster_and_identities": {
+    "K": 3,
+    "between_step_unresolved_sector": "shell objects' own letters; every used object's ancestry cone is recorded (THROUGH_OWN_LETTER scope), so between-step clusters are singleton product appends - verified structurally at every reachable state (no shared unresolved letter exists by construction of the recorded-cone invariant)",
+    "ledger_identity_failures": 0,
+    "max_within_step_sibling_group_observed": 4,
+    "points": 144,
+    "sibling_group_bound": "Gamma - 1 (batch pairs from <= Gamma served objects sharing one parent)"
+  },
+  "long_run_bound": {
+    "grid_checked": "F 0..39 x D 2..11 x Gamma 2..5",
+    "statement": "P(S^V >= 2 | state) >= D(D-1)/((F+D)(F+D-1)) whenever n >= 2 (first-two-draws-vacuum bound); positive at every state since D = |X| >= 2",
+    "violations": 0
+  },
+  "part1_growth": {
+    "identity_checks": 1830,
+    "identity_failures": 0,
+    "smallest_growth_witness": {
+      "dist_1": {
+        "1": "3/10",
+        "2": "3/10",
+        "3": "2/5"
+      },
+      "dist_2": {
+        "0": "1/10",
+        "2": "3/5",
+        "3": "3/10"
+      },
+      "n": 5,
+      "s": 3,
+      "state_1": [
+        "a",
+        "b",
+        "{a,b}",
+        "{a,{a,b}}",
+        "{a,{a,{a,b}}}"
+      ],
+      "state_2": [
+        "a",
+        "b",
+        "{a,b}",
+        "{a,{a,b}}",
+        "{b,{a,b}}"
+      ]
+    }
+  },
+  "schema": "R52_EXACT_CERTIFICATES_V1"
+}

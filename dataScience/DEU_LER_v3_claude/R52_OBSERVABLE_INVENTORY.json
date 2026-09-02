@@ -1,0 +1,52 @@
+{
+  "frozen_at_commit_A": "44f2197 (R52_INPUT_LOCK.json)",
+  "input_lock_sha256": "ba595f06b972e767701aca9ce6b9483525344c9bff10f2123c79bdddadd212b8",
+  "inventory": {
+    "frozen_rule": "nothing added after Commit A; nothing removed on the basis of readouts",
+    "intensive": [
+      "x = D/(F+D)",
+      "B/Gamma",
+      "|U|/|X|",
+      "|G-|/|S|",
+      "E[Phi^2|state]",
+      "P(S^V>=2|state)",
+      "E[new objects|state]",
+      "F/|X| requests-outstanding per object"
+    ],
+    "interval_currents": [
+      "|G-|",
+      "|G+|",
+      "|G+ \\ G-|",
+      "D/L/M stocks (R45)"
+    ],
+    "ledger_per_region": [
+      "B",
+      "D",
+      "F",
+      "P",
+      "H",
+      "Gamma",
+      "clock residue",
+      "V0 = min(Gamma,D)",
+      "conditional laws of 4.5 evaluated at the state"
+    ],
+    "object_layer_per_region_and_total": [
+      "|X|",
+      "|U| unresolved shell (objects never used as a parent)",
+      "|En(X)| = C(|X|,2) - (|X|-2)",
+      "depth distribution",
+      "dag_size distribution",
+      "composite-graph degree distribution (children per object)",
+      "cluster census (Part 4.2)"
+    ],
+    "record_layer": [
+      "number of recorded words",
+      "prefix-length distribution",
+      "N multiplicities by P4 type",
+      "|S|",
+      "first-use vs repeat-use counts"
+    ]
+  },
+  "run_date": "2026-09-02",
+  "schema": "R52_OBSERVABLE_INVENTORY_V1"
+}
