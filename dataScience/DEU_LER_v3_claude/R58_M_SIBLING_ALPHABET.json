@@ -1,0 +1,62 @@
+{
+  "T5": "PROVEN - the R19 universal property lifts: the m-fold factor-decorated coproduct with invertible decorations (frozen intertwiner: complete inversion, factor-exchange covariant, cardinality-preserving 2304 <-> 2304)",
+  "T6": "PROVEN: NO shared-source edit objects - certified byte-level on the frozen R19 catalog (356 objects, factor tags exactly {A:178, B:178}, no third tag) and verbatim in the frozen report: the shared equality source is not charged as an edit; m=3 alphabet = 3 x 178 = 534 factor-decorated objects",
+  "T7": "PROVEN - A12 additive per factor (the frozen compiler is identity-on-atomic-generators applied FACTORWISE): {22,24,26} = {11+11, 11+13, 13+13} term by term; m=3 support {33,35,37,39}",
+  "certificates": {
+    "compiler_verbatim": "unchanged identity-on-atomic-generators applied factorwise",
+    "history_catalog_keys": [
+      "construction",
+      "content_key_notice",
+      "distinct_exact_content_history_classes",
+      "local_history_dictionary",
+      "physical_record_class_count",
+      "physical_record_classes"
+    ],
+    "history_count_field": null,
+    "intertwiner": {
+      "cardinality_preserving": true,
+      "codomain_typed_edit_sets": 2304,
+      "decoration_invertible": "complete_inversion recorded in the frozen intertwiner (erase invertible factor decoration)",
+      "domain_histories": 2304,
+      "factor_exchange_covariant": true
+    },
+    "m2_alphabet_total": 356,
+    "m2_decomposition_certified": true,
+    "m2_factor_split": {
+      "A": 178,
+      "B": 178
+    },
+    "m2_factor_tags": [
+      "A",
+      "B"
+    ],
+    "m2_request_decomposition": {
+      "22": [
+        11,
+        11
+      ],
+      "24": [
+        11,
+        13
+      ],
+      "26": [
+        13,
+        13
+      ]
+    },
+    "m2_shared_source_objects": 0,
+    "m2_shared_source_verbatim": "The shared equality source is not charged as an edit. (OD0_R19_REPORT.md line 11)",
+    "m2_split_certified": true,
+    "m3_alphabet": 534,
+    "m3_construction": "three factor-decorated copies (decorations A, B, C), content-addressed distinct by the invertible-decoration structure; correlated triples constrained by the shared outcome of T3; no shared-source objects by the same not-charged rule (the shared letter's record IS each factor's prefix record)",
+    "m3_request_support": [
+      33,
+      35,
+      37,
+      39
+    ]
+  },
+  "certificates_file_sha256": "10f01c76858630e6e64c574cb037d9714fb81bb82c941a6ffb825cbb03f2709f",
+  "run_date": "2026-09-02",
+  "schema": "R58_M_SIBLING_ALPHABET_V1"
+}
