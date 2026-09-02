@@ -1,0 +1,102 @@
+{
+  "certificates_file_sha256": "76cc7b41a0794fa7b866f261491bf6d215a539a5eba974474f1182b69b56dcaf",
+  "envelope_theorem": "Maximal quotient-invariant structure: the universal DAG with ancestry order; the prefix-canonical record poset with its causal order; the record outcome law at fixed settings; the per-record A12 request multisets; the per-step conservation identities; and (for the canonical pair) the achievable-mark support envelope and lifetime==1. Exact residue: the per-step pools, service realizations, clock residues (hence settings), cumulative ledger quantities, and realized marks - all reached through the single certified entry chain of L4. Nothing quotient-dependent may define an epoch without first selecting a quotient by theorem or declared premise.",
+  "family_identification": {
+    "both_quotients_local": true,
+    "divergent_objects_in_frozen_universe": 18,
+    "smallest_depth_vs_dagsize_divergent_object": {
+      "dag_size": 6,
+      "depth": 3,
+      "object": "{{a,{a,b}},{b,{a,b}}}",
+      "q_dag": 4,
+      "q_sat": 3
+    },
+    "t_dag_is_dagsize_filtration": true,
+    "t_sat_is_depth_filtration": true
+  },
+  "historical_numerics_parsed": false,
+  "layer_witness_certificates": {
+    "L2_verified_common_events": true,
+    "L6_cumulative_witness": {
+      "distributions_differ": true,
+      "ledger_point": "B=0,D=1,Gamma=1,P=0,H=0,m=0",
+      "quotient_A_injections": [
+        2,
+        0
+      ],
+      "quotient_B_injections": [
+        1,
+        1
+      ],
+      "total_served_forced_A": {
+        "0": "1/9",
+        "1": "5/9",
+        "2": "1/3"
+      },
+      "total_served_forced_B": {
+        "0": "1/6",
+        "1": "7/12",
+        "2": "1/4"
+      }
+    },
+    "L7_support_witness": {
+      "achievable_total_served_forced_A": [
+        0,
+        1,
+        2
+      ],
+      "achievable_total_served_forced_B": [
+        0,
+        1,
+        2
+      ],
+      "supports_equal": true
+    },
+    "L8_frozen_cap_never_used": 137,
+    "L8_lifetime_dag": true,
+    "L8_lifetime_sat": true
+  },
+  "layers": {
+    "L1_object_layer": {
+      "class": "INVARIANT_ALL_QUOTIENTS",
+      "statement": "The universal DAG (all composites under the unbounded rule) and its ancestry order are defined by the constructor alone; a step quotient only assigns steps and cannot alter objects or ancestry. Definitional theorem; no witness needed."
+    },
+    "L2_record_poset": {
+      "canonicalization_required": "The naive identity (full lineage, ell) is NOT invariant: suffix extensions of a lineage that exist only in the later-firing trajectory duplicate the same physical record (9 common events witnessed the failure before canonicalization; 0 after). The A10 write copies pi_ell, so all suffix extensions share one record. Recorded as a refuted naive identification.",
+      "class": "INVARIANT_ALL_QUOTIENTS",
+      "statement": "A record event is canonically the pair (using event y, recorded prefix path lam[0..ell]) with ell the maximal-supported-scope position (R49 RO-D). The prefix path lies inside closed_anc(z) for the touching parent z of y, and every member of Anc(z) is formed before y under EVERY ancestry-compatible quotient (q(parent) < q(child) implies ancestors precede). Hence the record set attached to y, and the induced causal order (records of y precede records of y's descendants), depend only on the universal DAG.",
+      "verified": "identical (prefix, ell) record sets for all 9 events common to both members' k<=3/k<=5 trajectories"
+    },
+    "L3_record_outcome_law_fixed_settings": {
+      "class": "INVARIANT_ALL_QUOTIENTS",
+      "statement": "Prefix records are copy maps diagonal in the word basis: |w>|0> -> |w>|pi_l(w)>. Any two such maps on the same word space commute (both diagonal in one basis; the deeper copy refines the shallower), and records on disjoint letter sets commute trivially. Therefore the joint outcome distribution over any finite record set is independent of ordering and bundling - quotient-invariant WHEN SETTINGS ARE HELD FIXED. Algebraic theorem on the frozen CD1I forms."
+    },
+    "L4_settings": {
+      "class": "QUOTIENT_DEPENDENT",
+      "entry_chain": "quotient -> per-step pool -> service realization S^V -> A13R clock advance (A13R0: serviced vacuum events act by the least generator) -> odometer residue -> setting component of the control -> outcome law",
+      "only_entry_point_certificate": "Layers 2 and 3 are proven quotient-invariant, and the only quotient-sensitive input remaining in a record's outcome law is its setting (clock residue); the cumulative-ledger witness shows service realizations differ across quotients. This is the sole entry point on the record side."
+    },
+    "L5_request_layer": {
+      "class_per_record": "INVARIANT_ALL_QUOTIENTS",
+      "class_per_step_pool": "QUOTIENT_DEPENDENT",
+      "statement": "The A12 request multiset per record is a function of the record alone (CD2R Thm 3 compile: additive, cardinality-exact, region-covariant). The per-step pool is the union over the step's records and differs between members from step 3 on (distinct-record counts 46 vs 36 at step 3; lower-bound pools 506 vs 396)."
+    },
+    "L6_ledger": {
+      "class_cumulative": "QUOTIENT_DEPENDENT",
+      "class_per_step_conservation": "INVARIANT_ALL_QUOTIENTS",
+      "statement": "Per-step conservation (backlog balance, population balance, service split) holds for every kernel application under any quotient (frozen kernel identities, ledger.py conservation()). No cumulative horizon quantity beyond them is invariant: the exact witness pools the same two unit requests in one step vs two steps at the registered point (B=0,D=1,Gamma=1,P=0,H=0,m=0) and the total-served-forced distributions differ (certificates: cumulative_ledger_witness)."
+    },
+    "L7_marks_interval": {
+      "class_realized": "QUOTIENT_DEPENDENT",
+      "class_support_envelope": "INVARIANT_CANONICAL_PAIR",
+      "statement": "Which requests are served (RRP1 marks) is realization- and quotient-dependent. The SUPPORT of achievable cumulative served sets is equal for the two members at the witness configuration (verified exactly), and each individual request admits a positive-probability serving realization under both members whenever draws >= 1 (positive hypergeometric mass), so the interval envelope over all realizations - intersection of G- = Int(R) and union of G+ = Cl(R) over achievable R - agrees at the witness. Full-generality support equality beyond the witness is stated as verified-at-witness, not claimed generally."
+    },
+    "L8_coherence_lifetime": {
+      "class": "INVARIANT_CANONICAL_PAIR",
+      "frozen_cap_boundary": "Within the frozen universe O_<=7 the 137 level-7 objects are never used as parents (exact count), so their words are never recorded: the registry shell remains permanently coherent inside the frozen scope. Under the unbounded rule no such boundary exists.",
+      "statement": "Lifetime = 1 for every object under BOTH members (verified exhaustively at k<=3 (T_sat) / k<=4 (T_dag)): the object z0 = {y, p} for p a parent of y has depth(z0) = depth(y)+1 and dag_size(z0) = dag_size(y)+1, so z0 fires at the very next step in both gradings and uses y at its full word depth. General theorem: for a quotient q, lifetime(y) = min over z with y in Par(z) of q(z) - q(y); lifetime == 1 for all y iff every object has a child in the immediately next step (both graded members satisfy via z0); quotients admitting lifetime > 1 are exactly those deferring EVERY child of some y past step q(y)+1 - ancestry-compatibility permits arbitrary deferral, so such quotients exist (witness: defer z0 of any y by one step)."
+    }
+  },
+  "run_date": "2026-09-02",
+  "schema": "R50_BUNDLING_INVARIANT_ENVELOPE_V1"
+}

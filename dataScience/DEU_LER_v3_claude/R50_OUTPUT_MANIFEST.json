@@ -1,0 +1,81 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R50",
+  "commit_A_short": "09d446d",
+  "commit_B": "CREATED_AFTER_SELF_EXCLUDED_MANIFEST_WRITE",
+  "file_count": 13,
+  "files": [
+    {
+      "bytes": 3702,
+      "path": "OD0_R50_COUNTEREXAMPLES.md",
+      "sha256": "7a626a12a480f457945b98f49e71d43411dd7b9973b2c70e34da9b5830f181f3"
+    },
+    {
+      "bytes": 5845,
+      "path": "OD0_R50_REPORT.md",
+      "sha256": "ce544bbe61db643985981a5ff5a9f148379ea9185fdfcf61c20366d4522ec613"
+    },
+    {
+      "bytes": 5215,
+      "path": "OD0_R50_RESULTS.json",
+      "sha256": "7c9e345310eb5e72f11cbeee910ef7e6bfbe343c95649c94282e7a009bbdd723"
+    },
+    {
+      "bytes": 7760,
+      "path": "R50_BUNDLING_INVARIANT_ENVELOPE.json",
+      "sha256": "c5559de25f1b000652d58963b0bb2b555d1e5059cf009fd5f28dffea9b4ed100"
+    },
+    {
+      "bytes": 3063,
+      "path": "R50_CAPACITY_ENABLEMENT_SOURCE_STATUS.json",
+      "sha256": "68c521e404282a64db89342e71b736657c1c007000ca2a90cde4acc14004ed56"
+    },
+    {
+      "bytes": 3187088,
+      "path": "R50_EXACT_CERTIFICATES.json",
+      "sha256": "76cc7b41a0794fa7b866f261491bf6d215a539a5eba974474f1182b69b56dcaf"
+    },
+    {
+      "bytes": 4617,
+      "path": "R50_INPUT_LOCK.json",
+      "sha256": "5893ad45b7a3c2cffe871e9bb553538ec9fd02b39d5d94d5f720a33f7fe5a13f"
+    },
+    {
+      "bytes": 1577,
+      "path": "R50_NO_CHOICE_TEST.json",
+      "sha256": "2eba0ab43114a41b3c8f17a64ae66d303c4a17c80915c0136f68393edf44d231"
+    },
+    {
+      "bytes": 3186407,
+      "path": "R50_SATURATION_READOUT.json",
+      "sha256": "c836396d3670d7da6163aaa8a75f6dba265b117be8ac02b224231a4d05f831ab"
+    },
+    {
+      "bytes": 6555,
+      "path": "build_r50_input_lock.py",
+      "sha256": "475b41c44e9f4f8b5317d8ccf0a1de49f0c26a38cd0ea44d80af1c3de6cffdc2"
+    },
+    {
+      "bytes": 13738,
+      "path": "build_r50_outputs.py",
+      "sha256": "5dbe595a3d923c413253a68f251582bdc42bd8a22832af01fd0e5777ec77efa5"
+    },
+    {
+      "bytes": 17898,
+      "path": "r50_adjudication_data.py",
+      "sha256": "5634a7cb7d1e39af6fac964763c4f45cf616f6a899f2a6f97ac061a2f2136258"
+    },
+    {
+      "bytes": 19000,
+      "path": "r50_exact.py",
+      "sha256": "222b0b594dbf1ed23fb68f085cdce9bb5db54011a4eceeb8e24d23d3b054cff5"
+    }
+  ],
+  "hand_produced_hashes": 0,
+  "historical_numerical_content_parsed": false,
+  "members_selected": 0,
+  "new_premises": 0,
+  "package_version": "v0.1 (Claude Code executor)",
+  "schema": "OD0_R50_OUTPUT_MANIFEST_V1",
+  "self_excluded": true
+}

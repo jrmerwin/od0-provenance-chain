@@ -1,0 +1,61 @@
+{
+  "capacity_source_status": {
+    "D_vacuum_demand": {
+      "genesis": "UNDECLARED",
+      "state_function": "NO source formula found",
+      "under_update": "EXTERNAL_CONSTANT (copied verbatim, ledger.py:71)"
+    },
+    "Gamma_capacity": {
+      "genesis": "UNDECLARED",
+      "state_function": "NO source formula found in UEQ0, CD2R, A13R, R40-R45",
+      "under_update": "EXTERNAL_CONSTANT (copied verbatim into every successor: UEQ0 src/ledger.py:69-75)"
+    },
+    "H_relief_candidates": {
+      "genesis": "UNDECLARED",
+      "state_function": "NO source formula found",
+      "under_update": "EXTERNAL_CONSTANT (copied verbatim, ledger.py:74)"
+    },
+    "census_only": "No candidate is tested dynamically in R50.",
+    "m_persistent_load": {
+      "genesis": "EXTERNAL (declared external input, UEQ0 master theorem)",
+      "state_function": "NO - explicitly external",
+      "under_update": "EXTERNAL per-step input (ledger_kernel argument chronic, ledger.py:55)"
+    },
+    "q1_gamma_d_from_rendered_structure": "NO. No active source defines Gamma or D as a function of marks, G+-, |X|, or served history. (The v30 conscription engine scales a service region with demand, but it belongs to the F3 scheduler family with NO_MAP into the active chain - precedent, not source.)",
+    "q2_enablement_gated_on_realization": "NO. Enablement is Par(y) subset X (CD0 category.py:28-32,35); no active source requires Par(y) subset rendered set.",
+    "q3_minimal_throttle_premise_class": [
+      {
+        "binary": true,
+        "form": "an adjunction is opportunity-bearing only if its parents are rendered; with the R44 premise-invariant envelope, G- gives the lower enabled set and G+ the upper enabled set (En(rendered-) subset En_eff subset En(rendered+))",
+        "name": "RG1 rendered-parent gating",
+        "parameter": "NONE (binary; A13R0/RO1 template)",
+        "quotient_effect": "makes enablement - hence every layer - depend on service realization, coupling the object layer to the ledger"
+      },
+      {
+        "binary": false,
+        "form": "Gamma as a declared function of state (e.g. of |X| or served history)",
+        "name": "state-scaled Gamma",
+        "parameter": "YES (a function/scale must be chosen)",
+        "quotient_effect": "capacity trajectory becomes quotient-dependent"
+      },
+      {
+        "binary": false,
+        "form": "D as a declared function of state",
+        "name": "state-scaled D",
+        "parameter": "YES",
+        "quotient_effect": "vacuum pool becomes quotient-dependent"
+      }
+    ]
+  },
+  "historical_numerics_parsed": false,
+  "registry_identification": {
+    "arrow": "EXACT_OBJECT_SET_ARROW(registry -> constructor, dynamics not identified): T_dag^5(genesis) = CD0 registered universe exactly (173/173 objects; level-7 shell 137/137)",
+    "cd0_registered_objects": 173,
+    "exact_object_set_equality": true,
+    "level7_count": 137,
+    "level7_shell_equality": true,
+    "t_dag5_objects": 173
+  },
+  "run_date": "2026-09-02",
+  "schema": "R50_CAPACITY_ENABLEMENT_SOURCE_STATUS_V1"
+}
