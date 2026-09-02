@@ -1,0 +1,117 @@
+{
+  "G_and_no_go_frozen_at_commit_A": true,
+  "components": {
+    "ANCESTRY_GATED_TOWER": "cones (2.0-2.5) ln n; ln chains Theta(sqrt(log n)) with kappa = pi/sqrt(3); cost exp(Theta(sqrt(log n))); growth T^{1-o(1)}; lapse e^{-Theta(sqrt(log n))}",
+    "CLUSTERING_UNDER_MINCOST": "d_J late-pair mean shifts 0.627 -> 0.70 (Gamma=3) / 0.76 (Gamma=5) - toward SMALLER overlap; rho above 8 and increasing in Gamma (both the registered 'rho decreases' and the pre-run 'asymptotically inert' guesses refuted)",
+    "asymptotically_inert": [
+      "UNREL(seeded)",
+      "NOT_PC",
+      "NOT_GP",
+      "NOT_SIB",
+      "NOT_COUSIN1",
+      "NOT_DG2",
+      "DG3PLUS(seeded)",
+      "NOT_MINCOST(Gamma>=3)"
+    ],
+    "chains_exponent_1": [
+      "SIB (minimal seed, deterministic forced chain)",
+      "SIB_AND_LEAF1",
+      "DG2_AND_LEAF1 (ballistic filament, width ~18)"
+    ],
+    "deadlocked_permanently": [
+      "LEAF2 (every seed)",
+      "REC2 (finite universe theorem)"
+    ],
+    "exponential_bases": {
+      "ALL": 8,
+      "DG2/NOT_DG3PLUS": "small-world, effective ~7, drifting",
+      "LEAF1": "(5+sqrt(41))/2 = 5.7016",
+      "MINCOST": "48/5, 384/35, 256/21 for Gamma=3,4,5",
+      "NOT_LEAF2": "-> 8",
+      "PC": "2.7-4.2 measured tree"
+    },
+    "gate_count": 25,
+    "genesis_blocked_but_seedable": [
+      "REL",
+      "PC",
+      "GP",
+      "SIB",
+      "COUSIN1",
+      "NOT_PC",
+      "NOT_LEAF2",
+      "REC2",
+      "DG2",
+      "NOT_DG3PLUS",
+      "UNREL (7-object seed)",
+      "DG3PLUS (7-object)",
+      "SIB_AND_LEAF1",
+      "REL_AND_MINCOST",
+      "UNREL_AND_MINCOST",
+      "DG2_AND_LEAF1"
+    ]
+  },
+  "hostile_controls": [
+    {
+      "basis": "G = the 25 frozen members, adjudicated verbatim; one exploratory referee conjunction (PC-and-SIB) was NOT admitted into the class or the verdict; the kernel is untouched.",
+      "control": "gate added; threshold/weight smuggled; service kernel modified",
+      "id": "HC1",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Internal vocabulary only; structure-type names are the package's own.",
+      "control": "external referent; 'dimension' outside D3",
+      "id": "HC2",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Every base traces to an operator computation (8, 4, 5.7016 = (5+sqrt(41))/2, 9.6 = 48/5, 384/35, 256/21) or an exact structure theorem (chains); readouts labeled as checks.",
+      "control": "exponent/spectral radius fitted from readouts",
+      "id": "HC3",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All gates tested as candidates; the REL corollary is recorded, not adopted.",
+      "control": "a gate adopted as a law",
+      "id": "HC4",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "The class was frozen at Commit A from the package text; sentinels parsed=false.",
+      "control": "H5 read; H1-H4 pattern used to choose a gate",
+      "id": "HC5",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Untouched; unopened.",
+      "control": "frozen tower modified; BELL2 opened",
+      "id": "HC6",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Verdicts rest on exact reachability, operator computations, and panel-verified derivations.",
+      "control": "readouts cited as proof",
+      "id": "HC7",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All hashes in-process.",
+      "control": "hand hash; placeholder",
+      "id": "HC8",
+      "status": "REJECTED"
+    }
+  ],
+  "input_lock_sha256": "35954dd88220afde32a123e45ab8d809f2644873e8fd5b150f203e7b6e6e0e92",
+  "prediction_vs_outcome": "No-go PROVEN - as registered, though by corrected routes. Registered errors, all caught by the engine/panel: (i) UNREL does not behave like ALL from genesis - it deadlocks permanently at n = 3 (it needs a 7-object seed, and only then is it asymptotically inert); (ii) LEAF1's base is (5+sqrt(41))/2 = 5.7016, not 'between 4 and 8' vaguely - and the leaf count is exactly 1 pathwise, a deterministic chain-plus-bridges; (iii) MINCOST at Gamma >= 3 is not CLUSTERED_DRIFTING with decreasing rho - it is exponentially ENHANCED (rho = 48/5... rising in Gamma) and shifts d_J toward smaller overlap; (iv) the REL corollary's registered cost Theta(ln n) is refuted - the true class is exp(Theta(sqrt(log n))) with lineage constant pi/sqrt(3); (v) PC/GP/SIB/COUSIN1/DG2 are not 'tree-like or chain-like' uniformly - most are exponential small worlds; the true chains are SIB-from-minimal-seed (a deterministic forced chain), SIB_AND_LEAF1, and DG2_AND_LEAF1. The prediction constrained nothing.",
+  "primary": "NO_GO_G = PROVEN",
+  "r65_recommendation": "NO_GO_G = PROVEN, so per the R65 rule: R65 classifies what a geometry premise must add beyond G, as the declared three-branch fork with no selection: (a) a length-scale parameter (non-minimal; recorded only); (b) a new constitutive primitive (this round's no-go is the required failure record); (c) the parameter-free structure the constructor already carries: the CD1I prefix-cylinder region tree (exactly ultrametric by construction, base 3 like the clock) - R65 derives its source status (how objects and records are assigned to cylinders; whether region-level locality is definable without a parameter) and, if definable, its ball-growth base by the same spectral method; (a) and (b) recorded as alternatives.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R64_RESULTS_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1_H4": "spent",
+    "H5": {
+      "parsed": false
+    }
+  },
+  "verdict": "OD0_R64_PASS_LOCALITY_CLASS_CLASSIFIED"
+}
