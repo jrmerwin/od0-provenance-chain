@@ -1,0 +1,413 @@
+{
+  "cd0": [
+    {
+      "bytes": 4486,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\CD0_COMPLEX_FUNCTOR_CLASSIFICATION.md",
+      "sha256": "4c3da82d3b282dcfdfb66db0ce83c898321f317ada5362a4f75439168cce6340"
+    },
+    {
+      "bytes": 3902,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\CD0_DISTINCTION_EVENT_CATEGORY_REPORT.md",
+      "sha256": "975f954d013f6858a1be85ac47a377650333c773295e47feae0cff200ac99a29"
+    },
+    {
+      "bytes": 17342,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\cd0_results.json",
+      "sha256": "54905b0665051a0bb6d08d75a9bc52a38de0759d2c01e05728764c2ec7b2d7e6"
+    },
+    {
+      "bytes": 3468,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\CD0_SOURCE_AND_UEQ0_PIN.md",
+      "sha256": "67d700965242b90e04d57dc4f4fc87a4e4391cd8f513b13b1e08989df485da38"
+    },
+    {
+      "bytes": 2625,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\CD0_TRIADIC_REFINEMENT_SCOUT.md",
+      "sha256": "00850e2c0ea5514bc66c6f4d6576e7c11a85cf6a22f7860b2e6bd73160378ec3"
+    },
+    {
+      "bytes": 3062,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\CD0_UEQ0_DESCENT_INVENTORY.md",
+      "sha256": "6d0391e0f7f41f6c9ec95e03ab6906a09806848bfefb1bb560479017217e43cb"
+    },
+    {
+      "bytes": 2648,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\COUNTEREXAMPLES_CD.md",
+      "sha256": "d0cf8a21807b668ac14ecac4090bd0740825c905ff1f2a860e59b001d1026465"
+    },
+    {
+      "bytes": 5701,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\DEU_COMBINATORIAL_DESCENT_PROGRAM.md",
+      "sha256": "3f582ebd002c4b4ea0421acda0e2a1b2fd570bd69e0b4f32c5c49e1834c52992"
+    },
+    {
+      "bytes": 2983,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\hash_manifest.json",
+      "sha256": "12e26412f194d598fb5a5fcdd55dd1f597f19edf3763157bbc641c945aca8a85"
+    },
+    {
+      "bytes": 7194,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\outputs\\complex_classification.json",
+      "sha256": "a133146cefa6d7d1ac0c592c6a6b7fcb396c12deb22739ddee23c16230b034d7"
+    },
+    {
+      "bytes": 859,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\outputs\\construction_category_certificate.json",
+      "sha256": "79c323ea03ef300b12671772a01300cff752c678d21096d5a87c19ff705609e7"
+    },
+    {
+      "bytes": 265,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\outputs\\gate_ledger.json",
+      "sha256": "bb04f14e12e5c7a77bb7d592373d1089c07916d02b14920e461d7bd466171576"
+    },
+    {
+      "bytes": 541403,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\outputs\\native_object_catalog.json",
+      "sha256": "90bc79eac0a5db53d06b3db228230d0169251ef1ecd418fce2b722500dcc9071"
+    },
+    {
+      "bytes": 1099,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\outputs\\native_registry_audit.json",
+      "sha256": "2ae7254b53e9e36598f95a2e5cbbc6736a15ebbceabd687493634dfe389e8fa4"
+    },
+    {
+      "bytes": 2592,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\outputs\\provenance_audit.json",
+      "sha256": "fbb051bb58bea7fa156dcb69e46d60013196c05c7f5194281f3a1e0c68276ceb"
+    },
+    {
+      "bytes": 740,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\outputs\\triadic_scout.json",
+      "sha256": "9b55e026760f90f813ce4a5e90c2543716d1285d1d4cf210135f378b06af9fd9"
+    },
+    {
+      "bytes": 672,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\README.md",
+      "sha256": "dbb7b954759d92eb4df3bc93c98844ca3c92e92b68a047b09c7af286f0a6445b"
+    },
+    {
+      "bytes": 3359,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\scripts\\__pycache__\\run_cd0.cpython-311.pyc",
+      "sha256": "db462748ecf1d72382dce0342004b22c9286d38aab28a4cd1ef4ffbe0501cdb3"
+    },
+    {
+      "bytes": 1606,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\scripts\\run_cd0.py",
+      "sha256": "dc1c7737e189201e743a307f5059e8323461d42460ba8bdd23a9852fe3d0d2f4"
+    },
+    {
+      "bytes": 7903,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\SPEC_CD0_DISTINCTION_CATEGORY_AND_COMPLEX_v0_1.md",
+      "sha256": "df3d26ce25e13fe2480e2b15afac2225195476a806e35bf837199f2b93b2e3ba"
+    },
+    {
+      "bytes": 355,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\__init__.py",
+      "sha256": "7898d671337dd6e2f50aa972a7717aa4960680ce08ad8c89b7d0cb21a9310e7f"
+    },
+    {
+      "bytes": 659,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\__pycache__\\__init__.cpython-311.pyc",
+      "sha256": "4a460df46c3ab70082eba931653b92597741aa1a70f7c617e0351245a93b1786"
+    },
+    {
+      "bytes": 13310,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\__pycache__\\audit.cpython-311.pyc",
+      "sha256": "f4777cee0baa636ab3eff116122fd440b2f1f0a54366df1c61b2d8a7337ae0c4"
+    },
+    {
+      "bytes": 10635,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\__pycache__\\category.cpython-311.pyc",
+      "sha256": "d465567e03c2bdde9b6be3e3ded6e63f586557eed49accd0d1968c6c0d8e06dc"
+    },
+    {
+      "bytes": 24990,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\__pycache__\\complexes.cpython-311.pyc",
+      "sha256": "8271dfa39de9bf2f58230e7c37baeacaf5cbfc67775ace02816c7cf2c22b9f67"
+    },
+    {
+      "bytes": 22551,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\__pycache__\\native.cpython-311.pyc",
+      "sha256": "5cdddb12b8b0a5b42fbef64a2bb05396cd49deb739adadcb4d7b87ded3dba1ec"
+    },
+    {
+      "bytes": 10719,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\audit.py",
+      "sha256": "600d04dcdf72752c811cbf65ac24c053b148a9f4f6d0cec485461b8a5fdb8088"
+    },
+    {
+      "bytes": 5048,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\category.py",
+      "sha256": "6dd1ce4e9ee73adc3a23e60d8bf227f96c5c180d2b34aff2b4d25fac2a7bda8d"
+    },
+    {
+      "bytes": 14595,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\complexes.py",
+      "sha256": "1f38b65f10ee8fdbead9e114e9052f10e7e3029213a9c9e3aac53818dff8dcac"
+    },
+    {
+      "bytes": 9760,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\src\\native.py",
+      "sha256": "f43b1f4677b479c3f05a6cc96a4c83a54aa83550a53fc0e7ba7c4f98710fa008"
+    },
+    {
+      "bytes": 23,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\__init__.py",
+      "sha256": "e367ecbd47baa3ca8bb21daaa6f1aafc4fd3c1d2a4f14ccf2fcfa517ff54f161"
+    },
+    {
+      "bytes": 5901,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\__pycache__\\test_artifacts.cpython-311.pyc",
+      "sha256": "fec6945657a706aa21e923e5d86e9c048ccd6f1d70c646bc3e33a20c167dd414"
+    },
+    {
+      "bytes": 5178,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\__pycache__\\test_category.cpython-311.pyc",
+      "sha256": "7a92b2a7493f6f76191d51a5cbbac3d6a4d5c57cc6a7cfcfd9df5e6dce27b375"
+    },
+    {
+      "bytes": 6791,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\__pycache__\\test_complexes.cpython-311.pyc",
+      "sha256": "685bae2327e75ffa7e7389fd0c8c73409c584e249c818ac4847e7a58473b6c55"
+    },
+    {
+      "bytes": 5873,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\__pycache__\\test_native.cpython-311.pyc",
+      "sha256": "bba95d7f224869cb5b01eda11ef09d0270e4ae1b53a43bb76ff7bc820835fe1e"
+    },
+    {
+      "bytes": 2318,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\test_artifacts.py",
+      "sha256": "8dfc20f5e06fa4c8894098c27ae1d2e9cdd130be6823813dd6d7a3e133e8770b"
+    },
+    {
+      "bytes": 2084,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\test_category.py",
+      "sha256": "e66cb6546f55b8cbf3d81cecf582e349c66299c11d29a2b5f62522154df9fe02"
+    },
+    {
+      "bytes": 2932,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\test_complexes.py",
+      "sha256": "e99c40b7996b383244cece11566b3fa0117847eef887a88f96cad1f77d5a0fce"
+    },
+    {
+      "bytes": 2351,
+      "path": "DEU_LER_v0_1_Codex_Package\\deu_ler_v0_1\\deu_unified_equations_v1_0\\deu_combinatorial_descent_cd0\\tests\\test_native.py",
+      "sha256": "168e34ec67290685eea5c4f33a31c0a4e57944d70841ccd27e0a40295a490490"
+    }
+  ],
+  "ledgers": [],
+  "links": [
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r47_geometry_no_carrier_boundary_v0_1\\R47_INPUT_LOCK.json",
+      "pin_key": "/R46_output_manifest_sha256",
+      "pin_value": "0769a08145f733676619b1674da0ec2846ccf2e0a31e7431b199adeb938b2879",
+      "predecessor": 46,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r46_preconnection_carrier_audit_v0_1\\R46_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "0769a08145f733676619b1674da0ec2846ccf2e0a31e7431b199adeb938b2879",
+      "round": 47,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r46_preconnection_carrier_audit_v0_1\\R46_INPUT_LOCK.json",
+      "pin_key": "/R45_output_manifest_sha256",
+      "pin_value": "8a969aed8e53d149af253da969d0376622a800efe341216b99f43d27237b0fd5",
+      "predecessor": 45,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r45_current_generating_functor_v0_1\\R45_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "8a969aed8e53d149af253da969d0376622a800efe341216b99f43d27237b0fd5",
+      "round": 46,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r45_current_generating_functor_v0_1\\R45_INPUT_LOCK.json",
+      "pin_key": "/inherited_campaigns/R44/manifest/sha256",
+      "pin_value": "cb99ed7b7976bbbd5bf286935e0ea56ee395fa64dc9d9c07118fb1e2523e7272",
+      "predecessor": 44,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r44_interval_cocycle_currents_v0_1\\R44_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "cb99ed7b7976bbbd5bf286935e0ea56ee395fa64dc9d9c07118fb1e2523e7272",
+      "round": 45,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r44_interval_cocycle_currents_v0_1\\R44_INPUT_LOCK.json",
+      "pin_key": "/inherited_campaigns/R43/manifest/sha256",
+      "pin_value": "0cb7062958f8b2d36857cd3c85ace27645f55e3366ad4a36119cf4a4a9925742",
+      "predecessor": 43,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r43_premise_invariant_envelope_v0_1\\R43_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "0cb7062958f8b2d36857cd3c85ace27645f55e3366ad4a36119cf4a4a9925742",
+      "round": 44,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r43_premise_invariant_envelope_v0_1\\R43_INPUT_LOCK.json",
+      "pin_key": "/R42/manifest/sha256",
+      "pin_value": "aa132cc630c9df7be4235c3a83140111e3c389f2dfa575fb358186a13c28bd9d",
+      "predecessor": 42,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r42_dependency_realization_closure_v0_1\\R42_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "aa132cc630c9df7be4235c3a83140111e3c389f2dfa575fb358186a13c28bd9d",
+      "round": 43,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r42_dependency_realization_closure_v0_1\\R42_INPUT_LOCK.json",
+      "pin_key": "/R41/manifest/sha256",
+      "pin_value": "7295acfb7c1bd053d018e51be06a8f37c234734e598c5bcf6e1d9f7657050e35",
+      "predecessor": 41,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r41_persistent_rendered_realization_v0_1\\R41_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "7295acfb7c1bd053d018e51be06a8f37c234734e598c5bcf6e1d9f7657050e35",
+      "round": 42,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r41_persistent_rendered_realization_v0_1\\R41_INPUT_LOCK.json",
+      "pin_key": "/R40/manifest/sha256",
+      "pin_value": "b978f8cac2c821a6a8d464df4aed1ed8fb9e6d3576f7dd744ff00f3bfc63fa63",
+      "predecessor": 40,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r40_graph_occurrence_service_clock_v0_1\\R40_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "b978f8cac2c821a6a8d464df4aed1ed8fb9e6d3576f7dd744ff00f3bfc63fa63",
+      "round": 41,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r40_graph_occurrence_service_clock_v0_1\\R40_INPUT_LOCK.json",
+      "pin_key": "/R39/manifest/sha256",
+      "pin_value": "23816fad7ac6cbef714676235ff3d56b415eab37a2856d018f09308fd1ad442f",
+      "predecessor": 39,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r39_policy_free_graph_clock_v0_1\\R39_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "23816fad7ac6cbef714676235ff3d56b415eab37a2856d018f09308fd1ad442f",
+      "round": 40,
+      "status": "VERIFIED"
+    },
+    {
+      "files_failed": [],
+      "files_verified": 4,
+      "form": "PER_FILE_PINS",
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r39_policy_free_graph_clock_v0_1\\R39_INPUT_LOCK.json",
+      "predecessor": 38,
+      "round": 39,
+      "status": "VERIFIED_VIA_FILE_PINS"
+    },
+    {
+      "files_failed": [],
+      "files_verified": 14,
+      "form": "PER_FILE_PINS",
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r38_policy_independent_transport_pseudometrics_v0_1\\R38_INPUT_LOCK.json",
+      "predecessor": 37,
+      "round": 38,
+      "status": "VERIFIED_VIA_FILE_PINS"
+    },
+    {
+      "files_failed": [],
+      "files_verified": 11,
+      "form": "PER_FILE_PINS",
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r37_canonical_factor_transport_atlas_v0_1\\R37_INPUT_LOCK.json",
+      "predecessor": 36,
+      "round": 37,
+      "status": "VERIFIED_VIA_FILE_PINS"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r36_event_indexed_transport_v0_1\\R36_INPUT_LOCK.json",
+      "pin_key": "/R35/manifest_sha256",
+      "pin_value": "dde143684e7a9f6f5831028335b64c9672df2fad45ab751368738acf22b7ef0b",
+      "predecessor": 35,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r35_exact_policy_stratification_v0_1\\R35_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "dde143684e7a9f6f5831028335b64c9672df2fad45ab751368738acf22b7ef0b",
+      "round": 36,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r35_exact_policy_stratification_v0_1\\R35_INPUT_LOCK.json",
+      "pin_key": "/R34/manifest_sha256",
+      "pin_value": "6baa0e4fa07886de9cab9eb3cd84b33c17be3079392477da600b28f5239c0683",
+      "predecessor": 34,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r34_source_correct_covariance_v0_1\\R34_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "6baa0e4fa07886de9cab9eb3cd84b33c17be3079392477da600b28f5239c0683",
+      "round": 35,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r34_source_correct_covariance_v0_1\\R34_INPUT_LOCK.json",
+      "pin_key": "/r33/manifest_sha256",
+      "pin_value": "1004ec63f335a0943df0ef5298fc11af93ced5a3b1bc534ec604bc3e33de1a64",
+      "predecessor": 33,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r33_policy_robust_sectors_v0_1\\R33_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "1004ec63f335a0943df0ef5298fc11af93ced5a3b1bc534ec604bc3e33de1a64",
+      "round": 34,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r33_policy_robust_sectors_v0_1\\R33_INPUT_LOCK.json",
+      "pin_key": "/R32/manifest_sha256",
+      "pin_value": "9955eb848cb5126542e0ce0e3dea781711c919f2a1a3347ec18f2e5cefce4a22",
+      "predecessor": 32,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r32_fresh_record_controlled_cocycle_v0_1\\R32_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "9955eb848cb5126542e0ce0e3dea781711c919f2a1a3347ec18f2e5cefce4a22",
+      "round": 33,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r32_fresh_record_controlled_cocycle_v0_1\\R32_INPUT_LOCK.json",
+      "pin_key": "/R31/manifest_sha256",
+      "pin_value": "2a2e9f0a52ff8f319a4937575c2cce6b4f2b896332722847558cbf22177f1ed4",
+      "predecessor": 31,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r31_event_indexed_outer_policy_v0_1\\R31_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "2a2e9f0a52ff8f319a4937575c2cce6b4f2b896332722847558cbf22177f1ed4",
+      "round": 32,
+      "status": "VERIFIED"
+    },
+    {
+      "lock": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r31_event_indexed_outer_policy_v0_1\\R31_INPUT_LOCK.json",
+      "pin_key": "/R30/manifest_sha256",
+      "pin_value": "d0f3a160bc8ebfff864f4e2da4ac14b98c8b1295bc3805785b16f3d6b8764e87",
+      "predecessor": 30,
+      "predecessor_manifest": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r30_outer_policy_audit_v0_1\\R30_OUTPUT_MANIFEST.json",
+      "predecessor_manifest_sha256_on_disk": "d0f3a160bc8ebfff864f4e2da4ac14b98c8b1295bc3805785b16f3d6b8764e87",
+      "round": 31,
+      "status": "VERIFIED"
+    }
+  ],
+  "package": {
+    "files": [
+      {
+        "bytes": 32245,
+        "path": "DEU_LER_v3_claude\\MODEL_GENEALOGY.md",
+        "sha256": "18b961ab549acf37d4558a52844cb1aed030cf32af174d68cd1a4f82b7787f1d"
+      },
+      {
+        "bytes": 3624,
+        "path": "DEU_LER_v3_claude\\MISSING_PROVENANCE.md",
+        "sha256": "b743cb4d118ab6d2c629afc8bb5a83ab8de57e87a1d695697a0eded6dcc634fd"
+      },
+      {
+        "bytes": 24114,
+        "path": "DEU_LER_v3_claude\\OD0_CLAUDE_CODE_PACKAGE_R48_MATURATION_SOURCE_BOUNDARY_v0_2.md",
+        "sha256": "12e5ccc353d317b83f8328da875edd4ce7754d1450236fe51f3d33ab38674e5d"
+      },
+      {
+        "bytes": 1033354,
+        "path": "DEU_LER_v3_claude\\unified_deu_eq.pdf",
+        "sha256": "fe087d3508de5c700afb65be7181eac5f9e11aeabd1c5fd15c8451f85411a8ba"
+      },
+      {
+        "bytes": 327275,
+        "path": "DEU_LER_v3_claude\\unified_deu_eq (1).pdf",
+        "sha256": "cfa9943c77a845e514fa05b09ed959382941af96160df8ea1c14d6fce605a4c3"
+      }
+    ]
+  },
+  "r47_top_pins": {
+    "BELL2_scientific_content_opened_in_manifest": false,
+    "execution_commit_locally_resolvable": false,
+    "execution_commit_pin": "2b7ae30fe23b0ccffe31f2ffbba6ae2de2318a21",
+    "manifest_file_count": 42,
+    "manifest_match": true,
+    "manifest_path": "DEU_LER_v2_codex\\deu_od0_exact_observables_v0_1\\od0_r47_geometry_no_carrier_boundary_v0_1\\R47_OUTPUT_MANIFEST.json",
+    "manifest_sha256_on_disk": "d4eeb49ea1274619eca5ff99182b61e54a7e46aadce075593ba0279585d62fbb",
+    "manifest_sha256_pin": "d4eeb49ea1274619eca5ff99182b61e54a7e46aadce075593ba0279585d62fbb",
+    "result_digest_in_manifest": "382a2cc975a194a1ef45b7aabd553d732811f084120bab3b1fafd7834e6c5c14",
+    "result_digest_match": true,
+    "result_digest_pin": "382a2cc975a194a1ef45b7aabd553d732811f084120bab3b1fafd7834e6c5c14"
+  },
+  "schema": "R48_PINNED_CHAIN_VERIFICATION_V1",
+  "status": "PASS_R47_PIN_AND_R30_CHAIN_REACHABLE"
+}
