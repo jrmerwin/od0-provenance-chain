@@ -1,0 +1,24 @@
+{
+  "protocol": {
+    "declared_expected_pattern": "EXACT_AGREEMENT on the maximally entangled CGLMP and CHSH values and on the local bounds; RESTRICTION on the non-maximal ceiling.",
+    "declared_non_comparisons": "TIME_DICTIONARY_REQUIRED, CAPACITY_DICTIONARY_REQUIRED, GEOMETRY_DICTIONARY_REQUIRED classes: not compared - their dictionaries do not exist. STRUCTURE_FRACTION (the 1/3 dark fraction): comparison FORBIDDEN until a readable-structure dictionary is preregistered against a sealed corpus.",
+    "dictionary": {
+      "closure": "No other identification.",
+      "readout": "the frozen dichotomic readout <-> the same map applied in the standard setting",
+      "settings": "the DEU native setting family (clock translation + reverse character transform + native three-outcome PVM) <-> the standard two-setting qutrit measurement family of the CGLMP construction",
+      "source": "the DEU direct equality source <-> the maximally entangled two-qutrit state"
+    },
+    "execution": "R67, one round, no repair.",
+    "external_values_to_name_in_R67": [
+      "the standard two-qutrit CGLMP-3 maximum over the dictionary's measurement family for the maximally entangled state",
+      "the CHSH value under the same dictionary",
+      "the known qutrit ceiling attained by a non-maximally entangled state (already cited in the frozen Bell report as a quarantined external benchmark)",
+      "the local bounds"
+    ],
+    "rule": "Per invariant: EXACT_AGREEMENT (derived = theory under the dictionary - a consistency theorem, since the same mathematics was derived) / RESTRICTION (the derived family cannot reach a theory value a broader family can - a claim about what the constructor prepares, not a contradiction) / CONTRADICTION (a derived value exceeds a theory bound or disagrees where the dictionary identifies the same object - a FAIL of the quantum-side scaffold, reported at equal prominence).",
+    "scope": "SETTING_DICTIONARY_ONLY invariants only.",
+    "standing_prediction_untestable_now": "Autonomous shared-source states are Schmidt-uniform among same-step siblings (R58 T2/T3): natural entanglement in the throttled universe is always maximal and phase-erased at the record; multi-setting correlation structure is instrument-level only. Recorded for a future instrument dictionary; not compared."
+  },
+  "schema": "R66_M8_COMPARISON_PREREGISTRATION_V1",
+  "status": "SEALED"
+}

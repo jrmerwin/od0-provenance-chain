@@ -1,0 +1,19 @@
+{
+  "G1_backaction_invariance": {
+    "invariant": true,
+    "note": "distances among pre-existing records are functions of their fixed prefixes only; appending records cannot alter them (records are never erased, prefixes never rewritten - R63 D8 carried to the record tree)",
+    "pairs_checked": 15
+  },
+  "G2_character_pairing": {
+    "distinct_characters_at_depth": {
+      "depth": 4,
+      "expected": 243,
+      "found": 243
+    },
+    "embedding_consistency_checks": 3240,
+    "embedding_failures": 0,
+    "homomorphism_failures": 0,
+    "separation_failures": 0
+  },
+  "schema": "R66_EXACT_CERTIFICATES_V1"
+}
