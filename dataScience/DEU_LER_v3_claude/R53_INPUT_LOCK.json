@@ -1,0 +1,69 @@
+{
+  "campaign": "OD0-R53",
+  "declarations": {
+    "BELL2_opened": false,
+    "conditional_stack": [
+      "CO1",
+      "RO1",
+      "TG1",
+      "V~X identification",
+      "SV-pool",
+      "frozen local laws"
+    ],
+    "exact_arithmetic_for_theorems": true,
+    "hash_hygiene_in_force": true,
+    "historical_numerical_content_parsed": false,
+    "no_numeric_thresholds_in_criteria": true,
+    "sampled_readouts_labeled_seeded_never_proof": true,
+    "zero_new_premises": true
+  },
+  "frozen_filtration_criteria_sec_6": {
+    "E0_free": "F + D <= Gamma (every token served every step); to prove: exited permanently once D > Gamma (D non-decreasing); exact exit-step distribution at each registered point",
+    "E1_congested": "D > Gamma; to prove forward-invariant",
+    "asymptotic_regime": "late regime defined by the Part-2 growth law, not a threshold; if no exact state relation exists, state plainly that no threshold-free basin beyond E1 exists and maturity is the asymptotic law alone",
+    "cost_strata": "strata of c_min(z+) relative to capacity by state relations only ({c_min <= Gamma}, ...); prove which are forward-invariant; report exactly if {c_min <= Gamma} is empty at every registered point",
+    "no_historical_labels": true,
+    "renewal_decomposition": "within E1: drained (F=0) vs draining (F>0); burst steps (>=1 new object) vs quiet steps"
+  },
+  "frozen_r54_comparison_protocol_sec_8": {
+    "1_what_compared": "the derived regime sequence (E0 -> E1 -> renewal/asymptotic) and the derived monotone observables (|X|, shell fraction u, chain-multiplicity distribution, cycle-length growth) against the historical SEQUENCE of qualitative regimes and the historical observables they were reported on - sequence and monotonicity only, no numerical thresholds, no round-number alignment (historical rounds are policy indices; R49)",
+    "2_pass_fail_declared_in_advance": "PASS if the historical sequence of regimes is a coarsening of the derived filtration order and each historical observable maps to a frozen R52/R53 observable with the same reported monotonicity; PARTIAL if the sequence matches but an observable does not; FAIL if the order is contradicted. Any mismatch is reported at equal prominence.",
+    "3_what_may_not_happen": "no observable added, no criterion moved, no stratum renamed after opening",
+    "frozen_at_commit_A": true
+  },
+  "package": {
+    "executor": "Claude Code (Fable 5)",
+    "path": "dataScience/DEU_LER_v3_claude/OD0_CLAUDE_CODE_PACKAGE_R53_COST_GROWTH_FILTRATION_v0_1.md",
+    "sha256": "e9e271e7edf3375a248ad76fbb1e1ea28c5115693ece36fa8d96a6082721253a"
+  },
+  "r52_pin_block": {
+    "commit_A_resolved": "44f219704b13d00ab282f8cac69fd58f37151da4",
+    "commit_B_resolved": "3e556703797990806c6a089c90f881da3851b73e",
+    "output_manifest_sha256_on_disk": "2203c9bc9e493cf341a2fc39f988dff10bfc9a289099ebc7d379fb1a3db48897",
+    "prefix_match_2203c9bc": true,
+    "transitive": "R51..R47 via the pinned chain of input locks"
+  },
+  "r52_sec_4_1_carry_forward_verbatim": {
+    "capacity_total": "CONSTANT (fixed region count x per-region Gamma); NOT state-dependent - all Parts 2-3 theorems run under the single constant-capacity reading",
+    "per_region_Gamma": "Gamma is per region (frozen per-region ledger kernel)",
+    "regions": "FIXED (inherited immutable prefix map - UEQ0: 'R is the immutable structural prefix map'; effective single active joint region at constructor level, since every composite's closed ancestry contains both primitives)"
+  },
+  "run_date": "2026-09-02",
+  "sampling_protocol_frozen": {
+    "checkpoints": [
+      100,
+      1000,
+      3000,
+      10000
+    ],
+    "scope_note": "trajectory count recorded before any readout (exact-resource scope, uniform across points, R51/R52 precedent); sensitivity variants at the two deterministic rule points as in R52",
+    "seed_scheme": "random.Random(1000000*Gamma + 10000*m + 100*H + trajectory_index)",
+    "steps_per_trajectory": 10000,
+    "trajectories_per_point": 50
+  },
+  "schema": "OD0_R53_INPUT_LOCK_V1",
+  "worktree_state_at_start": {
+    "frozen_root_modification_check_at_start": "CLEAN",
+    "pre_existing_deltas": "36 unstaged deletions + 60 untracked paths (DEU_voids + root .gitignore), unchanged; none touch pinned roots"
+  }
+}
