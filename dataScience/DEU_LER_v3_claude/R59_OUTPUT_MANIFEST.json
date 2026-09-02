@@ -1,0 +1,16 @@
+{
+  "files": {
+    "OD0_R59_COUNTEREXAMPLES.md": "cb8a3e0abc81c6ea17bf6e5e369dc29388a1aeefb64412e62f9df6ecb45e993b",
+    "OD0_R59_REPORT.md": "5ebc71f44f9678f50dca04f426c5c6b2811493c9a6a4b9aa436c99f413e69cb8",
+    "OD0_R59_RESULTS.json": "8c4a7b8faa58587f7a66373625a6445f124466387d28370b982ba5ed2d36a306",
+    "R59_COST_AND_GROWTH.json": "3fa7647f2890f26f0c988f191a44d3629cb5535da96a987e3391687fb2b4228a",
+    "R59_EXACT_CERTIFICATES.json": "be39c7f39d7a61a6599df87074229d8201f8090f9ef09199366d7fe3b91736f5",
+    "R59_INPUT_LOCK.json": "52012f0e195c37fbef77f5e755ba52df9f3456c03ac837ccc9bffb52eb1d34e1",
+    "R59_RANDOM_DAG_LAWS.json": "0c7d246d6bf49eca4ede9ac44a1fdd85cb527d93a30d7c23ae31cd3669dcfbf6",
+    "build_r59_outputs.py": "ee2f5bf942652d6a6486f9145839cdd80e237cf6b037edbc54f77dafcbdb9c22",
+    "r59_adjudication_data.py": "adcd83297471959afa42f2ebcf9b4e2cd135e9f5759edf82de87b7c3048af2f5",
+    "r59_exact.py": "3197825d08c5de857a54dec76c0b901a2859b088cb457d4ac9e37e8b0fbf1bf5"
+  },
+  "note": "manifest excludes itself",
+  "schema": "R59_OUTPUT_MANIFEST_V1"
+}
