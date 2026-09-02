@@ -1,0 +1,88 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R57",
+  "counts": {
+    "hostile_controls_passed": 8,
+    "hostile_controls_tested": 8,
+    "map_pattern_consistent": 3,
+    "map_unmapped_computable": 3,
+    "map_unmapped_inapplicable": 2
+  },
+  "deterministic_rerun": "SINGLE_ASSEMBLY_FROM_STATIC_DATA_BYTE_STABLE",
+  "h1_consulted": false,
+  "h2_spent_after_this_round": true,
+  "h3_h5_sentinels_parsed": false,
+  "hand_produced_hashes": 0,
+  "hostile_controls": [
+    [
+      "HC1",
+      "sealed prereg altered; derived-side additions",
+      "REJECTED",
+      "Preregistration verified byte-unchanged at Commit A; the adjudication uses only its items; the quarantined analog was NOT added to the derived side."
+    ],
+    [
+      "HC2",
+      "round alignment; rate comparison",
+      "REJECTED",
+      "All round counts and rates recorded and excluded; no alignment anywhere."
+    ],
+    [
+      "HC3",
+      "mapping by name/word/count",
+      "REJECTED",
+      "The tempting 'two-frontier ~ two co-served tokens' name-map was explicitly DECLINED by definition; all matches are pattern-class-level and labeled."
+    ],
+    [
+      "HC4",
+      "H3-H5 read; H1 consulted",
+      "REJECTED",
+      "Sentinels parsed=false at start and end; H1 not consulted (its definitions were not needed)."
+    ],
+    [
+      "HC5",
+      "Part 4 in the verdict",
+      "REJECTED",
+      "The quarantined analog lives in its own file; the adjudication text references none of its values."
+    ],
+    [
+      "HC6",
+      "TG1/cost law/filtration/alphabet/frozen roots modified",
+      "REJECTED",
+      "Nothing modified; worktree clean."
+    ],
+    [
+      "HC7",
+      "BELL2 opened",
+      "REJECTED",
+      "Unopened."
+    ],
+    [
+      "HC8",
+      "hand hash; placeholder",
+      "REJECTED",
+      "All hashes in-process; stamp closes the round."
+    ]
+  ],
+  "input_artifacts": {
+    "R57_INPUT_LOCK.json": "6f4a8c2cc40b51638436053fa53dd259633704cf04fd66d352797e8dc856fbe5",
+    "R57_POST_OPENING_READOUT.json": "fac727acbc3ccef5cf310f319a12e9b3c7e21b69f0b8b898da825a7b91934316"
+  },
+  "model_family_caveat": "The H2 engine (K3 v0.4) is a deterministic activation-foam with bandwidth-scheduler rounds and externally driven collision cascades - neither T_sat nor TG1; it belongs to the R48 collision-substrate family F4 with NO_MAP into the active chain. Its 'families' are assembly configurations over a candidate bank, not record-event configurations. Every unmapped item and every pattern-class-only match may reflect this model-family difference rather than the constructor. The caveat does not soften the verdict.",
+  "p1_fail_path": "NOT INVOKED - no availability-decreasing-with-age pattern exists at established grade; the substrate has no aging-removal mechanism (fracture is collision-driven only).",
+  "package_version": "v0.1 (Claude Code executor)",
+  "r58_recommendation": "PARTIAL, so per the R58 rule: derive the m-sibling alphabet from the incidence structure (the m-descendant equality composite, its record algebra, A11R histories, and A12 counts, extending BELL0/R19 from two factors to m), closing the R56 scoping gap; R59 then takes the random-DAG cost theorem. H2 is spent after this round.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R57_RESULTS_V1",
+  "verdict_reason": "Per the sealed rule: every mapped, reparametrization-invariant H2 pattern is consistent with the corresponding predictions and none contradicts a THEOREM-grade prediction - but the stage-defining H2 observables (channel availability, two-frontier/composite-only configuration counts) are UNMAPPED_COMPUTABLE, strain and the filter band are UNMAPPED_INAPPLICABLE, and the ordering matches only at READOUT/pattern-class grade. 'PARTIAL if consistent but a stage-defining H2 observable is unmapped or matches only at READOUT grade.' The registered prediction (PARTIAL, with exactly this decomposition) is CONFIRMED on every point, including the declined P4 name-mapping and the P5 N/A.",
+  "verdicts": {
+    "overall": "OD0_R57_PASS_H2_OPENED_UNDER_SEALED_PROTOCOL",
+    "primary": "H2_COMPARISON = PARTIAL",
+    "secondary": {
+      "DESTRUCTION_MECHANISM": "collision-driven fracture only; no substrate-aging removal",
+      "H2_ENGINE_LAW": "bandwidth-scheduler ticks + externally driven contact cascades (verbatim references recorded)",
+      "MAP_TABLE": "mapped(pattern-class): 3, unmapped_computable: 3, unmapped_inapplicable: 2, n/a: 2",
+      "RAW_BACKING": "engine + campaign drivers + StageK archives locally pinned (R48); run3 scaffold external (GitHub/Zenodo, recorded verbatim, not fetched)",
+      "SENTINELS_H3_H5": "parsed=false"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R57",
+  "commit_A_short": "e523c64",
+  "commit_B": "CREATED_AFTER_SELF_EXCLUDED_MANIFEST_WRITE_SEE_STAMP",
+  "file_count": 9,
+  "files": [
+    {
+      "bytes": 2209,
+      "path": "OD0_R57_COUNTEREXAMPLES.md",
+      "sha256": "47da1b099f676711e1cbd8722638e5aa03d560671f29a8d0e1386a1c260c7b20"
+    },
+    {
+      "bytes": 3749,
+      "path": "OD0_R57_REPORT.md",
+      "sha256": "3df3e4d5555d8481b81c424aee450a9d2a1ea7d99d3ca5950c335cd0ae49b871"
+    },
+    {
+      "bytes": 4650,
+      "path": "OD0_R57_RESULTS.json",
+      "sha256": "c1bb9ee9f2741af2898075781165ccc2a93eb3187c9e90883830a42e19b37019"
+    },
+    {
+      "bytes": 5032,
+      "path": "R57_H2_EXTRACTION.json",
+      "sha256": "5f9f189aa7938204490e8f5aeca14bad007e8358e47e73df4bdf1fecc1c702f2"
+    },
+    {
+      "bytes": 7482,
+      "path": "R57_INPUT_LOCK.json",
+      "sha256": "6f4a8c2cc40b51638436053fa53dd259633704cf04fd66d352797e8dc856fbe5"
+    },
+    {
+      "bytes": 6546,
+      "path": "R57_MAP_TABLE_AND_ADJUDICATION.json",
+      "sha256": "a0c475fe5bbc80cb1c43db83294d9dbea6e5dd1518c610865050bf3a754247e1"
+    },
+    {
+      "bytes": 3936,
+      "path": "R57_POST_OPENING_READOUT.json",
+      "sha256": "fac727acbc3ccef5cf310f319a12e9b3c7e21b69f0b8b898da825a7b91934316"
+    },
+    {
+      "bytes": 8776,
+      "path": "build_r57_outputs.py",
+      "sha256": "32ab777edebed5a2aff647602ba5bed56f2a54a230907d998b65202d8fcdd5e0"
+    },
+    {
+      "bytes": 15777,
+      "path": "r57_adjudication_data.py",
+      "sha256": "99f2c762d5676c58d3292a87531d1890f54277118b8ef6cb3b9b043767e51f44"
+    }
+  ],
+  "h1_consulted": false,
+  "h3_h5_sentinels_parsed": false,
+  "hand_produced_hashes": 0,
+  "package_version": "v0.1 (Claude Code executor)",
+  "schema": "OD0_R57_OUTPUT_MANIFEST_V1",
+  "self_excluded": true
+}

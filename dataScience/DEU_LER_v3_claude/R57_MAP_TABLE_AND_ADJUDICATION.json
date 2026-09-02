@@ -1,0 +1,78 @@
+{
+  "QUARANTINED_post_opening_readout": {
+    "file": "R57_POST_OPENING_READOUT.json",
+    "sha256": "fac727acbc3ccef5cf310f319a12e9b3c7e21b69f0b8b898da825a7b91934316"
+  },
+  "adjudication": {
+    "capacity_complexity_test": "The energy-axis collapse, simultaneous extinction, and forbidden-gap/terminal-line structure are capacity-dependence patterns consistent at pattern-class level with P2/P4's hard-threshold shape; the discrete forbidden gap is the H2 engine's own expression of a hard capacity spectrum. No contradiction.",
+    "cross_substrate_test": "N/A (single substrate, single seed) - P5 untestable, as the registered prediction anticipated.",
+    "excluded": "every engine-round count, the energy dictionary, and all growth-rate magnitudes - listed in the extraction and excluded; the paper's own refusal to calibrate rounds to physical time is noted as convergent with the protocol's reparametrization rule",
+    "freeze_test": "No age-axis saturation/locking reported; N/A.",
+    "model_family_caveat": "The H2 engine (K3 v0.4) is a deterministic activation-foam with bandwidth-scheduler rounds and externally driven collision cascades - neither T_sat nor TG1; it belongs to the R48 collision-substrate family F4 with NO_MAP into the active chain. Its 'families' are assembly configurations over a candidate bank, not record-event configurations. Every unmapped item and every pattern-class-only match may reflect this model-family difference rather than the constructor. The caveat does not soften the verdict.",
+    "monotonicity_test": "Availability-with-age is nondecreasing in the paper's robust aggregate - consistent with P1 (THEOREM) at pattern-class level. The filter-sensitive 2M->4M dip is flagged by the source itself as inside instrument uncertainty and is therefore not an established reparametrization-invariant pattern; recorded at equal prominence, contradicting nothing.",
+    "ordering_test": "The single age-axis ordering (composite-only -> two-frontier) is consistent with P3/P6 at READOUT grade (pattern-class placement; the P4 definitional mapping is declined, not contradicted). No reported ordering contradicts any THEOREM-grade prediction.",
+    "p1_fail_path": "NOT INVOKED - no availability-decreasing-with-age pattern exists at established grade; the substrate has no aging-removal mechanism (fracture is collision-driven only).",
+    "verdict": "PARTIAL",
+    "verdict_reason": "Per the sealed rule: every mapped, reparametrization-invariant H2 pattern is consistent with the corresponding predictions and none contradicts a THEOREM-grade prediction - but the stage-defining H2 observables (channel availability, two-frontier/composite-only configuration counts) are UNMAPPED_COMPUTABLE, strain and the filter band are UNMAPPED_INAPPLICABLE, and the ordering matches only at READOUT/pattern-class grade. 'PARTIAL if consistent but a stage-defining H2 observable is unmapped or matches only at READOUT grade.' The registered prediction (PARTIAL, with exactly this decomposition) is CONFIRMED on every point, including the declined P4 name-mapping and the P5 N/A."
+  },
+  "input_lock_sha256": "6f4a8c2cc40b51638436053fa53dd259633704cf04fd66d352797e8dc856fbe5",
+  "map_counts": {
+    "pattern_consistent": 3,
+    "unmapped_computable": 3,
+    "unmapped_inapplicable": 2
+  },
+  "map_table": [
+    {
+      "derived": "UNMAPPED_COMPUTABLE - a pair-count over realized objects with a capacity predicate is well-defined on z+ but is not one of the nine frozen observables (O3 counts members of a fixed set, not configurations)",
+      "h2": "channel availability (count of two-frontier families over realized components)",
+      "status": "UNMAPPED_COMPUTABLE"
+    },
+    {
+      "derived": "P4-question adjudicated BY DEFINITION: this is an assembly configuration over the candidate bank, NOT a co-served-token count of a record event - a different function on a different domain; the P4 mapping is DECLINED (no name-resonance mapping). The ordering content is carried instead at pattern-class level by P3/P6 (small/cheap structures realized before large/complex ones).",
+      "h2": "two-frontier (exactly-2-component capacity decomposition)",
+      "status": "UNMAPPED_COMPUTABLE (configuration-count analog)"
+    },
+    {
+      "derived": "as above - the small-component-routes-only regime; pattern-class counterpart P3/P6 (availability of small structures precedes large)",
+      "h2": "composite-only era",
+      "status": "UNMAPPED_COMPUTABLE (analog)"
+    },
+    {
+      "derived": "UNMAPPED_INAPPLICABLE - a funnel/bridge geometric quantity of the foam drive; the foam family has no exact arrow into z+ (R48 NO_MAP); not a load ratio by definition",
+      "h2": "strain (bridge chi per contact)",
+      "status": "UNMAPPED_INAPPLICABLE"
+    },
+    {
+      "derived": "UNMAPPED_INAPPLICABLE - an instrument-reconstruction convention over foam component properties",
+      "h2": "candidate filter band",
+      "status": "UNMAPPED_INAPPLICABLE"
+    },
+    {
+      "derived": "a state designation, not an observable; no mapping required",
+      "h2": "mature anchor",
+      "status": "N/A"
+    },
+    {
+      "derived": "consistent with P1 (THEOREM: realized structures persist, so configuration counts over persistent components are nondecreasing) - the pattern CLASS matches a theorem-grade prediction; the specific counting function remains unmapped",
+      "h2": "availability growth with age (pattern class: nondecreasing availability of realized configurations)",
+      "status": "PATTERN_CONSISTENT_P1"
+    },
+    {
+      "derived": "consistent with P3 (freeze/availability order; THEOREM bound, READOUT order) and P6 (cost-ordered persistence; READOUT order) at pattern-class level",
+      "h2": "composite-only -> two-frontier ordering",
+      "status": "PATTERN_CONSISTENT_P3_P6_READOUT"
+    },
+    {
+      "derived": "capacity/complexity dependence: hard capacity-sum unreachability over a fixed bank - the same pattern CLASS as P4's hard service-capacity bound (forbidden configurations above capacity), and P2-consistent (larger demands, fewer realizations); functions differ by definition; no contradiction",
+      "h2": "energy-axis collapse / forbidden gap / terminal line",
+      "status": "PATTERN_CONSISTENT_P2_P4_CLASS"
+    },
+    {
+      "derived": "no frozen counterpart (strain inapplicable); recorded, not compared",
+      "h2": "strain relaxation with age",
+      "status": "NOT_COMPARED"
+    }
+  ],
+  "run_date": "2026-09-02",
+  "schema": "R57_MAP_TABLE_AND_ADJUDICATION_V1"
+}
