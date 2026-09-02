@@ -1,0 +1,18 @@
+{
+  "files": {
+    "OD0_R60_COUNTEREXAMPLES.md": "521539d666ba93a1792d3e360e54913139ac3f462890f5d4d580dc246c4440f6",
+    "OD0_R60_REPORT.md": "2be971e013309803b4751c2592be461e5e5a63c6d00f4d52e483ce8bbb8f25f7",
+    "OD0_R60_RESULTS.json": "e7fc07b028629eba76a897af3fd24eef5f1929b6bc33de869caafa80425300d8",
+    "R60_EXACT_CERTIFICATES.json": "ebedc43108531ec009d5a42617df299febfd1cc28730fabb4e11795f58ce0c88",
+    "R60_INPUT_LOCK.json": "93b745613360c07bc270c48982e1a4818a47a0e335c83b90812f5592dedf78e2",
+    "R60_LAPSE_CLOCK_LAWS.json": "b71c4d076adb7568cdb2cf41569704f5ad07ec821185e71310c623eb1b41418f",
+    "R60_M7_PREDICTION_SET.json": "d3d47c0c44d49b724d6df7671eed036a6f66a940ce8fd5cecdb9989f38cdc7ab",
+    "R60_READOUTS.json": "a5c355fd7d073228869250e471a4129a9670959a1f6bfbece501b9d9f1daae7a",
+    "build_r60_outputs.py": "11060a76f0edadf73672abbe5a50a42c759b032c44b2deeb1128a0075d394595",
+    "make_r60_lock.py": "b38526da010176a9f86d61f7308c88130238883fdb9c47bf0b400d9a0af81260",
+    "r60_adjudication_data.py": "c80a5c9db2c8563fb95b125c17afd26fb39c407cdee1ff0b1578db50c957c64a",
+    "r60_exact.py": "dc9a5bf486559a19e70eff4157f2f6f80682e148fd679e63256401bd4ff5b6d1"
+  },
+  "note": "manifest excludes itself",
+  "schema": "R60_OUTPUT_MANIFEST_V1"
+}
