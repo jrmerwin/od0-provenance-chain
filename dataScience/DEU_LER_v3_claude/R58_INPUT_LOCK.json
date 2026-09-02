@@ -1,0 +1,42 @@
+{
+  "campaign": "OD0-R58",
+  "declarations": {
+    "BELL2_opened": false,
+    "complex_linearization_inherited": true,
+    "exact_arithmetic_throughout": true,
+    "hash_hygiene_in_force": true,
+    "no_bell_functional_evaluated": true,
+    "zero_new_premises": true
+  },
+  "frozen_theorem_targets": {
+    "T1": "m trace-separated descendant lineage systems admit exactly one symmetric-monoidal composite class C[W_1 x ... x W_m] ~ tensor of C[W_i]; local setting/record maps on separate factors commute; factor-exchange group S_m",
+    "T2": "linearizing the m-diagonal on the invariant uniform source mode gives the unique (up to global phase) equality state |Omega_m> = 3^{-1/2} sum_r |r>^{tensor m}; reduced state uniform; no continuous parameter",
+    "T3": "under the frozen common clock translation applied identically, |Omega_m> maps to an equality state in the translated basis; joint A10 record outcome (r,...,r) w.p. 1/3 each - perfectly correlated, setting-independent; sibling appends independent uniform; traced mixture rho = (1/3) sum_r (|r><r|)^{tensor m}",
+    "T4": "m-party record-complete operator-system real dimension and closure (m-factor analog of 25 -> 36): m=3 exact; general formula or obstruction",
+    "T5": "the A11R history constructor for m branches over one shared source is the m-fold factor-decorated coproduct, unique by the R19 universal property; m-sibling histories = correlated m-tuples constrained by the shared outcome",
+    "T6": "the m-sibling edit alphabet = disjoint union of m factor copies, OR that plus shared-source edit objects - determine which; at m=2 reproduce 356 = 178+178 and exhibit presence/absence on the frozen R19 catalog",
+    "T7": "A12 additivity: m-sibling request count = sum of per-factor counts + shared terms; at m=2 reproduce {22,24,26} from {11,13} term by term"
+  },
+  "h1_h2_status": "SPENT",
+  "package": {
+    "executor": "Claude Code (Fable 5)",
+    "path": "dataScience/DEU_LER_v3_claude/OD0_CLAUDE_CODE_PACKAGE_R58_M_SIBLING_ALPHABET_v0_1.md",
+    "sha256": "3c5fad53bc5a960b63d0639dc1833c74deb10921913da85076b9e2dffb395210"
+  },
+  "r57_pin_block": {
+    "commit_B_resolved": "e4c1e2f38c344f3e5a6271cf79937a2ae4bea85b",
+    "manifest_on_disk_matches_stamp": true,
+    "stamp_sha256": "c7db7e8d917c77171a06dd5a08e0b513826153fdeb9d60ac9d571749b0350497"
+  },
+  "run_date": "2026-09-02",
+  "schema": "OD0_R58_INPUT_LOCK_V1",
+  "sentinels_h3_h5": {
+    "H3": "parsed=false",
+    "H4": "parsed=false",
+    "H5": "parsed=false"
+  },
+  "worktree_state_at_start": {
+    "frozen_root_modification_check_at_start": "CLEAN",
+    "pre_existing_deltas": "36 unstaged deletions + 60 untracked paths (DEU_voids + root .gitignore), unchanged; none touch pinned roots"
+  }
+}
