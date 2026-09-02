@@ -1,0 +1,29 @@
+{
+  "commit_A_prereg": "2c727ead659580d71671a4c9ea2a50a07eea2adf",
+  "commit_B_outputs": "98b5d5277e8532d156c178e9d8bd1c168421fc85",
+  "deterministic_rerun": "byte-identical (engine + builder double-run)",
+  "headline": {
+    "ancestor_law": "a_j(n) = 2 phi_j - phi_j^2, phi_j(n) = n/(n+j(j-1))",
+    "cone": "(3 pi/4) sqrt(n)",
+    "cost": "Theta(n log n), paths-form 4 n ln n leading",
+    "exact_closed_form": "E[T_n] = n(n-1)/2 + 1 (exact, all n)",
+    "growth": "N^2 ln N = (Gamma+H-m) k / 2 (E-level two-sided)",
+    "identity": "paths_to = 2 chains - 2 (exact, 173/173)",
+    "termination": "CLOSED for m > Gamma + H (low-chain population lemma)"
+  },
+  "input_lock_sha256": "52012f0e195c37fbef77f5e755ba52df9f3456c03ac837ccc9bffb52eb1d34e1",
+  "output_manifest_sha256": "0553f81127bebb8866342585396245f376708ee6c6e4c2af775c984aa005b7af",
+  "report_sha256": "5ebc71f44f9678f50dca04f426c5c6b2811493c9a6a4b9aa436c99f413e69cb8",
+  "results_sha256": "8c4a7b8faa58587f7a66373625a6445f124466387d28370b982ba5ed2d36a306",
+  "round": "OD0-R59",
+  "schema": "R59_PROVENANCE_STAMP_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1": "spent",
+    "H2": "spent",
+    "H3_parsed": false,
+    "H4_parsed": false,
+    "H5_parsed": false
+  },
+  "verdict": "OD0_R59_PASS_RANDOM_DAG_COST_TARGETS_ADJUDICATED"
+}
