@@ -1,0 +1,69 @@
+{
+  "C5_DERIVED": {
+    "definitions_frozen_R56": {
+      "clock_functionals": "tau = log-compressed totals, verbatim historical forms (tau ~ ln ln of the respective totals)",
+      "coembedding": "coembedding(w1,w2) = #{o in X : {w1,w2} subset closed_anc(o)} (common-descendant count)",
+      "containment": "containment(w) = #{o in X : w in closed_anc(o), o != w} (strict descendant count)"
+    },
+    "derivation": {
+      "clock_functionals": "tau_C = ln ln TC = ln ln n + ln(3/2) + o(1); tau_Co = ln ln TCo = ln ln n + ln 2 + o(1) (the log-band on TCo perturbs by O(ln ln n / ln n); the ln ln form absorbs all Theta-constants, so the corrected TC constant does not move these). MUTUAL RELATION: both clocks run at the same ln ln order (ratio -> 1); the CO-EMBEDDING clock runs AHEAD by the additive constant ln 2 - ln(3/2) = ln(4/3) = 0.2877 asymptotically. Labeled: tau_Co - tau_C = 0.265-0.276 at n ~ 50-80 (round trajectories) and 0.2729 -> 0.2765 at n = 2000 -> 30000 (panel), tracking the finite-n prediction with corrected constants (0.2723 -> 0.2763) toward ln(4/3). Grade: orders THEOREM (E-level, with the TCo log band); the ln(4/3) offset BOUND (exact under the sharp-n^2 conjecture, [ln(4/3), ln(4/3) + O(lnln/ln)] under the band).",
+      "correction_to_registered": "The registered prediction guessed both totals at n^{3/2} with containment ahead. Outcome: TCo is n^2-scale (each new object contributes C(A,2) ~ A^2/2 pairs, not A), and the co-embedding clock is AHEAD by ln(4/3). Additionally the panel corrected the cone constant itself (forward erratum to R59 T3, see OD0_R61_COUNTEREXAMPLES.md). Recorded as corrections.",
+      "total_coembedding": "TCo(n) = sum_{pairs} coembedding = sum_o C(|closed_anc(o)|, 2); Delta TCo = C(A, 2), A = |closed_anc(new)|. Bounds: E[C(A,2)] >= (E[A]^2 - E[A])/2 = Theta(k) (Jensen); E[A^2] = sum_{i,j} P(i,j both ancestors) <= 2 sum_j j a_j(k) = Theta(k ln k). Hence c1 n^2 <= E[TCo(n)] <= c2 n^2 ln n - two-sided THEOREM at E-level; sharp order n^2 CONJECTURE (trajectories: TCo/n^2 = 1.26-1.62, stable; TCo/(n^2 ln n) falling - labeled).",
+      "total_containment": "TC(n) = sum_w containment(w) = sum_o (|closed_anc(o)| - 1) by pair double-counting. Exact per-step recursion: Delta TC = |cone(new)| (certified exhaustively at n <= 9 against the R59 cone table, and bit-exactly on trajectories). Order: E[TC(n)] = Theta(n^{3/2}) two-sided THEOREM at E-level via the R59 proven cone order. CONSTANT (panel correction, recorded as a forward erratum to R59 T3): the descendant chain d_j is a rate-2 Yule process in log-time, so phi_j(n) -> n W/(n W + j^2) with W ~ Exp(1) RANDOM, and the cone constant carries E[sqrt(W)] = sqrt(pi)/2: E|cone(new at n)| = (3/8) pi^{3/2} sqrt(n) (1+o(1)) ~ 2.0881 sqrt(n), NOT (3 pi/4) sqrt(n); hence E[TC(n)] = (pi^{3/2}/4) n^{3/2} ~ 1.3921 n^{3/2}. Three concordant checks: DAG simulation to n = 30000 (TC/n^{3/2} -> 1.3873, 17+ SE below pi/2); exact-marginal chains of the certified per-state law (E|cone|/sqrt(n) = 2.0936 +/- 0.0075 at n = 16000, 35 SE below 3 pi/4); the exhaustive n = 9 value 6.165 vs 6.26 predicted vs 7.07 mean-field. Constant grade: branching-limit derivation at the same rigor level as the mean-field it corrects (order THEOREM; sharp constant at that level).",
+      "vs_tick_count": "N_V = O(n^{3/2} sqrt(ln n)) (R60): TC and N_V share the n^{3/2} scale up to sqrt(ln n) - the containment clock total and the tick count are polynomially locked (exponent 3/2 in maturity), while TCo runs at exponent 2, the same as process time k up to logs. Clock-vs-clock and clock-vs-object-count relations comparable; anything vs process steps recorded but excluded from the protocols."
+    },
+    "id": "C5_DERIVED",
+    "status": "derived in R61 before opening"
+  },
+  "C5_appendix_sha256": "aa1c6fb2db05c154a42e1b3262562c9436a005ba9965eac5776cf164f67eddcd",
+  "artifact_pins_sha256": "17745e06c605df9a860c1fc34dca90db0ebff5872c3e4050d43d4b3e40a5036a",
+  "corpus": "H4 (clock-projection family)",
+  "derived_side_table_C1_C6": [
+    {
+      "class": "THEOREM",
+      "id": "C1",
+      "statement": "Tick rate = Gamma Phi^2 in E1; = D in E0 (clock and lapse are one observable)"
+    },
+    {
+      "class": "THEOREM/BOUND",
+      "id": "C2",
+      "statement": "Tick rate maximal in E0, decreasing in the band"
+    },
+    {
+      "class": "BOUND",
+      "id": "C3",
+      "statement": "Three ages: exponent ordering objects (1) < ticks (3/2) < process steps (2), up to logs; N_V vs n comparable; anything vs rounds excluded"
+    },
+    {
+      "class": "THEOREM (band)",
+      "id": "C4",
+      "statement": "Direct-limit reading: x3 per depth increment; depth in [ln n, 2e ln n]"
+    },
+    {
+      "class": "THEOREM (orders, E-level) / BOUND (offset)",
+      "id": "C5",
+      "statement": "Containment and co-embedding clocks nondecreasing (THEOREM); growth orders and mutual relation per C5_DERIVED: TC ~ (pi^{3/2}/4) n^{3/2}; TCo in [c1 n^2, c2 n^2 ln n]; both clocks ~ ln ln n with the co-embedding clock ahead by ln(4/3)"
+    },
+    {
+      "class": "THEOREM at Gamma=2; CONJECTURE otherwise",
+      "id": "C6",
+      "statement": "Gamma-stratified recurrence of full tick rate"
+    }
+  ],
+  "excluded_by_construction": [
+    "All Tier D quantities: dimensionful or empirically calibrated values (growth-of-structure parameters, expansion-rate values, registry factors used as calibration, SI dictionaries) - recorded as historical values, excluded from comparison",
+    "All rates versus rounds (rounds are policy indices; monotone reparametrization invariance required)",
+    "All spatial/regional variation claims - declared UNMAPPED_INAPPLICABLE now, before opening (regions JOINT_ONLY)",
+    "Any calibrated dictionary"
+  ],
+  "model_family": "R48 F5 (cosmology-projection): state field / derived observable / external calibration / phenomenological projection / fixed bridge assumption / manuscript-only",
+  "opening_rule": "R62 opens H4 under this sealed protocol, one comparison, no repair.",
+  "protocol": {
+    "compared": "Reported patterns invariant under monotone reparametrization of rounds - onset of the load effect, direction and monotonicity of its change with maturity, saturation or persistence of oscillation, dependence on capacity or persistent load, clock-versus-clock and clock-versus-object-count relations, early-versus-late clock behavior - against the derived-side table and the frozen R56 observables, mapped BY DEFINITION at opening. Names, words, counts are not maps.",
+    "forbidden": "Round-number alignment; any statement added, criterion moved, observable renamed, or tower repaired in the opening round.",
+    "model_family_caveat": "MANDATORY at opening: the projection family's derivation chain (which parts are state fields, which are calibrations) from the R48 F5 classification (state field / derived observable / external calibration / phenomenological projection / fixed bridge assumption / manuscript-only).",
+    "rule": "PASS iff every mapped reparametrization-invariant pattern is consistent with the corresponding THEOREM-grade statement and none contradicts one; PARTIAL if consistent but a stage-defining historical observable is unmapped or matches only at BOUND/READOUT/CONJECTURE grade; FAIL if a THEOREM-grade statement is contradicted. Mismatches at equal prominence."
+  },
+  "schema": "R61_H4_PREREGISTRATION_V1",
+  "status": "SEALED"
+}

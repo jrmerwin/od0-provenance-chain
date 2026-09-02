@@ -1,0 +1,111 @@
+{
+  "artifact_summary": {
+    "H3": {
+      "hash_changed": 0,
+      "missing": 0,
+      "non_manuscript_artifacts_present": 9,
+      "paper_only": false,
+      "present": 17
+    },
+    "H4": {
+      "hash_changed": 0,
+      "missing": 0,
+      "non_manuscript_artifacts_present": 20,
+      "paper_only": false,
+      "present": 26
+    },
+    "deu_voids_commit": "3537e7c74f641870cbcdc2dcca110ac74b286560",
+    "v31": {
+      "v31l": "FOUND",
+      "v31m": "FOUND",
+      "v31n": "FOUND",
+      "v31o": "MISSING"
+    }
+  },
+  "components": {
+    "ARTIFACTS": "H3: 17/17 pinned unchanged, 9 non-manuscript, not PAPER_ONLY; H4: 26/26 pinned unchanged, 20 non-manuscript, not PAPER_ONLY; DEU_voids line pinned (SOURCE_CONFLICT recorded); v31l/m/n FOUND (newly located), v31o MISSING",
+    "C5_DERIVED": "TC ~ (pi^{3/2}/4) n^{3/2} (order THEOREM; Yule-corrected constant); TCo in [c1 n^2, c2 n^2 ln n] THEOREM (sharp n^2 CONJECTURE); co-embedding clock ahead by ln(4/3); both ~ ln ln n",
+    "C5_appendix_sha256": "aa1c6fb2db05c154a42e1b3262562c9436a005ba9965eac5776cf164f67eddcd",
+    "G7_appendix_sha256": "e2f781147700fe8db1f34a78f2074301a59d578acf0adb91c31ab3cb144ef072",
+    "H3_PREREG_HASH": "ede9c8f75e17211f72c4374f5562b914aee58ea6cce0841d8aafc737c15624a8",
+    "H4_PREREG_HASH": "2916ddb0af1ba67e5c77d84727cf99111afdbced623de678a2e32fccc4cf6649",
+    "RELIEF_LINE": "CLOSED to the line m_c = Gamma + min(H, 2 Gamma) (both sides PROVEN a.s.); the line itself OPEN (sqrt-critical)"
+  },
+  "hostile_controls": [
+    {
+      "basis": "Tables and protocols frozen in R61_INPUT_LOCK.json verbatim; C5_DERIVED and G7_UPDATED_R61 are the two permitted hashed appendices, derived before any opening.",
+      "control": "sections 4.1/4.2/5 altered after Commit A beyond the hashed Part 2/Part 4 appendices",
+      "id": "HC1",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Pinning is byte-hash and filename only; sentinels parsed=false at start and end.",
+      "control": "H3/H4 content read; sentinels not false",
+      "id": "HC2",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Excluded by construction in both sealed objects.",
+      "control": "Tier D quantity, rate-versus-rounds, or spatial claim in a protocol",
+      "id": "HC3",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "None appears.",
+      "control": "external referent",
+      "id": "HC4",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All used verbatim.",
+      "control": "TG1/cost law/filtration/A13R modified",
+      "id": "HC5",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Clock-functional and relief-line trajectory tables are labeled; verdict classes rest on derivations, panel-verified.",
+      "control": "readouts cited as proof",
+      "id": "HC6",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Unopened.",
+      "control": "BELL2 opened",
+      "id": "HC7",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All hashes in-process; no placeholders.",
+      "control": "hand hash; placeholder",
+      "id": "HC8",
+      "status": "REJECTED"
+    }
+  ],
+  "input_lock_sha256": "036673c7138b8b365e7f72cdc09a3770df2f490524ff042b0c586f81115421d0",
+  "panel_verdicts": {
+    "V1_clock_totals": "CORRECTED - the cone/TC constant is the Yule-limit value (3/8) pi^{3/2} resp. pi^{3/2}/4 (E[sqrt(W)] = sqrt(pi)/2 factor, W ~ Exp(1)); forward erratum to R59 T3 recorded; TCo band and the ln(4/3) offset confirmed; sharp TCo = Theta(n^2) supported (E[A^2]/E[A]^2 -> ~1.13)",
+    "V2_line_termination": "CONFIRMED (proof completion: conditional Borel-Cantelli + discrete Gronwall, or monotone pure-birth coupling + Levy 0-1; verified from matured states)",
+    "V3_band_persistence": "CONFIRMED (regime-split relief behavior; F_0(n) = Theta(n^{3/2} sqrt(log n)); 2-step block supermartingale; zero gate closures in ~10^6 large-F steps; cost-throughput identity matches in every in-band run)",
+    "note": "Three-referee adversarial panel (independent derivation + simulation, instructed to refute) on the Part 2 / Part 4 derivations before freezing."
+  },
+  "prediction_vs_outcome": "Both preregistrations sealed - as registered. C5: registered both totals at n^{3/2} with the containment clock ahead - CORRECTED twice: TCo is n^2-scale (each new object contributes C(A,2) pairs) with the CO-EMBEDDING clock ahead by ln(4/3); and the panel found the cone/TC constant itself is the Yule-limit value (forward erratum to R59 T3: (3/8) pi^{3/2}, not 3 pi/4). Relief line: (a) and (b) PROVEN as registered; (c) open as registered, with the sharper critical picture (residual +Gamma x / +3 Gamma x drift, F ~ sqrt(t)). Artifacts: registered 'H4 at least partly PAPER_ONLY; v31l-v31o missing unless supplied' - outcome better: both corpora carry non-manuscript artifacts (no PAPER_ONLY), and v31l/m/n were located (only v31o missing). The prediction constrained nothing.",
+  "r62_recommendation": "Both preregistrations sealed with L-grade tables and hashed appendices, so per the R62 rule: R62 opens H3 and H4 under their sealed protocols, one comparison each, no repair, in one round - two separate adjudications, two separate verdicts, one report, mirroring R54/R57 exactly. The v31o gap and the DEU_voids SOURCE_CONFLICT are carried into the H3 opening at equal prominence. H5 remains sealed until a derived density observable exists.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R61_RESULTS_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1": "spent (R54)",
+    "H2": "spent (R57)",
+    "H3": {
+      "parsed": false
+    },
+    "H4": {
+      "parsed": false
+    },
+    "H5": {
+      "parsed": false
+    }
+  },
+  "sections_4_to_6_frozen_at_commit_A": true,
+  "verdict": "OD0_R61_PASS_H3_H4_PREREGISTERED"
+}

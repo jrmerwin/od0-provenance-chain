@@ -1,0 +1,337 @@
+{
+  "H3": {
+    "items": [
+      {
+        "current_sha256": "dc3ddb058b3fe8bb53e4bd9d817721833d5567aa038a35031d0c0e54eb38ad5a",
+        "manifest_sha256": "dc3ddb058b3fe8bb53e4bd9d817721833d5567aa038a35031d0c0e54eb38ad5a",
+        "path": "c:/Users/merwijas/dataScience/DEU_LER_v2_codex/OD0_CODEX_PACKAGE_R48_MATURATION_SOURCE_BOUNDARY_v0_1.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "2f610a9ba08c62874c160633eead306e27054be651ec8f4e8ac492132422b47b",
+        "manifest_sha256": "2f610a9ba08c62874c160633eead306e27054be651ec8f4e8ac492132422b47b",
+        "path": "c:/Users/merwijas/dataScience/DEU_unification/deu_internal_unification/taskP0/external_sources/forces_unification/engines/rung2_v30_conscription.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "ade65570f168ed45eb157ed94497cdb6acb81adeae0c5471b7c46811ed84bd38",
+        "manifest_sha256": "ade65570f168ed45eb157ed94497cdb6acb81adeae0c5471b7c46811ed84bd38",
+        "path": "c:/Users/merwijas/dataScience/DEU_unification/deu_internal_unification/taskP0/external_sources/forces_unification/trackb/TRACKB_C1_DESIGN.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "50744834f91f66e7ac28536ab82e27a2d9d0ddb8d20404bc3f4e4facd12d86e5",
+        "manifest_sha256": "50744834f91f66e7ac28536ab82e27a2d9d0ddb8d20404bc3f4e4facd12d86e5",
+        "path": "c:/Users/merwijas/dataScience/DEU_unification/deu_internal_unification/taskP0/paper_text/grav_geometry.txt",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "89bc04fd9189c946c0347f74d21bac7440d08964c0ea682764e3503e60642ca0",
+        "manifest_sha256": "89bc04fd9189c946c0347f74d21bac7440d08964c0ea682764e3503e60642ca0",
+        "path": "c:/Users/merwijas/dataScience/DEU_unification/grav_geometry.pdf",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "8b409f9bb326e7c04b084ff687df6637cd6269a65e4fead3dbeb12ecbe942fee",
+        "manifest_sha256": "8b409f9bb326e7c04b084ff687df6637cd6269a65e4fead3dbeb12ecbe942fee",
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/E6_A1_preregistration.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "eaec1a0352aaddd37eaa69b4ca3f884a9e716c6bb3090d4328198764297ef4d5",
+        "manifest_sha256": "eaec1a0352aaddd37eaa69b4ca3f884a9e716c6bb3090d4328198764297ef4d5",
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/E6_S1_pipeline.ipynb",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "ee6171f0f59c25bd5885cc91d38c39c435a83b0e78e25bcef58612d9470345e9",
+        "manifest_sha256": "ee6171f0f59c25bd5885cc91d38c39c435a83b0e78e25bcef58612d9470345e9",
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/analysis_ready_stacked_voids.csv",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "bff1207374c9724ae9c69a0ea300915121a9d97387e10fbeb75131adc6a5a3e4",
+        "manifest_sha256": "bff1207374c9724ae9c69a0ea300915121a9d97387e10fbeb75131adc6a5a3e4",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/foam/deu_vacuum_paper_reproduce.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "68d39ed69c7092f13ead30f9972a204a87c51ce4ffdcbd24d12e33df91bc41d8",
+        "manifest_sha256": "68d39ed69c7092f13ead30f9972a204a87c51ce4ffdcbd24d12e33df91bc41d8",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/redo_clocks/deu_boltzmann_milestone01_start/deu_boltzmann_start/deu/registry.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "b8f0100e0c38bad184e963795e6389fca245edebfadce12ac52461c1c24c346f",
+        "manifest_sha256": "b8f0100e0c38bad184e963795e6389fca245edebfadce12ac52461c1c24c346f",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/redo_grav/DE_gravity_obs (1).pdf",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "afc6e6b186f26f037f9bf01efaff6b1173c2c53d54fa7d2981f24859803d5137",
+        "manifest_sha256": "afc6e6b186f26f037f9bf01efaff6b1173c2c53d54fa7d2981f24859803d5137",
+        "path": "c:/Users/merwijas/dataScience/RMR_G_const/g_const_search.ipynb",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "749b6cdf9f5ac3ba015f16691a925cf3080dc3858e54c3447496175b613a585d",
+        "manifest_sha256": "749b6cdf9f5ac3ba015f16691a925cf3080dc3858e54c3447496175b613a585d",
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/dynamic_g/deu_dynamic_g_paper_bundle/manuscript/deu_dynamic_g_s8_manuscript.tex",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "799d1826a9481ec803f529919c1081c4a100656222061747628fe44da166806d",
+        "manifest_sha256": "799d1826a9481ec803f529919c1081c4a100656222061747628fe44da166806d",
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/experimental/deu_dynamic_g_omega_profile.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "b823159f260c12f48bf39aa9d61acbed1f5083794b67e160f462d2afe7c65d91",
+        "manifest_sha256": "b823159f260c12f48bf39aa9d61acbed1f5083794b67e160f462d2afe7c65d91",
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/experimental/deu_growth_locked_normalization_test.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "89bc04fd9189c946c0347f74d21bac7440d08964c0ea682764e3503e60642ca0",
+        "manifest_sha256": "89bc04fd9189c946c0347f74d21bac7440d08964c0ea682764e3503e60642ca0",
+        "path": "c:/Users/merwijas/dataScience/deu_equations/grav_geometry.pdf",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "18a52f312fc97f51e941f4cd8cd806e6c93a3bf2ab0f6407f1adc961544b4b9b",
+        "manifest_sha256": "18a52f312fc97f51e941f4cd8cd806e6c93a3bf2ab0f6407f1adc961544b4b9b",
+        "path": "c:/Users/merwijas/dataScience/four_forces_simulation_reference/rmr_gravity_extended.py",
+        "status": "PINNED_UNCHANGED"
+      }
+    ],
+    "summary": {
+      "hash_changed": 0,
+      "missing": 0,
+      "non_manuscript_artifacts_present": 9,
+      "paper_only": false,
+      "present": 17
+    }
+  },
+  "H4": {
+    "items": [
+      {
+        "current_sha256": "23816fad7ac6cbef714676235ff3d56b415eab37a2856d018f09308fd1ad442f",
+        "manifest_sha256": "23816fad7ac6cbef714676235ff3d56b415eab37a2856d018f09308fd1ad442f",
+        "path": "c:/Users/merwijas/dataScience/DEU_LER_v2_codex/deu_od0_exact_observables_v0_1/od0_r39_policy_free_graph_clock_v0_1/R39_OUTPUT_MANIFEST.json",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "b978f8cac2c821a6a8d464df4aed1ed8fb9e6d3576f7dd744ff00f3bfc63fa63",
+        "manifest_sha256": "b978f8cac2c821a6a8d464df4aed1ed8fb9e6d3576f7dd744ff00f3bfc63fa63",
+        "path": "c:/Users/merwijas/dataScience/DEU_LER_v2_codex/deu_od0_exact_observables_v0_1/od0_r40_graph_occurrence_service_clock_v0_1/R40_OUTPUT_MANIFEST.json",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "7d47771e9a62b18f919173959e5c3c0c91d3d3e16a07904ae380858502c88130",
+        "manifest_sha256": "7d47771e9a62b18f919173959e5c3c0c91d3d3e16a07904ae380858502c88130",
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/U0_master_scale_equation.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "fad6ad74a7d2a1c9c5d7897de511e86f753876de2c1753aff98a5a2b06cbc732",
+        "manifest_sha256": "fad6ad74a7d2a1c9c5d7897de511e86f753876de2c1753aff98a5a2b06cbc732",
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/U1_metamorphic_causal_speed.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "471aed2f7f7fd5b5db460d3723ab26e6537bce0a8824be53ac640fc2c208df5d",
+        "manifest_sha256": "471aed2f7f7fd5b5db460d3723ab26e6537bce0a8824be53ac640fc2c208df5d",
+        "path": "c:/Users/merwijas/dataScience/DEU_holo/bridge_paper/sections/06_spectral_clock.tex",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "d524b30a62f79ab3ae25909496025411494dacb4c58f5c0455b4913f869bc2f7",
+        "manifest_sha256": "d524b30a62f79ab3ae25909496025411494dacb4c58f5c0455b4913f869bc2f7",
+        "path": "c:/Users/merwijas/dataScience/DEU_holo/mass_ratio_bridge/coherent_clock_bridge/coherent_clock_bridge.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "04f0113c0e33f58934cd60bbda7544c2c18ff879d1c293412f691a6338ee1ae3",
+        "manifest_sha256": "04f0113c0e33f58934cd60bbda7544c2c18ff879d1c293412f691a6338ee1ae3",
+        "path": "c:/Users/merwijas/dataScience/DEU_holo/mass_ratio_bridge/vacuum_density_clock/vacuum_density_clock.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "686ef0173b688b301ac312645e97fe24ba7b62c0d83f1257f5ea1a5a010bfa83",
+        "manifest_sha256": "686ef0173b688b301ac312645e97fe24ba7b62c0d83f1257f5ea1a5a010bfa83",
+        "path": "c:/Users/merwijas/dataScience/DEU_holo/scale_setting/instrumented_foam.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "16a1fb30c04cce07907c4e3104be93dbad0c0b5362fdd49547a9bafd1f4d918d",
+        "manifest_sha256": "16a1fb30c04cce07907c4e3104be93dbad0c0b5362fdd49547a9bafd1f4d918d",
+        "path": "c:/Users/merwijas/dataScience/DEU_holo/src/deu_holo/coherent_decay_clock.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "c9cd55af59c90934e78737fac193a8dae5c888a865b884dcec6e51599b28e081",
+        "manifest_sha256": "c9cd55af59c90934e78737fac193a8dae5c888a865b884dcec6e51599b28e081",
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/sol_effort/deu_round23_runner_bundle/ROUND23_PREREGISTRATION.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "957b01422ab203feef17d9a87798625bde95d13ae1e5500cd6885ed1959aa1c2",
+        "manifest_sha256": "957b01422ab203feef17d9a87798625bde95d13ae1e5500cd6885ed1959aa1c2",
+        "path": "c:/Users/merwijas/dataScience/GR_QM.pdf",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "b706281daab4152fd389fb0c2c0bece096dbfd3f99d3fcc2efa6f4b55269c516",
+        "manifest_sha256": "b706281daab4152fd389fb0c2c0bece096dbfd3f99d3fcc2efa6f4b55269c516",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/redo_clocks/Boltzmann_repo/audits/exact_41over40_stage_I/DEU_APLANCK_EXACT41OVER40_REPORT.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "3f8e29ab801efda5b29c7cedc715895f231372a9a6df348a41d359fcb6118b56",
+        "manifest_sha256": "3f8e29ab801efda5b29c7cedc715895f231372a9a6df348a41d359fcb6118b56",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/redo_clocks/deu_41over40_bold_rewrite/deu_41over40_bold_rewrite/manuscript/graph_index_41over40_deu_bold.tex",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "f37fd65626552967d15f1f17f9d824b8a203b53dd7e29acfb571d2075dc120dc",
+        "manifest_sha256": "f37fd65626552967d15f1f17f9d824b8a203b53dd7e29acfb571d2075dc120dc",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/redo_clocks/deu_boltzmann_milestone01_start/deu_boltzmann_start/deu/clock.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "4a26d6868808467025f840330edfe057292da90d07e5321a09553358be5f599e",
+        "manifest_sha256": "4a26d6868808467025f840330edfe057292da90d07e5321a09553358be5f599e",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/redo_clocks/deu_boltzmann_milestone01_start/deu_boltzmann_start/deu/hubble.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "8f4f865573df077e01919f355fbab6c59e99a55f349f8cc4768eda6b91305124",
+        "manifest_sha256": "8f4f865573df077e01919f355fbab6c59e99a55f349f8cc4768eda6b91305124",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/redo_clocks/deu_two_clocks_repo/deu_two_clocks_repo/manuscript/two_clocks_deu_boltzmann.tex",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "6ac268af046327510dfddb2dbfcad89a566497d8ea3f6b650ba5bf1832f5521d",
+        "manifest_sha256": "6ac268af046327510dfddb2dbfcad89a566497d8ea3f6b650ba5bf1832f5521d",
+        "path": "c:/Users/merwijas/dataScience/RMR_logical_seed/deu_sr_fingerprint_audit_pack/deu_sr_fingerprint/notebooks/DEU_SR_Worldline_Clock_Audit.ipynb",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "9134f492cdf60de6cefb712a0e822e1eda85d9ca17ec0f49cb65462257ff2807",
+        "manifest_sha256": "9134f492cdf60de6cefb712a0e822e1eda85d9ca17ec0f49cb65462257ff2807",
+        "path": "c:/Users/merwijas/dataScience/RMR_logical_seed/unification/DEU_LIGO_Experiment_02B_lookelsewhere_and_cutoff_refinement.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "0b56c72787339b4d03cb5dbbeec152b53f1d074e4f76a0e752e07b747d20c6eb",
+        "manifest_sha256": "0b56c72787339b4d03cb5dbbeec152b53f1d074e4f76a0e752e07b747d20c6eb",
+        "path": "c:/Users/merwijas/dataScience/RMR_logical_seed/unification/DEU_LIGO_Experiment_02C_mode_ablation_and_high_mode_leverage.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "bf53908fcf999d5fcdfbd7eed0c9b077fff1df1500ea2fff83c316b57dc10d62",
+        "manifest_sha256": "bf53908fcf999d5fcdfbd7eed0c9b077fff1df1500ea2fff83c316b57dc10d62",
+        "path": "c:/Users/merwijas/dataScience/RMR_logical_seed/unification/DEU_LIGO_Experiment_02D_family_lookelsewhere_detector_consistency.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "fe850b97b2312101c84c484a9d41b5038e9b6da3a932ee1c2c81af64132b46cb",
+        "manifest_sha256": "fe850b97b2312101c84c484a9d41b5038e9b6da3a932ee1c2c81af64132b46cb",
+        "path": "c:/Users/merwijas/dataScience/RMR_logical_seed/unification/deu_gr_complete_repro_github/helpers/DEU_LIGO_Experiment_02_ringdown_template_search.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "2b8163ea2a2cd8478568b4572891f86ef7e69f94bf48b82af315c56a978a008a",
+        "manifest_sha256": "2b8163ea2a2cd8478568b4572891f86ef7e69f94bf48b82af315c56a978a008a",
+        "path": "c:/Users/merwijas/dataScience/RMR_logical_seed/unification/ringdown_revisted/p6_phase0a_killcheck.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "8cb425aaeb3478b7199b9c22d6b9c9e93a28540a4b033e9c7351a3d251b8f0d3",
+        "manifest_sha256": "8cb425aaeb3478b7199b9c22d6b9c9e93a28540a4b033e9c7351a3d251b8f0d3",
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/cosmology/epoch_time.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "100ec7680bc562c8f746237ba34584549378bafea45b572681574696b36dda46",
+        "manifest_sha256": "100ec7680bc562c8f746237ba34584549378bafea45b572681574696b36dda46",
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/cosmology/gpt_code/candidate3_cmb_registry_recombination_test.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "c23287dc3ef7b0a78631063e72a08a705e004491694d8eefb4a5b4862880c737",
+        "manifest_sha256": "c23287dc3ef7b0a78631063e72a08a705e004491694d8eefb4a5b4862880c737",
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/cosmos/rmr_open4_cosmology_repo_scaffold/rmr_open4_cosmology_repo_scaffold/notebooks/rmr_cosmology_locked_candidate_v4_source.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "250f9b0e0eb42e84686f62de45ad5a26b532a3d5ed66a8b089186b52e0a7f591",
+        "manifest_sha256": "250f9b0e0eb42e84686f62de45ad5a26b532a3d5ed66a8b089186b52e0a7f591",
+        "path": "c:/Users/merwijas/dataScience/unified_solution_audit/configs/clock_law_lock.json",
+        "status": "PINNED_UNCHANGED"
+      }
+    ],
+    "summary": {
+      "hash_changed": 0,
+      "missing": 0,
+      "non_manuscript_artifacts_present": 20,
+      "paper_only": false,
+      "present": 26
+    }
+  },
+  "deu_voids_source_line": {
+    "last_commit_touching_DEU_voids": "3537e7c74f641870cbcdc2dcca110ac74b286560",
+    "repo_HEAD_at_pinning": "abba543693c44ebff176ed1af7d192f36bef3e26",
+    "status": "SOURCE_CONFLICT with the manuscript per R48; recorded, unresolved"
+  },
+  "note": "Byte-level pinning only; no scientific content parsed; H3/H4 remain sealed.",
+  "schema": "R61_ARTIFACT_PINS_V1",
+  "v31_generating_sources": {
+    "v31l": {
+      "found": [
+        "DEU_voids/sol_effort/deu_round22_g2c_runner_bundle/make_v31l.py",
+        "DEU_voids/sol_effort/deu_round22_g2c_runner_bundle/round22_out/engine_stage/__pycache__/rung2_v31l_coupled_backreaction.cpython-312.pyc",
+        "DEU_voids/sol_effort/deu_round22_g2c_runner_bundle/round22_out/engine_stage/rung2_v31l_coupled_backreaction.py"
+      ],
+      "status": "FOUND"
+    },
+    "v31m": {
+      "found": [
+        "DEU_voids/face_value/DEU_work_energy_C2_notebook_bundle/engine/__pycache__/rung2_v31m_native_identity_work_instrument.cpython-310.pyc",
+        "DEU_voids/face_value/DEU_work_energy_C2_notebook_bundle/engine/__pycache__/rung2_v31m_native_identity_work_instrument.cpython-312.pyc",
+        "DEU_voids/face_value/DEU_work_energy_C2_notebook_bundle/engine/rung2_v31m_native_identity_work_instrument.py",
+        "DEU_voids/face_value/DEU_work_energy_C3_notebook_bundle/inputs/__pycache__/rung2_v31m_native_identity_work_instrument.cpython-310.pyc",
+        "DEU_voids/face_value/DEU_work_energy_C3_notebook_bundle/inputs/rung2_v31m_native_identity_work_instrument.py",
+        "DEU_voids/sol_effort/deu_round22_g2c_runner_bundle/make_v31m.py",
+        "DEU_voids/sol_effort/deu_round22_g2c_runner_bundle/round22_out/engine_stage/__pycache__/rung2_v31m_smoothed_coupling.cpython-312.pyc",
+        "DEU_voids/sol_effort/deu_round22_g2c_runner_bundle/round22_out/engine_stage/rung2_v31m_smoothed_coupling.py",
+        "DEU_voids/sol_effort/deu_round22_v31m_update/make_v31m.py"
+      ],
+      "status": "FOUND"
+    },
+    "v31n": {
+      "found": [
+        "DEU_voids/face_value/DEU_work_energy_C3_notebook_bundle/engine/__pycache__/rung2_v31n_paired_hub_maintenance_instrument.cpython-310.pyc",
+        "DEU_voids/face_value/DEU_work_energy_C3_notebook_bundle/engine/rung2_v31n_paired_hub_maintenance_instrument.py",
+        "DEU_voids/face_value/DEU_work_energy_C4_scheduler_load_notebook_bundle/engine/__pycache__/rung2_v31n_paired_hub_maintenance_instrument.cpython-310.pyc",
+        "DEU_voids/face_value/DEU_work_energy_C4_scheduler_load_notebook_bundle/engine/rung2_v31n_paired_hub_maintenance_instrument.py",
+        "DEU_voids/face_value/DEU_work_energy_C5_notebook_bundle/DEU_work_energy_C5_notebook_bundle/engine/__pycache__/rung2_v31n_paired_hub_maintenance_instrument.cpython-310.pyc",
+        "DEU_voids/face_value/DEU_work_energy_C5_notebook_bundle/DEU_work_energy_C5_notebook_bundle/engine/rung2_v31n_paired_hub_maintenance_instrument.py",
+        "DEU_voids/sol_effort/deu_round22_g2c_runner_bundle/deu_round23_runner_bundle/make_v31n.py",
+        "DEU_voids/sol_effort/deu_round23_runner_bundle/make_v31n.py",
+        "DEU_voids/sol_effort/deu_round23_runner_bundle/round23_out/engine_stage/__pycache__/rung2_v31n_domain_lapse.cpython-312.pyc",
+        "DEU_voids/sol_effort/deu_round23_runner_bundle/round23_out/engine_stage/rung2_v31n_domain_lapse.py",
+        "DEU_voids/sol_effort/deu_round24_runner_bundle/round23_out/engine_stage/__pycache__/rung2_v31n_domain_lapse.cpython-312.pyc",
+        "DEU_voids/sol_effort/deu_round24_runner_bundle/round23_out/engine_stage/rung2_v31n_domain_lapse.py",
+        "DEU_voids/sol_effort/deu_round24_runner_bundle/round24_out/engine_stage/__pycache__/rung2_v31n_domain_lapse.cpython-312.pyc",
+        "DEU_voids/sol_effort/deu_round24_runner_bundle/round24_out/engine_stage/rung2_v31n_domain_lapse.py",
+        "DEU_voids/sol_effort/deu_round24_runner_bundle/rung2_v31n_domain_lapse.py"
+      ],
+      "status": "FOUND"
+    },
+    "v31o": {
+      "found": [],
+      "status": "MISSING"
+    }
+  }
+}
