@@ -1,0 +1,25 @@
+{
+  "commit_A_prereg": "d9a8cf996dc78b13e6c228ca2104f8f44ac1890a",
+  "commit_B_outputs": "51c93a7d0e10ff2109d83148a3c5817630d72980",
+  "deterministic_rerun": "byte-identical (engine + builder double-run)",
+  "headline": {
+    "exponent": "delta = 1 exactly, STABLE - the full ternary tree, forced by the declared odometer order 3^D; log_3 2 refuted (hardcoded seed orbit)",
+    "letters": "ROLES_ONLY; the chain-to-word map is not defined; one universal address tree",
+    "r66": "freeze the geometry candidate (ultrametric record space, delta = 1); open M8 step 1 - scaling limit + dimensionless-invariant inventory",
+    "record_space": "ONE exact ultrametric tree (equal symbols identified at source; 7.97M triples, zero violations); READABLE_FROM_S",
+    "regions": "10-marker A13R fixture vs 40 A12 anchor regions vs unbounded UEQ0 prefix concept; per-region ledgers DECLARED at spec level",
+    "transport": "choice-free object region-profile exists (903/903 schedule-invariant)",
+    "trichotomy": "EXTENDS to bounded-depth hierarchical measures (E-level; gap named; boundary conditional on unbounded refinement)"
+  },
+  "input_lock_sha256": "c9c1ea9701bb6d9be6d0c017c6c293d69a6bc2b089a307853d6bad3f95682a19",
+  "output_manifest_sha256": "52223ea0d5748d81b90026693ea04b6414052f822d00d4692283f5678074f09c",
+  "primary": "BRANCH_C = RECORD_SPACE_EXPONENT(delta = 1)",
+  "round": "OD0-R65",
+  "schema": "R65_PROVENANCE_STAMP_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1_H4": "spent",
+    "H5_parsed": false
+  },
+  "verdict": "OD0_R65_PASS_BRANCH_C_DERIVED"
+}
