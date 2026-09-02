@@ -1,0 +1,75 @@
+{
+  "components": {
+    "CYLINDER_MAP": "records DECLARED (one prefix cylinder per symbol); requests DECLARED (smallest-prefix anchors); tokens DECLARED per region for clock ticks / UNDECLARED for the V ~ X standing token; objects UNDECLARED for a cylinder, DERIVABLE for a region profile",
+    "LETTER_SEMANTICS": "ROLES_ONLY (the chain-to-word map is not defined; one universal address tree)",
+    "OCCUPIED_EXPONENT": "STABLE(1) - the full ternary tree, odometer-forced; log_3 2 refuted",
+    "RECORD_SPACE": "ULTRAMETRIC (single tree; 7,971,964 triples, zero violations; equal symbols identified at source)",
+    "TRICHOTOMY_ON_W": "EXTENDS (E-level; time-representativeness gap named; boundary conditional on unbounded refinement)",
+    "W": "hierarchical-uniform family only; choice-free object transport via the frozen A12 region-profile lookup"
+  },
+  "hostile_controls": [
+    {
+      "basis": "P1-P4 adjudicated verbatim; base 3 is the alphabet; no depth chosen (the catalog's depth-2 instantiation is a source fact).",
+      "control": "target altered; depth/base/weight chosen",
+      "id": "HC1",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Internal vocabulary; the Prufer/Pontryagin NAMES were found absent from source and are not used in any claim.",
+      "control": "external referent; 'dimension' outside D3",
+      "id": "HC2",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Objects adjudicated UNDECLARED for cylinders; the region PROFILE is extracted from the frozen charging rules, not invented, and yields no single cylinder.",
+      "control": "object-to-cylinder assignment invented",
+      "id": "HC3",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "W examined as candidates only; the profile transport is recorded with its choice-freedom status.",
+      "control": "a measure adopted; a non-choice-free measure admitted",
+      "id": "HC4",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "The ultrametric and orbit certificates are exact; trajectory chain-prefix tables are labeled.",
+      "control": "readouts cited as proof",
+      "id": "HC5",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Sentinels parsed=false; extraction touched only the frozen descent package.",
+      "control": "H5 read; H1-H4 pattern used",
+      "id": "HC6",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Nothing modified; unopened.",
+      "control": "frozen tower modified; BELL2 opened",
+      "id": "HC7",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All hashes in-process.",
+      "control": "hand hash; placeholder",
+      "id": "HC8",
+      "status": "REJECTED"
+    }
+  ],
+  "input_lock_sha256": "c9c1ea9701bb6d9be6d0c017c6c293d69a6bc2b089a307853d6bad3f95682a19",
+  "prediction_vs_outcome": "Registered: records DECLARED, requests DERIVABLE, tokens/objects UNDECLARED, letters ROLES_ONLY - as registered except requests are fully DECLARED and the clock tick's regional indexing is DECLARED. Registered DISJOINT_UNION for the record space - REFUTED: the source identifies equal symbols (no event index in the source identity), giving a SINGLE exact ultrametric tree; the event-indexed disjoint union is the round-level counting picture only. Registered delta = log_3 2 with branching -> 2 - REFUTED by the panel: the no-repeat structure is a hardcoded seed orbit, the odometer forces the full ternary tree, and the true stable exponent is delta = 1. Registered 'no canonical object transport' - REFUTED: the A12 region-profile lookup is choice-free (verified 903/903). Registered trichotomy EXTENDS - as registered (E-level, gap named). Registered primary RECORD_SPACE_EXPONENT - as registered, with the corrected exponent. Also corrected against the package position: the 'why 8' premise (source has a 10-marker catalog and 40 anchor regions; no 8 anywhere), the Prufer/Pontryagin footnote attribution (structure declared, names absent), and the per-region five-integer ledgers DECLARED at UEQ0 spec level (JOINT_ONLY is the catalog's ROOT instantiation). The prediction constrained nothing.",
+  "primary": "BRANCH_C = RECORD_SPACE_EXPONENT(delta = 1)",
+  "r66_recommendation": "RECORD_SPACE_EXPONENT(1) with TRICHOTOMY_ON_W = EXTENDS, so per the R66 rule: the geometry of the recorded universe is an exact ultrametric with the stable 3-adic exponent delta = 1, and no object-level pairing geometry exists in the parameter-free classes. R66 freezes this as the geometry candidate (delta = 1 as a derived dimensionless invariant), records the internal theorem that the record tree and the clock tower C_infty = varinjlim(Z/3^{d+1}Z) share one declared depth grading (the duality NAMES are absent from source and are not asserted), and opens M8 step 1: the frozen scaling limit of the record space and the inventory of derived dimensionless invariants (base 8; 22/35; (5+sqrt(41))/2; sqrt(2)-1; delta = 1; pi/sqrt(3); the critical line m_c = Gamma + min(H, 2 Gamma); the MINCOST base family 48/5, 384/35, 256/21; the 1/3 horizon; the ln(4/3) clock offset; 4.311/0.373 depth constants) for the dimensionless-comparison protocol - where external formulas may first be named, under preregistration.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R65_RESULTS_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1_H4": "spent",
+    "H5": {
+      "parsed": false
+    }
+  },
+  "targets_frozen_at_commit_A": true,
+  "verdict": "OD0_R65_PASS_BRANCH_C_DERIVED"
+}
