@@ -1,0 +1,117 @@
+{
+  "extraction": {
+    "coordinate_note": "The historical regimes are reported along the dag_size LAYER coordinate of a fixed synchronous universe (a foliation of a completed object), not along engine steps; the source itself stresses that step and dag_size are different quantities and flags the late layers as truncation-mixed. Historical numeric layer boundaries (9-12, 12-13, 13-14, 14-15) and the K9/80-percent figures are recorded as historical values only, playing no role.",
+    "historical_observables": [
+      {
+        "definition": "for each registry object w and layer d: the number of dag-size-d objects containing w as a complete ancestral sub-DAG",
+        "direction": "rising through broadening (illumination by DAG-8)",
+        "name": "exposure / containment"
+      },
+      {
+        "definition": "number of registry pairs co-embedded in the same host object, per layer",
+        "direction": "broadens in later layers; coembedding clock advances fastest (R3 ~ 1.42 > 1)",
+        "name": "pair co-embedding"
+      },
+      {
+        "definition": "count of spatial-81 pairs with nonzero co-embedding weight at layer d",
+        "direction": "up in broadening, contracts at freeze-out, constant in locking, slightly down in concentration",
+        "name": "support size (nonzero spatial pairs)"
+      },
+      {
+        "definition": "diversity measures of the spatial-pair weight distribution at layer d",
+        "direction": "up in broadening; down from freeze-out on",
+        "name": "visibility / entropy-effective support / participation ratio"
+      },
+      {
+        "definition": "high-percentile thresholding of persistent pair weights across layers 13-15; the surviving clique",
+        "direction": "rising late; collapses onto the 9 spatial degree-136 bedrock nodes",
+        "name": "concentration measures / weighted backbone"
+      },
+      {
+        "definition": "81 / |V_d| across layers",
+        "direction": "monotone decreasing",
+        "name": "global dilution"
+      },
+      {
+        "definition": "2|E|/|V| of the full parent-child graph",
+        "direction": "rises 2.40 -> 4.00 and saturates at 4",
+        "name": "mean parent-child degree"
+      },
+      {
+        "definition": "total root-to-node directed paths in G_s; tau ~ log log(total paths)",
+        "direction": "increasing (clock candidate; compressed)",
+        "name": "total directed paths (global clock candidate)"
+      },
+      {
+        "definition": "log log of registry containments / pair coembeddings",
+        "direction": "increasing; faster than the global clock (R2 < 1)",
+        "name": "registry containment / coembedding clocks"
+      },
+      {
+        "definition": "step-s objects have degree exactly 2 (no children); step-<s objects saturated - the shell is the childless population",
+        "direction": "shell dominates as s grows",
+        "name": "shell / two-epoch stratification"
+      },
+      {
+        "definition": "count of objects at each dag_size",
+        "direction": "each layer count nondecreasing in time; the unimodal G_6 profile is flagged by the source as truncation-mixed",
+        "name": "dag_size layer populations"
+      },
+      {
+        "definition": "degree distribution of the DEU foam carrier supergraph",
+        "direction": "power-law; historically shown NOT to match the registry (negative result)",
+        "name": "foam hub degree distribution (CARRIER_HUB_NULL)"
+      },
+      {
+        "definition": "Metropolis dynamics on the co-embedding lattice with interface-mediated condensation",
+        "direction": "matter-like condensation requires the interface sector",
+        "name": "sector condensation dynamics (HetSim)"
+      }
+    ],
+    "historical_regime_sequence_verbatim": [
+      {
+        "coordinate": "dag layers 7-8",
+        "label": "registry formation / global illumination",
+        "report": "137-object DAG-7 registry closes; 'by DAG-8, all registry nodes are already present in higher-layer exposure' - the first lights-on result"
+      },
+      {
+        "coordinate": "roughly DAG-9 to DAG-12",
+        "label": "broadening",
+        "report": "support grows, visibility rises, effective support increases - more spatial interaction modes active"
+      },
+      {
+        "coordinate": "DAG-12 to DAG-13",
+        "label": "freeze-out onset",
+        "report": "support breadth contracts, effective pair diversity falls, but total pair weight continues to rise - concentrating interactions into fewer channels"
+      },
+      {
+        "coordinate": "DAG-13 to DAG-14",
+        "label": "support locking",
+        "report": "the support set remains the same, but the surviving channels intensify - frozen in topology, not in weight"
+      },
+      {
+        "coordinate": "DAG-14 to DAG-15",
+        "label": "late concentration",
+        "report": "support shrinks a little further, concentration rises further; the 95th-percentile weighted persistent backbone collapses exactly onto the 9-node spatial bedrock (K9)"
+      }
+    ],
+    "primary_artifacts": {
+      "model_family": "the synchronous full-saturation distinction engine - 'at each step, every previously unused unordered pair generates a new composite object' (verbatim) - i.e. exactly the T_sat law - with the regime analysis performed STATICALLY on the dag_size foliation of the fixed completed universe G_6 (2,598,062 objects). R48 census family: the recursive DAG-7 registry constructor line / structural pipeline (analytic registry + audit notebooks). Not reclassified.",
+      "paper_notes": "RMR_utility/dag_char/dag_time.ipynb cell 89 - the embedded 'Distinction engine paper notes' document (the missing distinction_engine_paper_notes.md, recovered inside the notebook), plus analysis cells 40/50; RMR_utility/apr_17_progress.md (session notes, structural theorems and corrections)",
+      "supporting_negatives": [
+        "DEU_unification task2 REGISTRY_FACTORIZATION_AUDIT.md: the 432/27/2-9 factorization claims FAIL against the frozen registry (historical program's own negative result)",
+        "DEU_bridge/CARRIER_HUB_NULL.md: the foam does not natively generate the registry's degree structure (structural null)"
+      ]
+    }
+  },
+  "h1_hash_verification_summary": {
+    "items": 30,
+    "mismatched": 0,
+    "missing": 0,
+    "verified": 29
+  },
+  "h2_h5_sentinels": "parsed=false",
+  "input_lock_sha256": "484fdba68858dd16f45ceee408edfcc48105d68dec356c6ffd4026f820352061",
+  "run_date": "2026-09-02",
+  "schema": "R54_H1_EXTRACTION_V1"
+}

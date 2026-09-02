@@ -1,0 +1,112 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R54",
+  "coarsening_assignment": [
+    {
+      "derived_placement": "E0 -> early E1, the transient {c_min <= Gamma} stratum: the era in which the cheap (registry-level) pairs are still enabled and forming; its last exit is the derived sharp event (THEOREM stratum)",
+      "historical": "registry formation / global illumination"
+    },
+    {
+      "derived_placement": "early E1 renewal-rich regime: bursts frequent, |X|/recorded-cone/total-chains all rising (THEOREM-class monotone observables)",
+      "historical": "broadening"
+    },
+    {
+      "derived_placement": "late E1 regime by frozen monotone observables: full-drain frequency decreasing (READOUT) and typical burst cost increasing (READOUT); growth decelerating (READOUT sqrt-k-type)",
+      "historical": "freeze-out onset"
+    },
+    {
+      "derived_placement": "asymptotic regime (same placement class as freeze-out continuation; no frozen observable separates locking from concentration - placed weakly order-preservingly, no reversal)",
+      "historical": "support locking"
+    },
+    {
+      "derived_placement": "asymptotic regime (as above)",
+      "historical": "late concentration"
+    }
+  ],
+  "counts": {
+    "h1_items": 30,
+    "h1_verified": 29,
+    "hostile_controls_passed": 8,
+    "hostile_controls_tested": 8,
+    "map_mapped": 4,
+    "map_unmapped_computable": 8,
+    "map_unmapped_inapplicable": 2
+  },
+  "cross_validations": [
+    "the historical level-8 count 945 equals the R50 exact level-8 computation (independent)",
+    "the historical growth sequence 5, 12, 68, 2280, 2598062 equals the R50 T_sat closed recurrence |X_{k+1}| = C(|X_k|,2)+2 (independent)",
+    "the historical shell decomposition (degree-2 childless shell) is the derived |U| shell under T_sat"
+  ],
+  "deterministic_rerun": "IDENTICAL_BYTE_FOR_BYTE",
+  "h2_h5_sentinels_parsed": false,
+  "hand_produced_hashes": 0,
+  "hostile_controls": [
+    [
+      "HC1",
+      "observable/criterion/stratum changed after Commit A",
+      "REJECTED",
+      "The derived-side table is byte-identical to the Commit-A lock; the adjudication uses only its items; the repeat-record concentration analogy noticed during extraction was NOT added to the derived side (it appears nowhere in the adjudication)."
+    ],
+    [
+      "HC2",
+      "historical round number aligned with a derived step",
+      "REJECTED",
+      "Historical layer boundaries (9-12 etc.) recorded as historical values only; no numeric alignment appears anywhere."
+    ],
+    [
+      "HC3",
+      "mapping by name, word, or count",
+      "REJECTED",
+      "Every MAPPED row is a function-level identity (mean degree = 4(n-2)/n; total chains; per-level counts; childless population); shared words (broadening, shell, clock) map nothing."
+    ],
+    [
+      "HC4",
+      "H2-H5 content read",
+      "REJECTED",
+      "Only the 30 H1-manifest paths were opened; H2-H5 sentinels remain parsed=false at start and end."
+    ],
+    [
+      "HC5",
+      "Part 4 leaking into the verdict",
+      "REJECTED",
+      "The quarantined readout lives in its own file and key; the adjudication text contains no reference to its values."
+    ],
+    [
+      "HC6",
+      "TG1/cost law/filtration modified in response",
+      "REJECTED",
+      "Nothing modified; R55 queue unchanged."
+    ],
+    [
+      "HC7",
+      "frozen roots; BELL2",
+      "REJECTED",
+      "Read-only; worktree clean at start and end; BELL2 unopened."
+    ],
+    [
+      "HC8",
+      "hand hash; placeholder in a report",
+      "REJECTED",
+      "All hashes in-process; the stamp convention replaces every placeholder (commit C writes the R54 stamp)."
+    ]
+  ],
+  "input_artifacts": {
+    "R54_INPUT_LOCK.json": "484fdba68858dd16f45ceee408edfcc48105d68dec356c6ffd4026f820352061",
+    "R54_POST_OPENING_READOUT.json": "2b88e2766d9bc9d0713ee1c0c6b4e42bb0a8a7e41324ce94acd6d2d7ef8abf84"
+  },
+  "model_family_caveat": "The historical engine's opportunity law is synchronous full saturation - verbatim 'at each step, every previously unused unordered pair generates a new composite object' - i.e. exactly T_sat (B0/CO1 alone), the law R50 proved SATURATES every registered ledger by step 2; and the historical regimes are read on the dag_size foliation of a completed static universe, not on process time. The derived side is the throttled TG1 law on process time. Any mismatch may reflect this model-family/coordinate difference rather than the constructor. This caveat does not soften the verdict.",
+  "package_version": "v0.1 (Claude Code executor)",
+  "r55_recommendation": "PARTIAL -> per the R55 rule: return to the queued theorems on the derived process before any further holdout - (i) the eventual-support law (which fixed finite motif sets appear a.s. vs with probability < 1 under U-growth with uniform pairing); (ii) the m >= Gamma gap; (iii) the growth rate. The UNMAPPED_COMPUTABLE observables (containment, coembedding, support/participation, concentration backbone, dilution, diameter) may be frozen target-blind for H2-H5 only after being re-derived from the process with their H1 provenance disclosed.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R54_RESULTS_V1",
+  "verdict_reason": "Per the frozen rule: the historical sequence coarsens the derived filtration order (explicit assignment, no reversal), and every MAPPED observable matches with its class stated - but the stage-DEFINING observables of freeze-out, locking, and concentration (support size, visibility/participation, concentration/K9 backbone) and the containment/coembedding clocks are UNMAPPED_COMPUTABLE: their definitions are well-formed on z+ but absent from the frozen R52/R53 inventory. 'PARTIAL if the sequence matches but an observable does not map.' The registered prediction (PARTIAL; through-path/hub measures unmapped; concentration resting on them; no contradiction of the derived order) is CONFIRMED on every point.",
+  "verdicts": {
+    "overall": "OD0_R54_PASS_H1_OPENED_UNDER_FROZEN_PROTOCOL",
+    "primary": "H1_COMPARISON = PARTIAL",
+    "secondary": {
+      "H2_PIN": "incomplete (no Run3_Dijet artifacts supplied)",
+      "MAP_TABLE": "mapped: 4, unmapped_computable: 9, unmapped_inapplicable: 2",
+      "SENTINELS_H2_H5": "parsed=false at start and end"
+    }
+  }
+}

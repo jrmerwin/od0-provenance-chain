@@ -1,0 +1,394 @@
+{
+  "label": "POST_OPENING_READOUT_NOT_ADJUDICATION - quarantined; nothing here enters the verdict; only permitted future use is candidate target-blind freezing before H2-H5",
+  "observables_computed_by_historical_definition": [
+    "containment (objects containing w in ancestry)",
+    "pair coembedding (hosts containing both a and b)",
+    "support fraction",
+    "participation ratio (containment weights)",
+    "parent-child diameter",
+    "early-layer (dag_size<=7) fraction"
+  ],
+  "schema": "R54_POST_OPENING_READOUT_V1",
+  "trajectories": [
+    {
+      "Gamma": 2,
+      "H": 0,
+      "checkpoints": {
+        "100": {
+          "X": 7,
+          "coembed_ab": 5,
+          "containment_max": 5,
+          "containment_mean_dec": "2.71428571",
+          "diameter": 2,
+          "early_layer_fraction_dec": "1.00000000",
+          "participation_ratio_dec": "4.81333333",
+          "support_fraction_dec": "0.85714285"
+        },
+        "1000": {
+          "X": 20,
+          "coembed_ab": 18,
+          "containment_max": 18,
+          "containment_mean_dec": "5.35000000",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.75000000",
+          "participation_ratio_dec": "8.20716845",
+          "support_fraction_dec": "0.60000000"
+        },
+        "10000": {
+          "X": 51,
+          "coembed_ab": 49,
+          "containment_max": 49,
+          "containment_mean_dec": "9.72549019",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.29411764",
+          "participation_ratio_dec": "15.30140564",
+          "support_fraction_dec": "0.68627450"
+        }
+      },
+      "m": 0,
+      "seed": 2000000
+    },
+    {
+      "Gamma": 2,
+      "H": 0,
+      "checkpoints": {
+        "100": {
+          "X": 7,
+          "coembed_ab": 5,
+          "containment_max": 5,
+          "containment_mean_dec": "2.85714285",
+          "diameter": 3,
+          "early_layer_fraction_dec": "1.00000000",
+          "participation_ratio_dec": "5.00000000",
+          "support_fraction_dec": "0.85714285"
+        },
+        "1000": {
+          "X": 17,
+          "coembed_ab": 15,
+          "containment_max": 15,
+          "containment_mean_dec": "5.58823529",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.52941176",
+          "participation_ratio_dec": "8.34875115",
+          "support_fraction_dec": "0.70588235"
+        },
+        "10000": {
+          "X": 45,
+          "coembed_ab": 43,
+          "containment_max": 43,
+          "containment_mean_dec": "10.42222222",
+          "diameter": 5,
+          "early_layer_fraction_dec": "0.20000000",
+          "participation_ratio_dec": "15.21484402",
+          "support_fraction_dec": "0.64444444"
+        }
+      },
+      "m": 0,
+      "seed": 2000001
+    },
+    {
+      "Gamma": 2,
+      "H": 0,
+      "checkpoints": {
+        "100": {
+          "X": 7,
+          "coembed_ab": 5,
+          "containment_max": 5,
+          "containment_mean_dec": "2.57142857",
+          "diameter": 2,
+          "early_layer_fraction_dec": "1.00000000",
+          "participation_ratio_dec": "4.26315789",
+          "support_fraction_dec": "0.71428571"
+        },
+        "1000": {
+          "X": 18,
+          "coembed_ab": 16,
+          "containment_max": 16,
+          "containment_mean_dec": "5.22222222",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.61111111",
+          "participation_ratio_dec": "7.87522281",
+          "support_fraction_dec": "0.72222222"
+        },
+        "10000": {
+          "X": 43,
+          "coembed_ab": 41,
+          "containment_max": 41,
+          "containment_mean_dec": "9.44186046",
+          "diameter": 5,
+          "early_layer_fraction_dec": "0.30232558",
+          "participation_ratio_dec": "15.49501786",
+          "support_fraction_dec": "0.72093023"
+        }
+      },
+      "m": 0,
+      "seed": 2000002
+    },
+    {
+      "Gamma": 2,
+      "H": 0,
+      "checkpoints": {
+        "100": {
+          "X": 8,
+          "coembed_ab": 6,
+          "containment_max": 6,
+          "containment_mean_dec": "3.00000000",
+          "diameter": 3,
+          "early_layer_fraction_dec": "1.00000000",
+          "participation_ratio_dec": "4.72131147",
+          "support_fraction_dec": "0.62500000"
+        },
+        "1000": {
+          "X": 21,
+          "coembed_ab": 19,
+          "containment_max": 19,
+          "containment_mean_dec": "5.57142857",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.57142857",
+          "participation_ratio_dec": "7.93565217",
+          "support_fraction_dec": "0.66666666"
+        },
+        "10000": {
+          "X": 53,
+          "coembed_ab": 51,
+          "containment_max": 51,
+          "containment_mean_dec": "9.47169811",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.22641509",
+          "participation_ratio_dec": "14.81679209",
+          "support_fraction_dec": "0.69811320"
+        }
+      },
+      "m": 0,
+      "seed": 2000003
+    },
+    {
+      "Gamma": 2,
+      "H": 0,
+      "checkpoints": {
+        "100": {
+          "X": 7,
+          "coembed_ab": 5,
+          "containment_max": 5,
+          "containment_mean_dec": "2.85714285",
+          "diameter": 3,
+          "early_layer_fraction_dec": "1.00000000",
+          "participation_ratio_dec": "5.00000000",
+          "support_fraction_dec": "0.85714285"
+        },
+        "1000": {
+          "X": 14,
+          "coembed_ab": 12,
+          "containment_max": 12,
+          "containment_mean_dec": "5.50000000",
+          "diameter": 3,
+          "early_layer_fraction_dec": "0.50000000",
+          "participation_ratio_dec": "8.22330097",
+          "support_fraction_dec": "0.78571428"
+        },
+        "10000": {
+          "X": 38,
+          "coembed_ab": 36,
+          "containment_max": 36,
+          "containment_mean_dec": "9.52631578",
+          "diameter": 5,
+          "early_layer_fraction_dec": "0.18421052",
+          "participation_ratio_dec": "13.82320675",
+          "support_fraction_dec": "0.78947368"
+        }
+      },
+      "m": 0,
+      "seed": 2000004
+    },
+    {
+      "Gamma": 5,
+      "H": 8,
+      "checkpoints": {
+        "100": {
+          "X": 17,
+          "coembed_ab": 15,
+          "containment_max": 15,
+          "containment_mean_dec": "5.05882352",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.64705882",
+          "participation_ratio_dec": "7.32277227",
+          "support_fraction_dec": "0.58823529"
+        },
+        "1000": {
+          "X": 37,
+          "coembed_ab": 35,
+          "containment_max": 35,
+          "containment_mean_dec": "7.91891891",
+          "diameter": 5,
+          "early_layer_fraction_dec": "0.32432432",
+          "participation_ratio_dec": "11.97169153",
+          "support_fraction_dec": "0.72972972"
+        },
+        "10000": {
+          "X": 110,
+          "coembed_ab": 108,
+          "containment_max": 108,
+          "containment_mean_dec": "14.04545454",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.11818181",
+          "participation_ratio_dec": "23.08646452",
+          "support_fraction_dec": "0.68181818"
+        }
+      },
+      "m": 3,
+      "seed": 5030800
+    },
+    {
+      "Gamma": 5,
+      "H": 8,
+      "checkpoints": {
+        "100": {
+          "X": 16,
+          "coembed_ab": 14,
+          "containment_max": 14,
+          "containment_mean_dec": "4.87500000",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.62500000",
+          "participation_ratio_dec": "7.27751196",
+          "support_fraction_dec": "0.56250000"
+        },
+        "1000": {
+          "X": 39,
+          "coembed_ab": 37,
+          "containment_max": 37,
+          "containment_mean_dec": "8.05128205",
+          "diameter": 5,
+          "early_layer_fraction_dec": "0.30769230",
+          "participation_ratio_dec": "11.66816568",
+          "support_fraction_dec": "0.58974358"
+        },
+        "10000": {
+          "X": 105,
+          "coembed_ab": 103,
+          "containment_max": 103,
+          "containment_mean_dec": "13.35238095",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.11428571",
+          "participation_ratio_dec": "21.05853867",
+          "support_fraction_dec": "0.68571428"
+        }
+      },
+      "m": 3,
+      "seed": 5030801
+    },
+    {
+      "Gamma": 5,
+      "H": 8,
+      "checkpoints": {
+        "100": {
+          "X": 16,
+          "coembed_ab": 14,
+          "containment_max": 14,
+          "containment_mean_dec": "4.75000000",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.75000000",
+          "participation_ratio_dec": "7.00970873",
+          "support_fraction_dec": "0.68750000"
+        },
+        "1000": {
+          "X": 34,
+          "coembed_ab": 32,
+          "containment_max": 32,
+          "containment_mean_dec": "8.35294117",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.35294117",
+          "participation_ratio_dec": "12.92564102",
+          "support_fraction_dec": "0.70588235"
+        },
+        "10000": {
+          "X": 82,
+          "coembed_ab": 80,
+          "containment_max": 80,
+          "containment_mean_dec": "14.95121951",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.15853658",
+          "participation_ratio_dec": "25.36152262",
+          "support_fraction_dec": "0.68292682"
+        }
+      },
+      "m": 3,
+      "seed": 5030802
+    },
+    {
+      "Gamma": 5,
+      "H": 8,
+      "checkpoints": {
+        "100": {
+          "X": 13,
+          "coembed_ab": 11,
+          "containment_max": 11,
+          "containment_mean_dec": "4.46153846",
+          "diameter": 3,
+          "early_layer_fraction_dec": "0.69230769",
+          "participation_ratio_dec": "6.95041322",
+          "support_fraction_dec": "0.69230769"
+        },
+        "1000": {
+          "X": 36,
+          "coembed_ab": 34,
+          "containment_max": 34,
+          "containment_mean_dec": "7.52777777",
+          "diameter": 5,
+          "early_layer_fraction_dec": "0.44444444",
+          "participation_ratio_dec": "11.39149992",
+          "support_fraction_dec": "0.72222222"
+        },
+        "10000": {
+          "X": 75,
+          "coembed_ab": 73,
+          "containment_max": 73,
+          "containment_mean_dec": "13.38666666",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.21333333",
+          "participation_ratio_dec": "22.36854251",
+          "support_fraction_dec": "0.74666666"
+        }
+      },
+      "m": 3,
+      "seed": 5030803
+    },
+    {
+      "Gamma": 5,
+      "H": 8,
+      "checkpoints": {
+        "100": {
+          "X": 17,
+          "coembed_ab": 15,
+          "containment_max": 15,
+          "containment_mean_dec": "4.47058823",
+          "diameter": 4,
+          "early_layer_fraction_dec": "0.76470588",
+          "participation_ratio_dec": "6.84360189",
+          "support_fraction_dec": "0.64705882"
+        },
+        "1000": {
+          "X": 44,
+          "coembed_ab": 42,
+          "containment_max": 42,
+          "containment_mean_dec": "8.11363636",
+          "diameter": 5,
+          "early_layer_fraction_dec": "0.29545454",
+          "participation_ratio_dec": "12.31034482",
+          "support_fraction_dec": "0.59090909"
+        },
+        "10000": {
+          "X": 132,
+          "coembed_ab": 130,
+          "containment_max": 130,
+          "containment_mean_dec": "13.54545454",
+          "diameter": 6,
+          "early_layer_fraction_dec": "0.13636363",
+          "participation_ratio_dec": "21.92992179",
+          "support_fraction_dec": "0.62121212"
+        }
+      },
+      "m": 3,
+      "seed": 5030804
+    }
+  ]
+}
