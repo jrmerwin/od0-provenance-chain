@@ -1,0 +1,72 @@
+{
+  "campaign": "OD0-R49",
+  "declarations": {
+    "BELL2_opened": false,
+    "exact_arithmetic_only": true,
+    "historical_numerical_content_parsed": false,
+    "premise_budget": "zero-or-one-premise round; premise template A13R0 (binary activity statement); no policy weights, no physical time, no thresholds, no historical numerics, no geometry/particle/gravity/SI claims"
+  },
+  "erratum_r48_full_hash_expansion": {
+    "defect": "The frozen R48 report (OD0_R48_REPORT.md terminal block) and R48_OUTPUT_MANIFEST.json record the 40-character expansion of Commit A as 244e61a1b7f0272660ac549592a453f19d1035eb. That expansion was fabricated by the executor when writing the files and is WRONG.",
+    "true_full_hashes": {
+      "commit_A": "244e61af06b660b7f3fb47002e9ac75e6f4db54d",
+      "commit_B": "36d38b10fb0ab8947c897db01c733d1c73293f99"
+    },
+    "resolution": "R48 outputs remain frozen byte-for-byte (R49 pins their manifest hash); the erratum is recorded here and in OD0_R49_COUNTEREXAMPLES.md. The short-hash pins 244e61a / 36d38b1 used by the R49 package are correct and resolve to the true objects. Hostile-control class: digests-as-identities defect, caught at R49 lock verification."
+  },
+  "frozen_candidate_classes": {
+    "part1_adjunction_opportunity_sec_4_2": [
+      "T_sat: X -> X union En(X), En(X) = all enabled composites",
+      "T_g for each source grading g: X -> X union {y in En(X) : g(y) = min over En(X) of g} (next-grade saturation)",
+      "T_id: X -> X (inert)"
+    ],
+    "part2_record_opportunity_sec_5_0": [
+      "RO-A adjunction-as-record: the adjunction x={p,q} is itself an A10 record on the lineage(s) of p and/or q",
+      "RO-D downstream-incidence record: a record on an unresolved lineage occurs when a later adjunction takes that lineage's object (or a descendant) as IN or CO; recorded prefix determined by the ancestry position used",
+      "RO-X external: records remain external controls only (status quo; OD0 stays a cocycle)",
+      "RO-0 record-inert: adjunctions never record; frontiers stay coherent"
+    ],
+    "part3_service_opportunity_sec_6": [
+      "SV-pool: one kernel application per global step on the pooled forced set (frozen UEQ0 form F_t = B_t + m_t + C_b, C_b = disjoint union of J_h over record outcomes in the step)",
+      "SV-int: service interleaved between individual events within a step"
+    ],
+    "premise_templates": [
+      "CO1 (constructor activity): at each global step, enabled adjunctions occur (rather than none)",
+      "RO1 (record activity): a distinction event whose parent set includes a lineage object with an unresolved incidence frontier acts nontrivially (as an A10 prefix record) on that frontier"
+    ],
+    "frozen_before_any_test": true
+  },
+  "frozen_inputs_cited_not_rediscovered": {
+    "A13R_A13R0": "deu_a13r_scale_natural_clock_service_v0_1 (clock action; binary-activity-premise template)",
+    "CD0": "constructor, enabled events, exact diamond, Thm 1 (trace theorem)",
+    "CD1I": "SPEC sections 5.4 (unresolved append J_D, invariant non-recording isometry) and 5.6 (A10 prefix-record write and induced block dephasing)",
+    "CD2R_Thm3": "A12 cardinality functor CANONICAL_DERIVED (additive, region-covariant) - CLOSED; service-equivalence principle (frozen premise) and hypergeometric kernel; population/relief frozen rules",
+    "R28": "5,184 full controls = query x setting",
+    "R30": "no active source supplies opportunity (frozen)",
+    "R48": "obstruction theorem, per-component restriction, 31-field inventory, genealogy"
+  },
+  "package": {
+    "executor": "Claude Code (Fable 5)",
+    "path": "dataScience/DEU_LER_v3_claude/OD0_CLAUDE_CODE_PACKAGE_R49_MINIMUM_OPPORTUNITY_LAW_v0_1.md",
+    "sha256": "8d609bca4cda93d419ae1859e9a2f184349f0d3c9fbbd722e9fb2e2062737140"
+  },
+  "r48_pin_block": {
+    "commit_A_pin_short": "244e61a",
+    "commit_A_resolved": "244e61af06b660b7f3fb47002e9ac75e6f4db54d",
+    "commit_B_pin_short": "36d38b1",
+    "commit_B_resolved": "36d38b10fb0ab8947c897db01c733d1c73293f99",
+    "output_manifest_sha256_pin": "ea354c9ca639b236c0e1a5377ac61d32e5d13ad681abef43a5fd968ea84cd5ef",
+    "output_manifest_sha256_on_disk": "ea354c9ca639b236c0e1a5377ac61d32e5d13ad681abef43a5fd968ea84cd5ef",
+    "output_manifest_match": true,
+    "r47_digest_transitively_pinned": "via R48_INPUT_LOCK.json + R48_CHAIN_VERIFICATION.json inside the pinned R48 manifest (result digest 382a2cc975a194a1ef45b7aabd553d732811f084120bab3b1fafd7834e6c5c14)"
+  },
+  "run_date": "2026-09-01",
+  "schema": "OD0_R49_INPUT_LOCK_V1",
+  "structural_corollary_recorded": {
+    "OCCURRENCE_LAYER_NECESSITY": "Z splits into state-derived x and history-accumulated (N,S,Lambda,G+-); by CD0 Thm 1 no state that forgets occurrence determines the latter; any global maturation model must carry an occurrence/record layer; global state is Z-shaped: z = (X, N, S, Lambda, G-, G+). Derived from R48 + CD0 Thm 1; recorded as instructed by the package."
+  },
+  "worktree_state_at_start": {
+    "pre_existing_deltas": "36 unstaged deletions + 60 untracked paths (59 DEU_voids + root .gitignore), identical to the R48 start/end state; none touch pinned roots",
+    "frozen_root_modification_check_at_start": "CLEAN under all pinned and census roots"
+  }
+}
