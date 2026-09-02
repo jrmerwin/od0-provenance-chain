@@ -1,0 +1,26 @@
+{
+  "cost_budget_certification": {
+    "checks_failed": 0,
+    "statement": "B' - B = m + requests - S^F - voided at every transition; hence cumulative costs = B_k + cumServed + cumVoided - m*k <= B_k + (Gamma+H-m)*k exactly"
+  },
+  "rate": {
+    "alpha_gt_0_obstruction": "A positive growth exponent needs an UPPER bound on typical burst cost (to bound cycle lengths); typical served pairs are recent objects whose paths_to is uncontrolled from above. Named obstruction: uncontrolled typical burst cost - the same quantity, from the other side.",
+    "beta_lt_1_obstruction": "The universal DAG is doubly-exponentially wide: objects of depth d number T(d+1)-T(d), so cheap objects (cost ~ 22d) are too plentiful for the budget argument to force any polynomial gap - k/loglog k is the exact limit of this route. Named obstruction: cheap-object abundance.",
+    "cost_budget_identity": {
+      "statement": "EXACT: at every transition B' - B = m + requests - S^F - voided; hence cumulative injected cost sum_j c(y_j) = B_k + cumServed + cumVoided - m*k <= B_k + (Gamma + H - m)k + const. Engine-certified at every evolved transition."
+    },
+    "upper_bound_theorem": {
+      "class": "THEOREM (with the B_k/k -> 0 hypothesis stated; unconditional for the m=0 points where drains recur by R53's renewal theorem)",
+      "statement": "For m < Gamma, on the event that B_k/k -> 0 (the recurrent-drain regime), |X_k| <= C(Gamma,m,H) * k / log log k eventually. Proof: (i) the cost budget gives sum of first-use costs <= (Gamma+H)k + B_k; (ii) c(y) >= 11 * paths_to(y) >= 22 * depth(y); (iii) the universal DAG's cumulative depth-census T(d) satisfies T(d+1) = C(T(d),2) + 2 (doubly exponential), so any ideal of size N contains at least N - T(d) objects of depth > d; choosing d with T(d) ~ N/2 gives total first-use cost >= c * N * d(N) with d(N) ~ log log N. Combining: N * log log N <= C * k."
+    },
+    "verdict": "UPPER BOUND IMPROVED (k/loglog k form); beta < 1 target NOT met; lower bound alpha > 0 NOT obtained; obstruction named on both sides"
+  },
+  "registry_readout_file": {
+    "label": "READOUT - labeled, seeded, never proof; H1 provenance of the question disclosed; H1 is spent (no comparison)",
+    "path": "R55_REGISTRY_READOUT_RAW.json",
+    "sha256": "d849cb0ed2c7f7ae2dd5264d07e66eb813a39fff0c5f4f0f212f6b05085d588b"
+  },
+  "registry_readout_summary": "exemplar (2,0,0): registry presence 7.2 -> 10.8 -> 11.2 of 173 at k = 10^2/10^3/10^4 (fractions ~0.042/0.062/0.065); grades 1-4 unchanged between 10^3 and 10^4 (empirically frozen), grades 6-7 still increasing slowly - the availability of the registry at late times is a slowly-freezing random subset, early grades first, exactly the shape the frozen-support theorem predicts; per-point tables in the raw file",
+  "run_date": "2026-09-02",
+  "schema": "R55_RATE_BOUNDS_AND_REGISTRY_READOUT_V1"
+}

@@ -1,0 +1,86 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R55",
+  "counts": {
+    "budget_check_failures": 0,
+    "hostile_controls_passed": 8,
+    "hostile_controls_tested": 8,
+    "identity_check_failures": 0,
+    "m_ge_Gamma_points": 27,
+    "new_premises": 0,
+    "registry_readout_points": 144,
+    "supercritical_points": 1
+  },
+  "deterministic_rerun": "IDENTICAL_BYTE_FOR_BYTE",
+  "h2_dijet_pin": "PINNED_SEALED (R55_INPUT_LOCK.json h2_supplement_pin; never opened)",
+  "h2_h5_sentinels_parsed": false,
+  "hand_produced_hashes": 0,
+  "hostile_controls": [
+    [
+      "HC1",
+      "theorem statement altered after Commit A",
+      "REJECTED",
+      "Targets adjudicated verbatim as frozen; the route repair is recorded separately and changes no statement."
+    ],
+    [
+      "HC2",
+      "H1 content used beyond disclosed provenance; renewed H1 comparison",
+      "REJECTED",
+      "No H1 artifact opened; the registry readout uses the R50-derived object identity only and is labeled non-comparison."
+    ],
+    [
+      "HC3",
+      "H2-H5 content read",
+      "REJECTED",
+      "The supplied Run3_Dijet paper was hashed (bytes only) and pinned sealed; sentinels parsed=false at start and end."
+    ],
+    [
+      "HC4",
+      "readouts cited as proof; exponent asserted from readouts",
+      "REJECTED",
+      "All verdict components rest on the proofs above; the sqrt-k comparison stays labeled."
+    ],
+    [
+      "HC5",
+      "threshold or external referent",
+      "REJECTED",
+      "None appears."
+    ],
+    [
+      "HC6",
+      "modification of TG1/cost law/filtration/frozen roots",
+      "REJECTED",
+      "Nothing modified; worktree clean."
+    ],
+    [
+      "HC7",
+      "BELL2 opened",
+      "REJECTED",
+      "Unopened."
+    ],
+    [
+      "HC8",
+      "hand hash; placeholder",
+      "REJECTED",
+      "All hashes in-process; stamp commit closes the round."
+    ]
+  ],
+  "input_artifacts": {
+    "R55_EXACT_CERTIFICATES.json": "98b2c0415480652583091621ae270bc0e1d30d107f7b233eab3a915610ac88d4",
+    "R55_INPUT_LOCK.json": "58e2d81810be053f140bc4717f8cee3f6a59b2ddff84bfbcbafc767b893977db",
+    "R55_REGISTRY_READOUT_RAW.json": "d849cb0ed2c7f7ae2dd5264d07e66eb813a39fff0c5f4f0f212f6b05085d588b"
+  },
+  "package_version": "v0.1 (Claude Code executor)",
+  "prediction_vs_outcome": "Frozen support: PROVEN as predicted, with phi of the predicted 1/D order (constant coarser: Gamma^4/(Gamma-m)^2 rather than 2Gamma(Gamma-1)); the packaged proof route needed repair (quiet-step co-services; occupation split) - recorded. Termination: CORRECTED - predicted PROVEN, adjudicated SCOPED: the load argument alone cannot exclude a self-consistent linear-bursting regime; termination is proven only conditionally on superlinear burst-cost growth. Persistence extension: gap as predicted. Rate: the k/loglog k upper bound is NEW (the prediction expected beta < 1 or obstruction; the outcome is between - a genuine improvement that still misses the beta < 1 form); the obstruction is named on both sides as predicted (drained-state frequency was the predicted obstruction; the actual named obstruction is cheap-object abundance / uncontrolled typical burst cost). The prediction constrained nothing.",
+  "r56_recommendation": "FROZEN_SUPPORT = PROVEN, so per the R56 rule: freeze, target-blind for H2-H5, (i) the nine H1-provenance observables as exact functions on z+ (provenance disclosed), and (ii) the inclusion-probability law phi as the derived availability prediction; preregister the H2 comparison protocol (availability of fixed structures at maturity as a frozen random subset - shape and monotonicity only; the Run3_Dijet paper is now pinned sealed and waiting); open the M5 question (which repeated exact semantic labels become reachable in the realized random ideal). The termination result is queued for M7 and compared with nothing in R56.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R55_RESULTS_V1",
+  "verdicts": {
+    "CRITICAL_LINE": "band Gamma <= m <= Gamma+H open; stated model-internally",
+    "FROZEN_SUPPORT": "PROVEN(phi = Gamma(Gamma-1)[1/(Gamma-m) + 2Gamma^2/(Gamma-m)^2]/(D_tau-1); (b) two-stage)",
+    "PERSISTENCE_EXTENSION": "m < Gamma proven (carried); m < Gamma+H gap = relief-gating recurrence lemma",
+    "RATE": "UPPER k/loglog k (theorem, hypothesis stated); beta<1 and alpha>0 blocked by the named two-sided cost obstruction",
+    "TERMINATION": "SCOPED(conditional theorem; unconditional gap = typical burst-cost growth)",
+    "overall": "OD0_R55_PASS_LATE_REGIME_TARGETS_ADJUDICATED"
+  }
+}
