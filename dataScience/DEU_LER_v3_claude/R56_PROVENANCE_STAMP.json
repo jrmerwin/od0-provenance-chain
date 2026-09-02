@@ -1,0 +1,10 @@
+{
+  "campaign": "OD0-R56",
+  "commit_A_resolved": "6659b9fdc8ea52cc64f9170c64b734d02fbf8704",
+  "commit_B_resolved": "1363e9326019c6fc223c68a76befc5b2854c45d2",
+  "convention": "standing stamp convention",
+  "h2_prereg_sha256": "298d21da179d8e6a08c485a52e74b70999ab732f6da7ef16ae54fa5bebb366cc",
+  "output_manifest_path": "R56_OUTPUT_MANIFEST.json",
+  "output_manifest_sha256": "275840d315f9aee70d5d671f6da0585d0ba43dc30eb8ac6cff90c467167096c8",
+  "schema": "OD0_R56_PROVENANCE_STAMP_V1"
+}
