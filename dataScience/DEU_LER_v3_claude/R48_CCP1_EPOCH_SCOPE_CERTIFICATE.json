@@ -1,0 +1,28 @@
+{
+  "audit": {
+    "CCE1": [
+      "PASS",
+      "No global path licenses any first-appearance tau_e (no family passes GM1-12); tau_e therefore has no value anywhere in this round; occurrence stages remain T_occ order only (R47: physical elapsed time NOT_DEFINED)."
+    ],
+    "CCE2": [
+      "PASS",
+      "Absent-rank scope re-asserted from the frozen R47 result: absent rank creates no carrier stage; C- subset C_R subset C+; completion charge 0; null completion remains unselected. Asserted from the pinned report; not recomputed."
+    ],
+    "CCE3": [
+      "FAIL_NO_GLOBAL_FUNCTION",
+      "The set of labels with nonempty chains is #{e: n_e>0}, a function of the LOCAL state component N; no candidate global source determines it (LG3 failures); it is not a state-derived function of any global family."
+    ],
+    "CCE4": [
+      "PASS",
+      "Carrier labels remain the 356 exact semantic A12 objects; no particle promotion made; F4 recognizers kept in their own family with NO_MAP."
+    ],
+    "CCE5": [
+      "PASS",
+      "No maturity definition from CCP1; carrier-support fields reported in the inventory (supp(N)-derived, LOCAL_OD0_FIELD_ONLY); no threshold selected."
+    ]
+  },
+  "numerical_content_parsed": false,
+  "premise": "CCP1_EXACT_SPARSE (frozen R47; explicit, not source-derived)",
+  "run_date": "2026-09-01",
+  "schema": "R48_CCP1_EPOCH_SCOPE_CERTIFICATE_V1"
+}

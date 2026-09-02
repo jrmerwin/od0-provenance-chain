@@ -1,0 +1,174 @@
+{
+  "BELL2_scientific_content_opened": false,
+  "campaign": "OD0-R48",
+  "census_numerical_content_parsed_flags": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "counts": {
+    "adjudicated_families": 18,
+    "census_family_records": 132,
+    "census_groups": 9,
+    "class_overrides_applied": 8,
+    "classification_histogram": {
+      "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE": 3,
+      "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR": 4,
+      "ACTIVE_OD0_LOCAL_EXACT": 6,
+      "AUDIT_ONLY": 57,
+      "COLLISION_SUBSTRATE_FAMILY": 5,
+      "COSMOLOGY_PROJECTION_FAMILY": 6,
+      "LEGACY_NONACTIVE": 16,
+      "MANUSCRIPT_ONLY": 11,
+      "QUARANTINED": 1,
+      "TRIANGULATED_SCHEDULER_FAMILY": 23
+    },
+    "genealogy_conditional_arrows": 2,
+    "genealogy_exact_arrows": 2,
+    "genealogy_rejected_false_maps": 6,
+    "genealogy_vertices": 19,
+    "holdout_items_pinned": 103,
+    "holdout_values_parsed": 0,
+    "hostile_controls_passed": 12,
+    "hostile_controls_tested": 12,
+    "map_classifications": 10,
+    "maturation_field_histogram": {
+      "ACTIVE_GLOBAL_DERIVED_OBSERVABLE": 8,
+      "ACTIVE_GLOBAL_STATE_FIELD": 4,
+      "ENGINE_INDEX_ONLY": 1,
+      "EXTERNAL_CONTROL_METADATA": 2,
+      "HISTORICAL_RESULT_ONLY": 3,
+      "LOCAL_OD0_FIELD_ONLY": 8,
+      "MANUSCRIPT_INTERPRETATION": 3,
+      "UNAVAILABLE": 2
+    },
+    "maturation_fields": 31,
+    "new_premises": 0,
+    "read_only_census_roots": 28,
+    "sealed_item_records": 49,
+    "semantic_hit_term_groups": 65,
+    "source_root_rule": "recorded verbatim in R48_INPUT_LOCK.json"
+  },
+  "deterministic_rerun": "IDENTICAL_BYTE_FOR_BYTE",
+  "epoch_candidate_family_status": "NO_CANDIDATE_FAMILY_FROZEN",
+  "genealogy_answers": {
+    "Q1_single_component_with_genesis_and_od0": "NO as an exact-arrow component on full states; YES only componentwise: the constructor reaches OD0's record/clock/frontier representation core through the exact CD1I arrow, while S/Lambda/(G-,G+) lie behind conditional (axiom-bearing) arrows.",
+    "Q2_directed_path_genesis_to_od0_with_exact_intertwiners": "NO. First missing intertwiner: F1 carries no occurrence/probability law (GM4), so no transition intertwiner can exist at the first arrow out of the constructor; independently, the S/Lambda/G+- components require A12/A13/RRP1.",
+    "Q3_scheduler_and_collision_in_component": "NO. Both are exact-arrow-isolated from the constructor/OD0 component (NO_MAP witnesses).",
+    "Q4_cosmology_projection_status": "External calibrations and phenomenological projections (with engine-internal state fields where engines exist); none is a state map or observable map of the active chain.",
+    "Q5_single_family_covering_early_and_late": "NO. F1 covers genesis-to-complete within the frozen universe but has no maturation dynamics; F2/F0 have no origin; F3 has dynamics but no origin and no interface.",
+    "Q6_any_family_passes_GM1_12": "NO. Nearest candidate F1 fails first at GM4."
+  },
+  "gm_first_failures": {
+    "F0_OD0_LOCAL": "GM2",
+    "F1_NATIVE_CONSTRUCTOR": "GM4",
+    "F2M_M0_CORE": "GM2",
+    "F2_UEQ0_MASTER": "GM2",
+    "F3X_G2C_BACKREACTION": "GM2",
+    "F3_SCHEDULER_LINE": "GM2",
+    "FX_HOLO_STAGE": "GM2",
+    "FX_SR_OBSERVER": "GM2",
+    "FX_WILLOW": "GM2"
+  },
+  "historical_numerical_content_parsed": false,
+  "hostile_controls": [
+    [
+      "HC1",
+      "local depth D equals cosmic epoch",
+      "REJECTED",
+      "D indexes the frozen instrument tower (3^D frontier dimension, modulus 3^(D+1)); no source theorem relates it to any global age; the never-identify list is enforced verbatim; no identification appears in any output."
+    ],
+    [
+      "HC2",
+      "occurrence rank / control-word position equals physical elapsed time or global age",
+      "REJECTED",
+      "R47 (frozen): PHYSICAL ELAPSED TIME STATUS: NOT_DEFINED; T_occ IS ORDER ONLY. Reasserted; nothing in this round assigns durations."
+    ],
+    [
+      "HC3",
+      "object DAG size equals engine step",
+      "REJECTED",
+      "Exact witness: at the complete size-six state all 137 size-seven objects are simultaneously enabled (CD0 report), so DAG size and event count are different sorts; the trace theorem removes order entirely."
+    ],
+    [
+      "HC4",
+      "frontier stationarity equals global support locking",
+      "REJECTED",
+      "E(X) = empty at the complete state is exhaustion of the frozen universe O_<=7; the historical 'support locking' label is a sealed H1 result never opened; no identification made."
+    ],
+    [
+      "HC5",
+      "CCP1 chain existence equals particle existence; one repeated label defines maturity",
+      "REJECTED",
+      "CCE4/CCE5; R47: carrier labels stay exact semantic objects; no threshold selected."
+    ],
+    [
+      "HC6",
+      "null-completing CCP1 through absent ranks",
+      "REJECTED",
+      "R47 frozen interval status: ABSENT = NO STAGE, completion charge 0; nothing in this round completes through absence."
+    ],
+    [
+      "HC7",
+      "threshold or statistic selected using 2.5e5 / 5e5 / proton presence / broadening labels / K9 concentration",
+      "REJECTED",
+      "All historical numerical content sealed (numerical_content_parsed=false in all 9 census groups); no threshold or statistic of any kind was selected in this round."
+    ],
+    [
+      "HC8",
+      "treating a mature archived substrate as the global initial state",
+      "SCOPED_EXACTLY",
+      "Present in sources and scoped, not adopted: F3X_G2C and the DEU_bridge anchored campaigns initialize from archived substrates; FX_SR_OBSERVER starts from the completed registry; F2's prefix set R is inherited. Each is recorded as a GM2 failure of its family; none is promoted to a genesis."
+    ],
+    [
+      "HC9",
+      "treating a test-harness loop or enumeration order as opportunity or dynamics",
+      "REJECTED",
+      "CD0's exhaustive level sweep classified as enumeration (successor independent of enumeration); OD0 audit engines classified AUDIT_ONLY; census agents' exhaustive-realization notes never entered GM4 as opportunity."
+    ],
+    [
+      "HC10",
+      "joining model families by shared names or shared counts (137, 27, 432, 81)",
+      "REJECTED",
+      "Merges made only on identical constructor rule + identical universe (F1 merge certificate); the boundary-vacuum foam proposed as constructor was reclassified (override recorded); 432-harnesses kept separate (PARTIAL_COUNT_MAP_NOT_SEMANTIC)."
+    ],
+    [
+      "HC11",
+      "importing triangulated geometry, a gravity-condensation schedule, or a graph-clock/Hubble formula into state or transition",
+      "REJECTED",
+      "F3/F5 objects carry no arrows into the active component; F3X_G2C's gravity-motivated coupling is recorded as that family's own GM12 obstruction, not imported."
+    ],
+    [
+      "HC12",
+      "digests as physical identities; post-witness candidate repair; modification of R47/inherited roots; opening BELL2",
+      "REJECTED",
+      "Hashes used only as pins; no candidate repaired after a witness; frozen-root modification check clean at start and end; BELL2_scientific_content_opened=false throughout (sealed-item lists in census)."
+    ]
+  ],
+  "input_artifacts": {
+    "R48_CENSUS_GROUPS_RAW.json": "585cc44de56538b5a9c260453ced596d4a511cba7bb2c9b9a5af6db3911659c2",
+    "R48_CHAIN_VERIFICATION.json": "96ee25197f406a3f01e565160a9a376eecd90bff1ac85b2d902de65742e172f9",
+    "R48_INPUT_LOCK.json": "05d673b274f107b69585dd7cac51b872327888bd4e3503fdbf284608b75c12f2"
+  },
+  "od0_restriction_component_partition": "x: PARTIAL(representation-derived via CD1I; instance registration missing) | N: FAIL(trace-theorem obstruction) | S: FAIL(A12 axiom alphabet) | Lambda: FAIL(A12/A13/model-rule) | G+-: FAIL(RRP1)",
+  "package_version": "v0.2 (Claude Code executor)",
+  "primary_justification": "B side: F1 is a genuine origin-to-state constructor (GM1-3,5,10-12 pass; GM6 scoped to the frozen universe) with an exact representation arrow into the OD0 upstream factor (CD1I), but no opportunity law (GM4) and no transition intertwiner; F2 is a proven Markov master engine without genesis and with external chronic input. C side: the OD0 family itself is an exact externally controlled cocycle with no global maturation source (frozen R30). Component partition of Z: x PARTIAL(representation-derived), N FAIL(trace-theorem), S FAIL(A12), Lambda FAIL(A12/A13/model-rule), (G-,G+) FAIL(RRP1).",
+  "r49_recommendation": "Per Section 16 (B/C hybrid): address only the smallest exact interface obstruction - ask whether the constructor plus the already-frozen service/RRP1 premises jointly determine Lambda and (G-,G+), BEFORE any new premise. Sharpened by this round's witnesses: the first sub-question is whether the A12 compiler map (canonical F3R primitive -> one forced request in its smallest inherited prefix region) is derivable from the CD1I-descended record algebra (A10/A11R) - A12 is the first non-derived layer between the exact representation core and the entire service side, and Lambda/(G-,G+) both sit behind it.",
+  "run_date": "2026-09-01",
+  "schema": "OD0_R48_RESULTS_V1",
+  "verdicts": {
+    "holdout": "OD0_R48_PARTIAL_HISTORICAL_HOLDOUT_ARTIFACTS_INCOMPLETE",
+    "overall": "OD0_R48_PASS_EXACT_MODEL_FAMILY_GENEALOGY_AND_MATURATION_SOURCE_BOUNDARY",
+    "primary": [
+      "OD0_R48_PARTIAL_GLOBAL_ENGINE_EXISTS_NO_EXACT_OD0_LOCAL_INTERTWINER",
+      "OD0_R48_PARTIAL_OD0_LOCAL_CONTROLLED_COCYCLE_NO_GLOBAL_MATURATION_SOURCE"
+    ],
+    "primary_mode": "HYBRID_B_C"
+  }
+}

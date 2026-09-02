@@ -1,0 +1,94 @@
+{
+  "BELL2_scientific_content_opened": false,
+  "campaign": "OD0-R48",
+  "commit_A": "244e61a1b7f0272660ac549592a453f19d1035eb",
+  "commit_B": "CREATED_AFTER_SELF_EXCLUDED_MANIFEST_WRITE",
+  "file_count": 16,
+  "files": [
+    {
+      "bytes": 9312,
+      "path": "OD0_R48_COUNTEREXAMPLES.md",
+      "sha256": "b5aadc87c892604f4fb1dde39b3be4a3df1953faecaa8c9be6be3c3a501019ba"
+    },
+    {
+      "bytes": 10890,
+      "path": "OD0_R48_REPORT.md",
+      "sha256": "750fce3f63affc3abc3688543e4d68bc30ff05a7973c042957c9de604f184005"
+    },
+    {
+      "bytes": 9540,
+      "path": "OD0_R48_RESULTS.json",
+      "sha256": "e9db59d582aa5e2d6b2521d85cea3b591fa65363e5a3a963024c50aff5d27c3a"
+    },
+    {
+      "bytes": 1387,
+      "path": "R48_CCP1_EPOCH_SCOPE_CERTIFICATE.json",
+      "sha256": "7ab627055e32b6907b927d1d1962c1530f0d9baa3c4d71854e35b5ee18ff17ff"
+    },
+    {
+      "bytes": 572763,
+      "path": "R48_CENSUS_GROUPS_RAW.json",
+      "sha256": "585cc44de56538b5a9c260453ced596d4a511cba7bb2c9b9a5af6db3911659c2"
+    },
+    {
+      "bytes": 21837,
+      "path": "R48_CHAIN_VERIFICATION.json",
+      "sha256": "96ee25197f406a3f01e565160a9a376eecd90bff1ac85b2d902de65742e172f9"
+    },
+    {
+      "bytes": 22930,
+      "path": "R48_GM_LG_ADMISSIBILITY_MATRIX.json",
+      "sha256": "825d2a3def753ad3af4ed89f0a5af740d272bf4e888d84ad336d3508f1409fb5"
+    },
+    {
+      "bytes": 64978,
+      "path": "R48_HOLDOUT_MANIFEST.json",
+      "sha256": "bead4bba072e6a655ecfa28223a4d8ffba79c49e9cbfff033ec97bbbdc4b39d8"
+    },
+    {
+      "bytes": 7690,
+      "path": "R48_INPUT_LOCK.json",
+      "sha256": "05d673b274f107b69585dd7cac51b872327888bd4e3503fdbf284608b75c12f2"
+    },
+    {
+      "bytes": 8671,
+      "path": "R48_MATURATION_FIELD_INVENTORY.json",
+      "sha256": "b4326237e26e7730214b6c454013127239323a47d3089b7e68a9a250e15e86e4"
+    },
+    {
+      "bytes": 74052,
+      "path": "R48_MODEL_FAMILY_GENEALOGY.json",
+      "sha256": "09e2a5a2d83f9d8cf6f46b3b5dc5f2815a890a9d72c857e77ea9fc234d7b1ca9"
+    },
+    {
+      "bytes": 5128,
+      "path": "R48_OBSTRUCTION_THEOREM.json",
+      "sha256": "5a33a7b28077fd3cdfbde1fa096f1b185d253b6ffe1ada7e362771fc5d2e85d1"
+    },
+    {
+      "bytes": 10547,
+      "path": "build_r48_input_lock.py",
+      "sha256": "a5386b9774216953d68b152daf2a0c82633edf557b73671c05be9178167098bb"
+    },
+    {
+      "bytes": 24223,
+      "path": "build_r48_outputs.py",
+      "sha256": "fc7022e42a1a35517796097b09563a60504235adbd41e2103c9b161dd8080d64"
+    },
+    {
+      "bytes": 68328,
+      "path": "r48_adjudication_data.py",
+      "sha256": "e711aa7f0b99c36bab5717c80d6d58b5bb475eee124d02c9fea207a0936bddae"
+    },
+    {
+      "bytes": 8985,
+      "path": "verify_pinned_chain.py",
+      "sha256": "54769d9ef72ce0f260473da7822dba1bced572ede0f4f0e8e930d0f34dfc20a2"
+    }
+  ],
+  "historical_numerical_content_parsed": false,
+  "new_premises": 0,
+  "package_version": "v0.2 (Claude Code executor)",
+  "schema": "OD0_R48_OUTPUT_MANIFEST_V1",
+  "self_excluded": true
+}

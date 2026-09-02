@@ -1,0 +1,1763 @@
+{
+  "adjudicated_families": [
+    {
+      "cites": [
+        "OD0_R0_SPEC",
+        "R33_SPEC",
+        "R32_SPEC",
+        "R44_SPEC",
+        "R47_REPORT"
+      ],
+      "family_id": "F0_OD0_LOCAL",
+      "final_class": "ACTIVE_OD0_LOCAL_EXACT",
+      "members_resolved": [
+        [
+          "G7_ler_v2_codex",
+          "OD0 Q1 depth-1 exact successor kernel (F0 local-law seed: phase orbit + BFS frontier closure)",
+          "RESOLVED"
+        ],
+        [
+          "G7_ler_v2_codex",
+          "OD0 finite occurrence graph state and controlled graph kernel (R24-R29 PGComp line; anchor-gauge multiset state)",
+          "RESOLVED"
+        ],
+        [
+          "G8_ler_v01_and_misc",
+          "LER0 lineage-embedding-render route/clock/record core (+LER0U extension)",
+          "RESOLVED"
+        ],
+        [
+          "G8_ler_v01_and_misc",
+          "LERF frozen tower: F0 frontier -> F1 phase response -> F1R character clock -> F2 dynamic records -> F3 outcome rendering -> F3R record-anchored history",
+          "RESOLVED"
+        ],
+        [
+          "G8_ler_v01_and_misc",
+          "A13R scale-natural clock service (deu_a13r_scale_natural_clock_service_v0_1)",
+          "RESOLVED"
+        ],
+        [
+          "G8_ler_v01_and_misc",
+          "BELL0/BELL1 canonical bipartite core and frozen catalog Bell evaluation (BELL2 sealed)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "OD0 local event equation (frozen arbitrary-prestate controlled cocycle)",
+      "overrides": [],
+      "summary": "Z=(x,N,S,Lambda,G-,G+); Pr(h,sigma|Z,gamma)=p_{gamma,h}(x)*K_svc(sigma|J_h,Lambda); triangular updates; x = 36-coordinate Q2 record frontier, N in N^2304 (P4 multiplicities), S subset 356-element persistent content alphabet (R33 Sec 1.1); Gamma_5184 full query-plus-setting controls in 13 covariance orbits (R32); G-(R)=Int(R), G+(R)=Cl(R) over RRP1 served marks (R44). Externally controlled; conditional premises PBO1/ERL1/RRP1 (+CCP1 for carrier chains, R47)."
+    },
+    {
+      "cites": [
+        "CD0_SPEC",
+        "CD0_REPORT"
+      ],
+      "family_id": "F1_NATIVE_CONSTRUCTOR",
+      "final_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+      "members_resolved": [
+        [
+          "G1_rmr_logical_seed",
+          "Recursive DAG-7 registry constructor (137-element distinction engine)",
+          "RESOLVED"
+        ],
+        [
+          "G8_ler_v01_and_misc",
+          "CD0 native recursive distinction constructor (deu_combinatorial_descent_cd0)",
+          "RESOLVED"
+        ],
+        [
+          "G9_rmr_side_trees",
+          "qdag packaged 137-registry toolkit (qdag v0.1 + qdag_2 v0.3)",
+          "RESOLVED"
+        ],
+        [
+          "G9_rmr_side_trees",
+          "de_pipeline canonical distinction-engine structural pipeline (FullEngine; incl. epoch_time time-dilation variant and dag_time characterization)",
+          "RESOLVED"
+        ]
+      ],
+      "merge_certificate": "Merged on identical constructor rule read from code (unordered pair of distinct priors, ancestry closure) and identical exact universe (levels 1..7 = 2,0,1,2,6,25,137; CD0 report table), not on shared counts or names. The sterile-harness registry rebuild (G1) is a verifier copy, kept as AUDIT_ONLY member of family FA_STERILE.",
+      "name": "Native recursive distinction constructor and CD0 event/trace category",
+      "overrides": [],
+      "summary": "Genesis {a,b}; objects = unordered pairs of distinct priors; universe O_<=7 (173 objects, 137 at level 7, sectors 81/40/16); states = ancestry-closed ideals containing {a,b}; transitions = adjunction events e_y enabled iff Par(y) subset X; exact independence diamonds (9,316 level-7 pairs verified); thin trace category (one arrow per comparable state pair); C2 primitive-exchange natural automorphism. NO opportunity/selection law: CD0 explicitly 'not asserted to be the runtime scheduler'; 'construction order cannot be a physical outcome or retained record'."
+    },
+    {
+      "cites": [
+        "CD1I_FRAME",
+        "CD1I_INVENTORY",
+        "CD0_TRIADIC_DECISION"
+      ],
+      "family_id": "F1B_CD1I_DESCENT",
+      "final_class": "AUDIT_ONLY",
+      "members_resolved": [
+        [
+          "G8_ler_v01_and_misc",
+          "CD1I incidence odometer descent (deu_combinatorial_descent_cd1_incidence)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "CD1I incidence-odometer descent certificates (arrow artifact F1 -> LER representation core)",
+      "overrides": [
+        [
+          "G8_ler_v01_and_misc",
+          "CD1I incidence odometer descent",
+          "ACTIVE_OD0_LOCAL_EXACT",
+          "AUDIT_ONLY",
+          "CD1I is a descent-certificate harness, not the local law family itself; its content is recorded as genealogy arrows."
+        ]
+      ],
+      "summary": "Certifies the typed incidence frame (IN=p, CO=q, NEW=x) as CANONICAL_FUNCTORIAL_SUBCONSTRUCTION and CDA1 as CANONICAL_DERIVED_REPRESENTATION with zero remaining representation axioms; derives qutrit, F3 character transform, frontier word space, refinement isometry, oriented shift, nested ternary clock, A9 fiber, A10 records, A11R Boolean facts. A12 and A13 explicitly out of scope; Hilbert substrate inherited from frozen UEQ0."
+    },
+    {
+      "cites": [
+        "UEQ0_MASTER",
+        "UEQ0_AXIOMS"
+      ],
+      "family_id": "F2_UEQ0_MASTER",
+      "final_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+      "members_resolved": [
+        [
+          "G8_ler_v01_and_misc",
+          "UEQ0 unified equation closure \u2014 branch/service master transition (deu_unified_equations_v1_0)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "UEQ0 unified-equation master transition",
+      "overrides": [],
+      "summary": "Typed state X_t=(nu_t,{Q_mu},{L_mu},G_t,R,d_t); master kernel Pr_t(b,s)=p_t(b)*prod_mu K_led(s_mu|L_mu,m_mu+C_b,mu); proven Markov closure and record monotonicity; only declared external input = chronic schedule m_mu,t; exactly two bridge axioms A12/A13 plus hypergeometric FROZEN_MODEL_RULE; prefix-region set R inherited immutable; no genesis state declared."
+    },
+    {
+      "cites": [
+        "UEQ0_AXIOMS"
+      ],
+      "family_id": "F2M_M0_CORE",
+      "final_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+      "members_resolved": [
+        [
+          "G3_deu_unification",
+          "M0 multi-model unification exact core (finite event structures, closure algebra, connection/gauge) \u2014 NEW family absent from the ledger inventory",
+          "RESOLVED"
+        ]
+      ],
+      "name": "M0 multi-model unification exact core (finite event structures)",
+      "overrides": [],
+      "summary": "Finite event structures with explicit enabled(config) legality and independence relation; closure algebra; supplies the frozen recurrence/even-relief controller pinned by UEQ0. Generic core over supplied configurations; no genesis state and no occurrence measure."
+    },
+    {
+      "cites": [
+        "LEDGER",
+        "CENSUS"
+      ],
+      "family_id": "F3_SCHEDULER_LINE",
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "members_resolved": [
+        [
+          "G1_rmr_logical_seed",
+          "Causal foam event-DAG engine (exp456 minimal, hash 7B8C...)",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "01N topology-stitch pilot (rotating omission surrogate)",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "01Q coherent topological stitch layer-3 engine (full source)",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "01-series fixed-epoch defect/lapse experiment line (01_QCD, 01H-01M, 01N-radial, 01N-disclination, 01O, 01P, 01R, 01S)",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "Rung1 v7 (docstring 'RUNG 1 v5')",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "Rung1 v8 native-overflow scheduler (two hashes)",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "Rung1 v9",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "Rung1 v19 live valve (two hashes)",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "Rung1 v20 spike",
+          "RESOLVED"
+        ],
+        [
+          "G1_rmr_logical_seed",
+          "Rung1 v21 Zeno (three hashes; certified base for v21i/v22)",
+          "RESOLVED"
+        ],
+        [
+          "G3_deu_unification",
+          "Rung1 v21 Zeno native-overflow engine (linked-ledger certified copy) + v21i/i2/i3 measurement layers",
+          "RESOLVED"
+        ],
+        [
+          "G3_deu_unification",
+          "Rung1 v22 sector-ledger engine (per-charge demand + annihilation discharge)",
+          "RESOLVED"
+        ],
+        [
+          "G3_deu_unification",
+          "Rung1 v23 two-window engine (dual anchors, linkage, color triplet discharge)",
+          "RESOLVED"
+        ],
+        [
+          "G3_deu_unification",
+          "Rung2 v30 conscription engine (demand-graded effective core radius)",
+          "RESOLVED"
+        ],
+        [
+          "G4_deu_voids",
+          "Distributed flux geometry probe line (rounds 1-18; rung2_v31 metric-flux backreaction -> v31i susceptibility -> v31j sink-router)",
+          "RESOLVED"
+        ],
+        [
+          "G4_deu_voids",
+          "Integer metric-pressure shadow line (rounds 19-21; rung2_v31k engine, long-horizon evolving geometry)",
+          "RESOLVED"
+        ],
+        [
+          "G4_deu_voids",
+          "Work-energy carrier C-line (C0-C24; analysis harnesses + read-only instrument engine chain v31m_native_identity_work ... v31y_local_served_scar_effect)",
+          "RESOLVED"
+        ],
+        [
+          "G4_deu_voids",
+          "Track-B xi/spine engine forks (rung2b_v31_xi radial venting; rung2c_v32_spine steered-flip spine)",
+          "RESOLVED"
+        ],
+        [
+          "G6_holo_bridge_sr",
+          "F1 DEU_holo HolographicFoamEngine (137-registry activation foam)",
+          "RESOLVED"
+        ],
+        [
+          "G6_holo_bridge_sr",
+          "F14 DEU_bridge v21-zeno anchored-patcher calibration campaign (R432/R3/R3b/S136/S136b/U1/U1c instruments + fork)",
+          "RESOLVED"
+        ],
+        [
+          "G2_rmr_deu_and_137sim",
+          "DEU activation-count boundary vacuum engine + Lambda carrier-density closure (foam line)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "Triangulated scheduler / operational-gravity line (foam, 01-series, rung v7-v30, voids v31 lines, bridge campaigns, holo foam)",
+      "overrides": [
+        [
+          "G2_rmr_deu_and_137sim",
+          "DEU activation-count boundary vacuum engine",
+          "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+          "TRIANGULATED_SCHEDULER_FAMILY",
+          "Boundary-face activation foam with its own firing rule; state space is a face foam with activation counts, not the recursive unordered-pair universe; merging with F1 would be a name/terminology merge, which Section 6 forbids. Its Lambda carrier-density closure objects are recorded separately under F5."
+        ]
+      ],
+      "summary": "Live typed face complexes with boundary-counted stochastic schedulers, forced/vacuum token lotteries, backlog/relief valves (v21 Zeno certified base), sector ledgers (v22-v23), conscription (v30), and voids-side flux/shadow/backreaction instrument rounds. Internal opportunity laws ARE defined (scheduler lotteries in source); seeded arbitrary initial substrates; no genesis from primitives; no ancestry retained; no exact state map from or to the registry/OD0 families."
+    },
+    {
+      "cites": [
+        "CENSUS",
+        "PROVENANCE"
+      ],
+      "family_id": "F3X_G2C_BACKREACTION",
+      "final_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+      "members_resolved": [
+        [
+          "G4_deu_voids",
+          "G2c coupled-backreaction line (rounds 22-24; rung2_v31l coupled veto, v31m smoothed coupling, v31n domain lapse, birth-survivable coupling)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "G2c coupled-backreaction line (DEU_voids rounds 22-24: rung2_v31l coupled veto, v31m smoothed coupling)",
+      "overrides": [],
+      "summary": "Census addition beyond the descent ledger: executable v31-lineage sources exist in DEU_voids (the ledger recorded v31l-v31o as absent in the linked forces_unification repo; the DEU_voids Fable-line implementations are a distinct later source line with explicit post-legality veto hooks). Initial state = archived mature v30-line substrate; gravity-motivated coupling."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "F4_COLLISION_SUBSTRATE",
+      "final_class": "COLLISION_SUBSTRATE_FAMILY",
+      "members_resolved": [
+        [
+          "G2_rmr_deu_and_137sim",
+          "Stage-K traceable collision/hadron toolkit (K1-K11 collision-age arc)",
+          "RESOLVED"
+        ],
+        [
+          "G9_rmr_side_trees",
+          "Open-Token 137-Registry carrier engine + Core Drill excavator (Model-B kernel, K3 carriers, particle/gauge/micro-time experiments)",
+          "RESOLVED"
+        ],
+        [
+          "G9_rmr_side_trees",
+          "Alternative-logic multi-force RMR constructors + GrandUnifiedRMRSim dynamic engine (alt_logic + dag_char triadic notebooks)",
+          "RESOLVED"
+        ],
+        [
+          "G4_deu_voids",
+          "Carrier count-face reduced model (deu_reduced_82645ed; reduced form of an absent Stage-K collision engine)",
+          "RESOLVED"
+        ],
+        [
+          "G6_holo_bridge_sr",
+          "F7 CMS dijet chi=2 stutter reproduction (collider arc)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "Collision substrate line (Stage-K toolkit, Open-Token carrier engine, reduced carrier models, collider audits)",
+      "overrides": [],
+      "summary": "Substrate generation, candidate discovery, particle/capsule recognizers, collision control and scoring are separately sourced components (recorded separately per package Section 6 F4); Run3_Dijet named artifacts NOT FOUND on this machine (DEU_LHC3 is an empty placeholder)."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "F5_COSMOLOGY_PROJECTION",
+      "final_class": "COSMOLOGY_PROJECTION_FAMILY",
+      "members_resolved": [
+        [
+          "G9_rmr_side_trees",
+          "Dynamic-G / S8 growth-screen family (locked law D_G(a)=124-4a, mu=120/D_G; Pantheon+, RSD, lensing screens)",
+          "RESOLVED"
+        ],
+        [
+          "G9_rmr_side_trees",
+          "Graph-clock cosmology candidate line C3B-open4 (dual clock D(N)=log2 N; q_CMB=137/124; candidate3 screens; locked candidate v4)",
+          "RESOLVED"
+        ],
+        [
+          "G9_rmr_side_trees",
+          "K5 fission causal-graph engine + discrete CMB spectrum program (RMR_origin_and_fate)",
+          "RESOLVED"
+        ],
+        [
+          "G2_rmr_deu_and_137sim",
+          "DEU CMB thread-tracing / sky-projection harness (thread-seed + M39 internal redesign)",
+          "RESOLVED"
+        ],
+        [
+          "G2_rmr_deu_and_137sim",
+          "DEU dual-clock Boltzmann milestone package (deu/ clock-registry-background postprocessor)",
+          "RESOLVED"
+        ],
+        [
+          "G4_deu_voids",
+          "E6/A1 void-boundary generative-age pipeline (DEU_voids root)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "Cosmology projection line (dynamic-G/S8, graph-clock cosmology, K5 fission CMB, CMB thread-tracing, Boltzmann dual-clock, CLASS-DEU gating, voids E6/A1, Lambda carrier-density closure)",
+      "overrides": [],
+      "summary": "Each member classified per Section 6 F5: engine-side state fields where an engine exists (K5 fission graph; thread-tracing states), derived observables, external calibrations, and phenomenological projections/locked laws elsewhere. None is a source state map into the active chain."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FX_HOLO_STAGE",
+      "final_class": "LEGACY_NONACTIVE",
+      "members_resolved": [
+        [
+          "G6_holo_bridge_sr",
+          "F2 DEU_holo 3D finite-volume field / particle-mesh / Regge stage ladder (stage_a..stage_dw)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "DEU_holo 3D finite-volume field / particle-mesh / Regge stage ladder",
+      "overrides": [
+        [
+          "G6_holo_bridge_sr",
+          "F2 DEU_holo 3D finite-volume field",
+          "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+          "LEGACY_NONACTIVE",
+          "No declared genesis, no opportunity structure, and no interface artifacts to OD0 or the constructor; retained in the GM audit as a candidate row but classified nonactive."
+        ]
+      ],
+      "summary": "Deterministic PDE-style stage ladder toward geometric targets; configured (not source-declared) initial data; no availability/opportunity structure; no exact map to any active family."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FX_SR_OBSERVER",
+      "final_class": "AUDIT_ONLY",
+      "members_resolved": [
+        [
+          "G6_holo_bridge_sr",
+          "F16 DEU_SR self-reference observer family (unified self-reference + shared past + objectivity-campaign engine)",
+          "RESOLVED"
+        ],
+        [
+          "G3_deu_unification",
+          "SR0 self-reference frontier exact model (liar threshold rule, incompleteness band)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "DEU_SR self-reference observer family (incompleteness frontier, shared past, objectivity campaigns)",
+      "overrides": [
+        [
+          "G6_holo_bridge_sr",
+          "F16 DEU_SR self-reference observer family",
+          "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+          "AUDIT_ONLY",
+          "Starts from the completed registry; no genesis, no OD0 interface; kept as GM candidate row with first-failure GM2."
+        ]
+      ],
+      "summary": "Registry-based observer/self-reference audits; initial state = completed 137 registry (archived mature substrate, hostile control 8 scope); the incompleteness frontier is an availability object of the audit, not a global maturation source."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FX_WILLOW",
+      "final_class": "LEGACY_NONACTIVE",
+      "members_resolved": [
+        [
+          "G9_rmr_side_trees",
+          "Willow bipartite-lattice signal-propagation engine (Node/Lattice/PropEngine, frozen-ring cavities, ablation/universality program)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "Willow bipartite-lattice signal-propagation engine",
+      "overrides": [
+        [
+          "G9_rmr_side_trees",
+          "Willow bipartite-lattice signal-propagation engine",
+          "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+          "LEGACY_NONACTIVE",
+          "No genesis, no availability semantics, no interface; not an active extension candidate."
+        ]
+      ],
+      "summary": "Fixed bipartite lattice, fixed propagation rule, no genesis, no selection structure, no DEU-chain interface."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FX_SPECTRAL_PACKET",
+      "final_class": "AUDIT_ONLY",
+      "members_resolved": [
+        [
+          "G6_holo_bridge_sr",
+          "F4 Rank-capacity / support-attractor spectral packet dynamics",
+          "RESOLVED"
+        ]
+      ],
+      "name": "Rank-capacity / support-attractor spectral packet dynamics (DEU_holo)",
+      "overrides": [
+        [
+          "G6_holo_bridge_sr",
+          "F4 Rank-capacity / support-attractor spectral packet dynamics",
+          "ACTIVE_OD0_LOCAL_EXACT",
+          "AUDIT_ONLY",
+          "ACTIVE_OD0_LOCAL_EXACT is reserved for the frozen OD0 law family; this is an exploratory holo-side probe with a different state space and no OD0 objects."
+        ]
+      ],
+      "summary": "Deterministic spectral fixed-point probe; not the OD0 local law."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FX_CONSTRUCTOR_VARIANTS",
+      "final_class": "LEGACY_NONACTIVE",
+      "members_resolved": [
+        [
+          "G6_holo_bridge_sr",
+          "F12 HL1 horizon-loss distinction engine (+ exact base_engine)",
+          "RESOLVED"
+        ],
+        [
+          "G6_holo_bridge_sr",
+          "F13 TX1 frontier-scheduled distinction engine (+TX2 orthogonality, TX3 screens)",
+          "RESOLVED"
+        ]
+      ],
+      "name": "Scheduler-augmented distinction-constructor variants (HL1 horizon-loss, TX1/TX2/TX3 frontier-scheduled)",
+      "overrides": [
+        [
+          "G6_holo_bridge_sr",
+          "F12 HL1 horizon-loss distinction engine",
+          "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+          "LEGACY_NONACTIVE",
+          "Adds a horizon eligibility policy to the constructor; distinct transition; not the frozen native family."
+        ],
+        [
+          "G6_holo_bridge_sr",
+          "F13 TX1 frontier-scheduled distinction engine",
+          "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+          "LEGACY_NONACTIVE",
+          "Adds a frontier scheduling policy; distinct transition; not the frozen native family."
+        ]
+      ],
+      "summary": "Distinction-pair constructors with ADDED eligibility/selection policies (combination horizon; frontier scheduling). Their existence is direct source evidence that a selection law over enabled adjunctions is an added policy premise, never derived from the constructor itself (GM4 witness for F1)."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FA_AUDIT_HARNESSES",
+      "final_class": "AUDIT_ONLY",
+      "members_resolved": [
+        [
+          "*",
+          "ALL_REMAINING_AUDIT_ONLY",
+          "CATCH_ALL"
+        ]
+      ],
+      "name": "Standalone audit/reduction harness group (sterile capture, psi0, closure spaces, Zeno scalar, tunneling, SR fingerprint, ringdown lines, LIGO/QM public-data audits, v21 enumerator, TaskP0 provenance, tail-cliff, B0/C26 instruments, crystallization probe, collider audits, unified U0-U3a, CLASS-DEU gating, mass/G-const/LIV/pulsar/blazar audits, RMR applications)",
+      "overrides": [],
+      "summary": "Read-only or synthetic-state harnesses; no autonomous global state claims; grouped for the census histogram with members enumerated in the raw census."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FL_LEGACY",
+      "final_class": "LEGACY_NONACTIVE",
+      "members_resolved": [
+        [
+          "*",
+          "ALL_REMAINING_LEGACY_NONACTIVE",
+          "CATCH_ALL"
+        ]
+      ],
+      "name": "Legacy nonactive engines (HetSim, RMRNode line, RMR lattice engines, cavity census, pre-registry notebooks, legacy copies)",
+      "overrides": [],
+      "summary": "Superseded or exploratory engines with no active-chain role; members enumerated in the raw census."
+    },
+    {
+      "cites": [
+        "LEDGER",
+        "PROVENANCE"
+      ],
+      "family_id": "FM_MANUSCRIPT",
+      "final_class": "MANUSCRIPT_ONLY",
+      "members_resolved": [
+        [
+          "*",
+          "ALL_REMAINING_MANUSCRIPT_ONLY",
+          "CATCH_ALL"
+        ]
+      ],
+      "name": "Manuscript-only line (QM_GR papers, GR_QM revision, grav_geometry, v31l-v31o claims (forces_unification repo), HT4 registration, unified_deu_eq drafts, constants map, deu_equations corpus)",
+      "overrides": [],
+      "summary": "Claims with no executable source or with source gaps recorded in MISSING_PROVENANCE.md; the two unified_deu_eq PDFs are hash-pinned with headings-only access."
+    },
+    {
+      "cites": [
+        "CENSUS"
+      ],
+      "family_id": "FQ_QUARANTINED",
+      "final_class": "QUARANTINED",
+      "members_resolved": [
+        [
+          "G7_ler_v2_codex",
+          "od0_r48-r53 Codex-side later rounds (global maturation source boundary through source-natural residual eliminability) \u2014 contents sealed this census",
+          "RESOLVED"
+        ]
+      ],
+      "name": "Quarantined/sealed artifacts (BELL2 packages; Codex-side od0_r48..r53 round outputs)",
+      "overrides": [],
+      "summary": "BELL2 scientific content never opened (hash/size pins only). Codex-side R48-R53 outputs excluded from this round's inputs by the v0.2 package; names/sizes/hashes only."
+    }
+  ],
+  "census_raw_file": {
+    "family_records": 132,
+    "path": "R48_CENSUS_GROUPS_RAW.json",
+    "sha256": "585cc44de56538b5a9c260453ced596d4a511cba7bb2c9b9a5af6db3911659c2"
+  },
+  "census_record_classifications": [
+    {
+      "final_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+      "group": "G1_rmr_logical_seed",
+      "label": "Recursive DAG-7 registry constructor (137-element distinction engine)",
+      "override": null,
+      "proposed_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G1_rmr_logical_seed",
+      "label": "HetSim heterogeneous registry simulator",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Registry expansion / sterile-capture harness line (Godelian Engine -> shared-past Observer -> CaptureEngine)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Causal foam event-DAG engine (exp456 minimal, hash 7B8C...)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G1_rmr_logical_seed",
+      "label": "Causal foam linked-ledger fork (hash 6A61...)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "01N topology-stitch pilot (rotating omission surrogate)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "01Q coherent topological stitch layer-3 engine (full source)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "01Q reconstructed scalar shim (linked ledger)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "01-series fixed-epoch defect/lapse experiment line (01_QCD, 01H-01M, 01N-radial, 01N-disclination, 01O, 01P, 01R, 01S)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G1_rmr_logical_seed",
+      "label": "Rung1 early notebook-embedded line (native test, v3, v5, v6 substrate, v6.0 wedge operator) - NEW, fills part of the v1-v6 gap",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Rung1 v7 (docstring 'RUNG 1 v5')",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Rung1 v8 native-overflow scheduler (two hashes)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Rung1 v9",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Rung1 v19 live valve (two hashes)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Rung1 v20 spike",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Rung1 v21 Zeno (three hashes; certified base for v21i/v22)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "v21i / v21i2 / v21i3 instrumented",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "SIG threshold reconstructor (SIGAblationReconstructor)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "NativePsi0GraphSimulator (synthetic K27x16 psi0 boundary harness)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "GenerativeClosureSpace (closure-amplitude harness, two hashes)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "JointAncestralClosureSpace (Bell/CHSH wrapper)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Zeno boundary reduced model (ZenoBoundarySimulator)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Tunneling cost reduced model (WKB substitution)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Five-rule one/two-queue reduction (HT4 preregistration)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "SR/Minkowski fingerprint audit family (fingerprint + worldline-clock + lorentz-radar + fixed-anchor-twin + volume-gamma patches)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Defect curvature audit (path-transport)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "LIGO ringdown compression template line (DEU_GR_LIGO_v1, Experiment 02/02B/02C/02D) - eta=40/41",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Ringdown revisited P6 phase-0 harness (Kerr-QNM killcheck line)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "Raw-strain ringdown population audit chain (raw_population + R0-R17D)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "QM public-data signature audit packages (optomech/LIGO-aux, weak-strong signal tests, Fig2 parser)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G1_rmr_logical_seed",
+      "label": "Pre-registry / pre-foam exploration notebook line (March-April 2026)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G1_rmr_logical_seed",
+      "label": "DEU manuscript & reproducibility packages (paper1, paper2 variants, generative ledger v1/v2, generative relativity, triangular foam v02)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "RMRNode clockless registry-node constructor (toy relational universes)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "RMR 2D Node/Lattice depletion-emergence notebooks (v1/v2 diagnostic line)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "RMR v6 four-force 3D lattice engine (canonical 137-registry lattice)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "RMR extended gravity lattice engine (gravity-only, random-init variant)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "DEU activation-count boundary vacuum engine + Lambda carrier-density closure (foam line)",
+      "override": {
+        "family_id": "F3_SCHEDULER_LINE",
+        "from": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+        "to": "TRIANGULATED_SCHEDULER_FAMILY",
+        "why": "Boundary-face activation foam with its own firing rule; state space is a face foam with activation counts, not the recursive unordered-pair universe; merging with F1 would be a name/terminology merge, which Section 6 forbids. Its Lambda carrier-density closure objects are recorded separately under F5."
+      },
+      "proposed_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR"
+    },
+    {
+      "final_class": "COLLISION_SUBSTRATE_FAMILY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "Stage-K traceable collision/hadron toolkit (K1-K11 collision-age arc)",
+      "override": null,
+      "proposed_class": "COLLISION_SUBSTRATE_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "Reduced Distinction Engine utilities + particle-foam manuscript repro (deu_reduced line)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "COSMOLOGY_PROJECTION_FAMILY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "DEU CMB thread-tracing / sky-projection harness (thread-seed + M39 internal redesign)",
+      "override": null,
+      "proposed_class": "COSMOLOGY_PROJECTION_FAMILY"
+    },
+    {
+      "final_class": "COSMOLOGY_PROJECTION_FAMILY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "DEU dual-clock Boltzmann milestone package (deu/ clock-registry-background postprocessor)",
+      "override": null,
+      "proposed_class": "COSMOLOGY_PROJECTION_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "CLASS-DEU staged validation and release-gating harness (Boltzmann_repo + 41/40 follow-up)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "Two-clocks / graph-index / 41-over-40 manuscript-and-figures line",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "Frontier-identity machinery-validation skeleton (spectral delta-lock gate)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G2_rmr_deu_and_137sim",
+      "label": "DE gravity observations manuscript (redo_grav)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G3_deu_unification",
+      "label": "Rung1 v21 Zeno native-overflow engine (linked-ledger certified copy) + v21i/i2/i3 measurement layers",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G3_deu_unification",
+      "label": "Rung1 v22 sector-ledger engine (per-charge demand + annihilation discharge)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G3_deu_unification",
+      "label": "Rung1 v23 two-window engine (dual anchors, linkage, color triplet discharge)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "Rung1 v24 identity-register layer (iota in Z3, gate at 137)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "v25-v29 pure-read instrument ladder (drift, invariant, tag-typing, flow rates, corridor census)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G3_deu_unification",
+      "label": "Rung2 v30 conscription engine (demand-graded effective core radius)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G3_deu_unification",
+      "label": "Causal event-DAG foam engine (deu_exp456_minimal, linked-ledger fork copies)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "01Q reconstructed scalar shim (helper dataclasses only)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "Track B M2 validation battery + certification harness",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+      "group": "G3_deu_unification",
+      "label": "M0 multi-model unification exact core (finite event structures, closure algebra, connection/gauge) \u2014 NEW family absent from the ledger inventory",
+      "override": null,
+      "proposed_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "M2/M2R read-only causal-source probes (foam channel category and universal orientation)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "v21 exact enumerator (V21State carrier, exhaustive outcome semantics)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "Foundational DAG-7 registry reconstruction + factorization probe (81/40/16, K9 backbone)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "Internal-unification history/orientation probes (causal history, oriented characters)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "SR0 self-reference frontier exact model (liar threshold rule, incompleteness band)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "TaskP0 provenance-audit harness (inventory, claim matrix, genealogy generators)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "v31l-v31o / G2c backreaction series (claimed; source ABSENT \u2014 verified)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G3_deu_unification",
+      "label": "HT4 five-rule one/two-queue reduced model (registration document)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "COSMOLOGY_PROJECTION_FAMILY",
+      "group": "G4_deu_voids",
+      "label": "E6/A1 void-boundary generative-age pipeline (DEU_voids root)",
+      "override": null,
+      "proposed_class": "COSMOLOGY_PROJECTION_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G4_deu_voids",
+      "label": "Distributed flux geometry probe line (rounds 1-18; rung2_v31 metric-flux backreaction -> v31i susceptibility -> v31j sink-router)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G4_deu_voids",
+      "label": "Integer metric-pressure shadow line (rounds 19-21; rung2_v31k engine, long-horizon evolving geometry)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+      "group": "G4_deu_voids",
+      "label": "G2c coupled-backreaction line (rounds 22-24; rung2_v31l coupled veto, v31m smoothed coupling, v31n domain lapse, birth-survivable coupling)",
+      "override": null,
+      "proposed_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G4_deu_voids",
+      "label": "Work-energy carrier C-line (C0-C24; analysis harnesses + read-only instrument engine chain v31m_native_identity_work ... v31y_local_served_scar_effect)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "COLLISION_SUBSTRATE_FAMILY",
+      "group": "G4_deu_voids",
+      "label": "Carrier count-face reduced model (deu_reduced_82645ed; reduced form of an absent Stage-K collision engine)",
+      "override": null,
+      "proposed_class": "COLLISION_SUBSTRATE_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G4_deu_voids",
+      "label": "Tail-cliff campaign (bridge; finite-support / compact-support suppression search against SM reference)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G4_deu_voids",
+      "label": "B0 boundary-demand stock-vs-rate instrument (Fable_attempt; v21i5_b0 rung1 instrument + rung2 v31t_b0 port + void-freeze adjudication arc)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G4_deu_voids",
+      "label": "C26 dual-candidate structural preflight (Fable_attempt; v21i4_c26 lineage/relief-event instrument + candidate selection)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G4_deu_voids",
+      "label": "Track-B xi/spine engine forks (rung2b_v31_xi radial venting; rung2c_v32_spine steered-flip spine)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G4_deu_voids",
+      "label": "Legacy generative-ledger / forces_unification copies (v21 zeno + v21i/i2/i3 + v22-v30 + 01Q shim + exp456 foam, multiply duplicated)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G4_deu_voids",
+      "label": "LIGO vacuum-background harmonics probe (sol_effort/LIGO)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F1 DEU_holo HolographicFoamEngine (137-registry activation foam)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G6_holo_bridge_sr",
+      "label": "F2 DEU_holo 3D finite-volume field / particle-mesh / Regge stage ladder (stage_a..stage_dw)",
+      "override": {
+        "family_id": "FX_HOLO_STAGE",
+        "from": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+        "to": "LEGACY_NONACTIVE",
+        "why": "No declared genesis, no opportunity structure, and no interface artifacts to OD0 or the constructor; retained in the GM audit as a candidate row but classified nonactive."
+      },
+      "proposed_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F3 Registry graph-Laplacian mass-proxy screen line (QCD/hadron/Moller audits)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F4 Rank-capacity / support-attractor spectral packet dynamics",
+      "override": {
+        "family_id": "FX_SPECTRAL_PACKET",
+        "from": "ACTIVE_OD0_LOCAL_EXACT",
+        "to": "AUDIT_ONLY",
+        "why": "ACTIVE_OD0_LOCAL_EXACT is reserved for the frozen OD0 law family; this is an exploratory holo-side probe with a different state space and no OD0 objects."
+      },
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F5 Scale-setting instrumented-foam unit map",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F6 Mass-ratio bridge clock battery (K5->K3 relaxation clocks, positronium/tau predictions, CoherentMotif)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "COLLISION_SUBSTRATE_FAMILY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F7 CMS dijet chi=2 stutter reproduction (collider arc)",
+      "override": null,
+      "proposed_class": "COLLISION_SUBSTRATE_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F8 LHCb B0->K*0 mu mu angular-stutter scoring",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F9 Blind catalog spectroscopy (operator freeze / reference reveal)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F10 Bridge-paper manuscript (From a Discrete Topological Registry to Causal Reciprocal ...)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F11 DEU unified solution audit handoff (deu_eqs)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G6_holo_bridge_sr",
+      "label": "F12 HL1 horizon-loss distinction engine (+ exact base_engine)",
+      "override": {
+        "family_id": "FX_CONSTRUCTOR_VARIANTS",
+        "from": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+        "to": "LEGACY_NONACTIVE",
+        "why": "Adds a horizon eligibility policy to the constructor; distinct transition; not the frozen native family."
+      },
+      "proposed_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G6_holo_bridge_sr",
+      "label": "F13 TX1 frontier-scheduled distinction engine (+TX2 orthogonality, TX3 screens)",
+      "override": {
+        "family_id": "FX_CONSTRUCTOR_VARIANTS",
+        "from": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+        "to": "LEGACY_NONACTIVE",
+        "why": "Adds a frontier scheduling policy; distinct transition; not the frozen native family."
+      },
+      "proposed_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F14 DEU_bridge v21-zeno anchored-patcher calibration campaign (R432/R3/R3b/S136/S136b/U1/U1c instruments + fork)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F15 U0/U5 analytic unit-map and registry-arithmetic expressibility audits",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F16 DEU_SR self-reference observer family (unified self-reference + shared past + objectivity-campaign engine)",
+      "override": {
+        "family_id": "FX_SR_OBSERVER",
+        "from": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+        "to": "AUDIT_ONLY",
+        "why": "Starts from the completed registry; no genesis, no OD0 interface; kept as GM candidate row with first-failure GM2."
+      },
+      "proposed_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G6_holo_bridge_sr",
+      "label": "F17 Frontier-identity machinery-validation skeleton (DEU_SR Test 2)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "ACTIVE_OD0_LOCAL_EXACT",
+      "group": "G7_ler_v2_codex",
+      "label": "OD0 Q1 depth-1 exact successor kernel (F0 local-law seed: phase orbit + BFS frontier closure)",
+      "override": null,
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G7_ler_v2_codex",
+      "label": "OD0-R0 exact observable-boundary audit harness (od0/ instrument-separation engine, Q1+Q2 tiny domains)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "ACTIVE_OD0_LOCAL_EXACT",
+      "group": "G7_ler_v2_codex",
+      "label": "OD0 finite occurrence graph state and controlled graph kernel (R24-R29 PGComp line; anchor-gauge multiset state)",
+      "override": null,
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G7_ler_v2_codex",
+      "label": "OD0 chain round audit/theorem harnesses R2-R47 (quotients, depth theorems, typed service, transports, policy audits, clocks, geometry no-carrier boundary)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G7_ler_v2_codex",
+      "label": "OD0 Codex round-specification packages (55 top-level OD0_CODEX_PACKAGE_R1..R53 md files)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "QUARANTINED",
+      "group": "G7_ler_v2_codex",
+      "label": "od0_r48-r53 Codex-side later rounds (global maturation source boundary through source-natural residual eliminability) \u2014 contents sealed this census",
+      "override": null,
+      "proposed_class": "QUARANTINED"
+    },
+    {
+      "final_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+      "group": "G8_ler_v01_and_misc",
+      "label": "CD0 native recursive distinction constructor (deu_combinatorial_descent_cd0)",
+      "override": null,
+      "proposed_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR"
+    },
+    {
+      "final_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+      "group": "G8_ler_v01_and_misc",
+      "label": "UEQ0 unified equation closure \u2014 branch/service master transition (deu_unified_equations_v1_0)",
+      "override": null,
+      "proposed_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "CD1I incidence odometer descent (deu_combinatorial_descent_cd1_incidence)",
+      "override": {
+        "family_id": "F1B_CD1I_DESCENT",
+        "from": "ACTIVE_OD0_LOCAL_EXACT",
+        "to": "AUDIT_ONLY",
+        "why": "CD1I is a descent-certificate harness, not the local law family itself; its content is recorded as genealogy arrows."
+      },
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "CD2/CD2R workload-service descent and master pushforward (deu_combinatorial_descent_cd2, _cd2r)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "ACTIVE_OD0_LOCAL_EXACT",
+      "group": "G8_ler_v01_and_misc",
+      "label": "LER0 lineage-embedding-render route/clock/record core (+LER0U extension)",
+      "override": null,
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "ACTIVE_OD0_LOCAL_EXACT",
+      "group": "G8_ler_v01_and_misc",
+      "label": "LERF frozen tower: F0 frontier -> F1 phase response -> F1R character clock -> F2 dynamic records -> F3 outcome rendering -> F3R record-anchored history",
+      "override": null,
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "ACTIVE_OD0_LOCAL_EXACT",
+      "group": "G8_ler_v01_and_misc",
+      "label": "A13R scale-natural clock service (deu_a13r_scale_natural_clock_service_v0_1)",
+      "override": null,
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "ACTIVE_OD0_LOCAL_EXACT",
+      "group": "G8_ler_v01_and_misc",
+      "label": "BELL0/BELL1 canonical bipartite core and frozen catalog Bell evaluation (BELL2 sealed)",
+      "override": null,
+      "proposed_class": "ACTIVE_OD0_LOCAL_EXACT"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "Unified solver engine-native audits \u2014 instrumented rung1 scheduler forks (deu_equations/unified_solver)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "TRIANGULATED_SCHEDULER_FAMILY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "Holographic reconstruction boundary-to-bulk metric closure suite (deu_equations/holographic_reconstruction)",
+      "override": null,
+      "proposed_class": "TRIANGULATED_SCHEDULER_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "Unified solution audit U0-U3a pipeline (unified_solution_audit)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G8_ler_v01_and_misc",
+      "label": "RMR four-forces 137-registry causal lattice simulation (four_forces_simulation_reference)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G8_ler_v01_and_misc",
+      "label": "RMR bipartite-lattice cavity-census engine (simulation_meets_derivations)",
+      "override": null,
+      "proposed_class": "LEGACY_NONACTIVE"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "Registry constants derivation map (derivation_table/constants_map.jsx)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "UEQ/CD manuscript line (unified_deu_eq PDFs + Combinatorial Descent manuscript package)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "MANUSCRIPT_ONLY",
+      "group": "G8_ler_v01_and_misc",
+      "label": "deu_equations manuscript corpus (DE_foam, carriers, cern, equation_unification, grav_geometry, self_ref, QM_GR_1/2, GR_QM copies)",
+      "override": null,
+      "proposed_class": "MANUSCRIPT_ONLY"
+    },
+    {
+      "final_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+      "group": "G9_rmr_side_trees",
+      "label": "qdag packaged 137-registry toolkit (qdag v0.1 + qdag_2 v0.3)",
+      "override": null,
+      "proposed_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR"
+    },
+    {
+      "final_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR",
+      "group": "G9_rmr_side_trees",
+      "label": "de_pipeline canonical distinction-engine structural pipeline (FullEngine; incl. epoch_time time-dilation variant and dag_time characterization)",
+      "override": null,
+      "proposed_class": "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR"
+    },
+    {
+      "final_class": "COLLISION_SUBSTRATE_FAMILY",
+      "group": "G9_rmr_side_trees",
+      "label": "Alternative-logic multi-force RMR constructors + GrandUnifiedRMRSim dynamic engine (alt_logic + dag_char triadic notebooks)",
+      "override": null,
+      "proposed_class": "COLLISION_SUBSTRATE_FAMILY"
+    },
+    {
+      "final_class": "COLLISION_SUBSTRATE_FAMILY",
+      "group": "G9_rmr_side_trees",
+      "label": "Open-Token 137-Registry carrier engine + Core Drill excavator (Model-B kernel, K3 carriers, particle/gauge/micro-time experiments)",
+      "override": null,
+      "proposed_class": "COLLISION_SUBSTRATE_FAMILY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "DEU crystallization probe (four-lineage tetrahedral closure, stages 4-13, composite maturity)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "COSMOLOGY_PROJECTION_FAMILY",
+      "group": "G9_rmr_side_trees",
+      "label": "Dynamic-G / S8 growth-screen family (locked law D_G(a)=124-4a, mu=120/D_G; Pantheon+, RSD, lensing screens)",
+      "override": null,
+      "proposed_class": "COSMOLOGY_PROJECTION_FAMILY"
+    },
+    {
+      "final_class": "COSMOLOGY_PROJECTION_FAMILY",
+      "group": "G9_rmr_side_trees",
+      "label": "Graph-clock cosmology candidate line C3B-open4 (dual clock D(N)=log2 N; q_CMB=137/124; candidate3 screens; locked candidate v4)",
+      "override": null,
+      "proposed_class": "COSMOLOGY_PROJECTION_FAMILY"
+    },
+    {
+      "final_class": "COSMOLOGY_PROJECTION_FAMILY",
+      "group": "G9_rmr_side_trees",
+      "label": "K5 fission causal-graph engine + discrete CMB spectrum program (RMR_origin_and_fate)",
+      "override": null,
+      "proposed_class": "COSMOLOGY_PROJECTION_FAMILY"
+    },
+    {
+      "final_class": "LEGACY_NONACTIVE",
+      "group": "G9_rmr_side_trees",
+      "label": "Willow bipartite-lattice signal-propagation engine (Node/Lattice/PropEngine, frozen-ring cavities, ablation/universality program)",
+      "override": {
+        "family_id": "FX_WILLOW",
+        "from": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE",
+        "to": "LEGACY_NONACTIVE",
+        "why": "No genesis, no availability semantics, no interface; not an active extension candidate."
+      },
+      "proposed_class": "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "CMS dijet chi=2 stutter / locked-boundary audit (stage14 auto-download + stage15 chi2 boundary line)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "B->K* locked prediction-card audit (deu_b2kstar + beta_decay scoring)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "DAG-309 LIV GRB screen (spectral truncation + arrival-time stutter)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "Magic-angle blazar-ring transparency audit (RMR_doomsday)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "Fermi EFT dipole-angle regression audit (RMR_GR)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "Pulsar timing residual tail-asymmetry audit (RMR_signal_pairs, NANOGrav nb par/tim)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "Integer-grammar mass-landscape scan (RMR_masses)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "Gravitational-constant deficit search (RMR_G_const)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    },
+    {
+      "final_class": "AUDIT_ONLY",
+      "group": "G9_rmr_side_trees",
+      "label": "RMR computing/RNG applications (Godel gates, holographic nets, IAT/QRNG/thermal 5/4-ratio pipelines)",
+      "override": null,
+      "proposed_class": "AUDIT_ONLY"
+    }
+  ],
+  "classification_histogram": {
+    "ACTIVE_GLOBAL_SOURCE_EXTENSION_CANDIDATE": 3,
+    "ACTIVE_NATIVE_DISTINCTION_CONSTRUCTOR": 4,
+    "ACTIVE_OD0_LOCAL_EXACT": 6,
+    "AUDIT_ONLY": 57,
+    "COLLISION_SUBSTRATE_FAMILY": 5,
+    "COSMOLOGY_PROJECTION_FAMILY": 6,
+    "LEGACY_NONACTIVE": 16,
+    "MANUSCRIPT_ONLY": 11,
+    "QUARANTINED": 1,
+    "TRIANGULATED_SCHEDULER_FAMILY": 23
+  },
+  "frozen_input_citations": {
+    "CD0_REPORT": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_combinatorial_descent_cd0/CD0_DISTINCTION_EVENT_CATEGORY_REPORT.md",
+    "CD0_SPEC": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_combinatorial_descent_cd0/SPEC_CD0_DISTINCTION_CATEGORY_AND_COMPLEX_v0_1.md",
+    "CD0_TRIADIC_DECISION": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_combinatorial_descent_cd1_incidence/CD0_TRIADIC_FAILURE_DECISION_v0_1_1.md",
+    "CD0_TRIADIC_SCOUT": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_combinatorial_descent_cd0/CD0_TRIADIC_REFINEMENT_SCOUT.md",
+    "CD1I_FRAME": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_combinatorial_descent_cd1_incidence/CD1I_INCIDENCE_FRAME_CLASSIFICATION.md",
+    "CD1I_INVENTORY": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_combinatorial_descent_cd1_incidence/CD1I_UEQ0_EQUIVALENCE_INVENTORY.md",
+    "CENSUS": "DEU_LER_v3_claude/R48_CENSUS_GROUPS_RAW.json",
+    "LEDGER": "DEU_LER_v3_claude/MODEL_GENEALOGY.md",
+    "OD0_R0_SPEC": "DEU_LER_v2_codex/od0/OD0_SPEC_v0_1.md",
+    "PROVENANCE": "DEU_LER_v3_claude/MISSING_PROVENANCE.md",
+    "R30_FROZEN": "package Section 3.1 frozen citation; artifact od0_r30_outer_policy_audit_v0_1 reachable through pinned chain (R48_CHAIN_VERIFICATION.json)",
+    "R32_SPEC": "DEU_LER_v2_codex/deu_od0_exact_observables_v0_1/od0_r32_fresh_record_controlled_cocycle_v0_1/OD0_R32_SPEC_v0_1.md",
+    "R33_SPEC": "DEU_LER_v2_codex/deu_od0_exact_observables_v0_1/od0_r33_policy_robust_sectors_v0_1/OD0_R33_SPEC_v0_1.md",
+    "R44_SPEC": "DEU_LER_v2_codex/deu_od0_exact_observables_v0_1/od0_r44_interval_cocycle_currents_v0_1/OD0_R44_SPEC_v0_1.md",
+    "R47_REPORT": "DEU_LER_v2_codex/deu_od0_exact_observables_v0_1/od0_r47_geometry_no_carrier_boundary_v0_1/OD0_R47_REPORT.md",
+    "UEQ0_AXIOMS": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/UEQ0_PROVENANCE_AND_AXIOM_LEDGER.md",
+    "UEQ0_MASTER": "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/UEQ0_MASTER_TRANSITION_THEOREM.md"
+  },
+  "genealogy": {
+    "conditional_arrows": [
+      {
+        "certificate": "UEQ0_AXIOMS equation inventory + UEQ0_MASTER",
+        "from": "LER_REPRESENTATION_CORE",
+        "premises": [
+          "NEW_BRIDGE_AXIOM_A12",
+          "NEW_BRIDGE_AXIOM_A13",
+          "FROZEN_MODEL_RULE (hypergeometric service / even relief)",
+          "external chronic schedule m_mu,t",
+          "Hilbert/complex substrate inherited from frozen UEQ0"
+        ],
+        "to": "F2_UEQ0_MASTER"
+      },
+      {
+        "certificate": "OD0 round chain R19-R47 (pinned); R44 standing evidential conditions; R47 report",
+        "from": "F2_UEQ0_MASTER",
+        "premises": [
+          "PBO1",
+          "ERL1",
+          "RRP1 (for G+-)",
+          "CCP1_EXACT_SPARSE (for carrier chains only; R47)",
+          "registered Q1/Q2 depth-1 domain instances",
+          "external control domain Gamma_5184"
+        ],
+        "to": "F0_OD0_LOCAL"
+      }
+    ],
+    "exact_arrows": [
+      {
+        "certificate": "CD1I_FRAME + CD1I_INVENTORY (CANONICAL_DERIVED, 0 axioms)",
+        "covariance": "primitive exchange acts covariantly on frames (CD1I)",
+        "forgotten": "nothing on listed components; A12/A13/service side not covered",
+        "from": "F1_NATIVE_CONSTRUCTOR",
+        "initial_state_compatibility": "genesis {a,b} maps to empty-lineage frame base",
+        "injectivity_surjectivity": "not claimed in source; not asserted here",
+        "map": "CD1I incidence-triad representation functor (CDA1)",
+        "preserved": "typed incidence frames, orientation double cover, C2 covariance, lineage words, prefix records, Boolean fact algebra, ternary odometer/depth embedding",
+        "to": "LER_REPRESENTATION_CORE",
+        "transition_intertwiner": "NONE (F1 carries no law); representation-schema arrow only"
+      },
+      {
+        "certificate": "per-version certification blocks read in census G3; ledger v21->v22...v30 row (exact implemented map)",
+        "covariance": "engine-level",
+        "forgotten": "nothing (instrument layers pure-read)",
+        "from": "F3_SCHEDULER_LINE",
+        "initial_state_compatibility": "shared seeded substrates",
+        "injectivity_surjectivity": "identity-on-state embeddings",
+        "map": "intra-line certified inheritance v21 -> v22 -> ... -> v30 (disabled-path certification) and v21 -> v21i/i2/i3 (measurement-only)",
+        "preserved": "state schema and legality predicates per certification",
+        "to": "F3_SCHEDULER_LINE",
+        "transition_intertwiner": "EXACT within the line per disabled-path certificates"
+      }
+    ],
+    "questions": {
+      "Q1_single_component_with_genesis_and_od0": "NO as an exact-arrow component on full states; YES only componentwise: the constructor reaches OD0's record/clock/frontier representation core through the exact CD1I arrow, while S/Lambda/(G-,G+) lie behind conditional (axiom-bearing) arrows.",
+      "Q2_directed_path_genesis_to_od0_with_exact_intertwiners": "NO. First missing intertwiner: F1 carries no occurrence/probability law (GM4), so no transition intertwiner can exist at the first arrow out of the constructor; independently, the S/Lambda/G+- components require A12/A13/RRP1.",
+      "Q3_scheduler_and_collision_in_component": "NO. Both are exact-arrow-isolated from the constructor/OD0 component (NO_MAP witnesses).",
+      "Q4_cosmology_projection_status": "External calibrations and phenomenological projections (with engine-internal state fields where engines exist); none is a state map or observable map of the active chain.",
+      "Q5_single_family_covering_early_and_late": "NO. F1 covers genesis-to-complete within the frozen universe but has no maturation dynamics; F2/F0 have no origin; F3 has dynamics but no origin and no interface.",
+      "Q6_any_family_passes_GM1_12": "NO. Nearest candidate F1 fails first at GM4."
+    },
+    "rejected_arrows": [
+      {
+        "from": "F1_NATIVE_CONSTRUCTOR",
+        "reason": "NO_MAP (no registry-node -> face function/table/import in any source)",
+        "to": "F3_SCHEDULER_LINE"
+      },
+      {
+        "from": "F1_NATIVE_CONSTRUCTOR",
+        "reason": "no direct exact arrow: factors through LER_REPRESENTATION_CORE on x-side components only; blocked at A12/A13/RRP1 for S/Lambda/G+- and at the trace theorem for N",
+        "to": "F0_OD0_LOCAL"
+      },
+      {
+        "from": "F3_SCHEDULER_LINE",
+        "reason": "NO_MAP (all LG rows fail; shared ledger-equation shape is not an intertwiner, package Section 6 F3)",
+        "to": "F0_OD0_LOCAL"
+      },
+      {
+        "from": "F4_COLLISION_SUBSTRATE",
+        "reason": "NO_MAP; no name-based proton -> CCP1 map permitted or found (CCE4)",
+        "to": "F0_OD0_LOCAL"
+      },
+      {
+        "from": "F5_COSMOLOGY_PROJECTION",
+        "reason": "projection/calibration objects only; no state arrows",
+        "to": "any active family"
+      },
+      {
+        "from": "FM_MANUSCRIPT (v31l-v31o claims)",
+        "reason": "SOURCE_CONFLICT (see map classification row); families not joined",
+        "to": "F3X_G2C_BACKREACTION"
+      }
+    ],
+    "vertices": [
+      "F0_OD0_LOCAL",
+      "F1_NATIVE_CONSTRUCTOR",
+      "F1B_CD1I_DESCENT",
+      "F2_UEQ0_MASTER",
+      "F2M_M0_CORE",
+      "F3_SCHEDULER_LINE",
+      "F3X_G2C_BACKREACTION",
+      "F4_COLLISION_SUBSTRATE",
+      "F5_COSMOLOGY_PROJECTION",
+      "FX_HOLO_STAGE",
+      "FX_SR_OBSERVER",
+      "FX_WILLOW",
+      "FX_SPECTRAL_PACKET",
+      "FX_CONSTRUCTOR_VARIANTS",
+      "FA_AUDIT_HARNESSES",
+      "FL_LEGACY",
+      "FM_MANUSCRIPT",
+      "FQ_QUARANTINED",
+      "LER_REPRESENTATION_CORE"
+    ]
+  },
+  "map_classifications": [
+    {
+      "class": "EXACT_FUNCTORIAL_RESTRICTION",
+      "map": "F1 construction state/event -> LER representation core (qutrit, F3 transform, frontier words, oriented shift, nested clock, A9 fiber, A10 records, A11R facts) via typed incidence frame (IN=p, CO=q, NEW=x)",
+      "scope": "Representation-schema level only, on the listed components; certificate: CD1I CANONICAL_FUNCTORIAL_SUBCONSTRUCTION + CANONICAL_DERIVED_REPRESENTATION with zero added axioms. Caveats bound to the certificate: complex linearization/Hilbert substrate inherited from frozen UEQ0; A12/A13 out of scope; no dynamical (probability-law) intertwiner exists because F1 carries no law.",
+      "witness": "CD1I_INVENTORY table rows; CD1I_FRAME."
+    },
+    {
+      "class": "PARTIAL_OBJECT_MAP_MISSING_TRANSITION",
+      "map": "F1 construction state -> full OD0 prestate Z=(x,N,S,Lambda,G-,G+)",
+      "scope": "Component partition: x PARTIAL (representation derived; instance registration missing); N FAIL (trace-theorem obstruction); S FAIL (A12 axiom alphabet); Lambda FAIL (A12/A13/model-rule); (G-,G+) FAIL (RRP1).",
+      "witness": "LG matrix rows F1/LG1-LG9."
+    },
+    {
+      "class": "EXACT_FORGETFUL_MAP_NO_DYNAMICAL_INTERTWINER",
+      "map": "F2 UEQ0 state -> OD0 prestate Z",
+      "scope": "Record/clock/branch components forget to OD0 upstream objects by shared frozen definition; the dynamical intertwiner fails first at the control-sort mismatch (m vs gamma) and the A12/A13 conditionality.",
+      "witness": "LG matrix rows F2/LG6, LG8; UEQ0_AXIOMS."
+    },
+    {
+      "class": "NO_MAP",
+      "map": "Registry node -> foam face type (F1 -> F3)",
+      "scope": "No function/table/import in any source; S/I/G labels shared as words only.",
+      "witness": "MODEL_GENEALOGY.md model-to-model maps table row 1; census G1/G3 confirmations."
+    },
+    {
+      "class": "PARTIAL_COUNT_MAP_NOT_SEMANTIC",
+      "map": "psi0 boundary edge count (432 harness) -> OD0/UEQ0 threshold objects",
+      "scope": "Ledger: normalized numerical overlay, ratio-based empirical calibration; no bijection or conservation law; numeric values sealed this round.",
+      "witness": "MODEL_GENEALOGY.md maps table (428.333 -> 432 row)."
+    },
+    {
+      "class": "MODEL_FAMILY_NAME_MATCH_ONLY",
+      "map": "two-queue backlog reduction -> registry conflict structure",
+      "scope": "Reduction consumes v21 trace scalars, not overlap-graph conflicts (ledger).",
+      "witness": "MODEL_GENEALOGY.md maps table."
+    },
+    {
+      "class": "NO_MAP",
+      "map": "closure path/phase (Paper-2 harnesses) -> causal ancestry / topological clock",
+      "scope": "Synthetic records vs event DAG; supplied float phase vs epoch/type cycle (ledger).",
+      "witness": "MODEL_GENEALOGY.md maps table."
+    },
+    {
+      "class": "SOURCE_CONFLICT",
+      "map": "metric-work field -> generative capacity/veto (manuscript v31 claims onto active chain)",
+      "scope": "Manuscript claims name a v30/transport state coupling; the linked-repo sources are absent (MISSING_PROVENANCE 2); the DEU_voids G2c line implements a veto on the v21/v30 lineage but is a separate later source line whose initial state is an archived substrate; identifying the two would join families by name.",
+      "witness": "MISSING_PROVENANCE.md items 2, 18; census G3 (absence verified) + G4 (G2c line exists)."
+    },
+    {
+      "class": "NO_MAP",
+      "map": "chronic schedule m (F2) -> OD0 control gamma in Gamma_5184",
+      "scope": "Different control sorts (per-region integers vs query-plus-setting words); no source object relates them.",
+      "witness": "UEQ0_MASTER (external input declaration); R32_SPEC (control domain)."
+    },
+    {
+      "class": "NO_MAP",
+      "map": "CD0 enabled-event availability E(X) -> OD0 legal-control availability Gamma(z)",
+      "scope": "Availability functors of different sorts; no source arrow.",
+      "witness": "CD0_REPORT (enabledness); R32_SPEC (Gamma_5184)."
+    }
+  ],
+  "numerical_content_parsed": false,
+  "run_date": "2026-09-01",
+  "schema": "R48_MODEL_FAMILY_GENEALOGY_V1"
+}
