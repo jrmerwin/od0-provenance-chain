@@ -1,0 +1,28 @@
+{
+  "ADDENDUM_FROZEN_AFTER_A": true,
+  "D7": "classified per structure; horizon law 1/3 (leaf theorem)",
+  "D8": "PROVEN (collapse/invariance certified exactly)",
+  "D9": "METRIC (triangle THEOREM, snapshot-relative); Theta(n log n); DEGENERATE at 1/sqrt(log n) rate; READABLE_FROM_S on X_rec",
+  "addendum_lock_sha256": "ff6344f0344f473c0563746c4bce12566245f8f2eb1af50ba4df2c893d47fde0",
+  "hostile_control_9": {
+    "basis": "'Readable' used strictly as 'a function of S'; no observer or protocol appears; D8 is a theorem about the frozen dynamics.",
+    "control": "operational claim beyond D7-D9; observer/agent/protocol posited",
+    "id": "HC9",
+    "status": "REJECTED"
+  },
+  "panel": {
+    "A1_triangle": "CONFIRMED - zero violations at common snapshot (219,063 exhaustive at n <= 8 over all 2,812 reachable (ideal, rec) states; 1.96M random-history; 323,859 arbitrary-nonnegative-weight); minimum slack exactly 22 (tight); nonnegativity load-bearing (63,197/63,900 violations with signed weights); SNAPSHOT-RELATIVITY exhibited (5,912 mixed-snapshot violations) - the addendum's common-snapshot definition is exactly what makes d_cost a metric.",
+    "A2_horizon": "CONFIRMED - leaf identity exact (15/15 set equalities); sharp law E|U|/n = 1/3 - 2/(3n) + o(1/n); j <= 3 deterministically recorded; per-step rate 2/k + 4/k^2; MC through n = 10^6 (0.333355); burst-size independent."
+  },
+  "prediction_vs_outcome": "Registered: d_J/d_U/causal READABLE_FROM_S, d_G MIXED, R38 closed - as registered. D8 PROVEN as stated - as registered. D9: registered 'triangle fails (witness with a shared parent)' - REFUTED: the triangle inequality is a THEOREM (subadditivity of union weights + chain positivity), and d_cost with zero diagonal is a full metric, stronger than the registered pseudometric-after-normalization; scaling and DEGENERATE status as registered, with the explicit 1/sqrt(log n) rate. New exact law: the operational horizon |U|/|X| -> 1/3. The prediction constrained nothing.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R63_ADDENDUM_RESULTS_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1_H4": "spent",
+    "H5": {
+      "parsed": false
+    }
+  },
+  "verdict": "OD0_R63_ADDENDUM_PASS_OPERATIONAL_LAYER_FROZEN"
+}

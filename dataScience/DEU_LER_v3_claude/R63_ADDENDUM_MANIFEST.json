@@ -1,0 +1,16 @@
+{
+  "base_manifest_sha256_pinned": "4c06e9b0def3b26365a05ca4f524ce57297570e58085f6b61680c1c2c8e06866",
+  "files": {
+    "OD0_R63_ADDENDUM_REPORT.md": "3f986cc8eb812e1bb64dbcd2cc543f84f4104d68de8d9fc0864af97b28cb6119",
+    "OD0_R63_ADDENDUM_RESULTS.json": "0d1490119cc0b5929cbf503eb8811a21c03f9829f8572d5693890542e9385c80",
+    "R63_ADDENDUM_CERTIFICATES.json": "c43a4ac41a83145d31ca4297e9812f9ccc8288862f0d7740e340a031abbd45fd",
+    "R63_ADDENDUM_LOCK.json": "ff6344f0344f473c0563746c4bce12566245f8f2eb1af50ba4df2c893d47fde0",
+    "R63_OPERATIONAL_LAYER.json": "8cf8512e12c42b5e863c9d1853960d6fbe9555e432dff902f05a93abe7824a20",
+    "build_r63_addendum_outputs.py": "327198916f8674cd76d6029eb76686da74c884c50bce0683e3dfeee8ab0f03c0",
+    "make_r63_addendum_lock.py": "d8b5302137791b6d206bc90cee013803566318922676fe68f95a08cf00f9388a",
+    "r63_addendum_adjudication.py": "94fdfce11f069219edb6c5c75cc2dfe174cac91a9685ab9274ec9ca527c938af",
+    "r63_addendum_exact.py": "7a22602099d89c41f777fbfd691ef3e52c82516c954a933a9c60d603db481030"
+  },
+  "note": "manifest excludes itself; supplements the frozen base manifest (pinned below) per the addendum's append instruction",
+  "schema": "R63_ADDENDUM_MANIFEST_V1"
+}
