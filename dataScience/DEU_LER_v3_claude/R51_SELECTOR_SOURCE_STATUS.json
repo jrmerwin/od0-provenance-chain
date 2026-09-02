@@ -1,0 +1,284 @@
+{
+  "certificates_file_sha256": "96efd1e1d3c80f6ff524010f683bece612e9d2520a832e30019f208fbf82a3f7",
+  "genesis_service_table": [
+    {
+      "Gamma": 0,
+      "P_SV": {
+        "0": "1"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": true,
+      "m": 0,
+      "n0": 0
+    },
+    {
+      "Gamma": 0,
+      "P_SV": {
+        "0": "1"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": false,
+      "m": 1,
+      "n0": 0
+    },
+    {
+      "Gamma": 0,
+      "P_SV": {
+        "0": "1"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": false,
+      "m": 2,
+      "n0": 0
+    },
+    {
+      "Gamma": 0,
+      "P_SV": {
+        "0": "1"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": false,
+      "m": 3,
+      "n0": 0
+    },
+    {
+      "Gamma": 1,
+      "P_SV": {
+        "1": "1"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": true,
+      "m": 0,
+      "n0": 1
+    },
+    {
+      "Gamma": 1,
+      "P_SV": {
+        "0": "1/3",
+        "1": "2/3"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": false,
+      "m": 1,
+      "n0": 1
+    },
+    {
+      "Gamma": 1,
+      "P_SV": {
+        "0": "1/2",
+        "1": "1/2"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": false,
+      "m": 2,
+      "n0": 1
+    },
+    {
+      "Gamma": 1,
+      "P_SV": {
+        "0": "3/5",
+        "1": "2/5"
+      },
+      "P_both_primitives_served": "0",
+      "deterministic_all_vacuum": false,
+      "m": 3,
+      "n0": 1
+    },
+    {
+      "Gamma": 2,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": true,
+      "m": 0,
+      "n0": 2
+    },
+    {
+      "Gamma": 2,
+      "P_SV": {
+        "1": "2/3",
+        "2": "1/3"
+      },
+      "P_both_primitives_served": "1/3",
+      "deterministic_all_vacuum": false,
+      "m": 1,
+      "n0": 2
+    },
+    {
+      "Gamma": 2,
+      "P_SV": {
+        "0": "1/6",
+        "1": "2/3",
+        "2": "1/6"
+      },
+      "P_both_primitives_served": "1/6",
+      "deterministic_all_vacuum": false,
+      "m": 2,
+      "n0": 2
+    },
+    {
+      "Gamma": 2,
+      "P_SV": {
+        "0": "3/10",
+        "1": "3/5",
+        "2": "1/10"
+      },
+      "P_both_primitives_served": "1/10",
+      "deterministic_all_vacuum": false,
+      "m": 3,
+      "n0": 2
+    },
+    {
+      "Gamma": 3,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": true,
+      "m": 0,
+      "n0": 2
+    },
+    {
+      "Gamma": 3,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": false,
+      "m": 1,
+      "n0": 3
+    },
+    {
+      "Gamma": 3,
+      "P_SV": {
+        "1": "1/2",
+        "2": "1/2"
+      },
+      "P_both_primitives_served": "1/2",
+      "deterministic_all_vacuum": false,
+      "m": 2,
+      "n0": 3
+    },
+    {
+      "Gamma": 3,
+      "P_SV": {
+        "0": "1/10",
+        "1": "3/5",
+        "2": "3/10"
+      },
+      "P_both_primitives_served": "3/10",
+      "deterministic_all_vacuum": false,
+      "m": 3,
+      "n0": 3
+    },
+    {
+      "Gamma": 4,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": true,
+      "m": 0,
+      "n0": 2
+    },
+    {
+      "Gamma": 4,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": false,
+      "m": 1,
+      "n0": 3
+    },
+    {
+      "Gamma": 4,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": false,
+      "m": 2,
+      "n0": 4
+    },
+    {
+      "Gamma": 4,
+      "P_SV": {
+        "1": "2/5",
+        "2": "3/5"
+      },
+      "P_both_primitives_served": "3/5",
+      "deterministic_all_vacuum": false,
+      "m": 3,
+      "n0": 4
+    },
+    {
+      "Gamma": 5,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": true,
+      "m": 0,
+      "n0": 2
+    },
+    {
+      "Gamma": 5,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": false,
+      "m": 1,
+      "n0": 3
+    },
+    {
+      "Gamma": 5,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": false,
+      "m": 2,
+      "n0": 4
+    },
+    {
+      "Gamma": 5,
+      "P_SV": {
+        "2": "1"
+      },
+      "P_both_primitives_served": "1",
+      "deterministic_all_vacuum": false,
+      "m": 3,
+      "n0": 5
+    }
+  ],
+  "historical_numerics_parsed": false,
+  "run_date": "2026-09-02",
+  "schema": "R51_SELECTOR_SOURCE_STATUS_V1",
+  "status": {
+    "S1_per_token_identity": {
+      "cite": "CD2_SERVICE_GROUPOID_AND_HYPERGEOMETRIC_PROOF.md; cd2r/src/service.py:35,46,81",
+      "classification": "DERIVED_GIVEN_TOKEN_DISTINGUISHABILITY",
+      "statement": "CD2R's regional B/M/J/V/capacity/P/H objects are content-addressed finite sets of IDENTIFIED tokens (service.py builds token(name, region, index, ...) elements; the matching groupoid is transitive under S_(F+D) x S_n with the uniform invariant measure over complete matchings of identified requests to slots). Only the hypergeometric PUSHFORWARD forgets identity to counts. Hence the realization sigma retains which vacuum tokens were served, given the frozen type-blind distinguishability of the minimal service representation axiom; the served vacuum subset is uniform over size-S^V subsets."
+    },
+    "S2_vacuum_token_semantics": {
+      "classification": "NEW_IDENTIFICATION (manuscript-adjacent)",
+      "d_constancy_note": "R50's finding that D is kernel-constant is a property of the frozen kernel MAP (it copies D into the successor); it is SILENT on re-parameterizing D between applications. Overriding the carried D with |X_k| is an explicit extension recorded in every V-candidate's C5 footprint.",
+      "statement": "No active source states what V is a set OF beyond 'vacuum-maintenance requests' per region (UEQ0/A13); the reading 'maintenance of existing structure' is manuscript-level. The identification V ~ X (one standing token per existing object, D = |X|, regionally partitioned by prefix region) is therefore a NEW_IDENTIFICATION carried INSIDE the candidate premise, not source semantics."
+    },
+    "S3_rrp1_scope": {
+      "classification": "NO_VACUUM_MARK_IN_SOURCE",
+      "statement": "RRP1 (R41) marks served A12 FORCED requests only; no active source assigns any persistent mark to served vacuum tokens. A vacuum mark is a new persistent field; exactly the M=P candidates require it."
+    },
+    "S4_genesis_service": {
+      "classification": "DETERMINISTIC_ALL_VACUUM_FOR_m_0",
+      "statement": "At step 0 with X0={a,b} and V~X: D0=2 (the primitives are objects, hence tokens). With m=0: F0=0, n0 = min(Gamma,2), and every draw is vacuum - S^V = n0 deterministically; for Gamma >= 2 both primitive tokens are served with probability 1. With m > 0 the chronic load competes and the exact hypergeometric table is emitted (genesis_service_table)."
+    },
+    "S5_regionality": {
+      "classification": "TRIVIAL_JOINT_REGION_AT_CONSTRUCTOR_LEVEL",
+      "statement": "Tokens belong to the object's smallest inherited prefix region (A12 rule). For constructor objects, every composite's closed ancestry contains BOTH primitives (any composite of dag_size >= 3 descends from {a,b}), so the smallest inherited prefix region of every composite is the shared joint region; only the two primitive tokens sit in proper factor regions. The regional pool partition of D under V~X is therefore {a-region: 1, b-region: 1, joint: |X|-2}. The registered eight-factor-prefix instance is an OD0-side refinement, not a constructor-level structure."
+    }
+  }
+}

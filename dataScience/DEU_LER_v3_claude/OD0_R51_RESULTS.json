@@ -1,0 +1,103 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R51",
+  "counts": {
+    "candidates_frozen": 9,
+    "dynamics_points": {
+      "ADJ-V-P": {
+        "K_max_max": 7,
+        "K_max_min": 3,
+        "points": 180
+      },
+      "ADJ-V-S": {
+        "K_max_max": 5,
+        "K_max_min": 3,
+        "points": 144
+      }
+    },
+    "hostile_controls_passed": 8,
+    "hostile_controls_tested": 8,
+    "parameters_introduced": 0,
+    "premises_adopted": 0,
+    "survivors": 2
+  },
+  "deterministic_rerun": "IDENTICAL_BYTE_FOR_BYTE",
+  "hand_produced_hashes": 0,
+  "historical_numerical_content_parsed": false,
+  "hostile_controls": [
+    [
+      "HC1",
+      "selecting by preference or dynamics readout",
+      "REJECTED",
+      "Survivorship and minimality are decided solely by the frozen C1-C8 rule and (C5,C6,C8) order; the dynamics readout is Part 4 output, not a criterion."
+    ],
+    [
+      "HC2",
+      "tuning or singling out Gamma; Gamma>=2 as physical claim",
+      "REJECTED",
+      "The full registered Gamma range is scanned; Gamma>=2 is reported as exact scope with its witness, explicitly not a physical claim."
+    ],
+    [
+      "HC3",
+      "external referent in outputs",
+      "REJECTED",
+      "No cosmology, particle, inflation, or time referent appears in any R51 output."
+    ],
+    [
+      "HC4",
+      "historical rounds = steps; historical numerics",
+      "REJECTED",
+      "No identification made; all numerics are this round's own exact computations or frozen structural constants."
+    ],
+    [
+      "HC5",
+      "hidden parameters",
+      "REJECTED",
+      "All nine candidates are binary and parameter-free by construction (C7=0 verified per candidate); the load convention (11/record) is a frozen lower bound, not a tunable."
+    ],
+    [
+      "HC6",
+      "readouts defining an epoch or basin",
+      "REJECTED",
+      "No epoch, basin, regime label, or threshold is defined; shell size and burst structure are reported as raw trajectories."
+    ],
+    [
+      "HC7",
+      "frozen-root modification; BELL2",
+      "REJECTED",
+      "Read-only access; worktree clean at start and end; BELL2 unopened."
+    ],
+    [
+      "HC8",
+      "hand-produced hash",
+      "REJECTED",
+      "All hashes computed in-process at recording time."
+    ]
+  ],
+  "input_artifacts": {
+    "R51_EXACT_CERTIFICATES.json": "96efd1e1d3c80f6ff524010f683bece612e9d2520a832e30019f208fbf82a3f7",
+    "R51_INPUT_LOCK.json": "97a1ef9c42676147001caacdf186be4874bdfb8d5bf4b0848595d3f25c4430c0"
+  },
+  "package_version": "v0.1 (Claude Code executor)",
+  "prediction_vs_outcome": "Confirmed: S1 derived; S2 new identification; S3 no vacuum mark; S4 deterministic all-vacuum genesis (m=0); T=F circular deadlock; ADJ-V-S deadlock-free exactly for Gamma >= 2 with LINEAR growth, burst-drain non-degeneracy, lifetime witness probability 1/3; envelope survives for ADJ-*; verdict THROTTLE_UNIQUE_MINIMAL(ADJ-V-S). Corrected: ADJ-V-P's growth class is POLYNOMIAL (exact quadratic bound), not EXPONENTIAL; and K_max is resource-bounded per point (exact expansion budget) rather than uniformly >= 10 - per-point K_max and reasons are reported in the readout. The prediction constrained nothing.",
+  "premise_scope": "registered Gamma in 2..5; Gamma <= 1 deadlocked (exact witness); the identification V ~ X is a NEW_IDENTIFICATION carried inside the premise (S2)",
+  "premise_statement_TG1": "TG1 (throttle gating, stated not adopted): Serviced vacuum maintenance of an object is enablement-active, same-step - an enabled adjunction y={u,v} fires at step k+1 iff the standing vacuum tokens of both u and v were served in the step-k service realization; under the identification V ~ X (one standing vacuum token per existing object, D_k = |X_k|, regionally partitioned by smallest inherited prefix region). Inert alternative: service has no enablement effect.",
+  "r52_recommendation": "Per the verdict tree: R52 derives the intrinsic epoch-observable algebra on the exact throttled process, conditional on the stated premises (CO1, RO1, TG1, V~X), on state-defined observables only - the R50 envelope delimits the quotient-invariant domain; the natural first objects are the unresolved-shell trajectory, the burst-drain cycle structure of P(S^V=0), the marked/served filtration, and the lapse process - with no threshold, label, or historical comparison. This is where the maturation filtration (M2-M3) begins.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R51_RESULTS_V1",
+  "survivors": [
+    "ADJ-V-S",
+    "ADJ-V-P"
+  ],
+  "unique_minimum": "ADJ-V-S",
+  "verdicts": {
+    "overall": "OD0_R51_PASS_THROTTLE_CLASS_FROZEN_AND_ADJUDICATED",
+    "primary": "THROTTLE_UNIQUE_MINIMAL(ADJ-V-S, TG1, scope Gamma 2..5)",
+    "secondary": {
+      "DEADLOCK_WITNESSES": "all four T=F candidates: exact circularity (request needs record needs use needs enablement needs served request); ADJ-V-S at Gamma<=1: one token per step vs two-token same-step gate; ADJ-V-P at Gamma=0",
+      "GROWTH_CLASSES": "ADJ-V-S LINEAR (<= C(Gamma,2)/step); ADJ-V-P POLYNOMIAL (<= C(2+Gamma*k,2)+2, exact quadratic bound - corrects the prediction's EXPONENTIAL); REC-* and B0 SUPER_EXPONENTIAL",
+      "SELECTOR_IDENTITY": "DERIVED_GIVEN_TOKEN_DISTINGUISHABILITY",
+      "V_IDENTIFICATION": "NEW_IDENTIFICATION (carried inside the premise)"
+    }
+  }
+}

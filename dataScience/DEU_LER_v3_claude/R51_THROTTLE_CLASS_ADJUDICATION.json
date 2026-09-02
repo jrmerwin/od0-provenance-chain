@@ -1,0 +1,373 @@
+{
+  "candidates": {
+    "ADJ-F-P": {
+      "C1": [
+        "FAIL_ALL_GAMMA",
+        "same circular witness: persistence does not help because no forced request is ever generated"
+      ],
+      "C2": [
+        "NOT_REACHED",
+        ""
+      ],
+      "C3": [
+        "NOT_REACHED",
+        ""
+      ],
+      "C4": [
+        "NOT_REACHED",
+        ""
+      ],
+      "C5": [
+        "N/A",
+        ""
+      ],
+      "C6": [
+        1,
+        ""
+      ],
+      "C7": [
+        0,
+        ""
+      ],
+      "C8": [
+        "INDIRECT",
+        ""
+      ],
+      "modifies": "opportunity law + forced gating + mark",
+      "premise_a13r0": "(as ADJ-F-S with persistent marks)",
+      "survivor": false
+    },
+    "ADJ-F-S": {
+      "C1": [
+        "FAIL_ALL_GAMMA",
+        "circular deadlock at step 1, exact: a forced request exists only after an A12 compile of a record; a record (RO-D) fires only on a downstream USE; a use is a fired adjunction; and every adjunction is gated on a served forced request. At genesis there are no records, hence no forced requests, hence no serveable gate token, hence no adjunction ever fires."
+      ],
+      "C2": [
+        "NOT_REACHED",
+        "deadlocked"
+      ],
+      "C3": [
+        "NOT_REACHED",
+        ""
+      ],
+      "C4": [
+        "NOT_REACHED",
+        ""
+      ],
+      "C5": [
+        "N/A",
+        ""
+      ],
+      "C6": [
+        0,
+        ""
+      ],
+      "C7": [
+        0,
+        ""
+      ],
+      "C8": [
+        "DIRECT",
+        ""
+      ],
+      "modifies": "opportunity law + forced-service gating",
+      "premise_a13r0": "(stated for completeness) an adjunction fires iff a forced A12 request derived from a record on each parent's lineage was served same-step.",
+      "survivor": false
+    },
+    "ADJ-V-P": {
+      "C1": [
+        "PASS_SCOPED",
+        "deadlock-free on registered Gamma in 1..5 (marks accumulate; both primitives marked a.s.); DEADLOCKED at Gamma = 0 (no service ever)"
+      ],
+      "C2": [
+        "POLYNOMIAL",
+        "exact bound: |M_k| <= 2 + Gamma*k marked objects, and |X_k| <= C(|M_k|,2) + 2 <= C(2+Gamma*k,2)+2 - quadratic in k. (Corrects the registered prediction's EXPONENTIAL guess with an exact quadratic upper bound.)"
+      ],
+      "C3": [
+        "PASS",
+        "same burst-drain mechanism; marks only accumulate, service competition unchanged"
+      ],
+      "C4": [
+        "PASS",
+        "same witness shape (a marked pair may already be exhausted; new objects wait for marks)"
+      ],
+      "C5": [
+        "MINIMAL_PLUS_FIELD",
+        "as ADJ-V-S plus the vacuum-mark persistent field (an RRP1-style extension to vacuum tokens); envelope survives (RO-D untouched)"
+      ],
+      "C6": [
+        1,
+        "the vacuum mark"
+      ],
+      "C7": [
+        0,
+        "no parameters"
+      ],
+      "C8": [
+        "INDIRECT",
+        "gate reads cumulative marks, not the step index; weaker quotient reference than same-step"
+      ],
+      "modifies": "opportunity law + a NEW persistent vacuum-mark field (S3: absent from source) + V~X + D-override",
+      "premise_a13r0": "Serviced vacuum maintenance of an object is enablement-active, persistent: an enabled adjunction fires at step k+1 iff both parents carry the (new) served-vacuum mark by step k.",
+      "survivor": true
+    },
+    "ADJ-V-S": {
+      "C1": [
+        "PASS_SCOPED",
+        "deadlock-free on registered Gamma in 2..5 (genesis: both primitives served w.p. 1 at m=0, positive probability for all m; drain lemma gives recurrent vacuum service, |X| >= 5 reached a.s.); DEADLOCKED for Gamma <= 1: n <= 1 serves at most one token per step and the same-step gate needs two - exact witness, X = {a,b} forever"
+      ],
+      "C2": [
+        "LINEAR",
+        "per-step increment <= C(S^V,2) <= C(Gamma,2), a constant bound in Gamma alone"
+      ],
+      "C3": [
+        "PASS",
+        "self-limiting burst-drain cycle: forced inflow per new object (records x 11..13 requests, >= 22 for a composite-parent event) exceeds Gamma <= 5, so bursts starve vacuum (P(S^V=0) rises), growth halts, backlog drains at rate n per step, vacuum service resumes, growth restarts; long-run P(S^V=0) is bounded away from 1 (drain phases recur) and from 0 for m>0-free points; exact trajectories in the readout"
+      ],
+      "C4": [
+        "PASS",
+        "lifetime > 1 with probability 1/3 already at (Gamma=2, m=0, H=0), exact witness in certificates"
+      ],
+      "C5": [
+        "MINIMAL",
+        "footprint = {opportunity law, V~X identification, D-override}; En/RO-D/RRP1 untouched; R50 envelope survives verbatim (record poset, fixed-setting outcome law, entry point)"
+      ],
+      "C6": [
+        0,
+        "no persistent field (same-step gate reads sigma_k only)"
+      ],
+      "C7": [
+        0,
+        "no parameters"
+      ],
+      "C8": [
+        "DIRECT",
+        "the same-step condition references the step quotient directly; the R50 envelope says the record poset and fixed-setting outcome law still survive because RO-D is untouched"
+      ],
+      "modifies": "the opportunity law only (which enabled events fire); En(X), RO-D, RRP1 untouched; V~X identification and per-step D-override carried inside the premise",
+      "premise_a13r0": "Serviced vacuum maintenance of an object is enablement-active, same-step: an enabled adjunction y={u,v} fires at step k+1 iff the standing vacuum tokens of BOTH u and v were served at step k. Inert alternative: service has no enablement effect (B0).",
+      "survivor": true
+    },
+    "B0": {
+      "C1": [
+        "PASS",
+        "leaves genesis deterministically"
+      ],
+      "C2": [
+        "SUPER_EXPONENTIAL",
+        "R50: |X_{k+1}| = C(|X_k|,2)+2"
+      ],
+      "C3": [
+        "FAIL",
+        "R50 saturation: kappa=2 at all 1296 registered points; P(S^V=0) -> 1; degenerate"
+      ],
+      "C4": [
+        "FAIL",
+        "R50: lifetime == 1 for every object"
+      ],
+      "C5": [
+        "NONE",
+        "no modification"
+      ],
+      "C6": [
+        0,
+        ""
+      ],
+      "C7": [
+        0,
+        ""
+      ],
+      "C8": [
+        "N/A",
+        ""
+      ],
+      "modifies": "nothing beyond CO1",
+      "premise_a13r0": "CO1 alone (control): all enabled adjunctions fire.",
+      "survivor": false
+    },
+    "REC-F-P": {
+      "C1": [
+        "FAIL_RECORD_LAYER",
+        "same circular witness"
+      ],
+      "C2": [
+        "SUPER_EXPONENTIAL",
+        ""
+      ],
+      "C3": [
+        "FAIL",
+        ""
+      ],
+      "C4": [
+        "PASS",
+        ""
+      ],
+      "C5": [
+        "FORFEITS_ENVELOPE",
+        ""
+      ],
+      "C6": [
+        1,
+        ""
+      ],
+      "C7": [
+        0,
+        ""
+      ],
+      "C8": [
+        "INDIRECT",
+        ""
+      ],
+      "modifies": "RO-D + forced gating + mark",
+      "premise_a13r0": "(as REC-F-S, persistent)",
+      "survivor": false
+    },
+    "REC-F-S": {
+      "C1": [
+        "FAIL_RECORD_LAYER",
+        "records circularly deadlocked (first record needs a served forced request, which needs a record); adjunctions explode ungated - the record layer never starts, so the process never generates load and never renders: the record poset is empty forever"
+      ],
+      "C2": [
+        "SUPER_EXPONENTIAL",
+        "ungated adjunctions"
+      ],
+      "C3": [
+        "FAIL",
+        "no forced pool at all (no records): lapse identically 1 where D>0 - degenerate at the opposite pole"
+      ],
+      "C4": [
+        "PASS",
+        ""
+      ],
+      "C5": [
+        "FORFEITS_ENVELOPE",
+        ""
+      ],
+      "C6": [
+        0,
+        ""
+      ],
+      "C7": [
+        0,
+        ""
+      ],
+      "C8": [
+        "DIRECT",
+        ""
+      ],
+      "modifies": "RO-D + forced gating",
+      "premise_a13r0": "(stated) a record fires iff a forced request from the same lineage was served same-step.",
+      "survivor": false
+    },
+    "REC-V-P": {
+      "C1": [
+        "PASS",
+        ""
+      ],
+      "C2": [
+        "SUPER_EXPONENTIAL",
+        "same as REC-V-S"
+      ],
+      "C3": [
+        "FAIL",
+        "same"
+      ],
+      "C4": [
+        "PASS",
+        ""
+      ],
+      "C5": [
+        "FORFEITS_ENVELOPE",
+        "same"
+      ],
+      "C6": [
+        1,
+        ""
+      ],
+      "C7": [
+        0,
+        ""
+      ],
+      "C8": [
+        "INDIRECT",
+        ""
+      ],
+      "modifies": "RO-D + a vacuum mark",
+      "premise_a13r0": "(as REC-V-S, persistent)",
+      "survivor": false
+    },
+    "REC-V-S": {
+      "C1": [
+        "PASS",
+        "adjunctions unthrottled - the process leaves genesis"
+      ],
+      "C2": [
+        "SUPER_EXPONENTIAL",
+        "adjunction layer is B0/T_sat: |X_{k+1}| = C(|X_k|,2)+2 - the R50 saturation applies verbatim (kappa=2)"
+      ],
+      "C3": [
+        "FAIL",
+        "R50 scan: forced pool exceeds every registered Gamma by k=2; P(S^V=0) -> 1; degenerate"
+      ],
+      "C4": [
+        "PASS",
+        ""
+      ],
+      "C5": [
+        "FORFEITS_ENVELOPE",
+        "modifies RO-D (DERIVED_GIVEN_RO1): the R50 record-poset invariance and fixed-setting outcome law no longer hold verbatim (criterion from adjudication note 1)"
+      ],
+      "C6": [
+        0,
+        ""
+      ],
+      "C7": [
+        0,
+        ""
+      ],
+      "C8": [
+        "DIRECT",
+        ""
+      ],
+      "modifies": "RO-D itself (records become conditional on service)",
+      "premise_a13r0": "(stated) an RO-D record fires iff the recorded child's vacuum token was served same-step; adjunctions free (CO1).",
+      "survivor": false
+    }
+  },
+  "certificates_file_sha256": "96efd1e1d3c80f6ff524010f683bece612e9d2520a832e30019f208fbf82a3f7",
+  "historical_numerics_parsed": false,
+  "lifetime_witness": {
+    "candidate": "ADJ-V-S",
+    "path": "step0 serves {a,b} with probability 1 (F=0, D=2, n=2); step1 fires c={a,b} (0 records); step1 service draws a uniform 2-subset of {a,b,c}; the subset {a,b} has probability 1/3 and fires nothing at step 2, leaving c un-built-upon",
+    "point": "Gamma=2, m=0, H=0",
+    "probability_lifetime_c_ge_2": "1/3"
+  },
+  "load_convention": "11 A12 requests per distinct prefix-canonical record (frozen Q1 minimum; declared lower-bound load, as in R50)",
+  "minimality": {
+    "comparison": "C5: ADJ-V-S = {opportunity, V~X, D-override} strictly contained in ADJ-V-P's footprint (which adds the vacuum-mark field); C6: 0 < 1. The order is decided at C5/C6; C8 (DIRECT vs INDIRECT, favoring P) is never reached in the lexicographic comparison - recorded, not suppressed. Scope difference recorded: ADJ-V-P covers Gamma=1 where ADJ-V-S is deadlocked; this is scope, not a selection criterion (frozen survivor rule).",
+    "order_rule": "(C5 footprint, C6 fields, C8 dependence) lexicographic (frozen at Commit A)",
+    "premise_statement": "TG1 (throttle gating, stated not adopted): Serviced vacuum maintenance of an object is enablement-active, same-step - an enabled adjunction y={u,v} fires at step k+1 iff the standing vacuum tokens of both u and v were served in the step-k service realization; under the identification V ~ X (one standing vacuum token per existing object, D_k = |X_k|, regionally partitioned by smallest inherited prefix region). Inert alternative: service has no enablement effect.",
+    "scope": "registered Gamma in 2..5; Gamma <= 1 deadlocked (exact witness); the identification V ~ X is a NEW_IDENTIFICATION carried inside the premise (S2)",
+    "survivors": [
+      "ADJ-V-S",
+      "ADJ-V-P"
+    ],
+    "unique_minimum": "ADJ-V-S"
+  },
+  "run_date": "2026-09-02",
+  "schema": "R51_THROTTLE_CLASS_ADJUDICATION_V1",
+  "survivor_scope_witnesses": {
+    "ADJ-V-P": {
+      "deadlock_free_Gamma": "1..5 (registered)",
+      "deadlock_witness_Gamma_0": "n = 0: no token is ever served, no mark is ever created, no adjunction fires"
+    },
+    "ADJ-V-S": {
+      "deadlock_free_Gamma": "2..5 (registered)",
+      "deadlock_witness_Gamma_le_1": "n = min(Gamma, F+D) <= 1 serves at most one token per step, and the same-step gate needs both parents served in ONE step; no adjunction ever fires; X stays {a,b} forever (exact, all m, H)"
+    }
+  },
+  "survivors": [
+    "ADJ-V-S",
+    "ADJ-V-P"
+  ]
+}
