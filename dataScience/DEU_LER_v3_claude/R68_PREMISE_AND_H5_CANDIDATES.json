@@ -1,0 +1,15 @@
+{
+  "premise": {
+    "H5_derived_side_candidates": [
+      "the record-density field rho_rec(d) = N_{>=d} and its two-regime maturation law (class: derived, readable)",
+      "the charge-share family (q0; q1/3 + Q2/9; Q2/9) and its mature limit (0; 1/9; 1/9) (class: exact theorem)",
+      "the free/congested boundary d*(N) = log_3(N/Gamma) and its outward logarithmic motion (class: exact at powers of 3)",
+      "the mature equalization-plus-free-root signature: nine equal-lapse regions and one permanently free region (class: derived; the fixture's sharpest qualitative signature)",
+      "early-to-late density ratios per cylinder (class: derived dimensionless; depends only on the resolution profile)"
+    ],
+    "coincides_with_R66_record": "NO - the R66-recorded TR1' is T-DEEP's depth-1 truncation (exact on the whole 903-catalog); the class enumeration this round found the deeper zero-clause form and the frozen minimality order selects it. Recorded as a correction of the registered prediction.",
+    "statement_A13R0_form": "TD1 (the surviving premise; stated, NOT adopted): the standing vacuum token of an object is enablement-served in the region common_prefix(argmax-depth anchor cells of the object's formation edits), rather than in ROOT. Inert alternative T0: every token in ROOT (the current tower). Binary, parameter-free, internal, zero tie-break clauses, readable, covariant, schedule-invariant, non-degenerate (0.990 non-ROOT on the 903-catalog).",
+    "status": "UNIQUE_MINIMAL"
+  },
+  "schema": "R68_PREMISE_AND_H5_CANDIDATES_V1"
+}
