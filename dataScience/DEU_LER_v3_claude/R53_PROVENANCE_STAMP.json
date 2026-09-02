@@ -1,0 +1,8 @@
+{
+  "campaign": "OD0-R53",
+  "commit_B_resolved": "8c1a4701fe655cd109d4c79b0889b82b4f8f6bca",
+  "convention": "every round ends with a stamp commit; reports never carry placeholders again (R54 housekeeping rule, standing)",
+  "output_manifest_path": "R53_OUTPUT_MANIFEST.json",
+  "output_manifest_sha256": "c985a7caf27c5987c8531cdf8c1a6a04d95845b6764e722c8309774707a169fe",
+  "schema": "OD0_R53_PROVENANCE_STAMP_V1"
+}
