@@ -1,0 +1,11 @@
+{
+  "campaign": "OD0-R57",
+  "commit_A_resolved": "e523c64ebd55df090aea62426cf0969fcc5550c1",
+  "commit_B_resolved": "e4c1e2f38c344f3e5a6271cf79937a2ae4bea85b",
+  "convention": "standing stamp convention",
+  "h2_comparison_verdict": "PARTIAL",
+  "h2_status": "SPENT",
+  "output_manifest_path": "R57_OUTPUT_MANIFEST.json",
+  "output_manifest_sha256": "acb35a1a74d8d983c170c15ef62cac3307618946616ffc18dce2f5864ec9f096",
+  "schema": "OD0_R57_PROVENANCE_STAMP_V1"
+}
