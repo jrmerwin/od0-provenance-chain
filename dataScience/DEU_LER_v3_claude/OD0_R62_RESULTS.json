@@ -1,0 +1,86 @@
+{
+  "H3_COMPARISON": "PARTIAL",
+  "H3_map_counts": {
+    "mapped_pattern_level": 4,
+    "state_class_mismatch": 4,
+    "tierD_recorded_excluded": 1,
+    "unmapped_computable": 1,
+    "unmapped_inapplicable": 2
+  },
+  "H4_COMPARISON": "PARTIAL",
+  "H4_map_counts": {
+    "excluded_rounds_or_tierD": 3,
+    "mapped": 4,
+    "state_class_mismatch": 5,
+    "unmapped_inapplicable": 1
+  },
+  "clock_offset_adjudicated": "STATE_CLASS_MISMATCH (offset); ordering adjudicated definition-invariantly: CONSISTENT",
+  "hostile_controls": [
+    {
+      "basis": "Both protocols verified by hash at Commit A and applied verbatim; tables untouched.",
+      "control": "protocol/table altered; derived-side item added",
+      "id": "HC1",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Epoch-dilation and Hubble screens excluded; all Tier D recorded-only; spatial -> G8/inapplicable.",
+      "control": "round alignment; rate compared; Tier D or spatial adjudicated",
+      "id": "HC2",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All maps are by definition (formulas/code lines); every quantitative comparison across a mismatch was withheld (the ln(4/3) offset above all).",
+      "control": "mapping by name/word/count; quantitative comparison across STATE_CLASS_MISMATCH",
+      "id": "HC3",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "H5 sentinel parsed=false at start and end; H1/H2 untouched.",
+      "control": "H5 read; H1/H2 consulted",
+      "id": "HC4",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Part 4 file carries the quarantine label and feeds no verdict; H3 and H4 adjudicated separately.",
+      "control": "Part 4 content in a verdict; cross-corpus use",
+      "id": "HC5",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All frozen; comparisons only.",
+      "control": "TG1/cost law/filtration/A13R/M7 modified",
+      "id": "HC6",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Unopened.",
+      "control": "BELL2 opened",
+      "id": "HC7",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All hashes in-process.",
+      "control": "hand hash; placeholder",
+      "id": "HC8",
+      "status": "REJECTED"
+    }
+  ],
+  "input_lock_sha256": "a331bcabceb337237b8b22df49cd663391ebaba7366d7a74acd3a349176e7874",
+  "prediction_vs_outcome": "Registered: H3 PARTIAL with the load proxy a projection-chain calibration (UNMAPPED_INAPPLICABLE as a function), registry maturation mapping to support/containment, saturations FINITE_EPOCH_DIFFERENCE, spatial claims present and inapplicable, mixed state classes - outcome: as registered on every point except that the registry-side inputs were PROJECTION_ONLY/SCHEDULER_FOAM rather than UNIVERSAL_IDEAL_BY_LEVEL, and one saturation family (foam fixed points) classified ASYMPTOTIC. Registered: H4 PARTIAL with clock functionals coinciding with R56 up to normalization, state class UNIVERSAL_IDEAL_BY_LEVEL, ln(4/3) offset STATE_CLASS_MISMATCH, definition-invariant ordering consistent, clock-rate claims excluded as rounds-based, index architecture unmapped - outcome: exactly as registered (the identity holds including normalization, not just up to it). No THEOREM-grade statement contradicted in either corpus - as registered. The prediction constrained nothing.",
+  "r63_recommendation": "Both comparisons PARTIAL, so all four spent holdouts (H1, H2, H3, H4) have now been met without contradiction of any theorem-grade statement. Per the R63 rule: R63 opens the geometry stage (roadmap stage 7, previously blocked) - derive an operational quasi-metric on the mature random ideal from frozen structure only (ancestry law, cone structure, containment, event-indexed reachability from R38), target-blind, with the R47 boundary (no holonomy, no strict connection) retained. H5 stays sealed until a derived density observable exists (the Part 4 quarantined readouts are candidate material for that freeze).",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R62_RESULTS_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1": "spent, not consulted",
+    "H2": "spent, not consulted",
+    "H3": "OPENED AND SPENT this round",
+    "H4": "OPENED AND SPENT this round",
+    "H5": {
+      "parsed": false
+    }
+  },
+  "state_class_rule_recorded_at_commit_A": true,
+  "v31o": "missing; grav_geometry confirmation-round claims recorded as manuscript-only at equal prominence",
+  "verdict": "OD0_R62_PASS_H3_H4_OPENED_UNDER_SEALED_PROTOCOLS"
+}

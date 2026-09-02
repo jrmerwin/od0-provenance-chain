@@ -1,0 +1,31 @@
+{
+  "label": "POST_OPENING_READOUT_NOT_ADJUDICATION",
+  "note": "Historical UNMAPPED_COMPUTABLE functionals evaluated on the derived random-ideal trajectories (labeled, seeded). The lnln clock functionals on derived trajectories are already tabulated in R61_EXACT_CERTIFICATES.json (part2_clock_trajectories_labeled) and are cited, not recomputed. Only permitted future use: candidate target-blind freezing for H5.",
+  "rows": {
+    "G2_m0_H0_s2000000": {
+      "PR_over_n": 0.3,
+      "condensation_f_1_minus_1_over_dmax": 0.9796,
+      "n": 51,
+      "participation_ratio_O4": 15.301,
+      "top_hub_share": 0.0988,
+      "total_containment": 496
+    },
+    "G3_m0_H0_s3000000": {
+      "PR_over_n": 0.2947,
+      "condensation_f_1_minus_1_over_dmax": 0.9811,
+      "n": 55,
+      "participation_ratio_O4": 16.208,
+      "top_hub_share": 0.0969,
+      "total_containment": 547
+    },
+    "G4_m0_H4_s4000400": {
+      "PR_over_n": 0.2453,
+      "condensation_f_1_minus_1_over_dmax": 0.9885,
+      "n": 89,
+      "participation_ratio_O4": 21.827,
+      "top_hub_share": 0.0688,
+      "total_containment": 1265
+    }
+  },
+  "schema": "R62_PART4_QUARANTINED_READOUTS_V1"
+}
