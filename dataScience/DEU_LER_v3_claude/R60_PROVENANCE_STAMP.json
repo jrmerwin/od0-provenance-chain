@@ -1,0 +1,31 @@
+{
+  "M7_prediction_set_sha256": "d3d47c0c44d49b724d6df7671eed036a6f66a940ce8fd5cecdb9989f38cdc7ab",
+  "commit_A_prereg": "5a039236f3a9ecc338c55fe45f9780f4cd8c23a5",
+  "commit_B_outputs": "f760202ee6598028d925b7e4e6d15455ed9876db",
+  "deterministic_rerun": "byte-identical (engine + builder double-run)",
+  "headline": {
+    "E1_identity": "tick rate = Gamma Phi^2 pathwise; E[Phi^2|state] = D/(F+D)",
+    "ages": "b ~ n; N_V = O(n^{3/2} sqrt(ln n)); k ~ (2/r) n^2 ln n",
+    "balance_band": "mean-square vacuum fraction x*^2 = r/(4 C(Gamma,2) n ln n), r = Gamma + min(H, 2 Gamma) - m",
+    "cycle_law": "<Phi^2>_cycle = 1 - C/(Gamma E[tau]) -> 1/(1+c) for C = c D ln D (constant-rate form refuted)",
+    "depth": "word depth in [ln n, 2e ln n] E-level; reading x3 per depth increment",
+    "full_lapse": "Gamma-stratified recurrence (every Gamma=2 burst is a Phi=1 step)",
+    "middrain": "Theta(D log D) bursts per full drain; renewals die out as exp(-Theta(D log D))",
+    "relief": "v* = min(H, 2 Gamma (1-x)); P* = 10 Gamma - 6"
+  },
+  "input_lock_sha256": "93b745613360c07bc270c48982e1a4818a47a0e335c83b90812f5592dedf78e2",
+  "output_manifest_sha256": "daa0ea9858039aaddef407cf406894e4a73f1f9f11afcafee5431b3972397ea3",
+  "report_sha256": "2be971e013309803b4751c2592be461e5e5a63c6d00f4d52e483ce8bbb8f25f7",
+  "results_sha256": "e7fc07b028629eba76a897af3fd24eef5f1929b6bc33de869caafa80425300d8",
+  "round": "OD0-R60",
+  "schema": "R60_PROVENANCE_STAMP_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1": "spent",
+    "H2": "spent",
+    "H3_parsed": false,
+    "H4_parsed": false,
+    "H5_parsed": false
+  },
+  "verdict": "OD0_R60_PASS_M7_LAPSE_CLOCK_EPOCH_LAWS_FROZEN"
+}
