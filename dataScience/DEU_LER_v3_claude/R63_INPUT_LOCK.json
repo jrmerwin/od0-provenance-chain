@@ -1,0 +1,29 @@
+{
+  "declarations": [
+    "D1 inventory and D2-D6 targets frozen verbatim before any computation",
+    "R47 boundary retained: no connection, no holonomy, no strict identity transport",
+    "no external geometric referent, named space, or literature estimator in any output; 'dimension' only in the D3 internal sense",
+    "no exponent or law fitted from readouts; asymptotics carry finite-n bounds or CONJECTURE",
+    "no locality introduced into the pairing law this round",
+    "hash hygiene: all hashes in-process"
+  ],
+  "package": "OD0_CLAUDE_CODE_PACKAGE_R63_GEOMETRY_STAGE_OPENING_v0_1.md",
+  "package_sha256": "1039978c5f0092f7511ba60c2b4606a6148f245bccc7148c2dfd0404ff221f52",
+  "r62_stamp_pin": {
+    "commit_A": "7cd9239537823fe0c692e7ca0907a80f8deff306",
+    "commit_B": "ec12e8f0159794252516cd92ec9d736e8bf7ba2e",
+    "manifest_match_verified": true,
+    "output_manifest_sha256": "4a226d44f5552656842081e3d6ab96204b5ea62e58991f1ff808760b3967f524",
+    "stamp_sha256": "cff13aa5cbd9bb5fd65b8556cc3f9d1241f4cfc46859e4627385e0e3d1bd0e47"
+  },
+  "round": "OD0-R63",
+  "schema": "R63_INPUT_LOCK_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1_H4": "spent, not consulted (provenance of diameter/containment observables disclosed, nothing more)",
+    "H5": {
+      "parsed": false
+    }
+  },
+  "targets_D1_D6_verbatim": "# 4. Targets (frozen at Commit A)\n\n**D1 (inventory and classification).** On a pair-closure ideal X with ancestry order \u2aaf and composite graph G (vertices X, edges parent\u2013child), define and classify \u2014 as metric / quasimetric / pseudometric / ultrametric / none \u2014 each of:\n\n- (a) d_G: undirected graph distance in G;\n- (b) d_\u2192: directed ancestry distance (shortest directed path length from ancestor to descendant; \u221e if unrelated) \u2014 an extended quasimetric;\n- (c) d_U: the ancestry-height function h(x,y) = min over common ancestors z of (birth index of z, or depth of z \u2014 fix both variants) with the sign convention making earlier common ancestors \"farther\"; prove or refute the ultrametric inequality on pair-closure ideals (it holds on trees; sharing may break it \u2014 give the witness if so);\n- (d) d_J: Jaccard distance on ancestry cones, 1 \u2212 |cone(x) \u2229 cone(y)| / |cone(x) \u222a cone(y)| \u2014 a metric; and its co-embedding dual on descendant sets where finite;\n- (e) the causal structure (\u2aaf, counting measure) itself, with intervals I(x,y) = {z : x \u2aaf z \u2aaf y};\n- (f) the R38 event-indexed reachability restricted to the object layer \u2014 classify and, if identity-only, say so and close it.\n\nFor each: exact definition on \ud835\udd37\u207a, invariance under primitive exchange, computability, and evidential class.\n\n**D2 (scaling laws).** For each structure in D1 on the mature random ideal at object count n, derive with explicit finite-n bounds or exact recursions:\n\n- diameter as a function of n (registered: d_G and d_\u2192 diameters \u0398(log n) two-sided; d_U and d_J diameters bounded);\n- ball volume V(r) = expected number of objects within distance r of a uniformly chosen object, as a function of r and n, for d_G, d_U, d_J;\n- for the causal structure: expected interval size |I(j, n)| as a function of birth indices (from the ancestry law), and the ordering fraction f(I) = (related pairs in I)/(all pairs in I) as a function of interval size;\n- the fraction of unrelated (mutually non-ancestral) pairs among all pairs, as a function of n (registered: 1 \u2212 \u0398(n^{\u22121/2})).\n\nCertify exact recursions at small n against the exact evolutions; check bounds against the seeded trajectories (labeled).\n\n**D3 (the dimension question, internal).** Define: a structure has a stable volume-growth exponent on a scale window if V(r) \u224d r^{\u03b4} with a \u03b4 that does not drift across the window as n grows; the causal structure has a stable ordering exponent if f(I) converges to a constant in (0,1) as |I| \u2192 \u221e. For each structure, prove one of: STABLE(\u03b4 or f\u221e, with bounds) / DRIFTING(\u03b4(n) or f(|I|) with its law) / DEGENERATE (distances concentrate on a single value). Report the derived exponents and laws as internal invariants. No external formula is invoked.\n\n**D4 (locality theorem).** Prove from R59 T1: for every structure in D1, the distance between the two parents of a new object has the same distribution as the distance between a uniformly random pair of existing objects \u2014 the pairing law has no locality in any derived structure. State the consequence: locality in the mature geometry, if any, is emergent from the DAG's own structure.\n\n**D5 (carrier-support locality).** Under CCP1 and the recurrence law (R56), the objects on which a repeat-use label's appearances occur form a sequence; prove its law from uniform reuse (each object reused with probability depending only on counts): the appearance sequence has no locality in any D1 structure. Record as the transport-side counterpart of D4.\n\n**D6 (bedrock geometry).** Characterize the structure of the ideal restricted to the bedrock (objects born before \u2248 \u221an, the near-universal ancestors): the ordering fraction within the bedrock; whether the bedrock is nearly totally ordered; the distance from a typical late object to the bedrock in each structure. Registered: the bedrock is nearly totally ordered under \u2aaf, every late object is within O(1) graph distance of it, and d_U / d_J between typical late objects concentrate (DEGENERATE).\n\n---"
+}
