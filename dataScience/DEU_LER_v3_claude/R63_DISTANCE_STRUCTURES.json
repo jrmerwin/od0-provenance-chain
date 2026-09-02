@@ -1,0 +1,108 @@
+{
+  "D1_classification": {
+    "a_dG": {
+      "class": "METRIC",
+      "statement": "Undirected graph distance on the composite graph (2(n-2) edges; mean degree 4(n-2)/n, the R54 theorem). Connected for n >= 3 (the genesis pair joins the primitives; every later object attaches to existing ones). Symmetry, identity, triangle immediate. Invariant under primitive exchange. Computable (BFS)."
+    },
+    "b_darrow": {
+      "class": "EXTENDED_QUASIMETRIC",
+      "statement": "Shortest directed path length ancestor -> descendant; infinity on unrelated pairs. d(x,x) = 0, directed triangle by concatenation, asymmetric by acyclicity. Exchange-invariant, computable."
+    },
+    "c_dU": {
+      "class": "NONE (symmetric premetric only)",
+      "statement": "Height function via the latest common ancestor: beta(x,y) = max{birth(z) : z in cone(x) intersect cone(y)} (common ancestors always exist: every composite's cone contains {a, b, ab}); d_U = n - beta (x != y), 0 on the diagonal; depth variant analogous. The ULTRAMETRIC inequality FAILS on pair-closure ideals - sharing breaks it: witness at n = 8 (p = {a,ab}, q = {b,ab}, x = {a,p}, z = {b,q}, y = {p,q}: d(x,z) = 6 > max(5, 4) = max(d(x,y), d(y,z)); exact, in R63_EXACT_CERTIFICATES.json). The ORDINARY triangle inequality ALSO fails once p, q are born after half-time: witness at n = 13 (d(x,z) = 11 > 9 = d(x,y) + d(y,z); exact). Both the birth-index and depth variants fail on the same witnesses. Exchange-invariant, computable."
+    },
+    "d_dJ": {
+      "class": "METRIC (closed cones); PSEUDOMETRIC (open cones); snapshot metric (co-embedding dual)",
+      "statement": "Jaccard distance on closed ancestry cones: a metric (Steinhaus; certified exhaustively: all 616 reachable 7-object ideals, 21,560 triples, zero triangle violations; d = 0 iff equal closed cones iff equal objects, since cone(x) contains x). On OPEN cones (excluding self) it degrades to a pseudometric: witness {a,ab} and {b,ab} share the open cone {a,b,ab} exactly. The co-embedding dual (Jaccard on closed descendant sets) is a metric at each snapshot but time-indexed (descendant sets grow); recorded as such."
+    },
+    "e_causal": {
+      "class": "CAUSAL_STRUCTURE",
+      "statement": "The ancestry order with counting measure; intervals I(x,y) = {z : x prec z prec y}. The primitive-exchange invariance holds; all quantities computable."
+    },
+    "f_R38": {
+      "class": "IDENTITY_ONLY; CLOSED",
+      "statement": "The R38 event-indexed reachability restricted to the object layer is identity-only guaranteed reachability (frozen R38; maximum directed support distance 3): it induces no distance structure on the object layer beyond d_arrow, and is closed here."
+    }
+  },
+  "D4_locality_theorem": {
+    "statement": "By R59 T1 the new object's parent pair is uniform over non-existing pairs. The distribution of ANY D1 distance between the parents therefore equals the distribution between a uniformly random pair of existing objects conditioned on the pair being non-existing; the n - 2 excluded (existing) pairs all have d_G <= 2 (each is the parent pair of some child: u - child - v), and the total-variation distance between the two pair laws is (n-2)/C(n,2) = O(1/n) -> 0. The pairing law has NO locality in any derived structure, exactly for the conditioned law and asymptotically for the full law. CONSEQUENCE: any locality in the mature geometry is emergent from the DAG's own structure, not supplied by the pairing rule.",
+    "verdict": "PROVEN"
+  },
+  "D5_carrier_support_locality": {
+    "statement": "By R52 S1 the served set is a uniform s-subset; under CCP1/harmonic reuse (R56) a repeat-use label's appearance objects are successive members of uniformly chosen served sets - each appearance object is uniform over X given the counts. Hence consecutive appearance objects form a uniform pair, and by D4's argument the appearance sequence has no locality in any D1 structure. The transport-side counterpart of D4.",
+    "verdict": "PROVEN"
+  },
+  "D6_bedrock": {
+    "statement": "(i) The bedrock (first ~sqrt(n) objects) is NOT nearly totally ordered - the registered claim is REFUTED: by the exact self-similarity (the first m objects are literally the size-m process), its internal related fraction is (pi^{3/2}/2) m^{-1/2} = Theta(n^{-1/4}) -> 0: a sparse self-similar partial order. (Round trajectories at bedrock sizes 7-11 show 0.60-0.90, matching the finite-m law 2.784/sqrt(m), labeled.) (ii) The distance from a typical late object to the bedrock is Theta(log n) - the registered O(1) is REFUTED: measured 0.289 ln n at n = 1e7 (declining, bounded below by c ln n from the base-8 volume bound); the greedy earlier-parent route gives (1/3) ln n exactly at E-level. (iii) d_U between typical late objects: DEGENERATE at the top (as registered), with the corrected fluctuation scale n^{2/3}. (iv) d_J between typical late objects: NOT degenerate (registered DEGENERATE refuted) - the nondegenerate 22/35 law. (v) Every late object's cone is dominated by the sub-bedrock (j = O(n^{1/4})) universal ancestors; the interval structure from the bedrock down is the whole-cone structure.",
+    "verdict": "CHARACTERIZED (two registered claims REFUTED)"
+  },
+  "adversarial_verification": {
+    "V1_jaccard": "CORRECTED - integral constant 13pi/32 (not 9pi/16), d_J ratio-of-means 22/35 (not 2/5); sqrt(W) factorization and shared-W structure confirmed (21 SE vs my constant, 9.5 SE vs independent-W); concentration REFUTED (nondegenerate limit law).",
+    "V2_order": "CORRECTED - related fraction and self-similarity confirmed exactly; interval bedrock-domination threshold is n^{1/4} (not sqrt n); beta scale is n^{2/3} (not sqrt n; E[W^2] = 2).",
+    "V3_graph": "CORRECTED - diameter Theta(log n) RESOLVED two-sided (spectral-radius-8 lower bound; my log n/log log n bound was the non-tight side); greedy-to-bedrock constant 1/3 (not 2/3, which is to the primitives); ball base -> 8 exactly; c_min = 0.373365 and c_max = 4.311070 as the two roots of c(1 + ln 2 - ln c) = 1 (max-depth data 2% from c_max)."
+  },
+  "certificates": {
+    "D1_jaccard_triangle": {
+      "ideals": 616,
+      "triples_checked": 21560,
+      "violations": 0
+    },
+    "D1_witnesses": {
+      "open_cone_pseudometric_witness": {
+        "equal": true,
+        "objects": "{a,ab} and {b,ab}",
+        "open_cone_1": 7,
+        "open_cone_2": 7
+      },
+      "ordinary_triangle_failure": {
+        "beta_xy": 8,
+        "beta_xz": 2,
+        "beta_yz": 9,
+        "d_xy_plus_d_yz": 9,
+        "d_xz": 11,
+        "n": 13,
+        "ordinary_triangle_fails": true
+      },
+      "ultrametric_failure_n8": {
+        "beta_xy": 3,
+        "beta_xz": 2,
+        "beta_yz": 4,
+        "d_xy": 5,
+        "d_xz": 6,
+        "d_yz": 4,
+        "ideal": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "strong_triangle_fails": true,
+        "x": 5,
+        "y": 7,
+        "z": 6
+      }
+    }
+  },
+  "schema": "R63_DISTANCE_STRUCTURES_V1"
+}

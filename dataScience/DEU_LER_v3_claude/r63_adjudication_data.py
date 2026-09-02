@@ -1,0 +1,291 @@
+"""OD0-R63 adjudication data: geometry-stage opening. (Claude Code.)
+All D2/D3/D6 scaling derivations adversarially panel-verified (three
+referees, exact/large-n simulation) before freezing; panel corrections
+folded in and recorded in OD0_R63_COUNTEREXAMPLES.md."""
+
+RUN_DATE = "2026-09-02"
+
+D1 = {
+ "a_dG": {"class": "METRIC",
+  "statement": "Undirected graph distance on the composite graph "
+    "(2(n-2) edges; mean degree 4(n-2)/n, the R54 theorem). Connected "
+    "for n >= 3 (the genesis pair joins the primitives; every later "
+    "object attaches to existing ones). Symmetry, identity, triangle "
+    "immediate. Invariant under primitive exchange. Computable "
+    "(BFS)."},
+ "b_darrow": {"class": "EXTENDED_QUASIMETRIC",
+  "statement": "Shortest directed path length ancestor -> descendant; "
+    "infinity on unrelated pairs. d(x,x) = 0, directed triangle by "
+    "concatenation, asymmetric by acyclicity. Exchange-invariant, "
+    "computable."},
+ "c_dU": {"class": "NONE (symmetric premetric only)",
+  "statement": "Height function via the latest common ancestor: "
+    "beta(x,y) = max{birth(z) : z in cone(x) intersect cone(y)} "
+    "(common ancestors always exist: every composite's cone contains "
+    "{a, b, ab}); d_U = n - beta (x != y), 0 on the diagonal; depth "
+    "variant analogous. The ULTRAMETRIC inequality FAILS on "
+    "pair-closure ideals - sharing breaks it: witness at n = 8 "
+    "(p = {a,ab}, q = {b,ab}, x = {a,p}, z = {b,q}, y = {p,q}: "
+    "d(x,z) = 6 > max(5, 4) = max(d(x,y), d(y,z)); exact, in "
+    "R63_EXACT_CERTIFICATES.json). The ORDINARY triangle inequality "
+    "ALSO fails once p, q are born after half-time: witness at "
+    "n = 13 (d(x,z) = 11 > 9 = d(x,y) + d(y,z); exact). Both the "
+    "birth-index and depth variants fail on the same witnesses. "
+    "Exchange-invariant, computable."},
+ "d_dJ": {"class": "METRIC (closed cones); PSEUDOMETRIC (open cones); "
+          "snapshot metric (co-embedding dual)",
+  "statement": "Jaccard distance on closed ancestry cones: a metric "
+    "(Steinhaus; certified exhaustively: all 616 reachable 7-object "
+    "ideals, 21,560 triples, zero triangle violations; d = 0 iff "
+    "equal closed cones iff equal objects, since cone(x) contains "
+    "x). On OPEN cones (excluding self) it degrades to a "
+    "pseudometric: witness {a,ab} and {b,ab} share the open cone "
+    "{a,b,ab} exactly. The co-embedding dual (Jaccard on closed "
+    "descendant sets) is a metric at each snapshot but "
+    "time-indexed (descendant sets grow); recorded as such."},
+ "e_causal": {"class": "CAUSAL_STRUCTURE",
+  "statement": "The ancestry order with counting measure; intervals "
+    "I(x,y) = {z : x prec z prec y}. The primitive-exchange "
+    "invariance holds; all quantities computable."},
+ "f_R38": {"class": "IDENTITY_ONLY; CLOSED",
+  "statement": "The R38 event-indexed reachability restricted to the "
+    "object layer is identity-only guaranteed reachability (frozen "
+    "R38; maximum directed support distance 3): it induces no "
+    "distance structure on the object layer beyond d_arrow, and is "
+    "closed here."},
+}
+
+D2 = {
+ "diameters": "d_G: Theta(log n) TWO-SIDED. Upper: route both "
+   "endpoints to the first-sqrt(n) bedrock (Theta(log n): greedy "
+   "earlier-parent descent has exact log-decrement rate "
+   "E[-ln min(U1,U2)] = 3/2, giving (1/3) ln n to the bedrock, "
+   "(2/3) ln n to the primitives) and telescope diam(n) <= 2 "
+   "dist-to-bedrock + diam(sqrt n) = O(log n) using the EXACT "
+   "self-similarity (the first m objects are the size-m process, "
+   "literally - the generator's prefix property). Lower: ball "
+   "growth has constant spectral-radius base <= 8 (the local "
+   "offspring operator K on log-rank types satisfies K e^{x/2} = "
+   "8 e^{x/2} - 4 exactly), so typical distances >= (1-o(1)) "
+   "ln n / ln 8 = 0.481 ln n (E-level, locally-tree-like path "
+   "counts). Measured: diam = 0.94 ln n + 2.2 at n <= 16000 "
+   "(labeled). d_arrow: Theta(log n); min directed depth from the "
+   "primitives is the first-passage minimum of a binary BRW with "
+   "Exp(1) log-decrements: c_min = -1/W_{-1}(-1/(2e)) = 0.373365 "
+   "(lower root of c(1 + ln 2 - ln c) = 1); the SAME equation's "
+   "upper root c_max = 4.311070 governs the maximal chain depth "
+   "(measured 4.16-4.44 across n = 1e5..3e7, ~2% from 4.311) - "
+   "sharpening the frozen [ln n, 2e ln n] band from inside (2e = "
+   "5.436 remains a valid outer bound). d_U (normalized (n-beta)/n) "
+   "and d_J: diameters bounded by 1.",
+ "ball_volume": "V_G(r): exponential in r with base nu(n) -> 8 "
+   "exactly (eigen-ODE f'' - f' + (2/lambda) f = 0 on types; "
+   "spectral radius increases 6.5 -> 8 as measured by power "
+   "iteration; shell-ratio plateau 5.3 +/- 0.5 at n = 1e5..1e7, "
+   "FLAT across decades - the base is Theta(1), not log n). No "
+   "power-law window. V_U: mass concentrates at distance "
+   "1 - Theta(n^{-1/3}) from the top. V_J: all of the volume "
+   "arrives on the O(1)-width support of the d_J limit law - a "
+   "single-scale geometry.",
+ "intervals": "E|I(x_j, y_late)|: for j = O(n^{1/4}), the interval "
+   "is asymptotically the whole cone of y: E|I| -> |cone(y)| = "
+   "(3/8) pi^{3/2} sqrt(n) (measured ratio -> 0.97 at n = 1e5, "
+   "j = 5). For n^{1/4} << j << sqrt(n): E|I| ~ (n/j^2)(1 + "
+   "Theta(ln(j^2/sqrt(n)))) = o(sqrt(n)) - the bedrock-domination "
+   "threshold is n^{1/4}, NOT sqrt(n) (panel correction; the "
+   "Yule product-integral reproduces simulation at every (n, j) "
+   "tested). Ordering fraction: f(I) = Theta(s^{-1/2}) with "
+   "measured constants ~3.7 (intervals) / ~4.5 (cones), log-log "
+   "slopes -0.45/-0.47 vs -0.5; f -> 0.",
+ "unrelated_fraction": "Related-pair fraction = 2 TC(n)/n^2 = "
+   "(pi^{3/2}/2) n^{-1/2} (1+o(1)) ~ 2.784/sqrt(n) (THEOREM at "
+   "E-level via the frozen TC law; simulation 2.72-2.78 across "
+   "n = 1e3..3e4, pair-sampled 2.59 +/- 0.12 at 1e5; round "
+   "trajectories 2.5-3.2 at n = 50-130). Unrelated fraction = "
+   "1 - Theta(n^{-1/2}) with this explicit constant.",
+ "beta_law": "The latest-common-ancestor birth of two typical late "
+   "objects is Theta(n^{2/3}), NOT Theta(sqrt n): with the shared "
+   "Yule field, P(z common ancestor) = E[(2 phi - phi^2)^2] ~ "
+   "8 n^2/m^4 for z born at m (E[W^2] = 2 doubles the naive "
+   "constant), so E[#common ancestors born >= M] = (8/3) n^2/M^3, "
+   "vanishing iff M >> n^{2/3}. beta/n^{2/3} has a nondegenerate "
+   "limit law (median ~ 1.0, quartiles ~0.7/1.4, tail ~ t^{-3}; "
+   "measured stable across n = 1e3..1e5). Hence normalized d_U "
+   "between typical late pairs = 1 - Theta(n^{-1/3}).",
+}
+
+D3 = {
+ "dG": "DRIFTING - V(r) exponential with base -> 8; the effective "
+       "volume-growth exponent delta(r, n) = r ln nu / ln r is "
+       "unbounded; no stable window.",
+ "darrow": "DRIFTING - same exponential growth, directed.",
+ "dU": "DEGENERATE - distances between typical late pairs "
+       "concentrate at the top value 1 - Theta(n^{-1/3}); the "
+       "rescaled fluctuation (beta/n^{2/3}) has a nondegenerate "
+       "limit law, but the distance itself concentrates.",
+ "dJ": "NONDEGENERATE_LIMIT_LAW - none of the three frozen classes: "
+       "d_J for typical late pairs converges to a genuinely "
+       "nondegenerate, right-skewed law (ratio-of-means "
+       "1 - 13/35 = 22/35 = 0.6286 exactly, the E[sqrt(W)] factor "
+       "canceling; measured mean 0.592 -> 0.627 across n = 500 -> "
+       "2e5; median ~ 0.613; sd -> ~0.055, flattening; the "
+       "component fluctuation |cone|/sqrt(n) has limit sd ~ 0.75, "
+       "injected at every level by the uniform parent draws). Not "
+       "STABLE (no r^delta window), not DRIFTING (the law does not "
+       "drift with n), not DEGENERATE (variance does not vanish): "
+       "the D3 trichotomy is INCOMPLETE, refuted as exhaustive by "
+       "this structure (recorded as a counterexample). A "
+       "single-scale geometry: all pairwise distances live on one "
+       "O(1) scale with persistent shape.",
+ "causal": "DRIFTING - f(I) ~ c |I|^{-1/2} -> 0; no stable ordering "
+           "exponent (f_infinity = 0, not in (0,1)).",
+}
+
+D4 = {"verdict": "PROVEN",
+ "statement": "By R59 T1 the new object's parent pair is uniform over "
+   "non-existing pairs. The distribution of ANY D1 distance between "
+   "the parents therefore equals the distribution between a "
+   "uniformly random pair of existing objects conditioned on the "
+   "pair being non-existing; the n - 2 excluded (existing) pairs "
+   "all have d_G <= 2 (each is the parent pair of some child: "
+   "u - child - v), and the total-variation distance between the "
+   "two pair laws is (n-2)/C(n,2) = O(1/n) -> 0. The pairing law "
+   "has NO locality in any derived structure, exactly for the "
+   "conditioned law and asymptotically for the full law. "
+   "CONSEQUENCE: any locality in the mature geometry is emergent "
+   "from the DAG's own structure, not supplied by the pairing "
+   "rule."}
+
+D5 = {"verdict": "PROVEN",
+ "statement": "By R52 S1 the served set is a uniform s-subset; under "
+   "CCP1/harmonic reuse (R56) a repeat-use label's appearance "
+   "objects are successive members of uniformly chosen served "
+   "sets - each appearance object is uniform over X given the "
+   "counts. Hence consecutive appearance objects form a uniform "
+   "pair, and by D4's argument the appearance sequence has no "
+   "locality in any D1 structure. The transport-side counterpart "
+   "of D4."}
+
+D6 = {
+ "verdict": "CHARACTERIZED (two registered claims REFUTED)",
+ "statement": "(i) The bedrock (first ~sqrt(n) objects) is NOT "
+   "nearly totally ordered - the registered claim is REFUTED: by "
+   "the exact self-similarity (the first m objects are literally "
+   "the size-m process), its internal related fraction is "
+   "(pi^{3/2}/2) m^{-1/2} = Theta(n^{-1/4}) -> 0: a sparse "
+   "self-similar partial order. (Round trajectories at bedrock "
+   "sizes 7-11 show 0.60-0.90, matching the finite-m law "
+   "2.784/sqrt(m), labeled.) (ii) The distance from a typical "
+   "late object to the bedrock is Theta(log n) - the registered "
+   "O(1) is REFUTED: measured 0.289 ln n at n = 1e7 (declining, "
+   "bounded below by c ln n from the base-8 volume bound); the "
+   "greedy earlier-parent route gives (1/3) ln n exactly at "
+   "E-level. (iii) d_U between typical late objects: DEGENERATE "
+   "at the top (as registered), with the corrected fluctuation "
+   "scale n^{2/3}. (iv) d_J between typical late objects: NOT "
+   "degenerate (registered DEGENERATE refuted) - the "
+   "nondegenerate 22/35 law. (v) Every late object's cone is "
+   "dominated by the sub-bedrock (j = O(n^{1/4})) universal "
+   "ancestors; the interval structure from the bedrock down is "
+   "the whole-cone structure.",
+}
+
+PANEL = {
+ "V1_jaccard": "CORRECTED - integral constant 13pi/32 (not 9pi/16), "
+   "d_J ratio-of-means 22/35 (not 2/5); sqrt(W) factorization and "
+   "shared-W structure confirmed (21 SE vs my constant, 9.5 SE vs "
+   "independent-W); concentration REFUTED (nondegenerate limit "
+   "law).",
+ "V2_order": "CORRECTED - related fraction and self-similarity "
+   "confirmed exactly; interval bedrock-domination threshold is "
+   "n^{1/4} (not sqrt n); beta scale is n^{2/3} (not sqrt n; "
+   "E[W^2] = 2).",
+ "V3_graph": "CORRECTED - diameter Theta(log n) RESOLVED two-sided "
+   "(spectral-radius-8 lower bound; my log n/log log n bound was "
+   "the non-tight side); greedy-to-bedrock constant 1/3 (not 2/3, "
+   "which is to the primitives); ball base -> 8 exactly; c_min = "
+   "0.373365 and c_max = 4.311070 as the two roots of "
+   "c(1 + ln 2 - ln c) = 1 (max-depth data 2% from c_max).",
+}
+
+HC = [
+ ["HC1", "structure/target added after Commit A", "REJECTED",
+  "D1(a)-(f) and D2-D6 adjudicated verbatim; the fourth D3 outcome "
+  "is a finding about the frozen trichotomy, recorded as a "
+  "counterexample, not an added target."],
+ ["HC2", "external geometric referent; 'dimension' outside D3",
+  "REJECTED", "All laws stated as internal invariants; 'dimension' "
+  "appears only via the D3 exponent definition; no named space or "
+  "literature estimator in any output."],
+ ["HC3", "exponent/law fitted from readouts", "REJECTED",
+  "Every constant traces to a derivation (spectral radius 8, LDP "
+  "roots, Yule integrals, self-similarity); readouts labeled and "
+  "used only as checks."],
+ ["HC4", "connection/holonomy/transport beyond R47", "REJECTED",
+  "Distance functions and volume laws only."],
+ ["HC5", "locality introduced; premise stated", "REJECTED",
+  "D4/D5 prove the absence of locality; the locality premise class "
+  "is deferred to R64 per the rule."],
+ ["HC6", "H5 read; H1-H4 pattern used to select structures",
+  "REJECTED", "Structures enumerated from frozen definitions; "
+  "provenance of diameter/containment disclosed, nothing more; H5 "
+  "sentinel parsed=false."],
+ ["HC7", "frozen roots modified; BELL2 opened", "REJECTED",
+  "Nothing modified; unopened."],
+ ["HC8", "hand hash; placeholder", "REJECTED",
+  "All hashes in-process."],
+]
+
+VERDICTS = {
+ "always": "OD0_R63_PASS_GEOMETRY_STRUCTURES_CLASSIFIED_AND_SCALED",
+ "primary": "NONE_UNDER_UNIFORM_PAIRING",
+ "negative_result": "Uniform co-service, by itself, does NOT yield "
+   "a stable volume-growth exponent: the graph structures are "
+   "exponential (base 8), the height structure is degenerate, the "
+   "Jaccard structure is single-scale with a nondegenerate limit "
+   "law, and the causal ordering fraction vanishes. Recorded at "
+   "equal prominence.",
+ "components": {
+  "D1": "dG METRIC; darrow EXTENDED_QUASIMETRIC; dU NONE "
+        "(ultrametric AND triangle fail - exact witnesses n=8, "
+        "n=13); dJ METRIC (closed) / PSEUDOMETRIC (open, witness); "
+        "causal structure; R38 identity-only CLOSED",
+  "D2": "diam dG = Theta(log n) two-sided; V_G exponential base 8; "
+        "interval threshold n^{1/4}; f(I) ~ s^{-1/2}; unrelated "
+        "1 - (pi^{3/2}/2) n^{-1/2}; beta ~ n^{2/3}",
+  "D3": "dG DRIFTING; darrow DRIFTING; dU DEGENERATE; dJ "
+        "NONDEGENERATE_LIMIT_LAW (trichotomy incomplete); causal "
+        "DRIFTING",
+  "D4": "PROVEN", "D5": "PROVEN",
+  "D6": "sparse self-similar bedrock (near-total order REFUTED); "
+        "Theta(log n) bedrock access (O(1) REFUTED); dU degenerate "
+        "at top (n^{2/3} scale); dJ nondegenerate",
+  "GEOMETRY": "NONE_UNDER_UNIFORM_PAIRING",
+ },
+ "prediction_vs_outcome": "Registered: classifications (a),(b),(d),"
+  "(e),(f) - as registered; (c) ultrametric failure with witness - "
+  "as registered, plus the stronger ordinary-triangle failure. "
+  "Diameters Theta(log n) - as registered, now two-sided with the "
+  "spectral-radius-8 lower bound. V_G exponential, unrelated "
+  "1 - Theta(n^{-1/2}), f -> 0, D4/D5 PROVEN, primary "
+  "NONE_UNDER_UNIFORM_PAIRING - all as registered. CORRECTIONS: "
+  "bedrock 'nearly totally ordered' REFUTED (sparse self-similar, "
+  "n^{-1/4}); late objects at Theta(log n) from the bedrock, not "
+  "O(1); dJ NOT degenerate (nondegenerate 22/35 law - and my "
+  "pre-run integral constant was wrong, panel-corrected to "
+  "13pi/32); dU fluctuation scale n^{2/3}, not sqrt(n); the D3 "
+  "trichotomy itself is incomplete. The prediction constrained "
+  "nothing.",
+ "r64_recommendation": "GEOMETRY = NONE_UNDER_UNIFORM_PAIRING, so "
+  "per the R64 rule: R64 classifies the minimal LOCALITY PREMISE "
+  "CLASS for the opportunity law by the TG1 template - binary, "
+  "parameter-free, internal (locality defined through frozen "
+  "structure: shared recent ancestry via beta, bounded d_arrow or "
+  "d_U between co-served parents), with uniform as the inert "
+  "baseline; freezes the candidates; tests each for deadlock, "
+  "growth class, and whether a stable exponent emerges at small "
+  "n. The current tower stays frozen as the non-local baseline. "
+  "Any surviving locality premise starts a conditional TG1' tower "
+  "with the four holdout comparisons' shape results carried and "
+  "TG1-specific numbers explicitly not carried.",
+}

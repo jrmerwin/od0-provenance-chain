@@ -1,0 +1,928 @@
+{
+  "D2_laws": {
+    "ball_volume": "V_G(r): exponential in r with base nu(n) -> 8 exactly (eigen-ODE f'' - f' + (2/lambda) f = 0 on types; spectral radius increases 6.5 -> 8 as measured by power iteration; shell-ratio plateau 5.3 +/- 0.5 at n = 1e5..1e7, FLAT across decades - the base is Theta(1), not log n). No power-law window. V_U: mass concentrates at distance 1 - Theta(n^{-1/3}) from the top. V_J: all of the volume arrives on the O(1)-width support of the d_J limit law - a single-scale geometry.",
+    "beta_law": "The latest-common-ancestor birth of two typical late objects is Theta(n^{2/3}), NOT Theta(sqrt n): with the shared Yule field, P(z common ancestor) = E[(2 phi - phi^2)^2] ~ 8 n^2/m^4 for z born at m (E[W^2] = 2 doubles the naive constant), so E[#common ancestors born >= M] = (8/3) n^2/M^3, vanishing iff M >> n^{2/3}. beta/n^{2/3} has a nondegenerate limit law (median ~ 1.0, quartiles ~0.7/1.4, tail ~ t^{-3}; measured stable across n = 1e3..1e5). Hence normalized d_U between typical late pairs = 1 - Theta(n^{-1/3}).",
+    "diameters": "d_G: Theta(log n) TWO-SIDED. Upper: route both endpoints to the first-sqrt(n) bedrock (Theta(log n): greedy earlier-parent descent has exact log-decrement rate E[-ln min(U1,U2)] = 3/2, giving (1/3) ln n to the bedrock, (2/3) ln n to the primitives) and telescope diam(n) <= 2 dist-to-bedrock + diam(sqrt n) = O(log n) using the EXACT self-similarity (the first m objects are the size-m process, literally - the generator's prefix property). Lower: ball growth has constant spectral-radius base <= 8 (the local offspring operator K on log-rank types satisfies K e^{x/2} = 8 e^{x/2} - 4 exactly), so typical distances >= (1-o(1)) ln n / ln 8 = 0.481 ln n (E-level, locally-tree-like path counts). Measured: diam = 0.94 ln n + 2.2 at n <= 16000 (labeled). d_arrow: Theta(log n); min directed depth from the primitives is the first-passage minimum of a binary BRW with Exp(1) log-decrements: c_min = -1/W_{-1}(-1/(2e)) = 0.373365 (lower root of c(1 + ln 2 - ln c) = 1); the SAME equation's upper root c_max = 4.311070 governs the maximal chain depth (measured 4.16-4.44 across n = 1e5..3e7, ~2% from 4.311) - sharpening the frozen [ln n, 2e ln n] band from inside (2e = 5.436 remains a valid outer bound). d_U (normalized (n-beta)/n) and d_J: diameters bounded by 1.",
+    "intervals": "E|I(x_j, y_late)|: for j = O(n^{1/4}), the interval is asymptotically the whole cone of y: E|I| -> |cone(y)| = (3/8) pi^{3/2} sqrt(n) (measured ratio -> 0.97 at n = 1e5, j = 5). For n^{1/4} << j << sqrt(n): E|I| ~ (n/j^2)(1 + Theta(ln(j^2/sqrt(n)))) = o(sqrt(n)) - the bedrock-domination threshold is n^{1/4}, NOT sqrt(n) (panel correction; the Yule product-integral reproduces simulation at every (n, j) tested). Ordering fraction: f(I) = Theta(s^{-1/2}) with measured constants ~3.7 (intervals) / ~4.5 (cones), log-log slopes -0.45/-0.47 vs -0.5; f -> 0.",
+    "unrelated_fraction": "Related-pair fraction = 2 TC(n)/n^2 = (pi^{3/2}/2) n^{-1/2} (1+o(1)) ~ 2.784/sqrt(n) (THEOREM at E-level via the frozen TC law; simulation 2.72-2.78 across n = 1e3..3e4, pair-sampled 2.59 +/- 0.12 at 1e5; round trajectories 2.5-3.2 at n = 50-130). Unrelated fraction = 1 - Theta(n^{-1/2}) with this explicit constant."
+  },
+  "D3_verdicts": {
+    "causal": "DRIFTING - f(I) ~ c |I|^{-1/2} -> 0; no stable ordering exponent (f_infinity = 0, not in (0,1)).",
+    "dG": "DRIFTING - V(r) exponential with base -> 8; the effective volume-growth exponent delta(r, n) = r ln nu / ln r is unbounded; no stable window.",
+    "dJ": "NONDEGENERATE_LIMIT_LAW - none of the three frozen classes: d_J for typical late pairs converges to a genuinely nondegenerate, right-skewed law (ratio-of-means 1 - 13/35 = 22/35 = 0.6286 exactly, the E[sqrt(W)] factor canceling; measured mean 0.592 -> 0.627 across n = 500 -> 2e5; median ~ 0.613; sd -> ~0.055, flattening; the component fluctuation |cone|/sqrt(n) has limit sd ~ 0.75, injected at every level by the uniform parent draws). Not STABLE (no r^delta window), not DRIFTING (the law does not drift with n), not DEGENERATE (variance does not vanish): the D3 trichotomy is INCOMPLETE, refuted as exhaustive by this structure (recorded as a counterexample). A single-scale geometry: all pairwise distances live on one O(1) scale with persistent shape.",
+    "dU": "DEGENERATE - distances between typical late pairs concentrate at the top value 1 - Theta(n^{-1/3}); the rescaled fluctuation (beta/n^{2/3}) has a nondegenerate limit law, but the distance itself concentrates.",
+    "darrow": "DRIFTING - same exponential growth, directed."
+  },
+  "Tdag_illustration": {
+    "analysis": {
+      "V_r": {
+        "0": 1.0,
+        "1": 5.2,
+        "2": 41.8,
+        "3": 136.8,
+        "4": 172.5,
+        "5": 173.0
+      },
+      "bedrock_related_fraction": 0.5385,
+      "bedrock_size": 13,
+      "beta_mean": 3.8,
+      "beta_mean_over_n23": 0.121,
+      "beta_mean_over_sqrt_n": 0.285,
+      "dJ_mean_unrelated_late": 0.6206,
+      "dJ_sd": 0.102,
+      "diameter_dG": 5,
+      "dist_to_bedrock_last20_mean": 1.0,
+      "dist_to_bedrock_max": 1,
+      "f_I_samples": [
+        [
+          3,
+          1.0
+        ],
+        [
+          3,
+          1.0
+        ],
+        [
+          3,
+          1.0
+        ],
+        [
+          4,
+          1.0
+        ],
+        [
+          4,
+          1.0
+        ],
+        [
+          5,
+          1.0
+        ],
+        [
+          5,
+          1.0
+        ],
+        [
+          6,
+          0.8666666666666667
+        ],
+        [
+          6,
+          1.0
+        ],
+        [
+          6,
+          1.0
+        ],
+        [
+          6,
+          1.0
+        ],
+        [
+          6,
+          1.0
+        ],
+        [
+          6,
+          1.0
+        ]
+      ],
+      "global_related_fraction": 0.0658,
+      "max_depth_maxdep": 3,
+      "mean_cone_over_sqrt_n": 0.506,
+      "mean_dG_sampled": 2.711,
+      "min_directed_depth_mean_late": 2.05,
+      "n": 173,
+      "pred_related_const_x_sqrtn": 0.865
+    },
+    "label": "STATE_CLASS_ILLUSTRATION_NOT_ADJUDICATION"
+  },
+  "negative_result": "Uniform co-service, by itself, does NOT yield a stable volume-growth exponent: the graph structures are exponential (base 8), the height structure is degenerate, the Jaccard structure is single-scale with a nondegenerate limit law, and the causal ordering fraction vanishes. Recorded at equal prominence.",
+  "primary": "NONE_UNDER_UNIFORM_PAIRING",
+  "readouts_labeled": {
+    "G2_m0_H0_s2000000": {
+      "100": {
+        "V_r": {
+          "0": 1.0,
+          "1": 4.8,
+          "2": 18.6,
+          "3": 50.7,
+          "4": 86.3,
+          "5": 99.3,
+          "6": 100.0
+        },
+        "bedrock_related_fraction": 0.7111,
+        "bedrock_size": 10,
+        "beta_mean": 18.4,
+        "beta_mean_over_n23": 0.856,
+        "beta_mean_over_sqrt_n": 1.844,
+        "dJ_mean_unrelated_late": 0.5713,
+        "dJ_sd": 0.1078,
+        "diameter_dG": 6,
+        "dist_to_bedrock_last20_mean": 1.95,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            0.8666666666666667
+          ],
+          [
+            7,
+            0.8095238095238095
+          ],
+          [
+            8,
+            0.8214285714285714
+          ],
+          [
+            9,
+            0.8611111111111112
+          ],
+          [
+            12,
+            0.6363636363636364
+          ],
+          [
+            14,
+            0.6483516483516484
+          ],
+          [
+            16,
+            0.7583333333333333
+          ],
+          [
+            24,
+            0.6340579710144928
+          ]
+        ],
+        "global_related_fraction": 0.2721,
+        "max_depth_maxdep": 4,
+        "mean_cone_over_sqrt_n": 1.447,
+        "mean_dG_sampled": 3.138,
+        "min_directed_depth_mean_late": 2.84,
+        "n": 100,
+        "pred_related_const_x_sqrtn": 2.721
+      },
+      "50": {
+        "V_r": {
+          "0": 1.0,
+          "1": 5.0,
+          "2": 17.0,
+          "3": 36.2,
+          "4": 47.8,
+          "5": 50.0,
+          "6": 50.0
+        },
+        "bedrock_related_fraction": 0.9048,
+        "bedrock_size": 7,
+        "beta_mean": 11.9,
+        "beta_mean_over_n23": 0.876,
+        "beta_mean_over_sqrt_n": 1.681,
+        "dJ_mean_unrelated_late": 0.5326,
+        "dJ_sd": 0.1047,
+        "diameter_dG": 6,
+        "dist_to_bedrock_last20_mean": 2.0,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            0.9333333333333333
+          ],
+          [
+            7,
+            0.9047619047619048
+          ],
+          [
+            8,
+            1.0
+          ],
+          [
+            10,
+            0.7555555555555555
+          ],
+          [
+            11,
+            0.8545454545454545
+          ],
+          [
+            14,
+            0.6923076923076923
+          ],
+          [
+            18,
+            0.6797385620915033
+          ]
+        ],
+        "global_related_fraction": 0.3943,
+        "max_depth_maxdep": 4,
+        "mean_cone_over_sqrt_n": 1.508,
+        "mean_dG_sampled": 2.916,
+        "min_directed_depth_mean_late": 2.68,
+        "n": 50,
+        "pred_related_const_x_sqrtn": 2.788
+      }
+    },
+    "G3_m0_H0_s3000000": {
+      "100": {
+        "V_r": {
+          "0": 1.0,
+          "1": 4.8,
+          "2": 17.4,
+          "3": 49.6,
+          "4": 86.7,
+          "5": 98.8,
+          "6": 100.0
+        },
+        "bedrock_related_fraction": 0.7556,
+        "bedrock_size": 10,
+        "beta_mean": 14.2,
+        "beta_mean_over_n23": 0.661,
+        "beta_mean_over_sqrt_n": 1.424,
+        "dJ_mean_unrelated_late": 0.5577,
+        "dJ_sd": 0.1099,
+        "diameter_dG": 6,
+        "dist_to_bedrock_last20_mean": 1.85,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            1.0
+          ],
+          [
+            7,
+            0.9047619047619048
+          ],
+          [
+            8,
+            0.9285714285714286
+          ],
+          [
+            10,
+            0.8888888888888888
+          ],
+          [
+            11,
+            0.9090909090909091
+          ],
+          [
+            13,
+            0.8846153846153846
+          ],
+          [
+            16,
+            0.7083333333333334
+          ],
+          [
+            24,
+            0.644927536231884
+          ]
+        ],
+        "global_related_fraction": 0.2533,
+        "max_depth_maxdep": 5,
+        "mean_cone_over_sqrt_n": 1.354,
+        "mean_dG_sampled": 3.114,
+        "min_directed_depth_mean_late": 2.84,
+        "n": 100,
+        "pred_related_const_x_sqrtn": 2.533
+      },
+      "50": {
+        "V_r": {
+          "0": 1.0,
+          "1": 4.7,
+          "2": 14.9,
+          "3": 33.1,
+          "4": 46.1,
+          "5": 49.9,
+          "6": 50.0
+        },
+        "bedrock_related_fraction": 0.9048,
+        "bedrock_size": 7,
+        "beta_mean": 9.4,
+        "beta_mean_over_n23": 0.696,
+        "beta_mean_over_sqrt_n": 1.335,
+        "dJ_mean_unrelated_late": 0.5676,
+        "dJ_sd": 0.1445,
+        "diameter_dG": 6,
+        "dist_to_bedrock_last20_mean": 1.85,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            0.9333333333333333
+          ],
+          [
+            7,
+            0.8571428571428571
+          ],
+          [
+            8,
+            0.8928571428571429
+          ],
+          [
+            9,
+            0.8055555555555556
+          ],
+          [
+            10,
+            0.8888888888888888
+          ],
+          [
+            12,
+            0.8181818181818182
+          ],
+          [
+            20,
+            0.7
+          ]
+        ],
+        "global_related_fraction": 0.3747,
+        "max_depth_maxdep": 4,
+        "mean_cone_over_sqrt_n": 1.44,
+        "mean_dG_sampled": 2.979,
+        "min_directed_depth_mean_late": 2.68,
+        "n": 50,
+        "pred_related_const_x_sqrtn": 2.649
+      }
+    },
+    "G4_m0_H4_s4000400": {
+      "100": {
+        "V_r": {
+          "0": 1.0,
+          "1": 5.3,
+          "2": 21.4,
+          "3": 56.6,
+          "4": 89.0,
+          "5": 99.4,
+          "6": 100.0
+        },
+        "bedrock_related_fraction": 0.6667,
+        "bedrock_size": 10,
+        "beta_mean": 22.7,
+        "beta_mean_over_n23": 1.054,
+        "beta_mean_over_sqrt_n": 2.271,
+        "dJ_mean_unrelated_late": 0.4809,
+        "dJ_sd": 0.1543,
+        "diameter_dG": 6,
+        "dist_to_bedrock_last20_mean": 2.15,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            1.0
+          ],
+          [
+            7,
+            1.0
+          ],
+          [
+            9,
+            0.7777777777777778
+          ],
+          [
+            10,
+            0.8666666666666667
+          ],
+          [
+            11,
+            0.8545454545454545
+          ],
+          [
+            13,
+            0.7692307692307693
+          ],
+          [
+            16,
+            0.7833333333333333
+          ],
+          [
+            20,
+            0.8210526315789474
+          ],
+          [
+            26,
+            0.7384615384615385
+          ]
+        ],
+        "global_related_fraction": 0.3089,
+        "max_depth_maxdep": 5,
+        "mean_cone_over_sqrt_n": 1.629,
+        "mean_dG_sampled": 3.155,
+        "min_directed_depth_mean_late": 2.74,
+        "n": 100,
+        "pred_related_const_x_sqrtn": 3.089
+      },
+      "130": {
+        "V_r": {
+          "0": 1.0,
+          "1": 5.1,
+          "2": 21.5,
+          "3": 61.6,
+          "4": 109.0,
+          "5": 128.0,
+          "6": 130.0
+        },
+        "bedrock_related_fraction": 0.6182,
+        "bedrock_size": 11,
+        "beta_mean": 25.2,
+        "beta_mean_over_n23": 0.984,
+        "beta_mean_over_sqrt_n": 2.214,
+        "dJ_mean_unrelated_late": 0.5011,
+        "dJ_sd": 0.1454,
+        "diameter_dG": 6,
+        "dist_to_bedrock_last20_mean": 1.9,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            1.0
+          ],
+          [
+            7,
+            1.0
+          ],
+          [
+            9,
+            0.75
+          ],
+          [
+            10,
+            1.0
+          ],
+          [
+            13,
+            0.7051282051282052
+          ],
+          [
+            15,
+            0.638095238095238
+          ],
+          [
+            17,
+            0.625
+          ],
+          [
+            21,
+            0.7523809523809524
+          ],
+          [
+            27,
+            0.717948717948718
+          ]
+        ],
+        "global_related_fraction": 0.263,
+        "max_depth_maxdep": 5,
+        "mean_cone_over_sqrt_n": 1.575,
+        "mean_dG_sampled": 3.229,
+        "min_directed_depth_mean_late": 2.72,
+        "n": 130,
+        "pred_related_const_x_sqrtn": 2.998
+      },
+      "50": {
+        "V_r": {
+          "0": 1.0,
+          "1": 4.9,
+          "2": 16.8,
+          "3": 37.4,
+          "4": 48.5,
+          "5": 50.0
+        },
+        "bedrock_related_fraction": 0.7619,
+        "bedrock_size": 7,
+        "beta_mean": 15.0,
+        "beta_mean_over_n23": 1.103,
+        "beta_mean_over_sqrt_n": 2.117,
+        "dJ_mean_unrelated_late": 0.4873,
+        "dJ_sd": 0.1353,
+        "diameter_dG": 5,
+        "dist_to_bedrock_last20_mean": 1.85,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            0.9
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            1.0
+          ],
+          [
+            7,
+            0.8571428571428571
+          ],
+          [
+            8,
+            0.8571428571428571
+          ],
+          [
+            10,
+            0.6
+          ],
+          [
+            11,
+            0.8909090909090909
+          ],
+          [
+            13,
+            0.8205128205128205
+          ],
+          [
+            15,
+            0.7714285714285715
+          ],
+          [
+            20,
+            0.7631578947368421
+          ]
+        ],
+        "global_related_fraction": 0.4498,
+        "max_depth_maxdep": 4,
+        "mean_cone_over_sqrt_n": 1.7,
+        "mean_dG_sampled": 2.871,
+        "min_directed_depth_mean_late": 2.44,
+        "n": 50,
+        "pred_related_const_x_sqrtn": 3.181
+      }
+    },
+    "G5_m0_H8_s5000800": {
+      "100": {
+        "V_r": {
+          "0": 1.0,
+          "1": 5.2,
+          "2": 19.9,
+          "3": 53.3,
+          "4": 88.5,
+          "5": 99.5,
+          "6": 100.0
+        },
+        "bedrock_related_fraction": 0.6444,
+        "bedrock_size": 10,
+        "beta_mean": 19.6,
+        "beta_mean_over_n23": 0.909,
+        "beta_mean_over_sqrt_n": 1.959,
+        "dJ_mean_unrelated_late": 0.6062,
+        "dJ_sd": 0.1228,
+        "diameter_dG": 6,
+        "dist_to_bedrock_last20_mean": 2.1,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            0.7333333333333333
+          ],
+          [
+            7,
+            0.8095238095238095
+          ],
+          [
+            8,
+            0.8571428571428571
+          ],
+          [
+            10,
+            0.6444444444444445
+          ],
+          [
+            13,
+            0.5897435897435898
+          ],
+          [
+            15,
+            0.6476190476190476
+          ]
+        ],
+        "global_related_fraction": 0.2251,
+        "max_depth_maxdep": 4,
+        "mean_cone_over_sqrt_n": 1.214,
+        "mean_dG_sampled": 3.125,
+        "min_directed_depth_mean_late": 2.6,
+        "n": 100,
+        "pred_related_const_x_sqrtn": 2.251
+      },
+      "130": {
+        "V_r": {
+          "0": 1.0,
+          "1": 4.7,
+          "2": 19.3,
+          "3": 60.1,
+          "4": 109.8,
+          "5": 128.6,
+          "6": 130.0,
+          "7": 130.0
+        },
+        "bedrock_related_fraction": 0.6,
+        "bedrock_size": 11,
+        "beta_mean": 23.7,
+        "beta_mean_over_n23": 0.923,
+        "beta_mean_over_sqrt_n": 2.078,
+        "dJ_mean_unrelated_late": 0.6132,
+        "dJ_sd": 0.1176,
+        "diameter_dG": 7,
+        "dist_to_bedrock_last20_mean": 2.0,
+        "dist_to_bedrock_max": 4,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            1.0
+          ],
+          [
+            7,
+            1.0
+          ],
+          [
+            9,
+            0.75
+          ],
+          [
+            11,
+            0.7090909090909091
+          ],
+          [
+            13,
+            0.7051282051282052
+          ],
+          [
+            17,
+            0.6544117647058824
+          ],
+          [
+            27,
+            0.5470085470085471
+          ]
+        ],
+        "global_related_fraction": 0.2081,
+        "max_depth_maxdep": 4,
+        "mean_cone_over_sqrt_n": 1.265,
+        "mean_dG_sampled": 3.214,
+        "min_directed_depth_mean_late": 2.77,
+        "n": 130,
+        "pred_related_const_x_sqrtn": 2.373
+      },
+      "50": {
+        "V_r": {
+          "0": 1.0,
+          "1": 5.0,
+          "2": 18.7,
+          "3": 38.6,
+          "4": 48.7,
+          "5": 50.0
+        },
+        "bedrock_related_fraction": 0.7619,
+        "bedrock_size": 7,
+        "beta_mean": 11.9,
+        "beta_mean_over_n23": 0.874,
+        "beta_mean_over_sqrt_n": 1.678,
+        "dJ_mean_unrelated_late": 0.6361,
+        "dJ_sd": 0.1172,
+        "diameter_dG": 5,
+        "dist_to_bedrock_last20_mean": 1.7,
+        "dist_to_bedrock_max": 3,
+        "f_I_samples": [
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            3,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            5,
+            1.0
+          ],
+          [
+            6,
+            0.8666666666666667
+          ],
+          [
+            7,
+            0.7619047619047619
+          ],
+          [
+            8,
+            0.6785714285714286
+          ],
+          [
+            9,
+            0.8333333333333334
+          ],
+          [
+            11,
+            0.7454545454545455
+          ],
+          [
+            15,
+            0.47619047619047616
+          ]
+        ],
+        "global_related_fraction": 0.3094,
+        "max_depth_maxdep": 4,
+        "mean_cone_over_sqrt_n": 1.213,
+        "mean_dG_sampled": 2.822,
+        "min_directed_depth_mean_late": 2.28,
+        "n": 50,
+        "pred_related_const_x_sqrtn": 2.188
+      }
+    }
+  },
+  "schema": "R63_SCALING_AND_DIMENSION_V1"
+}
