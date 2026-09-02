@@ -1,0 +1,49 @@
+{
+  "campaign": "OD0-R56",
+  "declarations": {
+    "BELL2_opened": false,
+    "h2_not_opened_this_round": true,
+    "hash_hygiene_in_force": true,
+    "no_particle_collision_or_physical_claim": true,
+    "zero_new_premises": true
+  },
+  "h2_pdf_reverified": {
+    "matches_r55_pin": true,
+    "sha256_now": "16e9cfcd9a43ac83a2475aca63c895d8224a460abee270a46a5b67811f575910",
+    "untouched_and_sealed": true
+  },
+  "h2_preregistration": {
+    "path": "R56_H2_PREREGISTRATION.json",
+    "sha256": "298d21da179d8e6a08c485a52e74b70999ab732f6da7ef16ae54fa5bebb366cc"
+  },
+  "m5_readout_scope": {
+    "note": "recorded before any readout; uniform across points",
+    "seed_scheme": "random.Random(1000000*Gamma + 10000*m + 100*H + t)",
+    "steps": 10000,
+    "trajectories_per_point": 3
+  },
+  "package": {
+    "executor": "Claude Code (Fable 5)",
+    "path": "dataScience/DEU_LER_v3_claude/OD0_CLAUDE_CODE_PACKAGE_R56_H2_PREREG_AND_M5_OPENING_v0_1.md",
+    "sha256": "0c60c0e865204658cf92afe15764df600fbb4ef3e0a70ac848b29b39b248c38e"
+  },
+  "r55_pin_block": {
+    "commit_B_resolved": "c399d05781d2771f3014abcb1b7e933a074742fe",
+    "manifest_sha256_in_stamp": "8765f8375d9b0dfccec7704f8291d9c917fdd2dd511e9d8723f8ef6bc21132a7",
+    "manifest_sha256_on_disk": "8765f8375d9b0dfccec7704f8291d9c917fdd2dd511e9d8723f8ef6bc21132a7",
+    "match": true,
+    "stamp_sha256": "cfe131388a81c341891b7f7663b45473679516a955f2091d44ea08c8042ccaf2"
+  },
+  "run_date": "2026-09-02",
+  "schema": "OD0_R56_INPUT_LOCK_V1",
+  "sentinels_h2_h5": {
+    "H2": "parsed=false",
+    "H3": "parsed=false",
+    "H4": "parsed=false",
+    "H5": "parsed=false"
+  },
+  "worktree_state_at_start": {
+    "frozen_root_modification_check_at_start": "CLEAN",
+    "pre_existing_deltas": "36 unstaged deletions + 60 untracked paths (DEU_voids + root .gitignore), unchanged; none touch pinned roots"
+  }
+}
