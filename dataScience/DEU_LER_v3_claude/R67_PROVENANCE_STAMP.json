@@ -1,0 +1,25 @@
+{
+  "BRANCH_D": "CONDITIONAL_ARROW(S-e, m = 4)",
+  "M8_BELL": "PASS (no contradiction)",
+  "commit_A_prereg": "4c3f708d96cfc8f4fe26577b33c52f8f079a7252",
+  "commit_B_outputs": "c859dfd85c863f77c2146acb9e404d0e52b6cd0a",
+  "deterministic_rerun": "byte-identical (engine + builder double-run)",
+  "headline": {
+    "A1": "CGLMP: EXACT_AGREEMENT by algebraic equality - independent Born computation = 4/3 + (8/9) sqrt(3) in Q(sqrt 3); local bound exactly 2",
+    "A2": "CHSH: EXACT_AGREEMENT - independent supremum 2.517939955996... to all frozen digits; the frozen quintic identified as the stationarity polynomial in c = cos(2 pi phi/3); S's own minimal polynomial the 27^4 quartic (precision recorded)",
+    "A4_A5": "RESTRICTION on the non-maximal ceiling exactly as declared; heralded-state existence agreement; native value left open (BELL3 recorded)",
+    "branch_d": "the closure-amplitude Gram IS the 4-sibling exchange sector: rho = 1/3, rank 3, spectrum {0, 4/3 x3} - conditional on Gamma >= 5; m = 4 is a capacity condition, not a constant",
+    "milestone": "first external comparison of the tower: the quantum-side scaffold PASSES",
+    "one_thirds": "alphabet-dark: one p = 2 theorem; simplex: conditional on the 4-sibling event"
+  },
+  "input_lock_sha256": "3dcc8fe183de7b2c1fbcc2d87b162f1575a5b83cab2b1146b381ff205b2f0b20",
+  "output_manifest_sha256": "dd1df7f2d86c50a82e19ffaba77dadb10484fc39513c1acdb46debc7ae141fab",
+  "round": "OD0-R67",
+  "schema": "R67_PROVENANCE_STAMP_V1",
+  "seals": {
+    "BELL2_scientific_content_reopened": false,
+    "H1_H4": "spent",
+    "H5_parsed": false
+  },
+  "verdict": "OD0_R67_PASS_M8_COMPARISON_EXECUTED_AND_BRANCH_D_ADJUDICATED"
+}
