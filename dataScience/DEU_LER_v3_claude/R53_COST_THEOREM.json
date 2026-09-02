@@ -1,0 +1,96 @@
+{
+  "certificates": {
+    "chains": {
+      "cd1i_registered": 1326,
+      "certified": true,
+      "fibonacci_family_chains": [
+        1,
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21
+      ],
+      "max_chains_by_depth": {
+        "1": 2,
+        "2": 3,
+        "3": 6,
+        "4": 9,
+        "5": 13
+      },
+      "min_chains_by_depth": {
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6
+      },
+      "reading_note": "CD1I's registered 1,326 counts complete chains over ALL 173 registered objects, including the two primitives' trivial chains (1,324 composite chains + 2); determined by exact recomputation, recorded explicitly",
+      "recurrence": "chains(primitive)=1; chains({u,v}) = chains(u) + chains(v) (each complete chain to {u,v} factors uniquely through exactly one parent as its last step)",
+      "sum_level7_only": 1138,
+      "sum_over_171_composites": 1324,
+      "sum_over_all_173_objects": 1326,
+      "upper_bound_2_pow_depth_failures": 0
+    },
+    "cost_cross_validation": {
+      "all_match": true,
+      "note": "direct lineage-enumeration record count vs paths/cone formulation on the T_sat trajectory",
+      "steps": [
+        {
+          "cone": 0,
+          "direct": 0,
+          "k": 1,
+          "match": true
+        },
+        {
+          "cone": 4,
+          "direct": 4,
+          "k": 2,
+          "match": true
+        },
+        {
+          "cone": 46,
+          "direct": 46,
+          "k": 3,
+          "match": true
+        }
+      ]
+    },
+    "first_cmin_decrease_witness": {
+      "c_min_after": 4,
+      "c_min_before": 22,
+      "k": 2,
+      "point": [
+        2,
+        0,
+        0
+      ],
+      "state": "{\"B\": 0, \"P\": 0, \"X\": [\"a\", \"b\", \"{a,b}\"], \"served\": [\"a\", \"{a,b}\"]}"
+    }
+  },
+  "certificates_file_sha256": "b6f6bd2087debb68f6eae4eefbc3cfb97aeda0c9b648e92a3790fb832c342fe8",
+  "historical_numerics_parsed": false,
+  "run_date": "2026-09-02",
+  "schema": "R53_COST_THEOREM_V1",
+  "theorems": {
+    "c_min_monotonicity": {
+      "statement": "NOT monotone in general: pair costs are state-dependent only through the recorded set, and newly created shallow objects introduce new enabled pairs that can be cheaper than the surviving enabled pairs; moreover repeat-only pairs (both cones fully recorded) cost 2*|cone paths|, which can undercut first-use pairs. The engine's exact witness (or its absence over the searched range) is recorded in the certificates; the package's trailing-clause claim is adjudicated by that search."
+    },
+    "chains_recurrence": {
+      "statement": "chains(primitive) = 1; chains({u,v}) = chains(u) + chains(v). Proof: a complete immediate-parent chain to {u,v} ends with a step from exactly one of the two parents, and its initial segment is a complete chain to that parent; the correspondence is a bijection. No orientation correction is needed for counting (the orientation double cover doubles frames, not chains)."
+    },
+    "depth_bounds": {
+      "lower_fibonacci": "along the maximal-chain family x_k = {x_{k-1}, x_{k-2}}: chains(x_k) = Fib(k+2) (1,1,2,3,5,8,13,21 - engine-certified); general lower bound: chains(x) >= depth(x)+1",
+      "paths_lower": "paths_to(x) >= 2*depth(x) (each step adds >= 2)",
+      "upper": "chains(x) <= 2^depth(x) (induction: chains(u)+chains(v) <= 2*2^(depth-1)); certified with 0 failures on O_<=7"
+    },
+    "first_use_cost": {
+      "statement": "At the first use of x (given the recorded-cone invariant: x's creation recorded Anc(x)\\{x}), the new prefixes are exactly the paths ending AT x - count paths_to(x) - and every deeper cone path is a repeat. c(x) = c_first * paths_to(x) + c_repeat * sum over w in (Anc(x)\\{x} and X) of paths_to(w), with c_first in the frozen ranges (11..13 Q1, 22..26 Q2; 11 used as the declared lower bound) and c_repeat = 2 exactly (R52 Part 1.4)."
+    },
+    "paths_recurrence": {
+      "statement": "paths_to(primitive) = 0; paths_to({u,v}) = (paths_to(u)+1) + (paths_to(v)+1) - all immediate-parent paths of length >= 1 ending at the object, from any starting vertex. The frozen record identity (R50 prefix-canonical) counts PATHS, not only primitive-rooted complete chains: every path ending in the used parent's ancestry cone is a distinct recorded prefix. The cost law is therefore stated in paths, with chains as the primitive-rooted subfamily (recorded as an exact refinement of the package's sketch)."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R53",
+  "commit_A_short": "33c1782",
+  "commit_B": "CREATED_AFTER_SELF_EXCLUDED_MANIFEST_WRITE",
+  "file_count": 16,
+  "files": [
+    {
+      "bytes": 2387,
+      "path": "OD0_R53_COUNTEREXAMPLES.md",
+      "sha256": "e4fe534cd144aa7293b1948eae0f961c62817d39d09cdd2aa507faf8fb1e5731"
+    },
+    {
+      "bytes": 4551,
+      "path": "OD0_R53_REPORT.md",
+      "sha256": "4e522f80f32e6ce8fc339989e0687d9caffe536ec328261485a7da8140510221"
+    },
+    {
+      "bytes": 4535,
+      "path": "OD0_R53_RESULTS.json",
+      "sha256": "71fd9b9234761525da882af60c78dafbcfbc20ef964803973edee661c0a1a1b5"
+    },
+    {
+      "bytes": 4480,
+      "path": "R53_COST_THEOREM.json",
+      "sha256": "5d847d4bc39eb8dc3120fae773fb47628de2578a5a770c4be1b52f32254d0b38"
+    },
+    {
+      "bytes": 75747,
+      "path": "R53_EXACT_CERTIFICATES.json",
+      "sha256": "b6f6bd2087debb68f6eae4eefbc3cfb97aeda0c9b648e92a3790fb832c342fe8"
+    },
+    {
+      "bytes": 4334,
+      "path": "R53_GROWTH_LAW.json",
+      "sha256": "45b6f13515bf2ba0d78f6185129592e860bcfb3cabb60039fed404df197e3d30"
+    },
+    {
+      "bytes": 4282,
+      "path": "R53_INPUT_LOCK.json",
+      "sha256": "01113c329a73d3da068abc07c0f1f1e0450a497bf507fcd4a5c507906b357430"
+    },
+    {
+      "bytes": 47039,
+      "path": "R53_MATURATION_FILTRATION.json",
+      "sha256": "b54d32d3b560e853e80c05ca9dae3455c5ad783e9efe661b67e947ace4de97c9"
+    },
+    {
+      "bytes": 1200,
+      "path": "R53_R54_COMPARISON_PROTOCOL.json",
+      "sha256": "646cfa9b65801d2c199c39826243c0ddbf623b631029c6c33892109d3cee8347"
+    },
+    {
+      "bytes": 578,
+      "path": "R53_READOUTS.json",
+      "sha256": "61148ab59d088705969926e232b3a17ce92c271903fb2505783326604c19c00e"
+    },
+    {
+      "bytes": 350871,
+      "path": "R53_SAMPLED_READOUT.json",
+      "sha256": "ef4ae1138c9bf7f08f83ee61cef1d2e08957d21ea4f169f405bddeadf338ea35"
+    },
+    {
+      "bytes": 6368,
+      "path": "build_r53_input_lock.py",
+      "sha256": "7b64a406536b3bd91721a0309313eeafb24a135d85c2b9b1df72941da35f3888"
+    },
+    {
+      "bytes": 13394,
+      "path": "build_r53_outputs.py",
+      "sha256": "8cf42ffdcac4cfed56202348b466bcf5c8b1b458bdbba29c830e818938c2ac83"
+    },
+    {
+      "bytes": 14999,
+      "path": "r53_adjudication_data.py",
+      "sha256": "2208d4243407b8100cbd7180a72b500becf3d0945d394e27707353e5dad23e88"
+    },
+    {
+      "bytes": 17855,
+      "path": "r53_exact.py",
+      "sha256": "08d145fdb1cd832605ca8d0c3c78ca1caee3b2bd511ba6b0853fcde0ca23aceb"
+    },
+    {
+      "bytes": 8127,
+      "path": "r53_sampled.py",
+      "sha256": "de4b13f6c5d378440a6e870817d10a414929f094a1c60d3b4292a6131b1b7576"
+    }
+  ],
+  "hand_produced_hashes": 0,
+  "historical_numerical_content_parsed": false,
+  "new_premises": 0,
+  "package_version": "v0.1 (Claude Code executor)",
+  "r54_protocol_frozen": true,
+  "schema": "OD0_R53_OUTPUT_MANIFEST_V1",
+  "self_excluded": true
+}

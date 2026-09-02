@@ -1,0 +1,2515 @@
+{
+  "certificates_file_sha256": "b6f6bd2087debb68f6eae4eefbc3cfb97aeda0c9b648e92a3790fb832c342fe8",
+  "filtration": {
+    "E0": {
+      "definition": "F + D <= Gamma (every token served every step)",
+      "exit_theorem": "PERMANENT exit once D > Gamma: D = |X| is nondecreasing, so F + D >= D > Gamma forever. (E0 can also fail transiently through F while D <= Gamma; the permanent-exit criterion is D > Gamma.) Exact exit/entry distributions per registered point in the certificates.",
+      "forward_invariant": false
+    },
+    "E1": {
+      "definition": "D > Gamma",
+      "forward_invariant": true,
+      "proof": "D nondecreasing (objects never destroyed)."
+    },
+    "basin_beyond_E1": {
+      "statement": "The package's candidate relation ('expected next-burst cost exceeds expected drain capacity over any fixed horizon') requires a horizon parameter; every variant we can state either introduces a numeric threshold or reduces to E1. Maturity beyond E1 is therefore characterized by the asymptotic law alone (growth class U with rate gap; renewal scaling), exactly as the adjudication-note-2 framing anticipates.",
+      "verdict": "NOT DEFINABLE without a numeric choice"
+    },
+    "cost_strata": {
+      "forward_invariant": false,
+      "statement": "{c_min <= Gamma} is NOT empty everywhere (corrects the registered prediction): (i) at genesis the pair {a,b} has cost 0 (empty ancestry cone - the first record count is 0, R50); (ii) repeat-only pairs (both members' cones fully recorded) cost 2*|cone paths|, e.g. an unformed {a,c} with c already used costs exactly 4 <= Gamma at Gamma in {4,5}. The stratum is transient, not forward-invariant (it empties when its cheap pairs form and can be re-entered when new repeat-only pairs arise); exact per-point per-step mass in the certificates."
+    },
+    "historical_style_notions": "A 'basin' in the historical sense is definable only as E1 (capacity congestion, forward-invariant) or by a numeric choice, which is forbidden here; the derived regime sequence is E0 -> E1 -> (renewal cycles with growing structure), and no stratum carries a historical label.",
+    "renewal_decomposition": "within E1: drained (F=0) vs draining (F>0); burst steps (>=1 new object) vs quiet steps - all exact state/step relations."
+  },
+  "historical_numerics_parsed": false,
+  "per_point_distributions": [
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 0,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 1,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 2,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 3,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 4,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 5,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 6,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 7,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "1": "1"
+      },
+      "Gamma": 2,
+      "H": 8,
+      "m": 0,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 0,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 1,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 2,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 3,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 4,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 5,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 6,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 7,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "211/243",
+      "E1_entry_distribution": {
+        "1": "1/3",
+        "2": "2/9",
+        "3": "4/27",
+        "4": "8/81",
+        "5": "16/243"
+      },
+      "Gamma": 2,
+      "H": 8,
+      "m": 1,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2745593/6804000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "51287/1134000",
+        "5": "236651/6804000"
+      },
+      "Gamma": 2,
+      "H": 0,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2149027/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "9857/162000",
+        "5": "281017/4860000"
+      },
+      "Gamma": 2,
+      "H": 1,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2381587/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "14753/162000",
+        "5": "366697/4860000"
+      },
+      "Gamma": 2,
+      "H": 2,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2381587/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "14753/162000",
+        "5": "366697/4860000"
+      },
+      "Gamma": 2,
+      "H": 3,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2381587/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "14753/162000",
+        "5": "366697/4860000"
+      },
+      "Gamma": 2,
+      "H": 4,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2381587/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "14753/162000",
+        "5": "366697/4860000"
+      },
+      "Gamma": 2,
+      "H": 5,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2381587/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "14753/162000",
+        "5": "366697/4860000"
+      },
+      "Gamma": 2,
+      "H": 6,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2381587/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "14753/162000",
+        "5": "366697/4860000"
+      },
+      "Gamma": 2,
+      "H": 7,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "2381587/4860000",
+      "E1_entry_distribution": {
+        "1": "1/6",
+        "2": "17/180",
+        "3": "337/5400",
+        "4": "14753/162000",
+        "5": "366697/4860000"
+      },
+      "Gamma": 2,
+      "H": 8,
+      "m": 2,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "6656373107/31216185000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "326/11025",
+        "4": "294401/14553000",
+        "5": "232006681/15608092500"
+      },
+      "Gamma": 2,
+      "H": 0,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "468267570077/1925361900000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "4097/110250",
+        "4": "615859/19845000",
+        "5": "50914792697/1925361900000"
+      },
+      "Gamma": 2,
+      "H": 1,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "538598587/1786050000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "391/7875",
+        "4": "148313/2835000",
+        "5": "91126597/1786050000"
+      },
+      "Gamma": 2,
+      "H": 2,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "538598587/1786050000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "391/7875",
+        "4": "148313/2835000",
+        "5": "91126597/1786050000"
+      },
+      "Gamma": 2,
+      "H": 3,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "538598587/1786050000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "391/7875",
+        "4": "148313/2835000",
+        "5": "91126597/1786050000"
+      },
+      "Gamma": 2,
+      "H": 4,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "538598587/1786050000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "391/7875",
+        "4": "148313/2835000",
+        "5": "91126597/1786050000"
+      },
+      "Gamma": 2,
+      "H": 5,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "538598587/1786050000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "391/7875",
+        "4": "148313/2835000",
+        "5": "91126597/1786050000"
+      },
+      "Gamma": 2,
+      "H": 6,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "538598587/1786050000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "391/7875",
+        "4": "148313/2835000",
+        "5": "91126597/1786050000"
+      },
+      "Gamma": 2,
+      "H": 7,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "538598587/1786050000",
+      "E1_entry_distribution": {
+        "1": "1/10",
+        "2": "17/350",
+        "3": "391/7875",
+        "4": "148313/2835000",
+        "5": "91126597/1786050000"
+      },
+      "Gamma": 2,
+      "H": 8,
+      "m": 3,
+      "steps_computed": 5
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 0,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 1,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 2,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 3,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 4,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 5,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 6,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 7,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 3,
+      "H": 8,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 0,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 1,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 2,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 3,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 4,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 5,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 6,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 7,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "63/64",
+      "E1_entry_distribution": {
+        "2": "3/4",
+        "3": "3/16",
+        "4": "3/64"
+      },
+      "Gamma": 3,
+      "H": 8,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "424847/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "132387/784000"
+      },
+      "Gamma": 3,
+      "H": 0,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "85051/156800",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "26559/156800"
+      },
+      "Gamma": 3,
+      "H": 1,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "425879/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "133419/784000"
+      },
+      "Gamma": 3,
+      "H": 2,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "425879/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "133419/784000"
+      },
+      "Gamma": 3,
+      "H": 3,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "425879/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "133419/784000"
+      },
+      "Gamma": 3,
+      "H": 4,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "425879/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "133419/784000"
+      },
+      "Gamma": 3,
+      "H": 5,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "425879/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "133419/784000"
+      },
+      "Gamma": 3,
+      "H": 6,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "425879/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "133419/784000"
+      },
+      "Gamma": 3,
+      "H": 7,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "425879/784000",
+      "E1_entry_distribution": {
+        "2": "7/40",
+        "3": "1109/5600",
+        "4": "133419/784000"
+      },
+      "Gamma": 3,
+      "H": 8,
+      "m": 2,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "259755983/1448832000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "9911/156800",
+        "4": "82800743/1448832000"
+      },
+      "Gamma": 3,
+      "H": 0,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "302408773/1448832000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "2349/31360",
+        "4": "108507373/1448832000"
+      },
+      "Gamma": 3,
+      "H": 1,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "25848203/109760000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "72087/784000",
+        "4": "9288023/109760000"
+      },
+      "Gamma": 3,
+      "H": 2,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "25848203/109760000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "72087/784000",
+        "4": "9288023/109760000"
+      },
+      "Gamma": 3,
+      "H": 3,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "25848203/109760000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "72087/784000",
+        "4": "9288023/109760000"
+      },
+      "Gamma": 3,
+      "H": 4,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "25848203/109760000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "72087/784000",
+        "4": "9288023/109760000"
+      },
+      "Gamma": 3,
+      "H": 5,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "25848203/109760000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "72087/784000",
+        "4": "9288023/109760000"
+      },
+      "Gamma": 3,
+      "H": 6,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "25848203/109760000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "72087/784000",
+        "4": "9288023/109760000"
+      },
+      "Gamma": 3,
+      "H": 7,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "25848203/109760000",
+      "E1_entry_distribution": {
+        "2": "33/560",
+        "3": "72087/784000",
+        "4": "9288023/109760000"
+      },
+      "Gamma": 3,
+      "H": 8,
+      "m": 3,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 0,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 1,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 2,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 3,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 4,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 5,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 6,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 7,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 8,
+      "m": 0,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 0,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 1,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 2,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 3,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 4,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 5,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 6,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 7,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "1",
+      "E1_entry_distribution": {
+        "2": "1"
+      },
+      "Gamma": 4,
+      "H": 8,
+      "m": 1,
+      "steps_computed": 4
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 0,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 1,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 2,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 3,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 4,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 5,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 6,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 7,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "51542/102375",
+      "E1_entry_distribution": {
+        "2": "2/5",
+        "3": "10592/102375"
+      },
+      "Gamma": 4,
+      "H": 8,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 0,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 1,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 2,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 3,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 4,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 5,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 6,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 7,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "154374/1101275",
+      "E1_entry_distribution": {
+        "2": "12/175",
+        "3": "78858/1101275"
+      },
+      "Gamma": 4,
+      "H": 8,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 0,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 1,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 2,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 3,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 4,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 5,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 6,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 7,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "21256/169911",
+      "E1_entry_distribution": {
+        "3": "21256/169911"
+      },
+      "Gamma": 5,
+      "H": 8,
+      "m": 0,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 0,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 1,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 2,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 3,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 4,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 5,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 6,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 7,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "11885/100688",
+      "E1_entry_distribution": {
+        "3": "11885/100688"
+      },
+      "Gamma": 5,
+      "H": 8,
+      "m": 1,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 0,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 1,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 2,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 3,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 4,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 5,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 6,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 7,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "1",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "8825/79112",
+      "E1_entry_distribution": {
+        "3": "8825/79112"
+      },
+      "Gamma": 5,
+      "H": 8,
+      "m": 2,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 0,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 1,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 2,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 3,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 4,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 5,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 6,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 7,
+      "m": 3,
+      "steps_computed": 3
+    },
+    {
+      "E0_mass_per_step": [
+        "0",
+        "0",
+        "0"
+      ],
+      "E1_entered_mass": "173917057/3304429128",
+      "E1_entry_distribution": {
+        "3": "173917057/3304429128"
+      },
+      "Gamma": 5,
+      "H": 8,
+      "m": 3,
+      "steps_computed": 3
+    }
+  ],
+  "run_date": "2026-09-02",
+  "schema": "R53_MATURATION_FILTRATION_V1",
+  "stratum_cmin_le_Gamma": {
+    "genesis_nonempty_at_every_point": true,
+    "genesis_pair_cost": 0,
+    "nonempty_beyond_genesis_for_Gamma": [
+      4,
+      5
+    ],
+    "repeat_only_cost": 4,
+    "repeat_only_pair": [
+      "a",
+      "{a,b}"
+    ],
+    "repeat_only_witness_state": [
+      "a",
+      "b",
+      "{a,b}",
+      "{b,{a,b}}"
+    ]
+  }
+}

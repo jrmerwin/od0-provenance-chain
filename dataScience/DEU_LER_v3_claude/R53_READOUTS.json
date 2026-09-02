@@ -1,0 +1,11 @@
+{
+  "consistency_with_bounds": "sampled |X_k| lies within the proven envelope [unbounded-growing, 2 + C(Gamma,2)k] at every point; per-Gamma checkpoint values in the readout file; |X| vs log k comparison is a readout only (the log rate is unproven and not asserted).",
+  "historical_numerics_parsed": false,
+  "run_date": "2026-09-02",
+  "sampled_readout_file": {
+    "label": "SAMPLED - seeded - never cited as proof",
+    "path": "R53_SAMPLED_READOUT.json",
+    "sha256": "ef4ae1138c9bf7f08f83ee61cef1d2e08957d21ea4f169f405bddeadf338ea35"
+  },
+  "schema": "R53_READOUTS_V1"
+}

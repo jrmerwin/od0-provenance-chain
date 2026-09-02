@@ -1,0 +1,96 @@
+{
+  "BELL2_opened": false,
+  "campaign": "OD0-R53",
+  "counts": {
+    "cd1i_certified": true,
+    "chains_total": 1324,
+    "cmin_witness_found": true,
+    "exact_points": 144,
+    "hostile_controls_passed": 9,
+    "hostile_controls_tested": 9,
+    "new_premises": 0,
+    "renewal_violations": 0,
+    "sampled_points": 144,
+    "stratum_genesis_cost": 0,
+    "stratum_repeat_only_cost": 4
+  },
+  "deterministic_rerun": "IDENTICAL_BYTE_FOR_BYTE",
+  "hand_produced_hashes": 0,
+  "historical_numerical_content_parsed": false,
+  "hostile_controls": [
+    [
+      "HC1",
+      "numeric threshold; criterion not in state fields",
+      "REJECTED",
+      "Every filtration criterion is a state relation (F+D<=Gamma, D>Gamma, F=0, batch nonempty, c_min<=Gamma); no numeric constant beyond frozen state fields appears."
+    ],
+    [
+      "HC2",
+      "historical label on a stratum; historical numeric",
+      "REJECTED",
+      "Strata are named E0/E1/drained/draining/burst/quiet only."
+    ],
+    [
+      "HC3",
+      "log-growth stated as theorem; U/T by readout",
+      "REJECTED",
+      "The Theta(log k) target is explicitly NOT established; U is proven for m < Gamma by the drift/Borel-Cantelli argument, not by readouts; m >= Gamma left as P with the precise gap."
+    ],
+    [
+      "HC4",
+      "modification of cost law, record scope, or TG1",
+      "REJECTED",
+      "All carried verbatim; the paths-vs-chains refinement is an exact restatement of the frozen R50 record identity, recorded as such."
+    ],
+    [
+      "HC5",
+      "capacity extrapolated; regions refined",
+      "REJECTED",
+      "Carry-forward verbatim: regions fixed, capacity total constant; all statements at registered Gamma."
+    ],
+    [
+      "HC6",
+      "R54 protocol altered after Commit A",
+      "REJECTED",
+      "Frozen in R53_INPUT_LOCK.json at Commit A; emitted unchanged."
+    ],
+    [
+      "HC7",
+      "external referent",
+      "REJECTED",
+      "None appears."
+    ],
+    [
+      "HC8",
+      "frozen roots; BELL2",
+      "REJECTED",
+      "Read-only; worktree clean at start and end; BELL2 unopened."
+    ],
+    [
+      "HC9",
+      "hand-produced hash",
+      "REJECTED",
+      "All hashes computed in-process."
+    ]
+  ],
+  "input_artifacts": {
+    "R53_EXACT_CERTIFICATES.json": "b6f6bd2087debb68f6eae4eefbc3cfb97aeda0c9b648e92a3790fb832c342fe8",
+    "R53_INPUT_LOCK.json": "01113c329a73d3da068abc07c0f1f1e0450a497bf507fcd4a5c507906b357430",
+    "R53_SAMPLED_READOUT.json": "ef4ae1138c9bf7f08f83ee61cef1d2e08957d21ea4f169f405bddeadf338ea35"
+  },
+  "package_version": "v0.1 (Claude Code executor)",
+  "prediction_vs_outcome": "Confirmed: chains recurrence exact with 1,326 certification; Fibonacci lower bound; renewal at F=0; E1 forward-invariant; no basin beyond E1 without a numeric choice; R54 protocol frozen. Corrected: (i) the growth law splits by m vs Gamma - U is proven only for m < Gamma, and the registered Theta(log k) rate is NOT established (the cost-growth argument fails against the c_min non-monotonicity); (ii) the stratum {c_min <= Gamma} is NOT empty everywhere - genesis cost 0 and repeat-only pairs of cost 4 defeat the c_first > 5 argument at Gamma in {4,5}. The prediction constrained nothing.",
+  "r54_recommendation": "Open H1 under the frozen protocol - one comparison, no repair: derived sequence (E0 -> E1 -> renewal cycles with growing structure, U-growth for m < Gamma with rate gap reported at equal prominence) and derived monotone observables (|X|, shell fraction, chain-multiplicity distribution, cycle-length growth) against the historical qualitative regime sequence and observables, sequence and monotonicity only.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R53_RESULTS_V1",
+  "verdicts": {
+    "BASIN_BEYOND_E1": "not definable without numeric choice",
+    "CAPACITY_TOTAL": "constant (carry-forward)",
+    "COST_THEOREM": "chains recurrence exact (1326 certified: True); cost law certified (cross-validation True); depth bounds certified",
+    "FILTRATION": "E0 exit permanent at D>Gamma; E1 forward-invariant; {c_min<=Gamma} transient, nonempty at EVERY point via the genesis pair (cost 0) and beyond genesis for Gamma in [4, 5] via the cost-4 repeat-only witness",
+    "GROWTH_LAW": "U(m < Gamma: proven, rate PARTIAL [<= linear; log-target unproven]) / P(m >= Gamma: precise gap stated)",
+    "R54_PROTOCOL": "FROZEN",
+    "RENEWAL": "theorem at F=0; drain bounds two-sided; geometric cycle growth CONJECTURE",
+    "overall": "OD0_R53_PASS_MATURATION_FILTRATION_DEFINED_TARGET_BLIND"
+  }
+}
