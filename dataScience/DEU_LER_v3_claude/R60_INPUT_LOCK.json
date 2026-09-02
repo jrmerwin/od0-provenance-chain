@@ -1,0 +1,38 @@
+{
+  "declarations": [
+    "targets frozen verbatim before any computation",
+    "no external referent; vocabulary of the package notes only",
+    "no rate-in-process-time statement enters the prediction set",
+    "no reinterpretation of Phi or the clock",
+    "asymptotics carry finite-n bounds or are labeled CONJECTURE",
+    "no readout enters a theorem",
+    "hash hygiene: all hashes in-process",
+    "M7 prediction set sealed and hashed at Commit B, target-blind"
+  ],
+  "package": "OD0_CLAUDE_CODE_PACKAGE_R60_M7_LAPSE_CLOCK_EPOCH_LAWS_v0_1.md",
+  "package_sha256": "ecdce5914efef11c8e8734782edb543821ff108c8aab851c52920e42b958ec9f",
+  "r59_stamp_pin": {
+    "commit_A": "2c727ead659580d71671a4c9ea2a50a07eea2adf",
+    "commit_B": "98b5d5277e8532d156c178e9d8bd1c168421fc85",
+    "manifest_match_verified": true,
+    "output_manifest_sha256": "0553f81127bebb8866342585396245f376708ee6c6e4c2af775c984aa005b7af",
+    "stamp_sha256": "6dcfb4f9d84c226fd917f6cf7b35ab8d8ada190da2f413f5a75eb873228ace2e"
+  },
+  "round": "OD0-R60",
+  "schema": "R60_INPUT_LOCK_V1",
+  "seals": {
+    "BELL2_opened": false,
+    "H1": "spent (R54)",
+    "H2": "spent (R57)",
+    "H3": {
+      "parsed": false
+    },
+    "H4": {
+      "parsed": false
+    },
+    "H5": {
+      "parsed": false
+    }
+  },
+  "targets_L1_L8_verbatim": "**L1 (E0 law).** In E0 = {F + D \u2264 \u0393}: every token is served, S^V = D, V\u2070 = D, hence \u03a6 = 1 exactly and the tick rate equals D (rising with D within E0). Exact; give the E0 duration distribution at each registered point (from R53).\n\n**L2 (E1 pointwise identities).** In E1 = {D > \u0393}: E[\u03a6\u00b2 | state] = D/(F+D); E[S^V | state] = \u0393\u00b7D/(F+D); S^V = \u0393\u00b7\u03a6\u00b2 pathwise per step; P(\u03a6 = 1 at a step) = P(S^V = \u0393) in closed form (hypergeometric); the exact distribution of \u03a6\u00b2 given (F, D, \u0393). Restate all cases (D < \u0393, F + D < \u0393) exactly. Certified against R52.\n\n**L3 (E1 entry).** At the first step with D > \u0393, the lapse drops from 1 to a value bounded above by D/(F + D) with F \u2265 the first burst's cost; give the exact distribution of \u03a6\u00b2 at E1 entry per registered point (drop magnitude law).\n\n**L4 (renewal-cycle law).** For a cycle beginning with a burst of total cost C at object count n and draining at forced rate r = \u0393 + v \u2212 m (v the exact relief term, itself state-dependent), derive: the lapse trajectory \u03a6\u00b2(t) along the drain as an exact function of the remaining forced pool; the cycle-average \u27e8\u03a6\u00b2\u27e9_cycle and \u27e8S^V\u27e9_cycle in closed form for the linear-drain approximation, with exact two-sided bounds; the leading asymptotics with C \u224d 4n ln n (R59): \u27e8\u03a6\u00b2\u27e9_cycle \u224d ln(1 + 4 ln n)/(4 ln n). Include the exact contribution of mid-drain bursts (R59: O(1) per cycle) as a bounded correction.\n\n**L5 (late-regime law).** As n \u2192 \u221e for m < \u0393: the time-averaged lapse\u00b2 and tick rate over process time decay as \u0398(ln ln n / ln n) with explicit constants per (\u0393, H, m); renewal points with \u03a6 = 1 recur (state the exact recurrence status of drained states for m = 0 and for 0 < m < \u0393 from R53) with duty cycle \u2192 0; the oscillation amplitude (1 versus the drain value) stays fixed while the duty cycle vanishes. Prove or bound each clause; label the remainder `CONJECTURE`.\n\n**L6 (three ages).** Exact and asymptotic relations among process time k, object count n, burst count b, and cumulative tick count N_V: k \u224d 2n\u00b2 ln n/(\u0393 + H \u2212 m) (R59); N_V \u224d \u0393 n\u00b2 ln ln n/(2(\u0393 + H \u2212 m)) (derive); dN_V/dk \u224d \u0393 ln ln n/(4 ln n) (derive); b versus n exact (objects per burst bounded by C(\u0393,2), mid-drain bursts O(1) per cycle). Give two-sided bounds where the asymptotics are not exact.\n\n**L7 (direct-limit clock reading and depth).** Under A13R, the regional clock reading is the direct-limit sum \u03a3_v \u03b5_v\u00b73^{D\u2212b(v)} of served vacuum ticks with birth depths b(v), read at ambient depth D. Define D for the throttled process from source (frontier/word depth of the region; state exactly which). Derive: the growth of the maximum object depth with n in the uniform-attachment two-parent DAG (exact recursion; asymptotic c\u00b7ln n with the constant bounded or exact); the resulting refinement law of the reading (early ticks re-read as powers of three under each depth increment); and the relation between tick count and reading. No interpretation of the reading is offered. Then, separately, the multi-region source-status item: whether the throttled process admits a source-defined assignment of objects and records to distinct prefix regions with separate ledgers; classify `DECLARED` / `JOINT_ONLY` / `UNDECLARED`; if declared, derive whether x can differ across regions (load inhomogeneity) \u2014 record only.\n\n**L8 (persistent-load dependence).** For 0 < m < \u0393: F \u2265 m always, so at drained states \u03a6\u00b2 \u2264 D/(m + D) \u2192 1 as D grows \u2014 persistent load's effect on the drained-state lapse fades with maturity while its effect on the drain rate (\u0393 + H \u2212 m) persists; exact statement and bounds. For the band \u0393 \u2264 m \u2264 \u0393 + H: record the open status; no claim."
+}
