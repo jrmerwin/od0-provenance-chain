@@ -1,0 +1,79 @@
+{
+  "artifact_summary": {
+    "hash_changed": 0,
+    "missing": 0,
+    "non_manuscript_artifacts_present": 6,
+    "paper_only": false,
+    "present": 14
+  },
+  "components": {
+    "ARTIFACTS": "H5: 14/14 pinned unchanged; 6 non-manuscript (not PAPER_ONLY as a corpus); the de Sitter-closure computation artifact STILL MISSING (zero filename matches for any 'sitter' variant) - that family is manuscript-only; carrier-density/rho_c files found by name recorded without parsing",
+    "DERIVED_SIDE": "Q1-Q8 frozen: Q1/Q3/Q5-direction/Q7/Q8 THEOREM (tower); Q2/Q4/Q6 THEOREM under TD1 (+fixture where flagged); Q7 internal-only; Q8 NOT COMPARED (seal recorded)",
+    "H5_PREREG_HASH": "160775e68feaecbcaa081a77e96ba8640def57d14693a3d6fb69fc2767d26c94"
+  },
+  "hostile_controls": [
+    {
+      "basis": "Frozen verbatim in R69_INPUT_LOCK.json; the sealed object reproduces them unchanged.",
+      "control": "sections 4-5 altered after Commit A",
+      "id": "HC1",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Pinning touched byte hashes and filenames only; sentinel parsed=false at start and end.",
+      "control": "H5 content read; sentinel not false",
+      "id": "HC2",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All excluded by construction; Q8 carries its NOT_COMPARED seal inside the table.",
+      "control": "Tier D, dark fraction, or name-mapped critical density in the protocol",
+      "id": "HC3",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "None appears.",
+      "control": "external referent",
+      "id": "HC4",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All frozen; TD1 remains a stated conditional.",
+      "control": "TD1/TG1/cost law/filtration/G1/G2 modified",
+      "id": "HC5",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "The table carries only previously certified theorems.",
+      "control": "readouts cited as proof",
+      "id": "HC6",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "Not reopened.",
+      "control": "BELL2 reopened",
+      "id": "HC7",
+      "status": "REJECTED"
+    },
+    {
+      "basis": "All hashes in-process.",
+      "control": "hand hash; placeholder",
+      "id": "HC8",
+      "status": "REJECTED"
+    }
+  ],
+  "input_lock_sha256": "53ff8c7b4d6aa139a5fa1193010c6d0f7d1a6dcf74fe70960a77e39d1c636d6e",
+  "prediction_vs_outcome": "Registered: sealed with Q1-Q7 comparable and Q8 forbidden; artifacts pinned with the de Sitter-closure computation still missing - outcome exactly as registered (14/14 pinned unchanged; the closure-computation family manuscript-only). The R70 outcome prediction (PARTIAL with the enumerated pattern) is registered in the package and carried to the opening round; it constrains nothing.",
+  "r70_recommendation": "Open H5 under the sealed protocol - one comparison, no repair, mirroring R54/R57/R62: hash verification before reading; extraction with state-class tags and the pre-committed classifications; mapping by definition; adjudication; mandatory caveat; quarantined post-opening readout permitted (no future holdout remains - its only use is the record). After R70 every sealed corpus is spent; next is the maturation-and-geometry proto-paper (R48-R70), then the queued theorems: the two geometry candidates' relation, the relief critical line, BELL3, and the Tier D dictionary problem - the true bridge, open, to be stated as such.",
+  "run_date": "2026-09-02",
+  "schema": "OD0_R69_RESULTS_V1",
+  "seals": {
+    "BELL2_scientific_content_reopened": false,
+    "H1_H4": "spent",
+    "H5": {
+      "parsed": false,
+      "status": "SEALED until R70"
+    }
+  },
+  "sections_4_5_frozen_at_commit_A": true,
+  "verdict": "OD0_R69_PASS_H5_PREREGISTERED"
+}

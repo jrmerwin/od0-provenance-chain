@@ -1,0 +1,140 @@
+{
+  "H5": {
+    "items": [
+      {
+        "current_sha256": "1717261a807658d380a8e38c398863050ed4f56925dacaf74af7a69315626aff",
+        "manifest_sha256": "1717261a807658d380a8e38c398863050ed4f56925dacaf74af7a69315626aff",
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/DEU_FOAM_CALIBRATION_PROGRAM_v1.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "f25fc22c4ace83f09a394366d855372e6f880312bbf6b89949aa68393f2f866d",
+        "manifest_sha256": "f25fc22c4ace83f09a394366d855372e6f880312bbf6b89949aa68393f2f866d",
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/PROPOSAL_horizon_operator.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "e9b2e565b92dda56ef08b4b0c1987444ff5466fb3d615d60068a52bffb42be2f",
+        "manifest_sha256": "e9b2e565b92dda56ef08b4b0c1987444ff5466fb3d615d60068a52bffb42be2f",
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/U5b_null_and_alpha_audit.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "12fc51bc4babbde51b182ddd81a6fadef945fbb8953ca615bf1f32b9cdff72fe",
+        "manifest_sha256": "12fc51bc4babbde51b182ddd81a6fadef945fbb8953ca615bf1f32b9cdff72fe",
+        "path": "c:/Users/merwijas/dataScience/DEU_holo/src/deu_holo/foam.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "7fc3a2d69842055b9228106deebd5571bb076b1839858ac2e1705c2fa56a4a42",
+        "manifest_sha256": "7fc3a2d69842055b9228106deebd5571bb076b1839858ac2e1705c2fa56a4a42",
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/face_value/DEU_work_energy_C0_notebook_bundle/DEU_WORK_ENERGY_C0_PREREGISTRATION.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "39638606c47574127db1823109c6dc7434b4559673f126a68957edecfb71a9b7",
+        "manifest_sha256": "39638606c47574127db1823109c6dc7434b4559673f126a68957edecfb71a9b7",
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/face_value/DEU_work_energy_C1_notebook_bundle/inputs/deu_reduced_82645ed.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "3ceb46a545dde6381f8c3a09614e4d651c0e757c46655e603237c6fcbb5020dc",
+        "manifest_sha256": "3ceb46a545dde6381f8c3a09614e4d651c0e757c46655e603237c6fcbb5020dc",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/foam/deu_vacuum_100M/lambda_100M_scaling_ledger.csv",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "1d6728422646d227c34af8d66330518a7af7a61a5667ccaf8b9080db4d5a9537",
+        "manifest_sha256": "1d6728422646d227c34af8d66330518a7af7a61a5667ccaf8b9080db4d5a9537",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/foam/run_100M_vacuum_scale.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "16eb9e8528c7a90ca2ef862aa0240367e859d7a6737768405ec1a141800c7d96",
+        "manifest_sha256": "16eb9e8528c7a90ca2ef862aa0240367e859d7a6737768405ec1a141800c7d96",
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/foam/tests.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "4a07f89429cbd356e4d4b6b08296d3cc6bf637705127d174e539e612b76fb796",
+        "manifest_sha256": "4a07f89429cbd356e4d4b6b08296d3cc6bf637705127d174e539e612b76fb796",
+        "path": "c:/Users/merwijas/dataScience/RMR_origin_and_fate/Follow_up_decisive/run_500k.py",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "f3db3157379fdf31aab4d52e5f691d71a9a8f41c63cce6c9f44201a899eb1262",
+        "manifest_sha256": "f3db3157379fdf31aab4d52e5f691d71a9a8f41c63cce6c9f44201a899eb1262",
+        "path": "c:/Users/merwijas/dataScience/RMR_origin_and_fate/README (1).md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "1b9bbe5817f84719fb274fd1ea25c695a790d72d74d62bb47476dc62bc325642",
+        "manifest_sha256": "1b9bbe5817f84719fb274fd1ea25c695a790d72d74d62bb47476dc62bc325642",
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/cosmos/rmr_cosmo_locked_outputs/locked_candidate_ledger.md",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "4775ba3d739247b2018feb5545914ff95bd42e92108b1126bc27f7820951d174",
+        "manifest_sha256": "4775ba3d739247b2018feb5545914ff95bd42e92108b1126bc27f7820951d174",
+        "path": "c:/Users/merwijas/dataScience/deu_equations/DE_foam (9).pdf",
+        "status": "PINNED_UNCHANGED"
+      },
+      {
+        "current_sha256": "3ece524d90d076185f6380723eccc72bbd969397db21b63c3d921482335e4a10",
+        "manifest_sha256": "3ece524d90d076185f6380723eccc72bbd969397db21b63c3d921482335e4a10",
+        "path": "c:/Users/merwijas/dataScience/deu_equations/equation_unification.pdf",
+        "status": "PINNED_UNCHANGED"
+      }
+    ],
+    "summary": {
+      "hash_changed": 0,
+      "missing": 0,
+      "non_manuscript_artifacts_present": 6,
+      "paper_only": false,
+      "present": 14
+    }
+  },
+  "filename_searches": {
+    "carrier_density": {
+      "first_hits": [
+        "DEU_voids/face_value/DEU_work_energy_C1_notebook_bundle/roundC1_results/figures/carrier_density_by_seed.png",
+        "DEU_voids/face_value/DEU_work_energy_C2_notebook_bundle/roundC2_results/figures/native_carrier_density.png",
+        "RMR_DEU/deu_vacuum_output/figures/fig01_carrier_density.png"
+      ],
+      "found_count": 3
+    },
+    "closure": {
+      "first_hits": [
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/DEU_BELL2_Preparation_Rigidity_Codex_Package/SPEC_BELL2_PREPARATION_CLOSURE_AND_CEILING_v0_1.md",
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/DEU_UEQ0_Unified_Equation_Closure_Codex_Package/CODEX_TASK_UEQ0_UNIFIED_EQUATION_CLOSURE.md",
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_lineage_embedding_render/src/closure.py",
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_lineage_embedding_render/tests/test_closure.py",
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_bell2_preparation_rigidity_v0_1/BELL2A_DETERMINISTIC_PREPARATION_CLOSURE.md",
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_bell2_preparation_rigidity_v0_1/BELL2A_HERALDED_PREPARATION_CLOSURE.md",
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_bell2_preparation_rigidity_v0_1/SPEC_BELL2_PREPARATION_CLOSURE_AND_CEILING_v0_1.md",
+        "DEU_LER_v0_1_Codex_Package/deu_ler_v0_1/deu_unified_equations_v1_0/deu_bell2_preparation_rigidity_v0_1/outputs/bell2a_deterministic_closure.json"
+      ],
+      "found_count": 20
+    },
+    "de_sitter": {
+      "first_hits": [],
+      "found_count": 0
+    },
+    "desitter": {
+      "first_hits": [],
+      "found_count": 0
+    },
+    "rho_c": {
+      "first_hits": [
+        "RMR_utility/cosmology/claude_code/cell_1_rho_candidates.py"
+      ],
+      "found_count": 1
+    },
+    "sitter": {
+      "first_hits": [],
+      "found_count": 0
+    }
+  },
+  "note": "Byte-level pinning only; no scientific content parsed; H5 remains sealed.",
+  "schema": "R69_ARTIFACT_PINS_V1"
+}
