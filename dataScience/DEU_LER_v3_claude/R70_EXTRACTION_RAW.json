@@ -1,0 +1,1748 @@
+[
+  {
+    "files": [
+      {
+        "claims": [
+          {
+            "closure_classification": "N/A (dimensional-completeness statement, neither finite-count nor asymptotic)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The DEU currently has two independent base dimensions (metric length \u2113 and epoch \u03c4). Physics has three (M, L, T). No internal DEU result can produce a kilogram until a third independent base dimension is identified inside the engine."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (closure achieved by assigning a quantum to one discrete operation \u2014 a condition on a specific finite count unit)",
+            "factor_classification": "fixed bridge assumption; INTERNAL identification, not a calibration",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The integer operation count is an action, not an energy. Assigning one legal operation the action quantum a\u2080 closes the dimensional system."
+          },
+          {
+            "historical_values": "g_far = 0.38564 \u00b1 0.07043 (pooled 90 seeds)",
+            "type": "tierD_numeric",
+            "verbatim": "\u03b5_L / L_* = c\u2074 \u00b7 g_far / (2G),        g_far = 0.38564 \u00b1 0.07043  (pooled 90 seeds)"
+          },
+          {
+            "historical_values": "3.77 \u00d7 10\u2078 J; 2.35 \u00d7 10\u00b9\u2078 GeV",
+            "type": "tierD_numeric",
+            "verbatim": "\u03b5_L = g_far \u00b7 E_Planck / 2 = 3.77 \u00d7 10\u2078 J = 2.35 \u00d7 10\u00b9\u2078 GeV"
+          },
+          {
+            "historical_values": "2.17 \u00d7 10\u207b\u00b2\u00b2",
+            "type": "tierD_numeric",
+            "verbatim": "\u03bb_e = m_e c\u00b2 / \u03b5_L = 2.17 \u00d7 10\u207b\u00b2\u00b2  (dimensionless load per epoch). No finite simulation can generate, measure, or falsify a load of 10\u207b\u00b2\u00b2 per epoch."
+          },
+          {
+            "historical_values": "~1e-16; 1/s",
+            "type": "equalization_or_persistence",
+            "verbatim": "under representation-only subdivision by factor s, `c1_after == c1_before` to ~1e-16 while `source_unit_ratio == 1/s` exactly. Length is physical; count is representation."
+          },
+          {
+            "factor_classification": "INTERNAL_RATIO (derived from topology/quota arithmetic, not calibrated)",
+            "historical_values": "even-quantum 2; gain 1/6",
+            "type": "tierD_numeric",
+            "verbatim": "the relief valve even-quantum 2 and gain 1/6 are *derived* from collapse-move topology and quota arithmetic (GR/QM Eq. 3), not fitted"
+          },
+          {
+            "type": "distinguished_sector",
+            "verbatim": "`candidate_carrier_adjudication.csv`: `native_operation_count \u2192 REJECTED_AS_PHYSICAL_ENERGY`"
+          },
+          {
+            "historical_values": "4227/4230",
+            "type": "fraction_of_total",
+            "verbatim": "The valve transfer function n_voided = 2\u2308\u00bd\u00b7max(1,\u230apop_trig/6\u230b)\u2309 matched 4227/4230 events exactly."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (thresholds at specific finite op counts: 15\u201320 ops and 432)",
+            "historical_values": "15\u201320 ops; 432; 432\u0127; ~23\u0127",
+            "type": "critical_or_closure_condition",
+            "verbatim": "A\\* \u2248 s + \u0393 (measured onset 15\u201320 ops) and B_crit = 432 are the two action thresholds in the record. Under a\u2080 = \u0127 these become 432\u0127 and ~23\u0127."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a condition at a specific graph count N_today)",
+            "factor_classification": "factor (124/120)(1+\u03c1_C): computed on the mature vacuum-foam state (N_today); used as CALIBRATION anchor against external \u039b",
+            "historical_values": "124/120",
+            "type": "critical_or_closure_condition",
+            "verbatim": "A4 | cosmological constant | N_today graph count + (124/120)(1+\u03c1_C) | \u039b"
+          },
+          {
+            "historical_values": "x\u2085\u2080 = 1.30, 3.52; \u03c1_C = 0.01909246; churn 0.478; d_vol = 3.49; 1/6; 2; 41/40; 137 = 81+40+16; 432; I_crit = 3/2; m = 4",
+            "type": "tierD_numeric",
+            "verbatim": "The dimensionless graph constants \u2014 g_far, x\u2085\u2080 = 1.30 and 3.52, \u03c1_C = 0.01909246, the churn fraction 0.478, d_vol = 3.49, the valve gain 1/6 and quantum 2, 41/40, 137 = 81+40+16, 432, I_crit = 3/2, m = 4 \u2014 **carry no units and cannot be adjusted**."
+          },
+          {
+            "historical_values": "\u22483; \u221a3",
+            "type": "rate_vs_rounds",
+            "verbatim": "Under a 1\u21923 refinement the edge count rises by \u22483 while the metric length falls by \u221a3, so metric length served per epoch scales naively as \u221a3 per depth level."
+          },
+          {
+            "historical_values": "5%; 4 depth levels; 10 seeds",
+            "type": "equalization_or_persistence",
+            "verbatim": "`U1_INVARIANT_CAUSAL_SPEED_CERTIFIED` \u2014 \u03ba_c depth-independent within **[FREEZE-POINT: 5%]** across \u2265 **[FREEZE-POINT: 4]** depth levels and \u2265 **[FREEZE-POINT: 10]** seeds."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (exact rational 41/40 registry closure at a specific integer decomposition)",
+            "factor_classification": "registry factor 41/40: computed on the mature CMB-stage graph state (stage_i_exact41over40_summary); INTERNAL_RATIO whose evidential use is comparison to the external calibration A_planck",
+            "historical_values": "41/40; A_planck = 1.02505572438; log BF \u2248 0.07",
+            "type": "critical_or_closure_condition",
+            "verbatim": "graph index | 41/40 | A_planck = 1.02505572438 | already claimed (log BF \u2248 0.07)"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (registry closes at exactly the integer 137 = 81+40+16)",
+            "factor_classification": "registry factor 137: computed on the terminal (closed) registry enumeration state; INTERNAL_RATIO/integer, compared against external calibration \u03b1\u207b\u00b9",
+            "historical_values": "137; 137.035999; 0.026%",
+            "type": "critical_or_closure_condition",
+            "verbatim": "registry | 137 = 81+40+16 | \u03b1\u207b\u00b9 = 137.035999 | **must state whether 137 \u2260 137.036 falsifies** ... the registry integer is exactly 137; the fine-structure constant is 137.035999\u2026 The program must decide **in advance** whether the 0.026% discrepancy is (a) a falsification, (b) an expected finite-size or running-coupling correction with a *derived* magnitude, or (c) a claim that is not being made."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (closure evaluated at a specific finite round count, 10\u2078 rounds; not a stated limit)",
+            "factor_classification": "\u03c1_C: computed on the mature vacuum-foam state (10\u2074\u201310\u2078 rounds); INTERNAL_RATIO (carrier density), whose claimed use against \u039b residual is a comparison to external calibration",
+            "historical_values": "0.01909246; 10\u2078 rounds",
+            "type": "critical_or_closure_condition",
+            "verbatim": "carrier density \u03c1_C | 0.01909246 | \u039b residual closure | already claimed; re-audit at 10\u2078 rounds"
+          },
+          {
+            "historical_values": "2.00 \u00b1 0.11",
+            "type": "tierD_numeric",
+            "verbatim": "foam ball dimension | 2.00 \u00b1 0.11 | spatial d = 3 | 2D engine \u2014 declare scope"
+          },
+          {
+            "historical_values": "3.49 \u00b1 0.05; 3.5\u20134",
+            "type": "tierD_numeric",
+            "verbatim": "CMB graph d_vol | 3.49 \u00b1 0.05 | CDT d_s \u2248 3.5\u20134 | already claimed"
+          },
+          {
+            "historical_values": "0.475\u20130.484",
+            "type": "fraction_of_total",
+            "verbatim": "churn fraction | 0.475\u20130.484 | \u2014 | as above"
+          },
+          {
+            "historical_values": "1\u201310\u00b3 ops/epoch; 10\u207b\u00b3\u201310\u00b2 metric demand; ~5\u00d710\u2075 faces; 10\u2078 rounds",
+            "type": "rate_vs_rounds",
+            "verbatim": "the engine's demonstrated range (ops/epoch of order 1\u201310\u00b3; metric demand of order 10\u207b\u00b3\u201310\u00b2; foams to ~5\u00d710\u2075 faces, vacuum runs to 10\u2078 rounds with saved state"
+          },
+          {
+            "historical_values": "0.5 decades; C(6,3) = 20 fits",
+            "type": "equalization_or_persistence",
+            "verbatim": "`U3_OVERDETERMINED_MAP_CONSISTENT` \u2014 all triples agree within **[FREEZE-POINT: 0.5 decades]** on each parameter."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a gate at a specific finite log-distance threshold, 6 decades)",
+            "historical_values": "6 decades",
+            "type": "critical_or_closure_condition",
+            "verbatim": "If every physical target requires |log\u2081\u2080| > **[FREEZE-POINT: 6]** beyond the engine's range, the map is declared **unfalsifiable-by-simulation**"
+          },
+          {
+            "historical_values": "A_tot = 60; N = 1,2,4,6,10,15,30",
+            "type": "equalization_or_persistence",
+            "verbatim": "Zeno-pattern suppression at fixed A_tot = 60 subdivided into N pulses ... A_tot = 60 across N = 1,2,4,6,10,15,30"
+          },
+          {
+            "historical_values": "three of nine",
+            "type": "fraction_of_total",
+            "verbatim": "A framework that produces nine dimensionless numbers and matches three of them has matched three of them."
+          }
+        ],
+        "destruction_mechanism": "yes \u2014 the relief valve voids population: \"The valve transfer function n_voided = 2\u2308\u00bd\u00b7max(1,\u230apop_trig/6\u230b)\u2309 matched 4227/4230 events exactly\" (per-event voiding, cf. instrumented engine \"tagged population, per-event voiding\"). The document also carries forward prohibitions but describes no other removal mechanism.",
+        "engine_or_chain": "A registration-draft research plan (U-series, U0-U6) for a three-parameter unit map (L*, T*, a0) from DEU foam units to SI. It runs no code itself; it chains off the rung1 two-queue scheduler engines (rung1_v21_zeno.py and instrumented variants), the rung2 metric-flux/face-scale engines (C10/C18), and the 100M-round vacuum foam (run_100M_vacuum_scale.py), plus archived CSV data products from the C-campaign. R48 F5 family: manuscript-only (a plan), but it aggregates derived observables (g_far, rho_C, x50, d_vol), external calibrations (c, hbar, G, Lambda, m_e, A_planck, alpha^-1 as anchor menu), and a fixed bridge assumption (one legal operation carries action quantum a0; L_* = l_Planck used only as an illustrative closure it criticizes).",
+        "fraction_of_total_items": [
+          "churn fraction 0.478 (also given as 0.475\u20130.484)",
+          "valve match rate 4227/4230 events",
+          "matched-constants tally: 'matches three of them' out of nine dimensionless numbers",
+          "gain 1/6 (fraction of triggering population voided per valve event)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "3^(\u2212k_f/2) | engine substrate | \u2113",
+            "name": "face scale l_f"
+          },
+          {
+            "definition_verbatim": "\u03a3 q_f / Q | C0 (certified carrier) | \u2113",
+            "name": "metric work stock W"
+          },
+          {
+            "definition_verbatim": "\u03a3_{f\u2208F} 3^(\u2212k_f/2) | C17 / C18 | \u2113",
+            "name": "face demand D_face"
+          },
+          {
+            "definition_verbatim": "\u03a3_{f\u2208S} 3^(\u2212k_f/2) | C17 / C18 | \u2113",
+            "name": "served work J_face"
+          },
+          {
+            "definition_verbatim": "metric cut weight | C6 / C9 | \u2113 *(exactly refinement-invariant)*",
+            "name": "shell capacity C1(r)"
+          },
+          {
+            "definition_verbatim": "boundary edge count | C6 | count *(representation-dependent)*",
+            "name": "channel count C0"
+          },
+          {
+            "definition_verbatim": "mean metric channel length | C6 | \u2113",
+            "name": "source unit C1/C0"
+          },
+          {
+            "definition_verbatim": "lim (1/T) \u03a3 a(t)\u00b7C\u2081(t)/C\u2080(t) | C6 | \u2113/\u03c4",
+            "name": "metric load rate lambda"
+          },
+          {
+            "definition_verbatim": "J_cut / C\u2081 | C9 | 1/\u03c4",
+            "name": "operational field Omega"
+          },
+          {
+            "definition_verbatim": "GR/QM Appendix C defines \u03a9_op = D_unres/B_vac (dimensionless)",
+            "name": "Omega_op (Appendix-C dictionary)"
+          },
+          {
+            "definition_verbatim": "live boundary edge count | rung1 scheduler | count/\u03c4",
+            "name": "capacity Gamma"
+          },
+          {
+            "definition_verbatim": "m/(\u0393 \u2212 D_vac) | GR/QM \u00a73 | dimensionless",
+            "name": "load coordinate x"
+          },
+          {
+            "definition_verbatim": "energy is the *activity rate* (E = a\u2080\u00b7\u1e45, the Planck\u2013Einstein relation in native form)",
+            "name": "energy (proposed)"
+          },
+          {
+            "definition_verbatim": "c      = \u03ba_c \u00b7 L*/T*                     \u03ba_c = measured graph causal speed (U1), dimensionless",
+            "name": "derived c"
+          },
+          {
+            "definition_verbatim": "\u0127      = a\u2080 / \u03ba_\u0127                        \u03ba_\u0127 = measured action quantum multiplicity (U2)",
+            "name": "derived hbar"
+          },
+          {
+            "definition_verbatim": "G      = c\u2074 \u00b7 g_far \u00b7 L*\u00b2 / (2 \u00b7 a\u2080 \u00b7 c) \u00b7 \u03ba_G      (form fixed in U0; g_far from C12)",
+            "name": "derived G"
+          },
+          {
+            "definition_verbatim": "E_X    = a\u2080 \u00b7 \u1e45_X / T*                   \u1e45_X = served-op rate of structure X [ops/epoch]",
+            "name": "structure energy E_X"
+          },
+          {
+            "definition_verbatim": "r_s(X) = 2 G M_X / c\u00b2  \u2194  D_X \u00b7 L*       (geometrized identity \u2014 the U0 consistency check)",
+            "name": "geometrized cross-check"
+          },
+          {
+            "definition_verbatim": "carrier density \u03c1_C | 0.01909246 | \u039b residual closure | already claimed; re-audit at 10\u2078 rounds",
+            "name": "carrier density rho_C"
+          },
+          {
+            "definition_verbatim": "n_voided = 2\u2308\u00bd\u00b7max(1,\u230apop_trig/6\u230b)\u2309",
+            "name": "valve transfer function"
+          },
+          {
+            "definition_verbatim": "registry | 137 = 81+40+16 | \u03b1\u207b\u00b9 = 137.035999 | **must state whether 137 \u2260 137.036 falsifies**",
+            "name": "registry factor"
+          },
+          {
+            "definition_verbatim": "graph index | 41/40 | A_planck = 1.02505572438 | already claimed (log BF \u2248 0.07)",
+            "name": "graph index (registry factor)"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/DEU_FOAM_CALIBRATION_PROGRAM_v1.md",
+        "state_class": "OTHER (planning manuscript over multiple substrates: the rung1/rung2 scheduler-foam engines and the carrier/activation vacuum foam; the document itself instantiates no state)",
+        "tierD_items": [
+          "\u03b5_L = 3.77 \u00d7 10\u2078 J = 2.35 \u00d7 10\u00b9\u2078 GeV (under L_* = \u2113_Planck)",
+          "\u03bb_e = 2.17 \u00d7 10\u207b\u00b2\u00b2 (dimensionless load per epoch, from m_e c\u00b2 / \u03b5_L)",
+          "E_Planck (used in \u03b5_L = g_far \u00b7 E_Planck / 2)",
+          "L* (metres per DEU metric length unit, m), T* (seconds per epoch, s), a\u2080 (joule-seconds per legal operation, J\u00b7s)",
+          "g_far = 0.38564 \u00b1 0.07043 (dimensionless but empirically pooled over 90 seeds; enters G form)",
+          "c, \u0127, G, \u039b, m_e, A_planck = 1.02505572438, \u03b1\u207b\u00b9 = 137.035999 (external SI/physics anchors in the U3/U5 menus)",
+          "1 TeV resolution scale (U4 reachability target)",
+          "\u2113_Planck (assumed closure L_* = \u2113_Planck in \u00a71.2 illustration)"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "historical_values": "2, 0, 1, 2, 6, 25, 137, 945; ~10\u00b3",
+            "type": "tierD_numeric",
+            "verbatim": "the DAG level sizes are 2, 0, 1, 2, 6, 25, 137, 945, so DAG-8 is only ~10\u00b3 objects"
+          },
+          {
+            "historical_values": "997,721 eligible pairs; 6 steps; k_c = 4, 5, 6, \u221e; k_c \u2208 {2, 3}",
+            "type": "equalization_or_persistence",
+            "verbatim": "for k_c \u2265 4 the combination horizon is bit-identical to no horizon at all (997,721 eligible pairs, 6 steps, same for k_c = 4, 5, 6, \u221e), and only k_c \u2208 {2, 3} buy a single extra step. M and U become universal hubs, the graph diameter collapses, and a 2-ball already covers most of the population."
+          },
+          {
+            "type": "equalization_or_persistence",
+            "verbatim": "The population reaches a steady state. Creation (new pairs) balances merging (identity collapse), so the object count plateaus instead of exploding."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a plateau at the specific finite count 137)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The sharpest available test: is there a k_m for which N\\*(k_m) = 137?"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (N* evaluated at integer k_m; 137 bracketed between finite plateau counts 20 and 207)",
+            "historical_values": "20, 207, ~21,528, ~2.3\u00d710\u2078",
+            "type": "critical_or_closure_condition",
+            "verbatim": "ANSWERED 2026-07-27: no. ... N\\*(k_m) is the depth-k_m Weisfeiler\u2013Leman colour count and squares at each increment: **20, 207, ~21,528, ~2.3\u00d710\u2078**. 137 falls strictly between k_m = 2 and k_m = 3 and k_m is an integer, so 137 is not merely unfitted \u2014 it is bracketed and skipped. Consequence 1 above (a steady state exists) is **confirmed**; consequence 2 (the registry size becomes derived) is **refuted**."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (enumeration terminates at a specific finite level, DAG-7, with count 137)",
+            "historical_values": "137; DAG-7",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The pure engine gets 137 by exhaustive enumeration terminating at DAG-7."
+          },
+          {
+            "historical_values": "\u03b3 = 3.15; 3.0012; \u03b1 = 0.4997; 0.4644; \u03b3_MLE = 3.1535; ~3%",
+            "type": "tierD_numeric",
+            "verbatim": "\u03b3 = 3.15 \u2014 **weak. Do not use as a primary target.** ... the JSON keys are literally `gamma_from_alpha` (3.0012, from \u03b1 = 0.4997) and `alpha_implied_by_gamma` (0.4644, from \u03b3_MLE = 3.1535). They are one measurement expressed two ways \u2014 and note the ~3% internal tension between the two routes."
+          },
+          {
+            "historical_values": "\u03b3 = 3",
+            "type": "tierD_numeric",
+            "verbatim": "\u03b3 = 3 is the Barab\u00e1si\u2013Albert value \u2014 the generic attractor for *any* growing network with linear preferential attachment."
+          },
+          {
+            "factor_classification": "unary:binary ratio: computed on the rung1 (rung1_v21_zeno.py) mature core window state at radii r_core 0.15\u20130.45; INTERNAL_RATIO (no external data fitted)",
+            "historical_values": "unary/binary table: 62.0/38.0, 68.0/32.0, 62.5/37.5, 63.3/36.7, 62.2/37.8, 60.4/39.6, 61.8/38.2 (%); registered 63% \u00b1 3%",
+            "type": "fraction_of_total",
+            "verbatim": "Reassuringly insensitive to load (62.0 \u2192 63.3 \u2192 62.2 across m = 0/16/32) and to r_core (60.4 / 61.8 / 62.0 across 0.15/0.30/0.45). Seed variation dominates. **Register it as 63% \u00b1 3%, not as 61%.**"
+          },
+          {
+            "factor_classification": "\u03c1_C: computed on the carrier/activation vacuum foam over 10\u2074\u201310\u2078 rounds; INTERNAL_RATIO used here purely as an internal convergence target (no fit to external data in this document)",
+            "historical_values": "0.01909246; 10\u2074\u201310\u2078 rounds",
+            "type": "equalization_or_persistence",
+            "verbatim": "\u03c1_C = 0.01909246 \u2014 **strong. This is the target to build against.** Specific, non-generic, measured to 7 figures, stable across 10\u2074\u201310\u2078 rounds, and with an independent falsifier already declared in `DE_foam` \u00a714.4."
+          },
+          {
+            "historical_values": "0.569",
+            "type": "tierD_numeric",
+            "verbatim": "\u03ba_conflict = 0.569 \u2014 **not directly usable**"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a pre-registration gate at a finite target count, \u22653)",
+            "historical_values": "\u2265 3 targets; \u03c1_C = 0.019",
+            "type": "critical_or_closure_condition",
+            "verbatim": "A single k_m (and k_c) must hit **\u2265 3 independent targets** simultaneously, or k must be derived from registry structure rather than swept. Sweeping k until \u03c1_C = 0.019 appears is a fit, and would have to be reported as one."
+          },
+          {
+            "type": "distinguished_sector",
+            "verbatim": "the presence or absence of the registry's bimodality \u2014 which R3b showed the foam does **not** have, so the lossy DAG should not have it either"
+          },
+          {
+            "historical_values": "63/37",
+            "type": "distinguished_sector",
+            "verbatim": "\u03b3 and \u03c1_C are from the **carrier/activation foam** (`deu_vacuum_paper_reproduce.py`, `run_100M_vacuum_scale.py`). The 63/37 unary:binary ratio is from **rung1** (`rung1_v21_zeno.py`). Different substrates."
+          },
+          {
+            "historical_values": "p \u2248 0.89",
+            "type": "tierD_numeric",
+            "verbatim": "the same hazard that produced the Class S p \u2248 0.89 result and the S136 false positive"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (uniqueness of parameters producing the exact finite decomposition 81+40+16)",
+            "historical_values": "81+40+16",
+            "type": "critical_or_closure_condition",
+            "verbatim": "the pure engine's uniqueness result (`disctinction.pdf` Table II/III: every parameter has exactly one value producing 81+40+16)"
+          },
+          {
+            "historical_values": "137",
+            "type": "equalization_or_persistence",
+            "verbatim": "**The interesting outcome:** N\\* is *stationary* over a range of k_m \u2014 a plateau in the plateau \u2014 and it sits at or near 137. Stationarity is what would make it a derivation rather than a fit"
+          }
+        ],
+        "destruction_mechanism": "yes \u2014 identity collapse merges (removes) objects: \"IDENTITY COLLAPSE: objects with identical A(.) are merged (they are indistinguishable within the horizon, hence identical)\" and \"If ancestry is truncated at depth k_m, then two objects with **identical truncated ancestry are indistinguishable \u2014 and therefore identical.** They must merge. That merging is the loss.\" Additionally the memory horizon itself truncates records: \"ancestor sets truncated at depth k_m ... yes \u2014 this is the operator\".",
+        "engine_or_chain": "A design sketch for an 'information-loss operator': a lossy distinction-engine DAG grown from two primitives (M, U) by pairwise combination, bounded by a combination horizon k_c (pair enumeration within path-depth k_c) and a memory horizon k_m (ancestor multisets truncated at depth k_m), with identity collapse merging objects whose truncated ancestries coincide. It chains against three existing substrates for targets: the pure registry engine (137 = 81+40+16 enumeration), the carrier/activation vacuum foam (deu_vacuum_paper_reproduce.py, run_100M_vacuum_scale.py: \u03b3, \u03c1_C), and rung1 (rung1_v21_zeno.py: 63/37 unary:binary). R48 F5 family: manuscript-only design sketch, embedding derived observables (measured unary/binary table, WL colour counts from HL1_FINDINGS) and phenomenological projection targets (\u03b3, \u03c1_C); explicitly notes 'the lossy DAG needs two declared projection maps'.",
+        "fraction_of_total_items": [
+          "unary:binary ratio 61%/39% (proposal heading), measured rows 62.0/38.0, 68.0/32.0, 62.5/37.5, 63.3/36.7, 62.2/37.8, 60.4/39.6, 61.8/38.2 percent, registered as 63% \u00b1 3%",
+          "'a 2-ball already covers most of the population' (coverage fraction, qualitative)",
+          "merge rate (fraction of population merged per step, recorded observable)",
+          "\u03ba_conflict = 0.569 (a conflict fraction requiring S/I/G typing)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "**combination horizon** \u2014 a node may only combine with partners within path-depth k_c | bounds pair enumeration; makes the process *local* | **no** [lossy]",
+            "name": "combination horizon H_c"
+          },
+          {
+            "definition_verbatim": "**memory horizon** \u2014 ancestor sets truncated at depth k_m | bounds distinguishability | **yes \u2014 this is the operator**",
+            "name": "memory horizon H_m"
+          },
+          {
+            "definition_verbatim": "objects, each with a truncated ancestor multiset A(x), |depth| <= k_m ... A(c) = truncate(A(a) U A(b) U {a,b}, k_m)",
+            "name": "truncated ancestry A(x)"
+          },
+          {
+            "definition_verbatim": "candidate pairs = {(a,b) : path_distance(a,b) <= k_c, not yet distinguished}",
+            "name": "candidate pairs"
+          },
+          {
+            "definition_verbatim": "IDENTITY COLLAPSE: objects with identical A(.) are merged (they are indistinguishable within the horizon, hence identical)",
+            "name": "identity collapse"
+          },
+          {
+            "definition_verbatim": "The plateau size is a function of k_m. ... The lossy engine would get a plateau N\\*(k_m). ... N\\*(k_m) is the depth-k_m Weisfeiler\u2013Leman colour count",
+            "name": "plateau population N*(k_m)"
+          },
+          {
+            "definition_verbatim": "record: population, merge rate, degree distribution, ancestry-size distribution",
+            "name": "recorded quantities (round 1)"
+          },
+          {
+            "definition_verbatim": "the standard scaling relation \u03b1 = 1/(\u03b3\u22121); the JSON keys are literally `gamma_from_alpha` (3.0012, from \u03b1 = 0.4997) and `alpha_implied_by_gamma` (0.4644, from \u03b3_MLE = 3.1535)",
+            "name": "degree exponent gamma vs alpha relation"
+          },
+          {
+            "definition_verbatim": "\u03c1_C = 0.01909246 \u2014 **strong. This is the target to build against.** Specific, non-generic, measured to 7 figures, stable across 10\u2074\u201310\u2078 rounds",
+            "name": "carrier density rho_C"
+          },
+          {
+            "definition_verbatim": "\u03ba_conflict = 0.569 \u2014 **not directly usable** It requires S/I/G typing, which the DAG has no analogue for.",
+            "name": "kappa_conflict"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/PROPOSAL_horizon_operator.md",
+        "state_class": "OTHER (proposed lossy DAG engine \u2014 a distinction/registry-engine variant, not a scheduler foam; document is a design sketch with partial measured results imported from HL1 and session measurements)",
+        "tierD_items": [
+          "\u03c1_C = 0.01909246 (measured to 7 figures on the vacuum foam, empirically measured internal constant used as calibration target)",
+          "\u03b3 = 3.15 (\u03b3_MLE = 3.1535; gamma_from_alpha = 3.0012; \u03b1 = 0.4997; alpha_implied_by_gamma = 0.4644) \u2014 fitted degree exponents",
+          "\u03ba_conflict = 0.569",
+          "unary:binary = 63% \u00b1 3% (registered), per-seed table values 60.4\u201368.0%",
+          "N*(k_m) WL colour counts 20, 207, ~21,528, ~2.3\u00d710\u2078",
+          "997,721 eligible pairs / 6 steps (HL1 horizon measurement)",
+          "DAG level sizes 2, 0, 1, 2, 6, 25, 137, 945"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "historical_values": "20/21; 5%; P < 1e-6",
+            "type": "fraction_of_total",
+            "verbatim": "The paper reports 20/21 at 5% and quotes P < 1e-6."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (an exact finite rational construction 137 + 5/137 matched against a measured constant; no limit taken)",
+            "factor_classification": "137 + 5/137: computed from the closed registry integers (terminal registry state); its evidential use is CALIBRATION against the externally measured \u03b1\u207b\u00b9 = 137.035999084",
+            "historical_values": "137.035999084; 0.035999084; 5/137 = 0.036496350 (printed as {5/137:.9f})",
+            "type": "critical_or_closure_condition",
+            "verbatim": "(ii) FOCUSED AUDIT \u2014 alpha^-1 = 137 + 5/137 ... alpha_inv = 137.035999084 ... resid = alpha_inv - 137.0  # 0.035999084"
+          },
+          {
+            "historical_values": "3.6 ppm",
+            "type": "tierD_numeric",
+            "verbatim": "(\"registry+screening\",     \"137 + 5/137\",      \"alpha^-1 = 137.035999\",  \"3.6 ppm, see (ii)\")"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (bare integer 137 vs \u03b1\u207b\u00b9 at fractional tolerance 2.627e-4)",
+            "historical_values": "2.627e-4",
+            "type": "critical_or_closure_condition",
+            "verbatim": "Same question for the bare-137 claim (no correction), tol = its own 2.6e-4 frac: ... tol = 2.627e-4"
+          },
+          {
+            "historical_values": "3.52 [3.37,3.71]",
+            "type": "tierD_numeric",
+            "verbatim": "(\"relieved wall x50\",      \"3.52 [3.37,3.71]\", \"-\",                      \"UNMATCHED\")"
+          },
+          {
+            "historical_values": "1.30 [1.17,1.45]",
+            "type": "tierD_numeric",
+            "verbatim": "(\"no-relief wall x50\",     \"1.30 [1.17,1.45]\", \"-\",                      \"UNMATCHED\")"
+          },
+          {
+            "historical_values": "0.475-0.484",
+            "type": "fraction_of_total",
+            "verbatim": "(\"churn / reverse-flow\",   \"0.475-0.484\",      \"-\",                      \"UNMATCHED\")"
+          },
+          {
+            "factor_classification": "INTERNAL_RATIO (marked 'derived internally')",
+            "historical_values": "1/6, 2",
+            "type": "tierD_numeric",
+            "verbatim": "(\"valve gain, quantum\",    \"1/6, 2\",           \"-\",                      \"UNMATCHED (derived internally)\")"
+          },
+          {
+            "historical_values": "0.3856 +- 0.0704",
+            "type": "tierD_numeric",
+            "verbatim": "(\"g_far\",                  \"0.3856 +- 0.0704\", \"-\",                      \"UNMATCHED\")"
+          },
+          {
+            "historical_values": "2.00 +- 0.11; d_space = 3",
+            "type": "tierD_numeric",
+            "verbatim": "(\"foam ball dimension\",    \"2.00 +- 0.11\",     \"d_space = 3\",            \"OUT OF SCOPE (2D engine)\")"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a specific measured density value claimed against the \u039b residual; stated as a value, not a limit)",
+            "factor_classification": "\u03c1_C: computed on the vacuum foam (DE_foam); INTERNAL_RATIO, claimed against external \u039b residual (calibration comparison)",
+            "historical_values": "0.01909246",
+            "type": "critical_or_closure_condition",
+            "verbatim": "(\"carrier density rho_C\",  \"0.01909246\",       \"Lambda residual\",        \"CLAIMED (DE_foam)\")"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (exact rational 41/40)",
+            "factor_classification": "registry/graph index 41/40: INTERNAL_RATIO from the graph, compared against external calibration A_planck = 1.02505572438",
+            "historical_values": "41/40; 1.02505572438; log BF 0.07",
+            "type": "critical_or_closure_condition",
+            "verbatim": "(\"graph index\",            \"41/40\",            \"A_planck=1.02505572438\", \"CLAIMED (log BF 0.07)\")"
+          },
+          {
+            "historical_values": "3.49 +- 0.05; 3.5-4",
+            "type": "tierD_numeric",
+            "verbatim": "(\"CMB graph d_vol\",        \"3.49 +- 0.05\",     \"CDT d_s ~ 3.5-4\",        \"CLAIMED (qualitative)\")"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (exact integer 137)",
+            "factor_classification": "registry 137: INTERNAL integer from closed registry enumeration, compared against external \u03b1\u207b\u00b9",
+            "historical_values": "137; 137.035999",
+            "type": "critical_or_closure_condition",
+            "verbatim": "(\"registry\",               \"137\",              \"alpha^-1 = 137.035999\",  \"see (ii)\")"
+          },
+          {
+            "historical_values": "n_un/len(rows) evaluates to 5/11 (rows with status starting UNMATCHED: relieved wall, no-relief wall, churn, valve gain, g_far)",
+            "type": "fraction_of_total",
+            "verbatim": "print(f\"\\n  {n_un}/{len(rows)} of the foam's own dimensionless constants have NO proposed\")\\n    print(\"  physics counterpart at all. Reported here at equal prominence, per the\")\\n    print(\"  campaign's standing rule.\")"
+          }
+        ],
+        "destruction_mechanism": "no \u2014 the script evolves no substrate and removes no records; it only enumerates combinatorial values and prints tables.",
+        "engine_or_chain": "A standalone Python audit script (itertools/math/random only; no substrate engine). (i) Builds the Class S value set \u2014 all products of 1\u2013max_active registry integers from I_S = [3, 4, 10, 13, 16, 19, 40, 54, 81, 127, 136, 137] raised to exponents (-2, -1, 1, 2), clipped to [1e-4, 1e6] \u2014 and Monte-Carlos how many of 21 log-uniform arbitrary targets it hits at 5% and 1% tolerance (null control for the 30-constants paper's p-value). (ii) Audits the \u03b1\u207b\u00b9 = 137 + 5/137 claim by counting how many simple fractions b/c and b/(c\u00b7d) from registry integer sets reproduce the residual 0.035999084 within the achieved miss. (iii) Prints the registered U5 dimensionless-constants table. R48 F5 family: external calibration audit (\u03b1\u207b\u00b9 = 137.035999084, A_planck) over derived observables (the foam constants table); the grammar itself is a phenomenological projection being null-tested.",
+        "fraction_of_total_items": [
+          "20/21 hits at 5% tolerance (paper's reported hit fraction), with P < 1e-6",
+          "P(>=20 of 21 by chance) (computed null-control fraction p20 = count(c>=20)/n_trials)",
+          "mean hits = .../21 (mean hit fraction over 2000 trials)",
+          "churn / reverse-flow 0.475-0.484",
+          "n_un/len(rows) \u2014 5/11 of the foam's dimensionless constants UNMATCHED",
+          "achieved_abs/alpha_inv fractional miss (printed as frac)",
+          "valve gain 1/6"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "def class_s_values(max_active, exps=(-2, -1, 1, 2)):\\n    vals = set()\\n    for k in range(1, max_active + 1):\\n        for combo in itertools.combinations(I_S, k):\\n            for a in itertools.product(exps, repeat=k):\\n                v = 1.0\\n                for n, e in zip(combo, a):\\n                    v *= n ** e\\n                if LO <= v <= HI:\\n                    vals.add(v)",
+            "name": "Class S value set"
+          },
+          {
+            "definition_verbatim": "I_S = [3, 4, 10, 13, 16, 19, 40, 54, 81, 127, 136, 137]",
+            "name": "registry integer set I_S"
+          },
+          {
+            "definition_verbatim": "def hit(vals, tgt, tol):\\n    return any(abs(v - tgt) <= tol * abs(tgt) for v in vals)",
+            "name": "hit criterion"
+          },
+          {
+            "definition_verbatim": "alpha_inv = 137.035999084\\n    resid = alpha_inv - 137.0                     # 0.035999084",
+            "name": "alpha residual"
+          },
+          {
+            "definition_verbatim": "achieved_abs = abs((137 + 5 / 137) - alpha_inv)",
+            "name": "achieved absolute miss"
+          },
+          {
+            "definition_verbatim": "I_screen = [1, 2, 3, 4, 5, 9, 13, 16, 17, 40, 136, 137]\\n    I_all = sorted(set(I_screen + I_S + [7, 10, 18, 19, 27, 28, 54, 80, 81, 127]))",
+            "name": "screening integer sets"
+          },
+          {
+            "definition_verbatim": "(\"carrier density rho_C\",  \"0.01909246\",       \"Lambda residual\",        \"CLAIMED (DE_foam)\")",
+            "name": "carrier density rho_C (table row)"
+          },
+          {
+            "definition_verbatim": "n_un = sum(1 for r in rows if r[3].startswith(\"UNMATCHED\"))",
+            "name": "unmatched-count tally"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/DEU_bridge/U5b_null_and_alpha_audit.py",
+        "state_class": "PROJECTION_ONLY (no substrate state evolves; pure combinatorial/statistical audit over previously measured constants and registry integers)",
+        "tierD_items": [
+          "alpha_inv = 137.035999084 (external measured fine-structure constant, the calibration reference)",
+          "A_planck = 1.02505572438 (external Planck CMB amplitude index)",
+          "\u03c1_C = 0.01909246 (empirically measured foam constant)",
+          "g_far = 0.3856 \u00b1 0.0704",
+          "x50 walls 3.52 [3.37,3.71] and 1.30 [1.17,1.45]",
+          "foam ball dimension 2.00 \u00b1 0.11 vs d_space = 3; CMB d_vol 3.49 \u00b1 0.05 vs CDT d_s ~ 3.5\u20134",
+          "137 + 5/137 match at 3.6 ppm; bare-137 fractional tolerance 2.627e-4",
+          "null-control design constants: seed 20260726, 2000 trials, 21 targets, tolerances 0.05/0.01, value range [1e-4, 1e6]"
+        ]
+      }
+    ],
+    "group": "h5-bridge",
+    "group_summary": "Three DEU_bridge files extracted verbatim, none adjudicated. (1) DEU_FOAM_CALIBRATION_PROGRAM_v1.md: a draft U-series registration plan for a three-parameter (L*, T*, a0) DEU-to-SI unit map built on the diagnosis that the DEU has only two base dimensions (l, tau) and proposing integer operation count as the third (action) dimension; observables carry exact definitions from the C-campaign table (face scale 3^(-k/2), C1/C0, Omega = J_cut/C1, x = m/(Gamma - D_vac)); closure/critical conditions are uniformly FINITE_COUNT (B_crit = 432, onset 15-20 ops, registry 137 = 81+40+16, 41/40, Lambda via N_today graph count + (124/120)(1+rho_C), rho_C re-audit at 10^8 rounds, U4 gate at 6 decades); destruction present via the relief valve n_voided = 2*ceil(0.5*max(1,floor(pop_trig/6))). (2) PROPOSAL_horizon_operator.md: a lossy-DAG design sketch where a memory horizon k_m forces identity collapse (explicit record removal by merging); its central closure test N*(k_m) = 137 is FINITE_COUNT and already ANSWERED no (WL counts 20, 207, ~21528, ~2.3e8 bracket and skip 137); targets rho_C = 0.01909246 (INTERNAL_RATIO on the mature vacuum foam) and unary:binary 63% +/- 3% (INTERNAL_RATIO on rung1). (3) U5b_null_and_alpha_audit.py: a projection-only audit script \u2014 Monte-Carlo null control for the Class S 20/21-at-5% claim, a look-elsewhere audit of alpha^-1 = 137 + 5/137 (3.6 ppm, FINITE_COUNT, calibration against 137.035999084), and the registered U5 table printing 5/11 constants UNMATCHED at equal prominence; no destruction. All fraction-of-total quantities (churn 0.475-0.484, 4227/4230, 20/21, 5/11, unary 60.4-68.0%) are recorded without comparison per instructions."
+  },
+  {
+    "files": [
+      {
+        "claims": [
+          {
+            "closure_classification": "FINITE_COUNT (full occupancy of the shield is a condition at a specific finite channel count: len(self._shield_links) < self._shield_capacity gates further linking)",
+            "factor_classification": "computed on the live shield-link state; INTERNAL_RATIO (derived from registry partition sizes and basin.resolved_modes, no external fit)",
+            "historical_values": "40 * 3 = 120",
+            "type": "tierD_numeric",
+            "verbatim": "Registry links use at most one live shield edge per (core node, resolved mode) channel. Therefore a fully occupied 40-node feeder shield has 40 * 3 = 120 boundary channels without inserting 120 as an independent simulation constant."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a per-step structural replacement rule at each finite state, not a limit statement)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The engine retains the live triangular boundary and per-vertex activation counts. It intentionally does not retain face ancestry. One selected face is replaced by three children, one for each resolved basin mode."
+          }
+        ],
+        "destruction_mechanism": "yes (structural overwrite, not deletion of counts): the parent face record is consumed and face ancestry is dropped. Verbatim: 'The consumed face slot is reused for resolved mode zero.' and '# Mode 0 overwrites the consumed slot; modes 1 and 2 append. This is the dense, ancestry-dropping storage path used for macroscopic runs.' Vertices and activation counts are never removed; the registry is protected (registry_intact, repair_log via registry.begin_epoch).",
+        "engine_or_chain": "HolographicFoamEngine: a 'Lossy, array-backed 1->3 activation foam around a protected registry.' Starts from a 4-node tetrahedral boundary (faces (0,1,2),(0,1,3),(0,2,3),(1,2,3)); each step draws one face uniformly at random (propose_face: self.rng.randrange(len(self.face_a))), increments the three vertex activation counts, mints a new vertex with count 0, and replaces the face with three children (mode 0 overwrites the consumed slot; modes 1 and 2 append). A separately keyed coupling RNG probabilistically links new foam nodes to a protected RegistryAnchor via at most one shield edge per (core node, resolved mode) channel, capped at reachable_nodes * basin.resolved_modes. R48 F5 family: state field (raw substrate engine); no external calibration in this file.",
+        "fraction_of_total_items": [
+          "carrier_density = carriers / boundary (carrier faces as fraction of live boundary faces)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "carrier_density=carriers / boundary if boundary else 0.0  (where carriers = self.carrier_count() and boundary = self.boundary_faces)",
+            "name": "carrier_density"
+          },
+          {
+            "definition_verbatim": "\"\"\"Count active faces whose sorted activation counts are (0,1,2).\"\"\" ... matches = (low == 0) & (middle == 1) & (high == 2); return int(np.count_nonzero(matches))",
+            "name": "carrier_count (carrier faces / C-faces)"
+          },
+          {
+            "definition_verbatim": "CARRIER_COUNTS = (0, 1, 2)",
+            "name": "CARRIER_COUNTS"
+          },
+          {
+            "definition_verbatim": "def boundary_faces(self) -> int: return len(self.face_a)",
+            "name": "boundary_faces"
+          },
+          {
+            "definition_verbatim": "def foam_nodes(self) -> int: return len(self.node_counts)",
+            "name": "foam_nodes"
+          },
+          {
+            "definition_verbatim": "total_nodes_including_registry=self.foam_nodes + 137",
+            "name": "total_nodes_including_registry"
+          },
+          {
+            "definition_verbatim": "self._shield_capacity = reachable_nodes * self.basin.resolved_modes  (reachable_nodes = sum of partition id counts with positive weight)",
+            "name": "shield capacity (registry channel cap)"
+          },
+          {
+            "definition_verbatim": "counts = {\"carrier\": 0, \"feeder\": 0, \"post\": 0}; for core_node, _mode in self._shield_links: counts[by_id[core_node]] += 1",
+            "name": "halo_counts (sector structure: carrier/feeder/post partitions)"
+          },
+          {
+            "definition_verbatim": "carrier_weight: float = 81.0; feeder_weight: float = 40.0; post_weight: float = 16.0",
+            "name": "partition weights (sector coupling weights)"
+          },
+          {
+            "definition_verbatim": "core_coupling_probability: float = 0.05  (used: if self.coupling_rng.random() >= self.config.core_coupling_probability: return)",
+            "name": "core_coupling_probability"
+          },
+          {
+            "definition_verbatim": "registry_intact=self.registry.intact",
+            "name": "registry_intact"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/DEU_holo/src/deu_holo/foam.py",
+        "state_class": "RANDOM_IDEAL",
+        "tierD_items": [
+          "seed: int = 137 (FoamConfig default, also coupling_rng key seed ^ 0xD3E137)",
+          "hard-coded registry size 137 in total_nodes_including_registry=self.foam_nodes + 137",
+          "partition weights 81.0 / 40.0 / 16.0 (carrier/feeder/post; dimensionless config constants)",
+          "core_coupling_probability = 0.05",
+          "epoch_size = 10_000"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "closure_classification": "the f_hub variable itself is evaluated as FINITE_COUNT at each checkpoint state (1 - 1/d_max at a specific round); f_hub -> 1 only as d_max -> infinity, so any closure at f_hub = 1 would be ASYMPTOTIC \u2014 this file states no explicit closure threshold",
+            "factor_classification": "f_hub computed on the checkpoint state; INTERNAL_RATIO",
+            "historical_values": "100,000,000 rounds; FROZEN_SEED = 137",
+            "type": "rate_vs_rounds",
+            "verbatim": "the vacuum is grown under *uniform random* boundary selection only (no beam, no target-selection, no Stage-K collision driver), and the hub-condensation progress variable f_hub = 1 - 1/d_max ... is sampled on a sparse checkpoint schedule out to 100,000,000 rounds."
+          },
+          {
+            "type": "equalization_or_persistence",
+            "verbatim": "The two backends implement the *same* activation law and agree distributionally, but they are NOT bit-identical replays of one another at a shared seed ... Compare them statistically (rho_C, d_max), never row-by-row."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (registry factor evaluated on the finite-round f_hub of the current state)",
+            "factor_classification": "computed on the live checkpoint state (f_hub of the un-driven vacuum); INTERNAL_RATIO as computed here, but consumed downstream in a residual against externally observed Lambda (external calibration comparison)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "F_reg = registry_factor(f_hub)"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (residual computed at each finite checkpoint round)",
+            "factor_classification": "carrier factor computed on RHO_C_REFERENCE, a frozen imported reference value (frozen from an earlier internal run per tests.md); the residual itself is a CALIBRATION comparison against lambda_observed_comparison (external observed value)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "resid_fixed = 100.0 * ((L0 / (F_reg * carrier_factor(1.0, RHO_C_REFERENCE))) / Lobs - 1.0)"
+          },
+          {
+            "historical_values": "28 bytes/round; ~2.6 GB; ~770k steps/s; reference: 763 bytes/round -> ~71 GB; ~60 GB transient; ~620 B/round edge_map transient; ~15 bytes/round streaming extractor transient",
+            "type": "tierD_numeric",
+            "verbatim": "Stores the boundary in three ``array.array('i')`` columns: 28 bytes/round, ~2.6 GB at 100M rounds, ~770k steps/s."
+          }
+        ],
+        "destruction_mechanism": "no removal of records; parent face slot is overwritten in place. Verbatim: 'The selected slot is overwritten by the first child and the other two are appended, so the active face list stays dense with no free-list bookkeeping.' and 'A face's identity is its slot index ... there is no persistent face id'. Node counts are never removed.",
+        "engine_or_chain": "100M-round un-driven vacuum scaling driver for the 'DEU Lambda closure'. Wraps the activation law of deu_vacuum_paper_reproduce.py with two backends: CompactVacuumEngine ('select an active face uniformly at random, increment its three node counts, mint a new node, and replace the face with its three children'; 28 bytes/round) and the imported reference ActivationBoundaryEngine (763 bytes/round). At sparse checkpoints it extracts rho_C, d_max, f_hub, then applies imported bridge factors registry_factor and carrier_factor to lambda_deu_baseline and compares to lambda_observed_comparison as percent residuals. R48 F5 chain: state field (engine) -> derived observable (rho_C, d_max, f_hub) -> fixed bridge assumption (imported registry_factor/carrier_factor/lambda_deu_baseline) -> external calibration comparison (lambda_observed_comparison, RHO_C_REFERENCE) \u2014 bridge definitions live in deu_vacuum_paper_reproduce.py, not in this file.",
+        "fraction_of_total_items": [
+          "rho_C = active_C / boundary (C capsules as fraction of boundary faces)",
+          "f_hub = 1 - 1/d_max (fraction-of-saturation progress variable)",
+          "lambda_residual_percent_fixed_rho and lambda_residual_percent_local_rho (percent deviations of bridged Lambda from observed)",
+          "pct = 100.0 * eng.round / _cp (progress fraction, operational only)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "f_hub = 1 - 1/d_max,     d_max = max capsules touching a single shell node   (docstring); code: f_hub = 1.0 - 1.0 / d_max if d_max > 0 else 0.0",
+            "name": "f_hub (hub-condensation progress variable)"
+          },
+          {
+            "definition_verbatim": "d_max = int(shell_df[\"capsules_touching\"].max()) if len(shell_df) else 0",
+            "name": "d_max"
+          },
+          {
+            "definition_verbatim": "rho_C = active_C / boundary if boundary else 0.0",
+            "name": "rho_C (carrier density)"
+          },
+          {
+            "definition_verbatim": "isC = (lo == 0) & (mid == 1) & (hi == 2)  (C=(0,1,2) faces; lo/mid/hi are sorted per-face activation counts)",
+            "name": "C capsule / carrier face"
+          },
+          {
+            "definition_verbatim": "a C=(0,1,2) capsule contributes to the shell node on its *collar* edge (e01) and the shell node on its *back* edge (e12), and ``capsules_touching`` is the number of capsules landing on a given shell node",
+            "name": "shell node contribution rule"
+          },
+          {
+            "definition_verbatim": "F_reg = registry_factor(f_hub)   [registry_factor imported from deu_vacuum_paper_reproduce]",
+            "name": "registry factor (usage; definition imported)"
+          },
+          {
+            "definition_verbatim": "F_car_local = carrier_factor(1.0, rho_C)   [carrier_factor imported from deu_vacuum_paper_reproduce]",
+            "name": "carrier factor (usage; definition imported)"
+          },
+          {
+            "definition_verbatim": "resid_fixed = 100.0 * ((L0 / (F_reg * carrier_factor(1.0, RHO_C_REFERENCE))) / Lobs - 1.0)",
+            "name": "lambda residual, fixed rho"
+          },
+          {
+            "definition_verbatim": "resid_local = 100.0 * ((L0 / (F_reg * F_car_local)) / Lobs - 1.0)",
+            "name": "lambda residual, local rho"
+          },
+          {
+            "definition_verbatim": "L0 = lambda_deu_baseline(); Lobs = lambda_observed_comparison()",
+            "name": "lambda baseline and observed (usage; values imported)"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/foam/run_100M_vacuum_scale.py",
+        "state_class": "RANDOM_IDEAL",
+        "tierD_items": [
+          "FROZEN_SEED = 137",
+          "MAX_ROUNDS = 100_000_000",
+          "REFERENCE_BYTES_PER_ROUND = 763; COMPACT_BYTES_PER_ROUND = 28 (bytes, SI-adjacent)",
+          "RHO_C_REFERENCE (imported frozen reference carrier density; value defined in deu_vacuum_paper_reproduce.py)",
+          "lambda_deu_baseline() and lambda_observed_comparison() (dimensionful Lambda values, imported; values not defined in this file)",
+          "memory guards: --min-free-gb default 4.0 GB; DEFAULT_REFERENCE_MAX_ROUNDS = 20_000_000; projected transients ~15 B/round (compact) and ~620 B/round (reference)"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "historical_values": "rho_C 0.01849630073985203; f_hub 0.75; residuals +0.800% / +0.859%",
+            "type": "tierD_numeric",
+            "verbatim": "round=10000: rho_C=0.01849630073985203, d_max=4, f_hub=0.75, F_registry_f_hub=1.024793388429752, lambda_residual_percent_fixed_rho=0.8004487881656974, lambda_residual_percent_local_rho=0.8594505939930386"
+          },
+          {
+            "historical_values": "rho_C 0.018976962046075907; f_hub 0.9871794871794872; residuals +0.0101% / +0.0214%",
+            "type": "tierD_numeric",
+            "verbatim": "round=1000000: rho_C=0.018976962046075907, d_max=78, f_hub=0.9871794871794872, F_registry_f_hub=1.0328919265271252, lambda_residual_percent_fixed_rho=0.0101083335858565, lambda_residual_percent_local_rho=0.021444176607321452"
+          },
+          {
+            "historical_values": "rho_C 0.019046024619079508; d_max 851; f_hub 0.9988249118683902; residuals -0.0287% / -0.0241%",
+            "type": "tierD_numeric",
+            "verbatim": "round=100000000: boundary_faces_B=200000004, active_C_NC=3809205, rho_C=0.019046024619079508, d_max=851, f_hub=0.9988249118683902, shell_nodes=6407762, F_registry_f_hub=1.0332928596608044, F_carrier_local_rho=1.0190460246190796, lambda_residual_percent_fixed_rho=-0.02869708905777202, lambda_residual_percent_local_rho=-0.02414164659529927"
+          },
+          {
+            "factor_classification": "computed on the un-driven vacuum state at each checkpoint; INTERNAL_RATIO (active_C_NC / boundary_faces_B)",
+            "historical_values": "rho_C persists near ~0.01905 from 10k to 100M rounds",
+            "type": "equalization_or_persistence",
+            "verbatim": "rho_C across rounds 10k -> 100M: 0.01849630073985203, 0.019119617607647847, 0.018976962046075907, 0.01902924619415076, 0.019053138475748924, 0.01904875923804963, 0.01904877282536606, 0.019046024619079508"
+          },
+          {
+            "closure_classification": "each value is FINITE_COUNT (1 - 1/d_max at a finite round); the trend toward f_hub = 1 is ASYMPTOTIC (limit as d_max -> infinity)",
+            "historical_values": "f_hub monotonically increasing toward 1 with rounds (d_max: 4, 33, 78, 268, 419, 565, 677, 851)",
+            "type": "density_maturity_direction",
+            "verbatim": "f_hub across rounds 10k -> 100M: 0.75, 0.9696969696969697, 0.9871794871794872, 0.996268656716418, 0.9976133651551312, 0.9982300884955753, 0.9985228951255539, 0.9988249118683902"
+          },
+          {
+            "factor_classification": "residual is a CALIBRATION comparison (bridged Lambda vs externally observed Lambda); the underlying F_registry_f_hub is computed on the checkpoint state (INTERNAL_RATIO)",
+            "historical_values": "residual shrinks from +0.80% at 10k rounds, crosses zero between 1M and 10M rounds, settles near -0.029% at 100M",
+            "type": "rate_vs_rounds",
+            "verbatim": "lambda_residual_percent_fixed_rho across rounds: 0.8004487881656974, 0.06836438674897583, 0.0101083335858565, -0.02017901743673889, -0.024659917076808036, -0.02671499110968867, -0.02769069490174969, -0.02869708905777202"
+          }
+        ],
+        "destruction_mechanism": "no (ledger file; generating substrate overwrites parent face slots but removes no records \u2014 see run_100M_vacuum_scale.py entry)",
+        "engine_or_chain": "Output ledger of run_100M_vacuum_scale.py (compact backend, seed 137): 8 checkpoint rows at rounds 10k, 100k, 1M, 10M, 25M, 50M, 75M, 100M recording boundary_faces_B, active_C_NC, rho_C, d_max, f_hub, shell_nodes, F_registry_f_hub, F_carrier_local_rho, and lambda residual percentages (fixed and local rho). R48 F5 family: derived observable ledger feeding an external calibration comparison (lambda residual vs observed).",
+        "fraction_of_total_items": [
+          "rho_C = active_C_NC / boundary_faces_B (all 8 rows, ~0.0185\u20130.0191)",
+          "f_hub = 1 - 1/d_max (all 8 rows, 0.75 -> 0.9988249118683902)",
+          "lambda_residual_percent_fixed_rho and lambda_residual_percent_local_rho (percentages)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "round,boundary_faces_B,active_C_NC,rho_C,d_max,f_hub,shell_nodes,engine_backend,seed,F_registry_f_hub,F_carrier_local_rho,lambda_residual_percent_fixed_rho,lambda_residual_percent_local_rho,elapsed_seconds,checkpoint_seconds,rss_mb,timestamp_utc",
+            "name": "header (column definitions per generating script)"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/foam/deu_vacuum_100M/lambda_100M_scaling_ledger.csv",
+        "state_class": "RANDOM_IDEAL",
+        "tierD_items": [
+          "lambda_residual_percent_fixed_rho / lambda_residual_percent_local_rho columns (percent deviations from an externally observed Lambda; e.g. -0.02869708905777202 % at 100M rounds)",
+          "seed = 137 (all rows)",
+          "rss_mb column (SI-adjacent memory in MB, e.g. 2775.5 at 100M)",
+          "elapsed_seconds / checkpoint_seconds columns (seconds, e.g. 502.14 / 308.58 at 100M)"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "historical_values": "10^120 (external standard-physics figure, quoted)",
+            "type": "tierD_numeric",
+            "verbatim": "the theoretical energy of the Dirac sea is $10^{120}$ times larger than the observed cosmological constant"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a density value stated as locked at a specific finite round count, 1M)",
+            "factor_classification": "computed on the 1M-round internal run state; INTERNAL_RATIO (active C capsules / boundary), used here as a frozen reference \u2014 not fitted to external data",
+            "historical_values": "rho_C \u2248 0.01909 at 1M rounds",
+            "type": "equalization_or_persistence",
+            "verbatim": "Your 1M round run locked the carrier gas density at exactly $\\rho_C \\approx 0.01909$."
+          },
+          {
+            "closure_classification": "FINITE_COUNT by its own stated definition (a value output from the locked finite-round density, not a limit statement)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "you can theoretically output an exact, parameter-free value for $\\Lambda$"
+          },
+          {
+            "historical_values": "rho_C \u2248 0.019; Schwinger term alpha/2pi (external QED value, referenced)",
+            "type": "rate_vs_rounds",
+            "verbatim": "By running a long simulation of a beam propagating through the $\\rho_C \\approx 0.019$ gas and measuring the exact statistical delay in its parity-flip rate caused by the background flux, you are calculating the DEU geometric equivalent of the Schwinger limit ($\\alpha / 2\\pi$)."
+          },
+          {
+            "historical_values": "three generations (target count)",
+            "type": "distinguished_sector",
+            "verbatim": "Are there exactly three distinct, non-overlapping stable \"valleys\" on that $(k,m)$ ridge? If the combinatorial math only allows for three specific shell-sizes that do not instantly collapse under the uniform background drift, you have just derived the existence of exactly three fermion generations."
+          },
+          {
+            "factor_classification": "proposed INTERNAL_RATIO (shell node-count ratios); would become a CALIBRATION only when matched to measured lepton masses, which the note proposes as the observational test",
+            "type": "sector_ordering",
+            "verbatim": "Their relative masses would simply be the ratio of their shell node-counts."
+          }
+        ],
+        "destruction_mechanism": "yes (described in prose, no code): 'the computational overhead required to maintain the $(k,m)$ ridge against the drift loss'; 'the feeder-birth/drift-loss flux of the $(k,m)$ ridge'; shells that 'instantly collapse under the uniform background drift'; beam shells 'absorb temporary $+1$ count mutations from the background before healing'.",
+        "engine_or_chain": "Prose note (no code, no engine): 'the three most powerful pre-locked derivations you can extract from your current framework to line up with actual observations' \u2014 proposed derivations of the cosmological constant Lambda, the electron g-2, and the fermion mass hierarchy from the DEU carrier-gas framework. R48 F5 family: manuscript-only / phenomenological projection; references prior internal runs (1M-round rho_C lock) and external observed targets.",
+        "fraction_of_total_items": [
+          "the ratio of active $C(0,1,2)$ capsules to the total volume of the boundary complex (rho_C as fraction of total)",
+          "relative masses as the ratio of their shell node-counts"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "Your 1M round run locked the carrier gas density at exactly $\\rho_C \\approx 0.01909$.",
+            "name": "carrier gas density rho_C (referenced, not defined here)"
+          },
+          {
+            "definition_verbatim": "In the DEU, vacuum energy is simply the computational overhead required to maintain the $(k,m)$ ridge against the drift loss.",
+            "name": "vacuum energy (DEU reading)"
+          },
+          {
+            "definition_verbatim": "By calculating the ratio of active $C(0,1,2)$ capsules to the total volume of the boundary complex, and mapping that discrete topological density to the geometric scale factor derived in your Dual-Clock Cosmology paper, you can theoretically output an exact, parameter-free value for $\\Lambda$.",
+            "name": "Lambda mapping"
+          },
+          {
+            "definition_verbatim": "a slight delay in the $(0,0,0) \\leftrightarrow (1,1,1)$ parity clock",
+            "name": "parity clock"
+          },
+          {
+            "definition_verbatim": "capsules sit on a coarse $(k,m)$ ridge, with cells like $[4,8) \\mid [8,16)$",
+            "name": "(k,m) ridge cells (sector structure)"
+          },
+          {
+            "definition_verbatim": "If mass is the topological weight of the protective C-shell required to keep a particle stable, then the mass hierarchy is just a combinatorial search for stable integer solutions.",
+            "name": "mass (DEU reading)"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/RMR_DEU/foam/tests.md",
+        "state_class": "PROJECTION_ONLY",
+        "tierD_items": [
+          "10^120 (Dirac-sea vs observed cosmological constant ratio, external)",
+          "rho_C \u2248 0.01909 (locked from 1M-round run; also quoted as \u2248 0.019)",
+          "alpha/2pi Schwinger term (external QED calibration target for g-2)",
+          "three fermion generations (Electron, Muon, Tau) as target count; (k,m) ridge cells [4,8) | [8,16)"
+        ]
+      }
+    ],
+    "group": "h5-foam-engines",
+    "group_summary": "Four files from two related DEU vacuum/foam substrates. (1) DEU_holo foam.py is a raw RANDOM_IDEAL state-field engine: uniform-random 1->3 face refinement around a protected 137-node registry, with carrier faces defined by sorted activation counts (0,1,2), carrier_density = carriers/boundary, sectorized shield halo (carrier/feeder/post, weights 81/40/16, coupling p=0.05), ancestry-dropping slot overwrite but no record deletion, and a shield capacity of reachable_nodes*resolved_modes (40*3=120 stated as emergent, not inserted). (2) run_100M_vacuum_scale.py is the same activation law scaled to 100M rounds (seed 137, un-driven uniform random selection), extracting rho_C = active_C/boundary and f_hub = 1 - 1/d_max at sparse checkpoints and bridging via imported registry_factor/carrier_factor to lambda_deu_baseline vs lambda_observed_comparison (external calibration comparison; bridge definitions imported from deu_vacuum_paper_reproduce.py, outside this assignment). (3) Its 8-row ledger records rho_C persisting near ~0.01905 from 10k to 100M rounds, f_hub rising monotonically 0.75 -> 0.99882 (finite-count values trending toward an asymptotic f_hub=1), and lambda residuals shrinking from +0.80% to about -0.029%. (4) tests.md is a manuscript-only projection note proposing Lambda, g-2, and three-generation derivations from the locked rho_C \u2248 0.01909 (1M-round internal ratio), quoting external tier-D figures (10^120, alpha/2pi) and describing drift-loss/collapse destruction in prose. All closure-type statements in these files evaluate at finite counts; the only asymptotic structure is the f_hub -> 1 trend. Fractions of total (rho_C, f_hub, residual percents, mass ratios) are recorded without comparison per instructions."
+  },
+  {
+    "files": [
+      {
+        "claims": [
+          {
+            "factor_classification": "rhoC computed on the reduced-sector uniform-random foam state at 10^6 rounds; INTERNAL_RATIO (NC/B measured natively, no external fit)",
+            "historical_values": "rhoC = 0.01909246; B = 2,000,004; NC = 38,185; 97,223 distinct count-face types; entropy 7.9897",
+            "type": "fraction_of_total",
+            "verbatim": "the reduced boundary grammar natively forms a hard-core carrier sea (measured density rhoC ~= 0.019092) that organizes into paired capsules ... At 10^6 rounds, the reduced-sector ledger gives B = 2,000,004, NC = 38,185, rho_C = NC/B = 0.01909246, with 97,223 distinct count-face types, count-space entropy 7.9897, no active C-C edge contacts, and no active C-C vertex contacts."
+          },
+          {
+            "historical_values": "dmax = 8 (10^4 rounds), 23 (10^5), 56 (10^6)",
+            "type": "rate_vs_rounds",
+            "verbatim": "Available checkpoints give dmax = 8, 23, 56 near 10^4, 10^5, 10^6 rounds."
+          },
+          {
+            "closure_classification": "ASYMPTOTIC - fhub = 1 - 1/dmax approaches the closure surface as growth scale increases (trend across 10^4 -> 10^6 rounds, falsified at 10^7/10^8 if it stops approaching)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The dashed line marks the approximate closure target used in the finite-count Lambda estimate. ... if the hub variable fhub = 1 - 1/dmax stops approaching the closure surface, the near-closure in Fig. 9 should be rejected."
+          },
+          {
+            "historical_values": "1.0 and 1.0",
+            "type": "fraction_of_total",
+            "verbatim": "The paired-collar success rate and edge-neighborhood completion rate were both 1.0 for extracted active carriers in the paper-scale run."
+          },
+          {
+            "historical_values": "at most three selections",
+            "type": "equalization_or_persistence",
+            "verbatim": "Controlled defect selection gives a finite reaction algebra whose tested chains terminate after at most three selections. We interpret this as nilpotent repair chemistry rather than a stable anti-carrier sector."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - strict bridge peak/shatter at the specific finite count 12CAB",
+            "historical_values": "12CAB -> 6CA + 6CB + 12Cspent; bridge cliff fraction 1.0",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The E24 graph result is the clean shattering anchor: 12CAB -> 6CA + 6CB + 12Cspent with bridge cliff fraction 1.0 and an empty immediate post-wall 2 < chi_km < 3 bin in the internal capsule proxy."
+          },
+          {
+            "factor_classification": "CALIBRATION - single-point external anchor to the CMS 6.14 TeV wide-dijet display",
+            "historical_values": "gamma = 0.2558333333 TeV/unit; 6.14 TeV (CMS wide-dijet display); 7.675 TeV (E30 proxy)",
+            "type": "tierD_numeric",
+            "verbatim": "gamma = 6.14/24 = 0.2558333333 TeV/unit ... The value 6.14 TeV is a collider-facing anchor used to put graph tiers on a familiar scale; it is not a fitted resonance ... With this one-point convention, E30 corresponds to m_proxy_jj = 0.2558333333 x 30 = 7.675 TeV."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - strict bridge peak at the specific finite count CAB = 15 at round 1,910,031",
+            "historical_values": "round 1,910,031; 15CAB -> 8CA + 7CB + 15Cspent",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The primary drive reaches a strict bridge peak at round 1,910,031, CAB = 15, CA = CB = Cspent = 0, and fractures as 15CAB -> 8CA + 7CB + 15Cspent."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - deterministic closure when the finite zero-anchor pool reaches count 0",
+            "historical_values": "pool 15 -> 0; final counts 1 -> 1 -> 0; edge 78-1549",
+            "type": "critical_or_closure_condition",
+            "verbatim": "As the local zero-anchor pool drains linearly from 15 to 0, the available interaction space collapses, forcing a deterministic final fracture at edge 78-1549. ... K9I4 shows every selected contact is rank zero and that the global zero-anchor pool drains from 15 to 0 with no product-edge removals. ... The final forced closure is 5019142 -> 5730091 -> 5730093 -> 5730096, with zero-anchor counts 1 -> 1 -> 0 and final bridge edge 78-1549."
+          },
+          {
+            "historical_values": "CAB = 9 (10+5); CAB = 7 (8+7 and 8+4+3)",
+            "type": "distinguished_sector",
+            "verbatim": "K11B8 tested alternate dynamic E30 decompositions 10+5, 8+7, and 8+4+3. None reached the strict 15CAB bridge peak. The 10+5 family stopped at CAB = 9; the 8+7 and 8+4+3 families stopped at CAB = 7 due to unavailable current zero-anchor replacements."
+          },
+          {
+            "historical_values": "chi_km ~= 4.1709 vs 4.1384",
+            "type": "distinguished_sector",
+            "verbatim": "Both reach CAB = 15, both produce bridge parent 5730096, both yield the same bridge face-node set ... and both produce the same undirected edge 78-1549. The two branches differ only in capsule orientation and chi_km label: 78 -> 1549, chi_km ~= 4.1709, or 1549 -> 78, chi_km ~= 4.1384."
+          },
+          {
+            "historical_values": "5,000 steps; zero strict cooling hits",
+            "type": "equalization_or_persistence",
+            "verbatim": "K11C5 lets the exact E30 post-fracture state evolve for 5,000 undriven uniform relaxation steps. The B-hub seed faces remain active carrier capsules, preserve the same line-graph proxy at shared node 866, do not become a strict shell-graph K3, and produce zero strict cooling hits."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - closure at the specific finite graph-count anchor log10 Ntoday = 122 (Ntoday = 10^122)",
+            "factor_classification": "Freg = 124/120: computed on the open-registry state ('locked in the open-registry cosmology branch before this carrier-density calculation was applied') - INTERNAL_RATIO. FC = 1 + rhoC: computed on the reduced-sector foam state at 10^6 rounds ('measured from the reduced-sector foam run before being multiplied against the residual') - INTERNAL_RATIO. Freq = 1.052718776: CALIBRATION - derived from external Planck-anchored LambdaCDM comparison (H0 = 67.4 km/s/Mpc, OmegaLambda = 0.685)",
+            "historical_values": "5.27% high; Freg*FC = 1.053062209 (rounded 1.05306); Freq = 1.052718776 (rounded 1.05272); residual gap ~3.26e-4",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The raw finite-count de Sitter baseline is 5.27% high relative to a flat LambdaCDM comparison. By applying the open-to-mature registry factor (124/120) and the natively measured microscopic carrier density (1 + rhoC), we derive a combined multiplier of 1.05306, seamlessly closing the residual to match the required 1.05272."
+          },
+          {
+            "historical_values": "rhoC ~= 0.019 stability target at 10^7, 10^8 rounds",
+            "type": "rate_vs_rounds",
+            "verbatim": "This is falsifiable. If longer reduced-sector runs at 10^7 or 10^8 rounds move the stable carrier density away from rhoC ~= 0.019, or if the hub variable fhub = 1 - 1/dmax stops approaching the closure surface, the near-closure in Fig. 9 should be rejected."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - closure at the specific finite registry index 41/40 (one-unit overhead on a 40-sector boundary); NOTE: stated in the Conclusion citing ref [14] (separate paper), i.e. manuscript-only within this file",
+            "factor_classification": "registry factor 41/40 computed on the 40-sector carrier boundary registry state; INTERNAL_RATIO by its stated definition (one-unit registry overhead), though its closure test is against CMB amplitude (external) per the cited paper",
+            "historical_values": "AG = 41/40; 2.5% amplitude index",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The DC registry definitively closes at the discrete graph index AG = 41/40, while strongly rejecting the continuum-normalized branch A = 1. This 2.5% amplitude index is not an arbitrary displacement or a phenomenological tuning; it is the effective refractive index of the DC graph substrate, reflecting the exact one-unit registry overhead inherent to the 40-sector carrier boundary."
+          },
+          {
+            "historical_values": "H0 ~= 72.78 km s^-1 Mpc^-1 (Conclusion, citing external refs - manuscript-only projection)",
+            "type": "tierD_numeric",
+            "verbatim": "The global photon-clock map carries the early geometric Hubble anchor naturally to the late distance-ladder scale (H0 ~= 72.78 km s-1 Mpc-1)."
+          }
+        ],
+        "destruction_mechanism": "Yes, two mechanisms. (1) Grammar-level face replacement at every step: 'The selected face is removed and replaced by (n,a,b),(n,a,c),(n,b,c)'. (2) Collision-sector consumption/spoilage of zero-anchors and spending of carriers: 'Contact selections virtually reroute capacity by creating transient replacements, which feeder selections sequentially actualize and consume' ; 'the replacement zero-anchor is spoiled by the feeder' ; fracture converts bridge carriers to spent ('15CAB -> 8CA + 7CB + 15Cspent'). Explicitly, during bridge formation there are 'no product-edge removals'.",
+        "engine_or_chain": "Distinction Combinatorial (DC) reduced activation-count boundary grammar: starts from tetrahedral boundary K4; at each step an active triangular face (a,b,c) is selected, endpoint counts increment s(a),s(b),s(c) -> +1, a newborn node n with s(n)=0 is added, and the selected face is removed and replaced by (n,a,b),(n,a,c),(n,b,c). The foam sector runs uniform random boundary selection to 10^6 rounds and measures a hard-core carrier sea of self-reproducing C=(0,1,2) faces. A driven collision sector (Stage-K, E24/E30 tiers) selects zero-anchor contacts between frontier families to force bridge formation and fracture, audited via locked route tables (K9I*/K11C* codes). A final chain projects the measured foam density and a registry factor onto a finite-count de Sitter Lambda baseline. R48 F5 evidential family: mixed - derived observable (rhoC, fhub, chi_km measured from runs), external calibration (E24 anchor gamma=6.14/24 TeV/unit; Planck H0/OmegaL comparison), phenomenological projection (cosmological closure ledger); the AG=41/40 and H0=72.78 statements in the Conclusion are manuscript-only citations to other papers.",
+        "fraction_of_total_items": [
+          "rhoC = NC/B = 0.01909246 (active carriers over total boundary faces)",
+          "fhub = 1 - 1/dmax (shell-hub condensation proxy)",
+          "bridge cliff fraction 1.0 (E24)",
+          "paired-collar success rate 1.0 and edge-neighborhood completion rate 1.0",
+          "raw finite-count de Sitter baseline 5.27% high (fractional Lambda residual)",
+          "residual gap ~3.26 x 10^-4 in fractional Lambda residual after correction",
+          "2.5% amplitude index (AG = 41/40, cited)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "deg(v) - s(v) = 3",
+            "name": "activation-count/degree law"
+          },
+          {
+            "definition_verbatim": "C = (0,1,2), with reproduction law (0,1,2) -> (0,1,2) + (0,1,3) + (0,2,3)",
+            "name": "unique self-reproducing carrier C"
+          },
+          {
+            "definition_verbatim": "#{C children} = #{(0,1) old endpoint pairs}",
+            "name": "feeder theorem"
+          },
+          {
+            "definition_verbatim": "B = 2,000,004, NC = 38,185, rho_C = NC/B = 0.01909246",
+            "name": "carrier density rhoC"
+          },
+          {
+            "definition_verbatim": "Ck,m = [(0,1,k),(0,1,2),(0,2,k),(1,2,m)]",
+            "name": "capsule"
+          },
+          {
+            "definition_verbatim": "fhub = 1 - 1/dmax, where dmax is the largest number of carriers sharing a shell hub",
+            "name": "shell-hub condensation proxy fhub"
+          },
+          {
+            "definition_verbatim": "for Ak = (k, k+2, k+4), the active beam state obeys {Ak, Ak+1} -> {Ak+1, Ak+2}",
+            "name": "two-phase carrier current"
+          },
+          {
+            "definition_verbatim": "Ecoupled = 2 * SUM_i N(i)_zero (a frontier of capacity Nzero contributes coupled energy); thus a twelve-contact bridge peak has graph tier Ecoupled = 24",
+            "name": "coupled energy / graph tier"
+          },
+          {
+            "definition_verbatim": "gamma = 6.14/24 = 0.2558333333 TeV/unit, m_proxy_jj = gamma * Ecoupled",
+            "name": "collider calibration gamma and dijet mass proxy"
+          },
+          {
+            "definition_verbatim": "chi_km = max(k+1, m+1) / min(k+1, m+1), where k is the paired-collar count and m is the back-neighbor count. This is a CD internal quantity and should not be identified with detector rapidity or pseudorapidity",
+            "name": "internal capsule anisotropy proxy chi_km"
+          },
+          {
+            "definition_verbatim": "Zpre --contact--> Zmid = Zpre - {selected contact} + {replacement zero anchor}; Zmid --feeder--> Zpost = Zmid - {replacement zero anchor}; CAB -> CAB + 1",
+            "name": "zero-anchor two-stage funnel law"
+          },
+          {
+            "definition_verbatim": "use the graph-count anchor log10 Ntoday = 122 and the de Sitter area relation Ntoday ~ R^2_Lambda / l^2_P, R^2_Lambda = 3/Lambda. This gives Lambda0 = 3/(10^122 l^2_P) = 1.1484 x 10^-52 m^-2",
+            "name": "finite-count de Sitter baseline"
+          },
+          {
+            "definition_verbatim": "Lambda0/Lambda_LCDM = 1.052718776. Since Lambda ~ N^-1, this is the required effective area multiplier, Freq = 1.052718776",
+            "name": "required effective area multiplier Freq"
+          },
+          {
+            "definition_verbatim": "Freg = 124/120 = 1.033333333",
+            "name": "open-to-mature registry factor Freg"
+          },
+          {
+            "definition_verbatim": "FC = 1 + rho_C = 1.01909246",
+            "name": "carrier-sea factor FC"
+          },
+          {
+            "definition_verbatim": "Freg * FC = 1.053062209",
+            "name": "combined closure product"
+          },
+          {
+            "definition_verbatim": "The DC registry definitively closes at the discrete graph index AG = 41/40, while strongly rejecting the continuum-normalized branch A = 1",
+            "name": "graph index AG (Conclusion, cited from ref [14])"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/deu_equations/DE_foam (9).pdf",
+        "state_class": "RANDOM_IDEAL for the foam substrate ('Under uniform random boundary selection, active carriers form an extensive hard-core sea'); the collision sector is OTHER (driven/targeted zero-anchor contact selection overlaid on the same grammar); the cosmology section is PROJECTION_ONLY (locked-input closure ledger, no new state).",
+        "tierD_items": [
+          "gamma = 6.14/24 = 0.2558333333 TeV/unit (calibrated to CMS 6.14 TeV wide-dijet display)",
+          "m_proxy_jj = 7.675 TeV (E30 graph-tier extrapolation)",
+          "Lambda0 = 3/(10^122 l_P^2) = 1.1484 x 10^-52 m^-2 (uses Planck length l_P, SI units)",
+          "Lambda_LCDM ~= 1.0909 x 10^-52 m^-2 (from H0 = 67.4 km s^-1 Mpc^-1 and OmegaLambda = 0.685, flat-LCDM comparison anchor)",
+          "Freq = 1.052718776 (required effective area multiplier, derived from Planck-anchored comparison)",
+          "log10 Ntoday = 122 (graph-count anchor tied to de Sitter horizon area in Planck units)",
+          "H0 ~= 72.78 km s^-1 Mpc^-1 (late distance-ladder projection, Conclusion, cited)"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "closure_classification": "FINITE_COUNT - a threshold at a specific finite load value (x = 1.30, probability-1/2 arrest condition), not a limit at infinite maturity. MANUSCRIPT_ONLY (per special note: computation artifact missing for this file's closure claims)",
+            "historical_values": "x50 = 1.30; ~30% overload; probability one half",
+            "type": "critical_or_closure_condition",
+            "verbatim": "In the absence of a relief mechanism, the generative substrate exhibits a universal geometric collapse threshold at x50 = 1.30. The framework tolerates a chronic overload of approximately 30% of its free capacity before the probability of total geometric arrest (gravitational collapse) exceeds one half."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - trigger at specific finite counts (B >= Gamma, pop_trig >= 6). MANUSCRIPT_ONLY",
+            "historical_values": "pop_trig >= 6; 1/6 gain",
+            "type": "critical_or_closure_condition",
+            "verbatim": "A forced resolution event is triggered when the literal backlog of unserved forced operations (B) overwhelms the live boundary capacity (Gamma), provided there is sufficient tagged defect population (pop_trig) to act upon: B >= Gamma and pop_trig >= 6"
+          },
+          {
+            "factor_classification": "rhoC computed on the stationary foam state (geometric variance < 10^-10); INTERNAL_RATIO as measured, then used in a CALIBRATION test against external Freg",
+            "historical_values": "rhoC ~= 0.01909246; variance tolerance 10^-10",
+            "type": "density_maturity_direction",
+            "verbatim": "The triangulated foam reliably settles onto a stationary carrier density of rho_C ~= 0.01909246."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - closure test at a specific stationary-state value against the finite-count de Sitter residual. MANUSCRIPT_ONLY (de Sitter-closure family; its computation artifact is missing)",
+            "factor_classification": "registry product 124/120: registry factor applied on the stationary foam state; INTERNAL_RATIO by construction. Freg = 1.052718776: CALIBRATION - described as an empirical/cosmological anchor ('anchored to empirical physical measurements - specifically the cosmological de Sitter residual')",
+            "historical_values": "Freg = 1.052718776; Fsim ~= 1.053077; gap ~3.58 x 10^-4; 124/120",
+            "type": "critical_or_closure_condition",
+            "verbatim": "We test this lock against the cosmological finite-count de Sitter residual (Freg = 1.052718776) using the framework's registry product: Fsim = 124/120 (1 + rho_C) ~= 1.053077. The derived computational density successfully predicts the observed cosmological expansion residual to within an inherent theoretical gap of ~3.58 x 10^-4. This securely locks the framework's macroscopic scale."
+          },
+          {
+            "factor_classification": "CALIBRATION - alpha optimized/fit to match empirical electron transmission probabilities (eV/nm square-barrier WKB proxy)",
+            "historical_values": "alpha = 0.050",
+            "type": "tierD_numeric",
+            "verbatim": "By optimizing the cost-to-action scaling factor to match empirical electron transmission probabilities, we establish a strict numerical bridge: T_DEU ~ exp(-alpha C_tunnel / 2) == exp(-2 S_WKB). With alpha locked to the physical eV scale, the cost parameters of the DEU are entirely frozen."
+          },
+          {
+            "historical_values": "microsecond GPS corrections (no numeric value printed)",
+            "type": "tierD_numeric",
+            "verbatim": "Defining the spatial bandwidth demand as Omega_op = rs/r, the equation natively rearranges to yield the exact static Schwarzschild clock law: dtau/dt = sqrt(1 - rs/r - v^2) ... flawlessly calculating the required microsecond GPS corrections without invoking a continuous geometric manifold."
+          },
+          {
+            "historical_values": "cos^2/sin^2 of half phase offset",
+            "type": "tierD_numeric",
+            "verbatim": "The closure amplitudes directly generate the textbook interference probabilities: PB = cos^2(Delta_theta/2), PD = sin^2(Delta_theta/2)"
+          },
+          {
+            "historical_values": "SCHSH = 2*sqrt(2) ~= 2.828; P = 1/2 marginals",
+            "type": "tierD_numeric",
+            "verbatim": "This joint topological resolution yields a correlation function for detector offsets (theta_x, theta_y) of E(x, y) = -cos(theta_x - theta_y). At standard settings, this directly recovers the maximal quantum violation: SCHSH = 2 sqrt(2). Crucially, the DEU executes this joint resolution while strictly preserving uniform, local no-signaling marginals (P = 1/2)."
+          },
+          {
+            "historical_values": "zero fitted parameters (after the two anchoring locks)",
+            "type": "equalization_or_persistence",
+            "verbatim": "The unified computational ledger natively recovers the Schwarzschild clock laws, Special Relativistic time dilation, WKB tunneling decay, Mach-Zehnder wave-particle interference, and non-local Bell correlations (S_CHSH = 2 sqrt(2)) from zero fitted parameters."
+          },
+          {
+            "closure_classification": "FINITE_COUNT - breach of the finite threshold x50 = 1.30 at specific finite counts (m=500, Gamma=500, Dvac=120). MANUSCRIPT_ONLY",
+            "historical_values": "x_initial ~= 1.32; 500/380",
+            "type": "critical_or_closure_condition",
+            "verbatim": "Applying the DEU's dimensionless load coordinate to predict system collapse: x_initial = m/(Gamma - Dvac) = 500/380 ~= 1.32. The matrix load has breached the locked DEU geometric collapse threshold of x50 = 1.30."
+          },
+          {
+            "historical_values": "pop_trig = 1200; n_voided = 200; m = 300; x_relieved ~= 0.79",
+            "type": "tierD_numeric",
+            "verbatim": "Substituting the tagged population of 1200: n_voided = 2 (1/2 (200)) = 200 requests dropped. The scheduler systematically drops exactly 200 requests, reducing the chronic load to m = 300. We recalculate the load coordinate: x_relieved = 300/380 ~= 0.79. The coordinate instantly falls safely below the 1.30 threshold."
+          }
+        ],
+        "destruction_mechanism": "Yes. The topological relief valve removes structure/obligations: 'the scheduler systematically relieves load by executing link-conditioned edge collapses. The transfer function dictating the exact number of obligations voided per relief event ...' and in the Markov application 'The scheduler systematically drops exactly 200 requests'. Relief events void obligations via edge collapses per the even-quantized 1/6 controller.",
+        "engine_or_chain": "Discrete Emergent Universe (DEU) presented as a standalone closed-form equation set extracted from a bandwidth-limited scheduler on a growing triangulated 2-complex: a two-queue ledger law (chronic load m vs standing vacuum demand Dvac competing for per-epoch boundary capacity Gamma) plus an even-quantized 1/6 proportional relief controller. Chain: (I) derive equations, (II) calibrate constants to the cosmological de Sitter residual (Freg ~= 1.0527, via stationary carrier density) and to a WKB tunneling action proxy (alpha = 0.050), (III) apply locked equations to a textbook physics battery (Schwarzschild clock, SR dilation, tunneling, Mach-Zehnder, CHSH), (IV) apply the same equations to an out-of-domain Markov transition matrix. R48 F5 evidential family: fixed bridge assumption (closed-form ledger equations) + external calibration (Freg, WKB/eV anchor) + phenomenological projection (textbook battery, Markov wildcard). Per special note, all closure claims from this file are MANUSCRIPT_ONLY - the computation artifact for the de Sitter-closure family is missing.",
+        "fraction_of_total_items": [
+          "x = m/(Gamma - Dvac) (load as fraction of free capacity)",
+          "x50 = 1.30 (collapse threshold expressed on the load-fraction coordinate)",
+          "~30% chronic overload tolerance of free capacity",
+          "rhoC ~= 0.01909246 (stationary carrier density)",
+          "1/6 proportional gain (pop_trig/6)",
+          "x_initial = 500/380 ~= 1.32 and x_relieved = 300/380 ~= 0.79",
+          "PB = cos^2(Delta_theta/2), PD = sin^2(Delta_theta/2) (detector probabilities)",
+          "P = 1/2 no-signaling marginals"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "x = m / (Gamma - Dvac)",
+            "name": "dimensionless load coordinate x"
+          },
+          {
+            "definition_verbatim": "the generative substrate exhibits a universal geometric collapse threshold at x50 = 1.30",
+            "name": "geometric collapse threshold x50"
+          },
+          {
+            "definition_verbatim": "B >= Gamma and pop_trig >= 6",
+            "name": "relief trigger condition"
+          },
+          {
+            "definition_verbatim": "n_voided = 2 * (1/2 * max(1, floor(pop_trig / 6)))  [printed: nvoided = 2 (1/2 max (1, |_pop_trig/6_|))]",
+            "name": "relief transfer function (1/6 proportional controller)"
+          },
+          {
+            "definition_verbatim": "The triangulated foam reliably settles onto a stationary carrier density of rho_C ~= 0.01909246",
+            "name": "stationary carrier density rhoC"
+          },
+          {
+            "definition_verbatim": "Fsim = 124/120 (1 + rho_C) ~= 1.053077",
+            "name": "registry product Fsim"
+          },
+          {
+            "definition_verbatim": "the cosmological finite-count de Sitter residual (Freg = 1.052718776)",
+            "name": "de Sitter residual Freg (calibration target)"
+          },
+          {
+            "definition_verbatim": "The DEU utilizes a fixed generative inverse temperature of alpha = 0.050",
+            "name": "generative inverse temperature alpha"
+          },
+          {
+            "definition_verbatim": "T_DEU ~ exp(-alpha C_tunnel / 2) == exp(-2 S_WKB)  [Sec 3.2]; T_DEU ~ e^(-alpha C_tunnel) ~= e^(-2 S_WKB)  [Sec 4.2]",
+            "name": "tunneling bridge (calibration form)"
+          },
+          {
+            "definition_verbatim": "(dtau/dt)^2 + v^2 = 1 - Omega_op",
+            "name": "budget allocation law"
+          },
+          {
+            "definition_verbatim": "Omega_op = rs/r; dtau/dt = sqrt(1 - rs/r - v^2)",
+            "name": "spatial bandwidth demand"
+          },
+          {
+            "definition_verbatim": "PB = cos^2(Delta_theta / 2), PD = sin^2(Delta_theta / 2)",
+            "name": "Mach-Zehnder closure probabilities"
+          },
+          {
+            "definition_verbatim": "E(x, y) = -cos(theta_x - theta_y); SCHSH = 2 sqrt(2); uniform, local no-signaling marginals (P = 1/2)",
+            "name": "entanglement correlation function"
+          },
+          {
+            "definition_verbatim": "Gross Capacity (Gamma): 500 concurrent transition operations per epoch. Vacuum Demand (Dvac): 120 background operations. Free Capacity: Gamma - Dvac = 380 operations. chronic load (m = 500) ... pop_trig = 1200",
+            "name": "Markov wildcard capacities"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/deu_equations/equation_unification.pdf",
+        "state_class": "SCHEDULER_FOAM - 'a growing, triangulated 2-complex governed by a bandwidth-limited scheduler'; the foam is simulated 'until the geometric variance drops below a strict tolerance threshold (10^-10)' to a stationary carrier density; the textbook and Markov sections are PROJECTION_ONLY applications of the locked equations.",
+        "tierD_items": [
+          "Freg = 1.052718776 (cosmological finite-count de Sitter residual, empirical anchor)",
+          "alpha = 0.050 (generative inverse temperature, locked to the physical eV scale via WKB square-barrier proxy in electron-volts and nanometers; cost-to-action scaling factor optimized to match empirical electron transmission probabilities)",
+          "GPS microsecond clock corrections (relativistic application, no explicit numeral)",
+          "SCHSH = 2*sqrt(2) (maximal quantum Bell violation, Aspect-experiment anchor)",
+          "rs (Schwarzschild radius) entering Omega_op = rs/r"
+        ]
+      }
+    ],
+    "group": "h5-manuscripts",
+    "group_summary": "Two manuscripts extracted verbatim via pypdf; no adjudication performed. (1) DE_foam (9).pdf (16 pp, May 2026): Distinction Combinatorial reduced boundary grammar; RANDOM_IDEAL foam substrate (uniform random selection to 10^6 rounds) plus a driven collision sector. Key observables: rhoC = NC/B = 0.01909246, fhub = 1 - 1/dmax, chi_km, unique carrier C=(0,1,2), zero-anchor funnel law. Closure claims: E24 (12CAB shatter) and E30 (15CAB peak, pool drains 15->0, edge 78-1549) both FINITE_COUNT; de Sitter Lambda closure at log10 N = 122 FINITE_COUNT with Freg = 124/120 (INTERNAL_RATIO, open-registry state) times FC = 1+rhoC (INTERNAL_RATIO, foam state) = 1.053062209 vs required Freq = 1.052718776 (CALIBRATION vs Planck anchors); fhub-approaches-closure-surface is the one ASYMPTOTIC condition. Destruction: selected faces removed/replaced; zero-anchors consumed/spoiled; carriers spent. (2) equation_unification.pdf (7 pp, Aug 2026): DEU two-queue ledger x = m/(Gamma - Dvac) with collapse threshold x50 = 1.30 and 1/6-gain relief controller n_voided = 2(1/2 max(1, floor(pop_trig/6))); SCHEDULER_FOAM. Calibrations: Freg = 1.052718776 (external de Sitter residual) matched by Fsim = 124/120(1+rhoC) ~= 1.053077 (gap ~3.58e-4), and alpha = 0.050 fit to empirical electron transmission (CALIBRATION). All closure claims from this file flagged MANUSCRIPT_ONLY per instruction (de Sitter-closure computation artifact missing); its thresholds (x50 = 1.30, B >= Gamma with pop_trig >= 6, Markov breach at 1.32) are FINITE_COUNT by their stated definitions. Destruction: relief valve voids obligations via link-conditioned edge collapses. Shared quantity across both files: rhoC = 0.01909246 and the 124/120 registry product against the 1.052718776 residual (the two files report slightly different products, 1.053062209 vs ~1.053077, and different gaps, ~3.26e-4 vs ~3.58e-4 - recorded, not compared)."
+  },
+  {
+    "files": [
+      {
+        "claims": [
+          {
+            "closure_classification": "ASYMPTOTIC (d_inf is the N->infinity limit of a saturating fit di - c*N^-a; the reading is about stabilization of that limit)",
+            "historical_values": "d_inf ~ 5; SE < 0.3",
+            "type": "critical_or_closure_condition",
+            "verbatim": "d_inf stabilizes near 5 (stops drifting up, SE<0.3)      -> \"consistent with 5\""
+          },
+          {
+            "closure_classification": "ASYMPTOTIC (limit of the saturating fit as N -> infinity, increments -> 0)",
+            "historical_values": "[4.0, 4.5]",
+            "type": "critical_or_closure_condition",
+            "verbatim": "d_inf stabilizes in [4.0,4.5], increments -> 0           -> \"saturates, fractal ~4.x\""
+          },
+          {
+            "historical_values": "dD/d(lnN) ~ constant",
+            "type": "rate_vs_rounds",
+            "verbatim": "slope stays ~constant, d_inf keeps drifting up           -> LOGARITHMIC NULL"
+          },
+          {
+            "historical_values": "FSS prediction ~4.4 (pre-registered from prereg_lock_2026-06-21.md, Part A amendment)",
+            "type": "tierD_numeric",
+            "verbatim": "(3) distance of plain d_vol from the FSS prediction (~4.4): does the plain estimator bend toward it (FSS confirmed) or sail past with constant slope?"
+          },
+          {
+            "type": "rate_vs_rounds",
+            "verbatim": "recent slope dD/d(lnN): ... (decaying->saturation, ~const->log)"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (condition at a specific finite integer field count, 137, on an individual node)",
+            "historical_values": "cap = 137",
+            "type": "critical_or_closure_condition",
+            "verbatim": "if g.field[n] > cap  (cap=137) triggers normal_fission"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (condition at a specific finite degree count, 15, on an individual node)",
+            "historical_values": "maxdeg = 15",
+            "type": "critical_or_closure_condition",
+            "verbatim": "if g.degree(n) > maxdeg  (maxdeg=15) triggers forced_fission"
+          }
+        ],
+        "destruction_mechanism": "YES for edges, NO for nodes/records: forced_fission removes existing edges and rewires them to the daughter \u2014 verbatim: 'for nb in tn: g.remove_edge(p, nb); g.add_edge(d, nb)'. Also to_nx discards all but the largest connected component at measurement time: 'G = G.subgraph(max(nx.connected_components(G), key=len)).copy()'. Nodes and field records are never deleted from the substrate.",
+        "engine_or_chain": "Canonical K5 integer-graph fission engine run to N=500,000: starts from a complete graph K5 with integer field fpn=20 per node; each round pumps +20 field to every node, equilibrates 3 propagate_field steps (equal integer share to neighbors), then applies normal_fission to every node with field > cap=137 (daughter gets half parent field, edge to parent plus k=2 random neighbors) and forced_fission to every node with degree > maxdeg=15 (half the edges severed and moved to a daughter, field transferred proportionally). Measurement chain: largest connected component -> BFS cumulative ball profiles from 80 random origins -> plain log-log slope d_vol, an FSS finite-size fit d, and across the N-ladder a saturating fit d_inf plus increment slope dD/d(lnN). R48 F5 evidential family: derived observable (dimension estimators computed from the grown state graph); the FSS prediction ~4.4 referenced is a fixed bridge assumption from prereg_lock_2026-06-21.md.",
+        "fraction_of_total_items": [
+          "tr = g.field[nid] // (len(nbrs)+1) \u2014 equal fraction of a node's field shared per neighbor (including a self share)",
+          "tr = g.field[p]//2 \u2014 half of parent field to daughter in normal fission",
+          "frac = nt/max(len(nbrs),1); ft = int(g.field[p]*frac) \u2014 field transferred as the fraction of edges transferred in forced fission (nt = len(nbrs)//2, half the neighbors)",
+          "up = x > np.log(Ns.max()/8) \u2014 recent-slope window as top fraction (upper 1/8 in N) of the ladder"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "tr = g.field[nid] // (len(nbrs)+1); if tr > 0: g.field[nid] -= tr*len(nbrs); for nb in nbrs: g.field[nb] += tr",
+            "name": "field propagation (integer equal-share transfer)"
+          },
+          {
+            "definition_verbatim": "for p in [n for n in list(g.adj.keys()) if g.field[n] > cap]:  (cap=137)",
+            "name": "normal fission trigger (critical field density)"
+          },
+          {
+            "definition_verbatim": "for p in [n for n in list(g.adj.keys()) if g.degree(n) > maxdeg]:  (maxdeg=15)",
+            "name": "forced fission trigger (critical degree)"
+          },
+          {
+            "definition_verbatim": "lr = np.log(r[lo:hi]); lN = np.log(Nbar[lo:hi]); slope = np.polyfit(lr, lN, 1)[0]  \u2014 where Nbar is the mean over 80 origins of np.cumsum of BFS shell counts, lo, hi = 2, max(3, rmax-1)",
+            "name": "d_vol (plain volumetric dimension)"
+          },
+          {
+            "definition_verbatim": "def lmodel(r, A, d, c, om): return np.log(A)+d*np.log(r)+np.log(np.clip(1-c*np.power(r, -om), 1e-6, None))  \u2014 fitted over lo, hi = 3, max(6, rmax//2); returns popt[1] (d)",
+            "name": "dvol_fss (finite-size-scaling dimension fit)"
+          },
+          {
+            "definition_verbatim": "def sat(N, di, c, a): return di - c*np.power(N, -a); p, cov = curve_fit(sat, Ns, D, p0=[4.4, 3, 0.3], maxfev=80000)",
+            "name": "d_inf (saturating extrapolation of d_vol over the N-ladder)"
+          },
+          {
+            "definition_verbatim": "dDdx = np.gradient(D, x)  with x = np.log(Ns); reported as np.mean(dDdx[up]) where up = x > np.log(Ns.max()/8)",
+            "name": "increment slope dD/d(lnN)"
+          },
+          {
+            "definition_verbatim": "lines.append(f\"  plain d_vol vs FSS pred {fss_pred}: {D[-1]-fss_pred:+.3f}\")  (fss_pred=4.4)",
+            "name": "plain d_vol vs FSS prediction residual"
+          },
+          {
+            "definition_verbatim": "tr = g.field[p]//2; g.field[p] -= tr; d = g.add_node(tr); g.add_edge(p, d)",
+            "name": "normal fission field split"
+          },
+          {
+            "definition_verbatim": "nt = len(nbrs)//2; tn = nbrs[:nt]; frac = nt/max(len(nbrs),1); ft = int(g.field[p]*frac); g.field[p] -= ft",
+            "name": "forced fission proportional field transfer"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/RMR_origin_and_fate/Follow_up_decisive/run_500k.py",
+        "state_class": "OTHER (K5-seeded causal integer fission graph with random per-round node scheduling via rng.shuffle and random neighbor choice; growth-only substrate with edge rewiring, not one of the named ideal/foam/projection classes)",
+        "tierD_items": [
+          "cap = 137 (registry/fission capacity; dimensionless but externally motivated constant)",
+          "fss_pred = 4.4 (pre-registered FSS dimension prediction, from prereg_lock_2026-06-21.md)",
+          "d_inf reading targets: 5, [4.0, 4.5], SE < 0.3",
+          "maxdeg = 15, pump = 20, k = 2, equilibrate mi = 3, n_origins = 80, seeds [42, 7, 99], ladder [9000, 18000, 35000, 70000, 130000, 200000, 300000, 400000, 500000], guard < 200_000_000"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "historical_values": "N=1000, 4504 edges, d_vol=3.49, R2=0.992",
+            "type": "tierD_numeric",
+            "verbatim": "Graph size | 1000 nodes, 4504 edges ; Volumetric dimension d_vol | 3.49 (R\u00b2=0.992)"
+          },
+          {
+            "historical_values": "452 of 1000 nodes at r=4",
+            "type": "fraction_of_total",
+            "verbatim": "Last Scattering Surface | r=4, 452 nodes"
+          },
+          {
+            "historical_values": "1.121, 1.811, 1.615, 1.941, 16.7%, 0 free parameters",
+            "type": "tierD_numeric",
+            "verbatim": "Acoustic peak P1 | \u2113_eff = 1.121 ; Acoustic peak P2 | \u2113_eff = 1.811 ; \u2113\u2082/\u2113\u2081 (found) | 1.615 ; \u2113\u2082/\u2113\u2081 (Planck 2018) | 1.941 ; Deviation from Planck | 16.7% ; Free parameters | 0"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (convergence target stated at a specific finite scale md=137, N\u22489000, not a formal N->infinity limit)",
+            "historical_values": "16.7%, md=137, N\u22489000",
+            "type": "rate_vs_rounds",
+            "verbatim": "The 16.7% deviation is quantitatively consistent with lattice dispersion at N=1000. The ratio is predicted to converge monotonically to the Planck value as N increases toward the physical scale (md=137, N\u22489000)."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a transient window at specific finite ratios md/N; at md=137 it spans N \u2248 6,850\u20139,133)",
+            "historical_values": "1.102; window [0.015, 0.021]",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The Laplacian eigenvalue ratio \u03bb\u2083/\u03bb\u2082 transiently locks near 1.102 when: md/N \u2208 [0.015, 0.021]"
+          },
+          {
+            "historical_values": "md=15, md=30, md=137; N \u2248 6,850\u20139,133",
+            "type": "equalization_or_persistence",
+            "verbatim": "This window is scale-invariant \u2014 identical bounds were confirmed at md=15 and md=30. At md=137 (physical scale), the window spans N \u2248 6,850\u20139,133."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (window widths given as specific finite node counts)",
+            "historical_values": "286 nodes; ~2,283 nodes",
+            "type": "critical_or_closure_condition",
+            "verbatim": "At md=15 the window is only 286 nodes wide; most seeds miss it. At md=137 the window spans ~2,283 nodes \u2014 the healing event reliably overlaps the window for all seeds with K\u2085 or higher initial symmetry."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (a minimum at a specific finite registry count, 137)",
+            "factor_classification": "Registry factor md=137: a FIXED constant applied as the per-node field/degree threshold of the growth engine (not computed on any state); functions as a fixed bridge assumption in this file, not an internal ratio measured from the substrate",
+            "historical_values": "137",
+            "type": "critical_or_closure_condition",
+            "verbatim": "The 137-element registry capacity is the minimum hardware required to guarantee that the topological relaxation clock and the geometric expansion clock strike midnight simultaneously, freezing CMB acoustic resonance into the discrete fabric of spacetime."
+          },
+          {
+            "type": "distinguished_sector",
+            "verbatim": "Normal fission (field \u03c6 > 137): ... Builds local connectivity; locks the Laplacian spectrum. Forced fission (degree > md): ... Injects graph distance; builds macroscopic 3D spatial structure."
+          },
+          {
+            "type": "equalization_or_persistence",
+            "verbatim": "Take 5: Binned power spectrum \u2014 two robust peaks, Level 2 passed ... The C_k mean and \u2113\u00b2\u00b7C_k weighted spectra converge on identical bin indices \u2014 confirming the peaks are robust acoustic resonances, not binning artifacts."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (prediction pinned to the specific finite scale md=137, N\u22489000)",
+            "historical_values": "[1.85, 1.99]; ~3x spacing reduction; ~9x compression reduction; 1.941",
+            "type": "tierD_numeric",
+            "verbatim": "At the physical scale (md=137, N\u22489000): 1.85 \u2264 \u2113\u2082/\u2113\u2081 \u2264 1.99 ... A factor of ~3 reduction in lattice spacing from N=1000 to N=9000 predicts a ~9\u00d7 reduction in the ratio compression, placing \u2113\u2082/\u2113\u2081 near the Planck value of 1.941. This is a prediction, not a retrodiction."
+          },
+          {
+            "type": "equalization_or_persistence",
+            "verbatim": "Overflow loop processes one node at a time then re-equilibrates \u2014 batching destroys the spectral lock ... Parent\u2192daughter edge must be created in forced fission \u2014 omitting it fragments the graph ... Field transfer is proportional to fraction of edges transferred \u2014 flat 0.5 breaks the spectrum"
+          },
+          {
+            "historical_values": "t*=3.64; t*=1.54",
+            "type": "tierD_numeric",
+            "verbatim": "Take 3: Wave propagator at physical t*=\u03c0/\u221a\u03bb\u2081=3.64 \u2014 1 peak ... Take 2: Wave propagator at t*=1.54 (wavefront arrival) \u2014 8 fragmented peaks"
+          }
+        ],
+        "destruction_mechanism": "YES for edges: forced fission 'half-split \u2014 severs half the parent's edges to a new daughter.' No node or record removal is described.",
+        "engine_or_chain": "README for the RMR discrete CMB angular power spectrum pipeline. Chain: K5 seed grown to 1000 nodes by pure integer fission rules under a 137-element registry capacity (normal fission at field phi > 137; forced fission half-split at degree > md), Phase III graph locked and serialized; Phase IV applies a graph wave propagator over the Laplacian eigenbasis at snapshot t* = pi/sqrt(lambda_1), identifies a Last Scattering Surface shell at r=4, and bins C_k with Delta-ell = sqrt(lambda_1)/5 to obtain two acoustic peaks; ratio ell2/ell1 compared to Planck 2018. R48 F5 evidential families present: derived observable (d_vol, lambda3/lambda2, C_k spectrum from the state graph), external calibration (comparison to Planck 2018 ell2/ell1 = 1.941), phenomenological projection (lattice-dispersion convergence argument), and manuscript-only narrative (phase-locking interpretation of 137).",
+        "fraction_of_total_items": [
+          "md/N \u2208 [0.015, 0.021] \u2014 registry capacity as a fraction of graph size (the resonance window)",
+          "Deviation from Planck | 16.7% \u2014 fractional deviation of \u2113\u2082/\u2113\u2081 from the Planck value",
+          "severs half the parent's edges (forced fission half-split); 'flat 0.5' named as the broken alternative to proportional field transfer",
+          "Field transfer is proportional to fraction of edges transferred",
+          "Last Scattering Surface: 452 nodes of the 1000-node graph at r=4",
+          "\u0394\u2113 = \u221a\u03bb\u2081 / 5 \u2014 five bins per predicted peak separation"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "field = {int(k): data['field_color'][k] + data['field_em'][k] + data['field_grav'][k] for k in data['field_color']}",
+            "name": "reconstructed total field per node"
+          },
+          {
+            "definition_verbatim": "Volumetric dimension d_vol | 3.49 (R\u00b2=0.992)  (value only; no formula given in this file)",
+            "name": "volumetric dimension d_vol"
+          },
+          {
+            "definition_verbatim": "The Laplacian eigenvalue ratio \u03bb\u2083/\u03bb\u2082 transiently locks near 1.102 when: md/N \u2208 [0.015, 0.021]",
+            "name": "Laplacian eigenvalue ratio (resonance lock)"
+          },
+          {
+            "definition_verbatim": "Normal fission (field \u03c6 > 137): creates a daughter node connected to parent + k random neighbors.",
+            "name": "normal fission trigger"
+          },
+          {
+            "definition_verbatim": "Forced fission (degree > md): half-split \u2014 severs half the parent's edges to a new daughter.",
+            "name": "forced fission trigger"
+          },
+          {
+            "definition_verbatim": "f_i(t) = \u03a3_k cos(\u221a\u03bb_k \u00b7 t) \u00b7 \u03c8_k(center) \u00b7 \u03c8_k(i)",
+            "name": "wave propagator"
+          },
+          {
+            "definition_verbatim": "t* = \u03c0 / \u221a\u03bb\u2081  (the half-period of the fundamental mode (first compression maximum))",
+            "name": "snapshot time t*"
+          },
+          {
+            "definition_verbatim": "\u0394\u2113 = \u221a\u03bb\u2081 / 5  (five bins per predicted peak separation)",
+            "name": "binning width"
+          },
+          {
+            "definition_verbatim": "\u2113\u2082/\u2113\u2081 (found) | 1.615 ; \u2113\u2082/\u2113\u2081 (Planck 2018) | 1.941",
+            "name": "acoustic peak ratio"
+          },
+          {
+            "definition_verbatim": "The lattice dispersion correction scales as a\u00b2, where a ~ N^{-1/d_vol}.",
+            "name": "lattice spacing scaling"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/RMR_origin_and_fate/README (1).md",
+        "state_class": "OTHER (documentation/README describing the same causal integer-graph fission substrate, here with three field species field_color + field_em + field_grav; the file itself contains no runnable engine)",
+        "tierD_items": [
+          "\u2113\u2082/\u2113\u2081 (Planck 2018) = 1.941 (external empirical calibration target)",
+          "Deviation from Planck = 16.7%",
+          "Convergence prediction interval 1.85 \u2264 \u2113\u2082/\u2113\u2081 \u2264 1.99 at md=137, N\u22489000",
+          "md = 137 (registry capacity, physical scale)",
+          "\u03bb\u2083/\u03bb\u2082 lock value 1.102; resonance window md/N \u2208 [0.015, 0.021]",
+          "d_vol = 3.49 (R\u00b2=0.992); t* = 3.64 (physical) and 1.54 (wavefront); \u2113_eff peaks 1.121 and 1.811, ratio 1.615",
+          "N = 1000 nodes / 4504 edges (locked graph); N \u2248 9000 and N \u2248 6,850\u20139,133 (physical window); window widths 286 and ~2,283 nodes"
+        ]
+      },
+      {
+        "claims": [
+          {
+            "factor_classification": "clock_factor 1.079773873121686: computed on the locked C3B-open4-local branch state relative to geometric recombination (zstar_geom); scored as a CALIBRATION against the external SH0ES anchor 73.04 (H0_residual, ratio_error_pct measure fit to external data)",
+            "historical_values": "H0_pred_clocked=72.7768; H0_SH0ES_anchor=73.04; H0_residual=-0.26324; ratio_error_pct=-0.3604%; zstar_geom=1009.32; clock_factor=1.07977",
+            "type": "tierD_numeric",
+            "verbatim": "Hubble-ratio compressed screen | C3B-open4-local | H0_pred_clocked | 72.7768 | positive compressed screen | {\"zstar_geom\": 1009.3226491729685, \"clock_factor\": 1.079773873121686, \"H0_SH0ES_anchor\": 73.04, \"H0_residual\": -0.26324095159836247, \"ratio_error_pct\": -0.3604065602387352}"
+          },
+          {
+            "factor_classification": "Registry factor active_denominator_eff=124 (of 137): a fixed locked branch denominator, an INTERNAL_RATIO of the 137 registry (q_eff = 137/124 = 1.10484), scored externally via theta_error_pct against Planck theta_star",
+            "historical_values": "theta_error_pct=0.126539; q_eff=1.10484; active_denominator_eff=124.0; 100theta=1.04242; theta_sigma=4.3913",
+            "type": "tierD_numeric",
+            "verbatim": "CMB theta_star compressed screen | locked_open4_137_124 | theta_error_pct | 0.126539 | locked local acoustic screen | {\"q_eff\": 1.1048387096774193, \"active_denominator_eff\": 124.00000000000001, \"100theta\": 1.0424174002058282, \"theta_sigma\": 4.391334019427859}"
+          },
+          {
+            "closure_classification": "Not a count condition; an exact-match calibration target (theta_error_pct = 0) at a non-integer effective denominator",
+            "factor_classification": "active_denominator_eff=123.68677729219046: a CALIBRATION \u2014 the denominator back-solved to reproduce the external 100theta=1.0411 exactly (theta_sigma=0.0); explicitly labeled 'diagnostic', not locked",
+            "historical_values": "theta_error_pct=0; active_denominator_eff=123.68678; q_eff=1.10764; 100theta=1.0411",
+            "type": "tierD_numeric",
+            "verbatim": "CMB theta_star compressed screen | diagnostic_required_exact | theta_error_pct | 0 | diagnostic | {\"q_eff\": 1.1076365881565429, \"active_denominator_eff\": 123.68677729219046, \"100theta\": 1.0411, \"theta_sigma\": 0.0}"
+          },
+          {
+            "factor_classification": "active_denominator_eff 137.0 and 120.0: fixed branch denominators, INTERNAL_RATIOs of the 137 registry, scored against external theta_star",
+            "historical_values": "no_q: 5.24432% at denominator 137.0; deprecated 120: -1.50164%, q_eff=1.14167",
+            "type": "tierD_numeric",
+            "verbatim": "CMB theta_star compressed screen | no_q | theta_error_pct | 5.24432 | diagnostic | {\"q_eff\": 1.0, \"active_denominator_eff\": 137.0, ...} ; deprecated_closed_137_120 | theta_error_pct | -1.50164 | deprecated diagnostic | {\"q_eff\": 1.1416666666666666, \"active_denominator_eff\": 120.0, ...}"
+          },
+          {
+            "historical_values": "chi2_per_N=0.944317; chi2=12.2761; N=13; max_abs_diag_pull=1.48580",
+            "type": "tierD_numeric",
+            "verbatim": "DESI DR2 BAO covariance | jacobian_radial, late_locked | chi2_per_N | 0.944317 | locked corrected BAO screen | {\"chi2\": 12.276127008106307, \"N\": 13, \"max_abs_diag_pull\": 1.4858042091212678}"
+          },
+          {
+            "historical_values": "1.56526, 27.648, 48.6668 (vs locked 0.944317); max_abs_diag_pull 2.47043, 7.93084, 10.26643",
+            "type": "sector_ordering",
+            "verbatim": "DESI DR2 BAO covariance | old_geom, late_locked | chi2_per_N | 1.56526 ; jacobian_radial, deprecated_open4_global | chi2_per_N | 27.648 ; jacobian_radial, deprecated_closed_global | chi2_per_N | 48.6668 | deprecated/comparison branch"
+          },
+          {
+            "historical_values": "0.877896 / 0.878341 / 0.879426 (N=1580); intercepts -19.411017 / -19.415216 / -19.419415; wrms_mag 0.153442 / 0.153664 / 0.153996",
+            "type": "equalization_or_persistence",
+            "verbatim": "Pantheon+ intercept-only shape | jacobian_radial, photon_rule=geom | chi2_per_N | 0.877896 ; photon_rule=photon_clock | 0.878341 ; photon_rule=etherington_obs | 0.879426 | late point-source propagation diagnostic"
+          },
+          {
+            "type": "distinguished_sector",
+            "verbatim": "BBN abundance calculation | C3B-open4-local | not computed | nan | limitation/guardrail | q_CMB is local to recombination acoustic physics in this branch; no BBN abundance claim is made."
+          },
+          {
+            "historical_values": "nan (not run)",
+            "type": "tierD_numeric",
+            "verbatim": "Cosmic chronometers | not run | chi2_per_N | nan | optional data hook ; SN time dilation | not run | chi2_per_N | nan | optional data hook"
+          }
+        ],
+        "destruction_mechanism": "NO \u2014 the file is a results ledger; no substrate is present and no record/structure removal mechanism appears. (Branches are marked 'deprecated' but their rows are retained in the ledger.)",
+        "engine_or_chain": "A locked-candidate ledger (markdown table, no code): tabulated outputs of RMR/DEU cosmology screening branches compared against external datasets \u2014 a Hubble-ratio compressed screen (branch C3B-open4-local vs SH0ES anchor), CMB theta_star compressed screens across four denominator branches, DESI DR2 BAO covariance chi2 screens, and Pantheon+ intercept-only shape screens across three photon rules; plus not-run optional hooks (cosmic chronometers, SN time dilation) and a BBN guardrail. R48 F5 evidential family: external calibration / phenomenological projection (model projections scored against SH0ES, Planck theta_star, DESI DR2, Pantheon+ data); no state field appears in the file.",
+        "fraction_of_total_items": [
+          "ratio_error_pct = -0.3604065602387352 (H0 prediction error as a percent of anchor)",
+          "theta_error_pct = 5.24432 / -1.50164 / 0.126539 / 0 (theta_star error as percent)",
+          "chi2_per_N = chi2 divided by number of data points (0.944317, 1.56526, 27.648, 48.6668, 0.877896, 0.878341, 0.879426)",
+          "q_eff = 137 / active_denominator_eff (implicit registry fraction: 137/137, 137/120, 137/124, 137/123.68678)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "H0_pred_clocked | 72.7768 | ... {\"zstar_geom\": 1009.3226491729685, \"clock_factor\": 1.079773873121686, \"H0_SH0ES_anchor\": 73.04, \"H0_residual\": -0.26324095159836247, \"ratio_error_pct\": -0.3604065602387352}",
+            "name": "H0_pred_clocked"
+          },
+          {
+            "definition_verbatim": "theta_error_pct with detail fields q_eff, active_denominator_eff, 100theta, theta_sigma (e.g. locked_open4_137_124: {\"q_eff\": 1.1048387096774193, \"active_denominator_eff\": 124.00000000000001, \"100theta\": 1.0424174002058282, \"theta_sigma\": 4.391334019427859})",
+            "name": "theta_error_pct (CMB theta_star compressed screen)"
+          },
+          {
+            "definition_verbatim": "chi2_per_N with detail {\"chi2\": ..., \"N\": 13, \"max_abs_diag_pull\": ...} (locked branch jacobian_radial, late_locked: chi2=12.276127008106307, N=13, max_abs_diag_pull=1.4858042091212678)",
+            "name": "chi2_per_N (DESI DR2 BAO covariance)"
+          },
+          {
+            "definition_verbatim": "chi2_per_N with detail {\"chi2\": ..., \"N\": 1580, \"wrms_mag\": ..., \"intercept\": ...} (e.g. photon_rule=geom: chi2=1387.0752862364147, N=1580, wrms_mag=0.15344204073366693, intercept=-19.411016968247825)",
+            "name": "chi2_per_N (Pantheon+ intercept-only shape)"
+          },
+          {
+            "definition_verbatim": "\"active_denominator_eff\": 137.0 (no_q) / 120.0 (deprecated_closed_137_120) / 124.00000000000001 (locked_open4_137_124) / 123.68677729219046 (diagnostic_required_exact)",
+            "name": "active_denominator_eff (registry denominator)"
+          },
+          {
+            "definition_verbatim": "\"clock_factor\": 1.079773873121686",
+            "name": "clock_factor"
+          },
+          {
+            "definition_verbatim": "\"q_eff\": 1.0 (no_q) / 1.1416666666666666 (120) / 1.1048387096774193 (124) / 1.1076365881565429 (required_exact)",
+            "name": "q_eff"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/RMR_utility/cosmos/rmr_cosmo_locked_outputs/locked_candidate_ledger.md",
+        "state_class": "PROJECTION_ONLY (only projected cosmological observables scored against external data; no substrate state or engine present in the file)",
+        "tierD_items": [
+          "H0_pred_clocked = 72.7768 (km/s/Mpc, dimensionful Hubble constant prediction); H0_SH0ES_anchor = 73.04 (external empirical anchor); H0_residual = -0.26324095159836247",
+          "zstar_geom = 1009.3226491729685 (geometric recombination redshift); clock_factor = 1.079773873121686 (fitted/derived clock rescaling)",
+          "100theta values 1.0956985655298133 / 1.0254663940885838 / 1.0424174002058282 / 1.0411 (CMB angular scale, calibrated against Planck theta_star); theta_sigma 181.995 / -52.112 / 4.3913 / 0.0",
+          "active_denominator_eff 137.0 / 120.0 / 124.00000000000001 / 123.68677729219046; q_eff 1.0 / 1.14167 / 1.10484 / 1.10764",
+          "DESI DR2 BAO: chi2 12.2761/20.3484/359.4235/632.6678 over N=13; max_abs_diag_pull 1.4858/2.4704/7.9308/10.2664",
+          "Pantheon+: chi2 1387.075/1387.779/1389.493 over N=1580; wrms_mag 0.153442/0.153664/0.153996 mag; intercept -19.411017/-19.415216/-19.419415 mag (absolute-magnitude scale)"
+        ]
+      }
+    ],
+    "group": "h5-origin-fate",
+    "group_summary": "Three files from the RMR corpus. (1) run_500k.py is the canonical K5 integer fission engine scaled to N=500k with pre-registered convergence diagnostics for the volumetric dimension: engine thresholds field>137 (normal fission) and degree>15 (forced fission) are FINITE_COUNT closure conditions; the pre-registered readings about d_inf (near 5, or saturating in [4.0,4.5], vs a logarithmic null) are ASYMPTOTIC, anchored to a fixed pre-registered FSS prediction ~4.4; the substrate removes edges (forced-fission rewiring, plus largest-component restriction at measurement) but never removes nodes. (2) README (1).md documents the discrete CMB power-spectrum pipeline on the same substrate (1000-node locked graph, three field species): key claims are the ell2/ell1 = 1.615 vs Planck 1.941 (16.7% deviation, 0 free parameters), a FINITE_COUNT resonance window md/N in [0.015, 0.021] with lambda3/lambda2 locking near 1.102, a FINITE_COUNT convergence prediction 1.85 <= ell2/ell1 <= 1.99 at md=137, N~9000, and the phase-locking interpretation of 137 as a minimum registry capacity; the registry factor md=137 is a fixed bridge constant, not computed on any state. (3) locked_candidate_ledger.md is PROJECTION_ONLY: a ledger of cosmology screens (H0 72.7768 vs SH0ES 73.04; theta_star screens across registry denominators 137/120/124/123.687 where the locked branch uses the INTERNAL_RATIO q_eff=137/124 and the exact-match denominator 123.687 is an explicit CALIBRATION diagnostic; DESI DR2 BAO chi2/N 0.944 locked vs deprecated branches up to 48.7; Pantheon+ chi2/N ~0.878 across three photon rules), with an explicit BBN guardrail limiting q_CMB to recombination acoustic physics. Numerous fraction-of-total quantities (md/N window, percent errors, chi2_per_N, half-split fractions) were recorded without comparison, per instructions."
+  },
+  {
+    "files": [
+      {
+        "claims": [
+          {
+            "type": "rate_vs_rounds",
+            "verbatim": "The current foam uses a 1\u21923 refinement move.  A raw face count therefore cannot be interpreted as physical energy unless the energy assigned to a face changes with depth."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (exact identity required at each individual 1\u21923 split event, i.e. at a specific finite state; not a limit)",
+            "historical_values": "20,000 preregistered random parent depths and integer payloads; zero microquantum error; face count 1 to 3",
+            "type": "critical_or_closure_condition",
+            "verbatim": "3^{-k}=3\\,3^{-(k+1)} must hold exactly, and the engine's quotient/remainder transfer must satisfy q_{1}+q_{2}+q_{3}=q_{\\rm parent} with zero microquantum error.  Raw face count must change from 1 to 3."
+          },
+          {
+            "historical_values": "20,000; zero error",
+            "type": "equalization_or_persistence",
+            "verbatim": "For 20,000 random equal-depth face pairs, total weighted area and total integer work must be unchanged with zero error."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (covariance requirement under a finite representation-only subdivision of channels)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "Under representation-only channel subdivision preserving \\(C_1\\), the metric work carried by one fixed native operation must change inversely with channel multiplicity.  Therefore a raw native operation is rejected as a universal energy unit; a physical source must be specified in metric work."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (gates evaluated at specific finite Q values 2^10..2^18 and finite late-time windows of a fixed run; not stated as a maturity\u2192infinity limit)",
+            "historical_values": "10^{-6}; 10^{-4}; 1/(2Q); Q in {2^{10},2^{12},2^{14},2^{16},2^{18}}",
+            "type": "critical_or_closure_condition",
+            "verbatim": "Required gates: zero integer balance error; late outflow/source error below \\(10^{-6}\\); absolute late queue slope below \\(10^{-4}\\) of the realized source rate; nearest-integer quantization error no larger than \\(1/(2Q)\\)."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (exact zero-error condition at each retained finite checkpoint)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "Every retained Round 21 metric-pressure checkpoint must have: \\epsilon_{\\rm balance}^{(Q)}=0, \\qquad Q_{\\rm topology\\ loss}=0, and all final geometry hard audits must pass."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (structural presence/absence condition on the pinned source code, not a limit)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "If no structural, source-free term is present, Round C0 must classify the rest-work charge as not yet constructed.  This is not a failure of the carrier; it identifies the next missing object."
+          },
+          {
+            "factor_classification": "Registry factor 432: stated as a fixed render/screening threshold, not computed on any state in this file; INTERNAL_RATIO / fixed internal constant \u2014 explicitly NOT a calibration ('No external mass or energy value enters the notebook'; claim boundary forbids 'division of an observed energy by 432')",
+            "historical_values": "432",
+            "type": "distinguished_sector",
+            "verbatim": "the registry boundary 432, retained as a render/screening threshold and explicitly excluded as an energy multiplicity"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (licensed claim conditional on gates all passed at finite preregistered runs; explicitly does not license eV values or particle-mass predictions)",
+            "type": "critical_or_closure_condition",
+            "verbatim": "Exact metric work is a viable internal quantity to which a future physical energy scale could be attached."
+          }
+        ],
+        "destruction_mechanism": "Yes (implicit in the refinement move): 'The current foam uses a 1\u21923 refinement move.' and C0-A requires 'Raw face count must change from 1 to 3' \u2014 the parent face is replaced by three children, so the parent face record leaves the active structure. No other removal/erasure mechanism is stated in this file; audits require Q_topology_loss = 0.",
+        "engine_or_chain": "Frozen preregistration manuscript for Round C0 of a 'Work-Energy Bridge' calibration campaign. It pins two returned engine packages by SHA-256 (deu_integer_evolving_shadow_round20_slim.zip, deu_long_horizon_evolving_round21_slim.zip) plus a pinned integer engine member, and defines six frozen tests (C0-A..C0-F) over a foam that 'uses a 1\u21923 refinement move', an integer quotient/remainder metric-work transfer, and a fixed diamond transport network run at Q in {2^10..2^18}. No code executes in this file; it specifies gates, candidate carrier quantities, frozen outcome classifications, and a claim boundary. R48 F5 evidential family: manuscript-only (preregistration; it explicitly states 'No external mass or energy value enters the notebook', so no external calibration).",
+        "fraction_of_total_items": [
+          "\\mathcal W_Q=\\frac1Q\\sum_fq_f (work stock normalized per quantization unit Q)",
+          "w_{\\rm op}=\\frac{C_1}{C_0} (source adapter ratio)",
+          "J/C_1 (operational field readout, a ratio to C_1)",
+          "late outflow/source error below 10^{-6} (error as a fraction of source)",
+          "absolute late queue slope below 10^{-4} of the realized source rate (fraction of realized source rate)",
+          "nearest-integer quantization error no larger than 1/(2Q)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "raw face count \\(N_f\\)",
+            "name": "raw face count"
+          },
+          {
+            "definition_verbatim": "raw native operation count",
+            "name": "raw native operation count"
+          },
+          {
+            "definition_verbatim": "weighted area \\(A=\\sum_f3^{-k_f}\\)",
+            "name": "weighted area"
+          },
+          {
+            "definition_verbatim": "\\mathcal W_Q=\\frac1Q\\sum_fq_f",
+            "name": "exact integer metric-work stock"
+          },
+          {
+            "definition_verbatim": "integrated served metric-work current",
+            "name": "integrated served metric-work current"
+          },
+          {
+            "definition_verbatim": "the operational field \\(J/C_1\\), retained as a field readout and explicitly excluded as stored energy",
+            "name": "operational field J/C_1"
+          },
+          {
+            "definition_verbatim": "the registry boundary 432, retained as a render/screening threshold and explicitly excluded as an energy multiplicity",
+            "name": "registry boundary 432"
+          },
+          {
+            "definition_verbatim": "the closure cost and fixed \\(\\alpha\\), retained as formal dimensionless costs until a cost-to-action calibration exists",
+            "name": "closure cost and fixed alpha"
+          },
+          {
+            "definition_verbatim": "w_{\\rm op}=\\frac{C_1}{C_0}",
+            "name": "source adapter w_op"
+          },
+          {
+            "definition_verbatim": "q_{\\rm inj} = \\operatorname{round} \\left[(n_{\\rm native}+n_{\\rm probe})(C_1/C_0)Q\\right]",
+            "name": "injected metric work q_inj"
+          },
+          {
+            "definition_verbatim": "\\epsilon_{\\rm balance}^{(Q)}=0, \\qquad Q_{\\rm topology\\ loss}=0",
+            "name": "balance error / topology loss audit"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/face_value/DEU_work_energy_C0_notebook_bundle/DEU_WORK_ENERGY_C0_PREREGISTRATION.md",
+        "state_class": "OTHER (preregistration manuscript; the referenced substrate is an integer evolving-shadow / long-horizon evolving foam with a 1\u21923 refinement move \u2014 no state is instantiated in this file itself)",
+        "tierD_items": [
+          "None in the physical sense \u2014 the document states verbatim: 'No external mass or energy value enters the notebook.' Explicitly excluded: 'a value in eV', 'a particle-mass prediction'.",
+          "Internal pinned numerics (dimensionless): registry boundary 432; Q grid {2^10, 2^12, 2^14, 2^16, 2^18}; gate thresholds 10^-6, 10^-4, 1/(2Q); 20,000 preregistered trials (C0-A, C0-B); SHA-256 pins 26b6854a..., b697d7a9..., 6b39eeb7..."
+        ]
+      },
+      {
+        "claims": [
+          {
+            "type": "distinguished_sector",
+            "verbatim": "They reproduce the activation-count child law, carrier uniqueness tests, two-phase beam law, and small uniform reduced-sector simulations used by the notebooks."
+          },
+          {
+            "closure_classification": "FINITE_COUNT (carrier membership is a condition at the specific finite count triple (0,1,2), not a limit)",
+            "historical_values": "(0, 1, 2)",
+            "type": "distinguished_sector",
+            "verbatim": "return sorted_counts(face_type) == (0, 1, 2)"
+          },
+          {
+            "closure_classification": "FINITE_COUNT (self-reproduction condition ft in child_count_types(ft), tested exhaustively for counts up to max_count = 8)",
+            "historical_values": "max_count: int = 8",
+            "type": "critical_or_closure_condition",
+            "verbatim": "Brute-force search for count faces that create a child of their own type."
+          },
+          {
+            "type": "equalization_or_persistence",
+            "verbatim": "This demonstrates stable carrier-current identity in the reduced grammar, but is not the full target-only beam construction from the production notebook."
+          },
+          {
+            "historical_values": "checkpoint rounds {10, 100, 1000, steps}; steps default 10_000; seed 137",
+            "type": "rate_vs_rounds",
+            "verbatim": "if eng.round in {10, 100, 1000, steps}: records.append({... \"rho_C\": eng.carrier_count() / len(eng.active_faces), ...})"
+          }
+        ],
+        "destruction_mechanism": "Yes: the selected face is removed from the active structure. Docstring verbatim: 'The selected face is replaced by three newborn faces.' Code verbatim: 'face = self.active_faces.pop(index)'. Node activation counts are never removed (counts only increment; new nodes start at 0); only the parent face leaves active_faces, and the event is logged in the returned record.",
+        "engine_or_chain": "Self-described 'Small self-contained reduced Distinction Engine utilities'. ReducedBoundaryEngine holds faces as triples of node ids over per-node activation counts; select_face pops a face, increments the counts of its three nodes, creates one new node with count 0, and appends three child faces (n,a,b),(n,a,c),(n,b,c). Two schedulers: step_uniform (uniform random face selection, seed 137) and step_first_carrier (deterministic: select first face whose sorted count type is (0,1,2)). Docstring: 'They are not the full Stage-K collision engine; the full replay requires the original pickled engine states.' R48 F5 evidential family: derived observable (reduced code reproducing child law / carrier tests; no external calibration).",
+        "fraction_of_total_items": [
+          "rho_C = eng.carrier_count() / len(eng.active_faces) (carrier density as fraction of active faces)"
+        ],
+        "observables": [
+          {
+            "definition_verbatim": "def face_type(self, face: Face) -> CountFace:\n        return sorted_counts(self.counts[v] for v in face)",
+            "name": "face type (sorted activation counts)"
+          },
+          {
+            "definition_verbatim": "def child_count_types(face_type: CountFace) -> List[CountFace]:\n    x, y, z = sorted_counts(face_type)\n    return [sorted_counts((0, y + 1, z + 1)),\n            sorted_counts((0, x + 1, z + 1)),\n            sorted_counts((0, x + 1, y + 1))]",
+            "name": "child count law"
+          },
+          {
+            "definition_verbatim": "def is_carrier(face_type: CountFace) -> bool:\n    return sorted_counts(face_type) == (0, 1, 2)",
+            "name": "carrier (distinguished sector)"
+          },
+          {
+            "definition_verbatim": "def carrier_count(self) -> int:\n        return self.type_counter()[(0, 1, 2)]",
+            "name": "carrier count"
+          },
+          {
+            "definition_verbatim": "\"rho_C\": eng.carrier_count() / len(eng.active_faces)",
+            "name": "carrier density rho_C"
+          },
+          {
+            "definition_verbatim": "\"active_faces\": len(eng.active_faces)",
+            "name": "active face count"
+          },
+          {
+            "definition_verbatim": "\"distinct_count_face_types\": len(eng.type_counter())",
+            "name": "distinct count-face types"
+          },
+          {
+            "definition_verbatim": "if ft in child_count_types(ft):\n                    out.append(ft)",
+            "name": "self-reproducing count faces"
+          },
+          {
+            "definition_verbatim": "def c_child_count(face_type: CountFace) -> int:\n    return sum(1 for c in child_count_types(face_type) if is_carrier(c))",
+            "name": "carrier-child count"
+          },
+          {
+            "definition_verbatim": "def old_01_pair_count(face_type: CountFace) -> int: ... if sorted((vals[i], vals[j])) == [0, 1]: count += 1",
+            "name": "old (0,1) pair count"
+          },
+          {
+            "definition_verbatim": "rows.append({\"beam_step\": k + 1, \"round\": eng.round, \"active_C\": eng.carrier_count()})",
+            "name": "beam active carrier log"
+          }
+        ],
+        "path": "c:/Users/merwijas/dataScience/DEU_voids/face_value/DEU_work_energy_C1_notebook_bundle/inputs/deu_reduced_82645ed.py",
+        "state_class": "RANDOM_IDEAL (run_uniform_small uses uniform random face selection over the active list; beam_demo overlays a deterministic first-carrier scheduler on the same reduced boundary state \u2014 not the full scheduler foam)",
+        "tierD_items": [
+          "None \u2014 all quantities are dimensionless internal counts/ratios. Internal fixed numerics: RNG seed 137; initial tetrahedron faces (0,1,2),(0,1,3),(0,2,3),(1,2,3) with counts {0:0,1:0,2:0,3:0}; carrier type (0,1,2); max_count=8; steps=10_000; bootstrap cap 8; beam_demo steps=20; checkpoints {10,100,1000,steps}."
+        ]
+      }
+    ],
+    "group": "h5-voids-carrier",
+    "group_summary": "Two files from the DEU work-energy bridge campaign. (1) The C0 preregistration is a manuscript-only frozen protocol: it pins input packages by SHA-256, enumerates eight candidate energy-carrier quantities (raw face count N_f, native op count, weighted area A=sum 3^{-k_f}, integer metric-work stock W_Q=(1/Q)sum q_f, served work current, J/C_1 field readout, registry boundary 432, closure cost/alpha), and freezes six tests (exact 1->3 split identity 3^{-k}=3*3^{-(k+1)} with q1+q2+q3=q_parent; 2-2 flip invariance; source-unit covariance rejecting raw native ops via w_op=C_1/C_0; diamond transport gates at Q=2^10..2^18; Round-21 foam audits epsilon_balance=0 and Q_topology_loss=0; rest-charge architecture audit q_inj=round[(n_native+n_probe)(C_1/C_0)Q]). All closure/gate conditions are FINITE_COUNT by their own statements; no external calibration enters ('No external mass or energy value enters the notebook'); 432 is a fixed internal threshold explicitly excluded as an energy multiplicity. (2) deu_reduced_82645ed.py is a reduced RANDOM_IDEAL activation-count boundary engine (uniform random face selection, seed 137, plus a deterministic first-carrier beam scheduler): child law child_count_types((x,y,z))=[(0,y+1,z+1),(0,x+1,z+1),(0,x+1,y+1)], distinguished carrier sector (0,1,2), carrier density rho_C=carriers/active_faces logged at rounds {10,100,1000,10000}, self-reproduction condition ft in child_count_types(ft) (FINITE_COUNT). Both substrates remove the selected/parent face on refinement (pop + replace by three children) but never delete activation counts; no dimensionful or empirically calibrated quantities appear in either file."
+  }
+]
